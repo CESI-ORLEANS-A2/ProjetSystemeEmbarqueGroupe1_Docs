@@ -1,0 +1,13 @@
+<map id="initBME" name="initBME">
+<area shape="rect" id="Node000001" title=" " alt="" coords="329,55,401,80"/>
+<area shape="rect" id="Node000002" href="$dd/d8e/humidity_8cpp.html#a8813b724c24b006d720ff4e9be164093" title=" " alt="" coords="123,5,270,31"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="315,55,281,45,242,33,243,28,282,39,317,50"/>
+<area shape="rect" id="Node000004" href="$d8/ddf/pressure_8cpp.html#afeb7254ac3d1603fe28432de687313fb" title=" " alt="" coords="125,55,268,80"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="316,70,268,70,268,65,316,65"/>
+<area shape="rect" id="Node000005" href="$d0/d3d/temperature_8cpp.html#ac69c9a2d697216ab21dcab3087b54729" title=" " alt="" coords="112,104,281,129"/>
+<area shape="poly" id="edge5_Node000001_Node000005" title=" " alt="" coords="317,84,242,106,240,101,315,79"/>
+<area shape="rect" id="Node000003" href="$df/d0a/main_8cpp.html#a4fc01d736fe50cf5b977f755b675f11d" title=" " alt="" coords="5,55,64,80"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="138,37,113,45,65,60,63,55,111,39,136,32"/>
+<area shape="poly" id="edge4_Node000004_Node000003" title=" " alt="" coords="111,70,64,70,64,65,111,65"/>
+<area shape="poly" id="edge6_Node000005_Node000003" title=" " alt="" coords="139,102,111,94,63,79,65,74,113,89,141,97"/>
+</map>

@@ -1,0 +1,21 @@
+<map id="BME280::getPressure" name="BME280::getPressure">
+<area shape="rect" id="Node000001" title=" " alt="" coords="5,56,165,81"/>
+<area shape="rect" id="Node000002" href="$d6/d24/classBME280.html#aeb97e56f4ea669f88051c4d5c13cb13f" title=" " alt="" coords="448,56,633,81"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="166,66,434,66,434,71,166,71"/>
+<area shape="rect" id="Node000009" href="$d6/d24/classBME280.html#a62105da311ce318edb1e251729736bf4" title=" " alt="" coords="213,81,400,106"/>
+<area shape="poly" id="edge9_Node000001_Node000009" title=" " alt="" coords="166,75,200,79,199,84,165,80"/>
+<area shape="rect" id="Node000003" href="$d6/d24/classBME280.html#aff7bde27ccf8fbba0177b7be4c935220" title=" " alt="" coords="681,56,785,81"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="634,66,668,66,668,71,634,71"/>
+<area shape="rect" id="Node000004" href="$d6/d24/classBME280.html#a6846cf01eac22e69dbf6516b1255d332" title=" " alt="" coords="1089,30,1289,56"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="752,53,788,32,833,15,911,4,991,5,1065,13,1127,25,1126,30,1064,19,991,10,912,9,834,20,790,37,754,58"/>
+<area shape="rect" id="Node000006" href="$d6/d24/classBME280.html#a266f0487e91104454224b14f689b6e55" title=" " alt="" coords="849,30,1026,56"/>
+<area shape="poly" id="edge5_Node000003_Node000006" title=" " alt="" coords="785,59,834,53,835,58,786,65"/>
+<area shape="rect" id="Node000007" href="$d6/d24/classBME280.html#aad9d880a35154d473937450bc87152b0" title=" " alt="" coords="833,80,1041,105"/>
+<area shape="poly" id="edge6_Node000003_Node000007" title=" " alt="" coords="786,72,820,76,819,81,785,77"/>
+<area shape="rect" id="Node000008" href="$d6/d24/classBME280.html#a8d378248d5baa2cd07d9fd4be1386ff9" title=" " alt="" coords="852,129,1023,154"/>
+<area shape="poly" id="edge8_Node000003_Node000008" title=" " alt="" coords="758,79,793,97,834,115,859,123,857,128,832,120,791,102,755,83"/>
+<area shape="rect" id="Node000005" href="$d6/d24/classBME280.html#aa4fe8af66d6cd1cb5699ee359c71e190" title=" " alt="" coords="1337,30,1523,56"/>
+<area shape="poly" id="edge4_Node000004_Node000005" title=" " alt="" coords="1290,40,1323,40,1323,46,1290,46"/>
+<area shape="poly" id="edge7_Node000007_Node000004" title=" " alt="" coords="1002,77,1110,56,1111,61,1003,82"/>
+<area shape="poly" id="edge10_Node000009_Node000002" title=" " alt="" coords="400,81,434,77,435,83,400,86"/>
+</map>

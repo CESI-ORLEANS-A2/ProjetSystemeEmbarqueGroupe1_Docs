@@ -1,0 +1,465 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "https://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="fr">
+<head>
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=11"/>
+<meta name="generator" content="Doxygen 1.10.0"/>
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+<title>Station_Méteo_Groupe_1: Référence du fichier /mnt/d/Cours/10. CESI A2/Blocs/01 - Systeme embarque/Livrables/Station_Meteo_Groupe_1/src/acquisition.cpp</title>
+<link href="../../tabs.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="../../jquery.js"></script>
+<script type="text/javascript" src="../../dynsections.js"></script>
+<script type="text/javascript" src="../../clipboard.js"></script>
+<link href="../../navtree.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="../../resize.js"></script>
+<script type="text/javascript" src="../../navtreedata.js"></script>
+<script type="text/javascript" src="../../navtree.js"></script>
+<link href="../../search/search.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="../../search/searchdata.js"></script>
+<script type="text/javascript" src="../../search/search.js"></script>
+<link href="../../doxygen.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+<div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+<div id="titlearea">
+<table cellspacing="0" cellpadding="0">
+ <tbody>
+ <tr id="projectrow">
+  <td id="projectalign">
+   <div id="projectname">Station_Méteo_Groupe_1<span id="projectnumber">&#160;v0.0.1</span>
+   </div>
+  </td>
+ </tr>
+ </tbody>
+</table>
+</div>
+<!-- end header part -->
+<!-- Généré par Doxygen 1.10.0 -->
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+var searchBox = new SearchBox("searchBox", "../../search/",'.html');
+/* @license-end */
+</script>
+<script type="text/javascript" src="../../menudata.js"></script>
+<script type="text/javascript" src="../../menu.js"></script>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+$(function() {
+  initMenu('../../',true,false,'search.php','Recherche');
+  $(document).ready(function() { init_search(); });
+});
+/* @license-end */
+</script>
+<div id="main-nav"></div>
+</div><!-- top -->
+<div id="side-nav" class="ui-resizable side-nav-resizable">
+  <div id="nav-tree">
+    <div id="nav-tree-contents">
+      <div id="nav-sync" class="sync"></div>
+    </div>
+  </div>
+  <div id="splitbar" style="-moz-user-select:none;" 
+       class="ui-resizable-handle">
+  </div>
+</div>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+$(document).ready(function(){initNavTree('d6/d30/acquisition_8cpp.html','../../'); initResizable(); });
+/* @license-end */
+</script>
+<div id="doc-content">
+<!-- window showing the filter options -->
+<div id="MSearchSelectWindow"
+     onmouseover="return searchBox.OnSearchSelectShow()"
+     onmouseout="return searchBox.OnSearchSelectHide()"
+     onkeydown="return searchBox.OnSearchSelectKey(event)">
+</div>
+
+<!-- iframe showing the search results (closed by default) -->
+<div id="MSearchResultsWindow">
+<div id="MSearchResults">
+<div class="SRPage">
+<div id="SRIndex">
+<div id="SRResults"></div>
+<div class="SRStatus" id="Loading">Chargement...</div>
+<div class="SRStatus" id="Searching">Recherche...</div>
+<div class="SRStatus" id="NoMatches">Aucune correspondance</div>
+</div>
+</div>
+</div>
+</div>
+
+<div class="header">
+  <div class="summary">
+<a href="#func-members">Fonctions</a> &#124;
+<a href="#var-members">Variables</a>  </div>
+  <div class="headertitle"><div class="title">Référence du fichier acquisition.cpp</div></div>
+</div><!--header-->
+<div class="contents">
+<div class="textblock"><code>#include &quot;<a class="el" href="../../db/d0c/acquisition_8hpp_source.html">acquisition.hpp</a>&quot;</code><br />
+</div><div class="textblock"><div class="dynheader">
+Graphe des dépendances par inclusion de acquisition.cpp:</div>
+<div class="dyncontent">
+<div class="center"><img src="../../d4/dd1/acquisition_8cpp__incl.png" border="0" usemap="#a_2mnt_2d_2Cours_210_8_01CESI_01A2_2Blocs_201_01-_01Systeme_01embarque_2Livrables_2Station__Meteo__Groupe__1_2src_2acquisition_8cpp" alt=""/></div>
+<map name="a_2mnt_2d_2Cours_210_8_01CESI_01A2_2Blocs_201_01-_01Systeme_01embarque_2Livrables_2Station__Meteo__Groupe__1_2src_2acquisition_8cpp" id="a_2mnt_2d_2Cours_210_8_01CESI_01A2_2Blocs_201_01-_01Systeme_01embarque_2Livrables_2Station__Meteo__Groupe__1_2src_2acquisition_8cpp">
+<area shape="rect" title=" " alt="" coords="1643,5,1907,75"/>
+<area shape="rect" href="../../db/d0c/acquisition_8hpp.html" title=" " alt="" coords="1714,123,1835,148"/>
+<area shape="poly" title=" " alt="" coords="1777,75,1777,109,1772,109,1772,75"/>
+<area shape="rect" href="../../d0/d00/main_8hpp.html" title=" " alt="" coords="1284,196,1367,221"/>
+<area shape="poly" title=" " alt="" coords="1714,149,1381,201,1380,196,1713,144"/>
+<area shape="rect" title=" " alt="" coords="695,1017,779,1043"/>
+<area shape="poly" title=" " alt="" coords="1367,208,1606,212,1951,222,2279,239,2398,252,2467,267,2510,284,2544,302,2557,314,2567,328,2574,346,2576,369,2576,885,2571,895,2558,904,2510,919,2436,934,2339,947,2092,971,1799,990,1201,1017,793,1030,793,1025,1201,1012,1799,985,2091,965,2338,942,2435,929,2509,914,2556,899,2567,891,2571,884,2571,369,2569,347,2563,331,2553,317,2541,306,2507,289,2466,272,2397,257,2278,245,1951,227,1606,217,1367,213"/>
+<area shape="rect" href="../../df/dd7/consts_8hpp.html" title=" " alt="" coords="1237,724,1329,749"/>
+<area shape="poly" title=" " alt="" coords="1367,209,1406,214,1451,224,1497,241,1538,267,1561,290,1576,311,1583,337,1585,369,1585,592,1578,628,1559,659,1531,683,1496,701,1458,715,1417,725,1343,735,1342,730,1416,720,1456,710,1494,696,1528,678,1555,655,1573,626,1580,591,1580,369,1578,337,1571,314,1557,293,1534,271,1495,246,1450,229,1406,219,1367,214"/>
+<area shape="rect" href="../../de/dff/debugTools_8hpp.html" title=" " alt="" coords="1895,277,2017,302"/>
+<area shape="poly" title=" " alt="" coords="1367,210,1585,229,1730,245,1876,267,1899,271,1898,276,1876,272,1729,251,1585,234,1366,215"/>
+<area shape="rect" href="../../df/d05/timer_8hpp.html" title=" " alt="" coords="481,357,565,383"/>
+<area shape="poly" title=" " alt="" coords="1284,213,1114,217,884,226,672,244,597,256,572,264,556,271,543,287,534,305,526,344,521,343,529,304,538,284,553,267,570,259,596,251,671,239,884,221,1114,212,1284,208"/>
+<area shape="rect" href="../../d1/dfa/mode_8hpp.html" title=" " alt="" coords="235,357,322,383"/>
+<area shape="poly" title=" " alt="" coords="1284,214,728,232,431,249,332,260,301,266,287,271,275,287,269,305,269,344,264,344,264,304,271,284,284,267,300,261,331,255,430,244,727,227,1283,208"/>
+<area shape="rect" href="../../d9/de4/sensor_8hpp.html" title=" " alt="" coords="1845,577,1937,603"/>
+<area shape="poly" title=" " alt="" coords="1367,207,1474,208,1610,215,1678,222,1740,233,1791,248,1827,267,1848,289,1857,312,1860,338,1860,369,1860,445,1862,477,1868,509,1884,564,1879,565,1863,511,1857,478,1855,445,1855,369,1855,338,1852,313,1843,292,1824,271,1789,253,1739,238,1677,228,1610,220,1474,213,1367,212"/>
+<area shape="rect" href="../../d5/d0f/settings_8hpp.html" title=" " alt="" coords="1709,651,1811,676"/>
+<area shape="poly" title=" " alt="" coords="1367,207,1466,209,1589,217,1650,224,1706,235,1751,249,1783,267,1802,290,1809,313,1809,369,1809,518,1806,552,1797,585,1775,640,1770,638,1792,584,1801,551,1804,518,1804,369,1804,314,1797,292,1780,271,1749,254,1704,240,1650,229,1589,222,1466,214,1367,212"/>
+<area shape="rect" href="../../d5/d98/sd_8hpp.html" title=" " alt="" coords="2389,357,2531,383"/>
+<area shape="poly" title=" " alt="" coords="1367,207,1598,207,1928,213,2093,220,2238,231,2349,246,2388,256,2412,267,2428,283,2439,303,2452,343,2446,345,2434,306,2424,287,2409,272,2386,261,2348,251,2238,236,2092,225,1927,218,1598,212,1367,212"/>
+<area shape="rect" href="../../df/d0a/buttons_8hpp.html" title=" " alt="" coords="309,277,485,302"/>
+<area shape="poly" title=" " alt="" coords="1284,214,960,231,735,248,504,272,470,277,469,272,504,267,734,243,960,226,1284,209"/>
+<area shape="rect" href="../../d4/d76/led_8hpp.html" title=" " alt="" coords="640,504,787,529"/>
+<area shape="poly" title=" " alt="" coords="1284,213,1121,215,903,224,797,231,705,242,636,255,614,263,601,271,585,298,582,327,589,358,604,389,624,420,647,448,691,493,687,496,643,451,620,423,599,392,584,360,576,327,580,296,597,267,611,258,635,250,704,236,797,226,903,219,1121,210,1284,208"/>
+<area shape="rect" href="../../db/d21/clock_8hpp.html" title=" " alt="" coords="2042,277,2203,302"/>
+<area shape="poly" title=" " alt="" coords="1367,209,1645,227,1836,243,2030,267,2058,271,2057,277,2029,272,1835,249,1645,232,1367,215"/>
+<area shape="rect" href="../../df/d04/standard_8hpp.html" title=" " alt="" coords="5,277,160,302"/>
+<area shape="poly" title=" " alt="" coords="1284,213,1106,215,831,223,503,240,333,254,167,272,137,277,136,271,166,267,333,249,503,235,831,217,1106,209,1284,207"/>
+<area shape="rect" href="../../d0/d42/economy_8hpp.html" title=" " alt="" coords="958,277,1114,302"/>
+<area shape="poly" title=" " alt="" coords="1284,222,1086,275,1084,270,1283,217"/>
+<area shape="rect" href="../../dc/d0a/configuration_8hpp.html" title=" " alt="" coords="1138,277,1321,302"/>
+<area shape="poly" title=" " alt="" coords="1306,224,1249,269,1245,265,1303,219"/>
+<area shape="rect" href="../../d8/dc9/maintenance_8hpp.html" title=" " alt="" coords="2227,277,2410,302"/>
+<area shape="poly" title=" " alt="" coords="1367,209,1713,224,1956,241,2204,267,2238,272,2237,277,2204,272,1955,247,1712,230,1367,214"/>
+<area shape="rect" href="../../dc/d32/temperature_8hpp.html" title=" " alt="" coords="784,269,933,309"/>
+<area shape="poly" title=" " alt="" coords="1284,217,1136,238,946,270,946,264,1135,233,1283,212"/>
+<area shape="rect" href="../../de/d1e/humidity_8hpp.html" title=" " alt="" coords="1345,269,1495,309"/>
+<area shape="poly" title=" " alt="" coords="1334,219,1380,259,1377,263,1331,224"/>
+<area shape="rect" href="../../d5/ddb/pressure_8hpp.html" title=" " alt="" coords="611,269,760,309"/>
+<area shape="poly" title=" " alt="" coords="1284,215,1066,234,921,250,773,270,772,265,920,244,1066,228,1284,210"/>
+<area shape="rect" href="../../de/d53/brightness_8hpp.html" title=" " alt="" coords="1620,269,1769,309"/>
+<area shape="poly" title=" " alt="" coords="1368,218,1607,268,1606,274,1366,223"/>
+<area shape="poly" title=" " alt="" coords="1263,752,772,1013,770,1008,1260,747"/>
+<area shape="poly" title=" " alt="" coords="488,385,445,404,401,432,382,449,366,469,356,491,352,516,352,884,354,897,361,908,388,931,427,951,476,969,585,998,682,1017,681,1023,584,1003,474,974,425,956,385,935,357,912,349,898,347,885,347,515,351,489,361,466,378,445,398,427,443,399,486,380"/>
+<area shape="poly" title=" " alt="" coords="281,357,285,313,293,288,308,267,323,261,352,255,446,245,726,228,1270,209,1270,214,726,233,446,250,353,260,325,266,311,271,297,291,291,314,286,358"/>
+<area shape="poly" title=" " alt="" coords="1895,603,1900,660,1903,735,1903,885,1900,896,1892,907,1863,925,1818,942,1760,957,1611,981,1433,999,1245,1013,1063,1022,793,1030,793,1025,1063,1017,1245,1008,1433,994,1610,976,1759,951,1817,937,1861,921,1888,903,1895,894,1897,884,1897,735,1894,660,1889,603"/>
+<area shape="poly" title=" " alt="" coords="1887,604,1864,642,1846,662,1824,678,1784,694,1731,706,1598,724,1458,733,1342,737,1342,732,1457,728,1598,718,1730,701,1783,689,1821,674,1842,658,1860,639,1883,602"/>
+<area shape="rect" title=" " alt="" coords="1620,651,1684,676"/>
+<area shape="poly" title=" " alt="" coords="1853,605,1698,651,1696,646,1852,600"/>
+<area shape="poly" title=" " alt="" coords="1871,605,1794,646,1792,642,1868,600"/>
+<area shape="poly" title=" " alt="" coords="1709,677,1696,679,1343,730,1342,725,1696,673,1708,671"/>
+<area shape="poly" title=" " alt="" coords="2463,357,2474,315,2474,292,2464,271,2447,255,2423,239,2359,213,2279,192,2189,175,2003,152,1849,142,1849,137,2003,147,2190,169,2280,186,2361,208,2426,235,2450,250,2469,268,2479,290,2480,316,2468,358"/>
+<area shape="poly" title=" " alt="" coords="2464,357,2464,337,2460,314,2450,290,2433,271,2410,261,2373,251,2264,236,2120,225,1956,218,1624,212,1381,212,1381,207,1624,207,1956,213,2120,220,2264,231,2374,246,2412,256,2436,267,2454,287,2465,312,2470,337,2469,357"/>
+<area shape="poly" title=" " alt="" coords="2445,385,2359,440,2219,522,2135,566,2045,608,1952,647,1858,679,1788,697,1715,711,1572,729,1442,737,1342,739,1342,734,1442,732,1571,724,1715,705,1787,691,1857,673,1950,642,2043,603,2133,561,2216,517,2356,436,2442,381"/>
+<area shape="poly" title=" " alt="" coords="2388,378,2264,395,2195,411,2128,433,2064,464,2005,502,1916,570,1912,566,2002,497,2062,460,2126,428,2193,406,2263,390,2388,373"/>
+<area shape="rect" href="../../d8/d3d/SdFat_8h.html" title="main SdFs include file." alt="" coords="2969,431,3039,456"/>
+<area shape="poly" title=" " alt="" coords="2532,378,2956,433,2956,438,2531,383"/>
+<area shape="rect" title=" " alt="" coords="2425,431,2495,456"/>
+<area shape="poly" title=" " alt="" coords="2463,383,2463,417,2457,417,2457,383"/>
+<area shape="rect" href="../../d3/dbd/ExFatLib_8h.html" title=" " alt="" coords="2739,724,2885,749"/>
+<area shape="poly" title=" " alt="" coords="2970,455,2909,474,2876,488,2845,506,2800,538,2766,567,2740,602,2717,652,2714,664,2717,675,2738,699,2766,716,2763,721,2735,703,2712,677,2708,664,2712,650,2735,599,2762,563,2796,534,2843,502,2874,484,2907,469,2968,450"/>
+<area shape="rect" href="../../d0/d14/FatLib_8h.html" title=" " alt="" coords="2932,724,3047,749"/>
+<area shape="poly" title=" " alt="" coords="3013,455,3030,493,3049,548,3056,580,3058,613,3056,645,3048,677,3035,699,3018,717,3014,713,3031,696,3043,675,3051,645,3053,613,3050,581,3044,550,3025,495,3008,457"/>
+<area shape="rect" href="../../d0/d1b/SysCall_8h.html" title="SysCall class." alt="" coords="3141,871,3296,896"/>
+<area shape="poly" title=" " alt="" coords="3039,446,3144,462,3274,490,3335,509,3385,532,3420,558,3430,573,3433,588,3433,738,3431,785,3423,804,3407,825,3386,842,3362,856,3310,874,3309,869,3360,851,3383,838,3403,821,3419,802,3426,784,3428,738,3428,589,3425,575,3416,561,3382,536,3333,514,3272,495,3143,467,3039,451"/>
+<area shape="rect" href="../../de/d5a/FsLib_8h.html" title="FsLib include file." alt="" coords="2856,504,2963,529"/>
+<area shape="poly" title=" " alt="" coords="2990,458,2937,498,2934,493,2987,454"/>
+<area shape="rect" href="../../d5/d77/SdCard_8h.html" title="Top level include for SPI and SDIO cards." alt="" coords="3085,724,3216,749"/>
+<area shape="poly" title=" " alt="" coords="3018,454,3037,476,3057,503,3087,559,3113,616,3146,710,3141,712,3108,618,3082,561,3052,505,3033,479,3014,458"/>
+<area shape="rect" href="../../da/dd4/ExFatFormatter_8h.html" title=" " alt="" coords="2611,797,2743,823"/>
+<area shape="poly" title=" " alt="" coords="2792,752,2713,793,2710,788,2789,747"/>
+<area shape="rect" href="../../d3/d8c/ExFatVolume_8h.html" title=" " alt="" coords="2767,797,2886,823"/>
+<area shape="poly" title=" " alt="" coords="2817,749,2824,783,2819,784,2812,750"/>
+<area shape="rect" href="../../db/dd5/FatFormatter_8h.html" title=" " alt="" coords="3161,797,3277,823"/>
+<area shape="poly" title=" " alt="" coords="3027,747,3169,791,3167,796,3025,752"/>
+<area shape="rect" href="../../d2/d66/FatVolume_8h.html" title="FatVolume class." alt="" coords="2910,797,3013,823"/>
+<area shape="poly" title=" " alt="" coords="2987,751,2973,786,2968,784,2982,749"/>
+<area shape="poly" title=" " alt="" coords="3221,823,3221,857,3216,857,3216,823"/>
+<area shape="rect" title=" " alt="" coords="3049,944,3124,969"/>
+<area shape="poly" title=" " alt="" coords="3199,898,3121,940,3119,935,3196,894"/>
+<area shape="rect" title=" " alt="" coords="3223,1017,3294,1043"/>
+<area shape="poly" title=" " alt="" coords="3239,894,3265,914,3285,943,3289,959,3288,976,3276,1006,3271,1004,3282,975,3284,960,3280,945,3261,918,3236,898"/>
+<area shape="rect" href="../../d4/d1f/SdFatConfig_8h.html" title="configuration definitions" alt="" coords="3148,944,3271,969"/>
+<area shape="poly" title=" " alt="" coords="3220,897,3215,931,3210,930,3214,896"/>
+<area shape="poly" title=" " alt="" coords="3148,971,3136,972,2912,987,2613,999,1904,1016,1225,1027,793,1031,793,1026,1225,1021,1904,1011,2613,993,2911,981,3136,967,3148,965"/>
+<area shape="poly" title=" " alt="" coords="3220,968,3245,1005,3241,1008,3215,971"/>
+<area shape="rect" href="../../da/d44/FsFile_8h.html" title="FsBaseFile include file." alt="" coords="2832,577,2904,603"/>
+<area shape="poly" title=" " alt="" coords="2905,531,2884,567,2879,564,2900,528"/>
+<area shape="rect" href="../../d2/d59/FsVolume_8h.html" title="FsVolume include file." alt="" coords="2727,651,2825,676"/>
+<area shape="poly" title=" " alt="" coords="2887,532,2854,552,2822,579,2802,609,2787,639,2782,636,2797,606,2818,576,2851,547,2884,527"/>
+<area shape="rect" href="../../de/d26/FsFormatter_8h.html" title=" " alt="" coords="2900,651,3012,676"/>
+<area shape="poly" title=" " alt="" coords="2916,529,2951,637,2945,638,2911,531"/>
+<area shape="poly" title=" " alt="" coords="2867,604,2840,677,2825,712,2820,710,2835,675,2862,602"/>
+<area shape="poly" title=" " alt="" coords="2905,591,2935,597,2969,607,3001,624,3026,649,3032,666,3030,683,3012,714,3008,712,3025,682,3027,666,3022,652,2998,628,2967,612,2934,602,2904,596"/>
+<area shape="poly" title=" " alt="" coords="2855,605,2803,644,2800,640,2852,601"/>
+<area shape="poly" title=" " alt="" coords="2784,675,2802,710,2798,713,2780,678"/>
+<area shape="poly" title=" " alt="" coords="2811,673,2943,717,2941,722,2809,679"/>
+<area shape="poly" title=" " alt="" coords="2934,678,2849,720,2847,715,2932,674"/>
+<area shape="poly" title=" " alt="" coords="2964,675,2981,711,2976,713,2959,677"/>
+<area shape="rect" href="../../d5/dc1/SdSpiCard_8h.html" title="Classes for SPI access to SD/SDHC cards." alt="" coords="3037,797,3137,823"/>
+<area shape="poly" title=" " alt="" coords="3142,751,3108,789,3104,785,3138,748"/>
+<area shape="rect" href="../../d9/d0a/SdioCard_8h.html" title="Classes for SDIO cards." alt="" coords="3301,797,3393,823"/>
+<area shape="poly" title=" " alt="" coords="3183,747,3303,790,3301,795,3181,752"/>
+<area shape="poly" title=" " alt="" coords="3109,820,3186,862,3184,866,3107,825"/>
+<area shape="poly" title=" " alt="" coords="3089,823,3089,930,3084,930,3084,823"/>
+<area shape="poly" title=" " alt="" coords="3327,825,3253,866,3251,861,3325,820"/>
+<area shape="poly" title=" " alt="" coords="406,301,431,340,449,362,470,380,499,397,538,412,634,441,730,469,770,485,800,502,825,527,837,552,850,577,874,601,916,628,962,651,1057,687,1148,711,1224,725,1223,730,1147,716,1056,692,960,656,914,632,870,605,846,580,833,555,820,530,797,506,768,490,729,474,633,446,537,417,497,402,466,385,445,365,426,343,401,304"/>
+<area shape="poly" title=" " alt="" coords="417,300,494,348,491,352,414,304"/>
+<area shape="poly" title=" " alt="" coords="381,304,309,352,306,347,378,300"/>
+<area shape="poly" title=" " alt="" coords="720,529,734,559,757,599,789,641,808,659,829,674,860,687,903,698,1010,715,1125,725,1223,731,1222,736,1124,731,1009,720,902,703,858,692,827,678,805,663,785,644,753,602,730,561,715,531"/>
+<area shape="rect" href="../../dc/d74/ChainableLED_8h.html" title=" " alt="" coords="533,871,657,896"/>
+<area shape="poly" title=" " alt="" coords="712,531,605,858,600,857,707,529"/>
+<area shape="poly" title=" " alt="" coords="608,894,678,967,717,1006,713,1009,674,971,604,898"/>
+<area shape="rect" href="../../de/dba/DS1307_8h.html" title=" " alt="" coords="2009,871,2093,896"/>
+<area shape="poly" title=" " alt="" coords="2122,303,2107,362,2100,402,2097,442,2097,738,2094,772,2086,805,2065,859,2060,857,2081,803,2089,771,2092,738,2092,442,2095,401,2101,361,2116,302"/>
+<area shape="poly" title=" " alt="" coords="2040,898,1990,936,1956,956,1919,972,1849,984,1728,995,1398,1012,793,1030,793,1025,1398,1007,1728,990,1848,979,1918,967,1954,952,1987,932,2036,894"/>
+<area shape="poly" title=" " alt="" coords="135,274,178,267,402,238,630,214,1073,176,1448,151,1700,137,1701,143,1449,156,1073,181,631,219,402,244,179,272,136,279"/>
+<area shape="poly" title=" " alt="" coords="145,274,190,267,349,250,510,236,823,219,1090,210,1270,207,1270,213,1090,215,823,224,511,242,349,255,191,272,146,279"/>
+<area shape="rect" href="../../d9/d99/error_8hpp.html" title=" " alt="" coords="437,431,565,456"/>
+<area shape="poly" title=" " alt="" coords="98,300,151,340,186,362,224,380,274,398,327,412,424,431,423,436,325,418,273,403,222,385,184,366,148,344,95,304"/>
+<area shape="poly" title=" " alt="" coords="518,454,579,502,637,554,680,599,725,638,754,656,792,674,827,685,875,695,993,711,1223,730,1223,735,993,716,874,700,826,690,790,678,752,660,722,642,676,603,633,558,576,506,515,459"/>
+<area shape="poly" title=" " alt="" coords="536,453,667,497,665,502,535,459"/>
+<area shape="rect" href="../../d1/dc5/serial_8hpp.html" title=" " alt="" coords="403,504,565,529"/>
+<area shape="poly" title=" " alt="" coords="501,457,493,492,487,490,496,456"/>
+<area shape="poly" title=" " alt="" coords="424,506,372,491,315,467,262,432,239,409,220,384,212,366,209,349,211,333,217,318,240,291,272,267,319,257,417,247,708,230,1270,209,1270,214,709,236,418,253,320,262,274,272,243,295,222,321,216,334,214,349,217,365,225,381,243,406,266,427,318,462,374,486,425,501"/>
+<area shape="poly" title=" " alt="" coords="487,529,492,662,492,884,497,914,511,940,533,961,559,979,622,1004,682,1019,681,1024,620,1009,557,984,529,965,507,943,492,916,487,885,487,662,482,530"/>
+<area shape="rect" href="../../dd/d5f/ArduinoUniqueID_8h.html" title=" " alt="" coords="168,944,312,969"/>
+<area shape="poly" title=" " alt="" coords="431,532,379,549,327,575,305,593,288,613,276,636,272,662,272,811,265,877,251,932,245,930,259,876,267,811,267,662,271,634,283,610,302,589,324,571,377,544,429,527"/>
+<area shape="rect" href="../../db/d42/interpreter_8hpp.html" title=" " alt="" coords="1373,577,1491,603"/>
+<area shape="poly" title=" " alt="" coords="566,522,628,527,1359,581,1359,586,628,532,565,527"/>
+<area shape="poly" title=" " alt="" coords="313,966,682,1018,681,1023,312,971"/>
+<area shape="poly" title=" " alt="" coords="1439,575,1473,523,1493,485,1511,443,1524,399,1529,354,1524,310,1516,290,1505,271,1479,247,1448,230,1413,220,1380,214,1381,209,1415,214,1450,225,1482,242,1509,268,1521,288,1529,309,1534,354,1529,400,1516,445,1498,488,1477,526,1443,578"/>
+<area shape="poly" title=" " alt="" coords="1422,605,1306,716,1302,713,1418,601"/>
+<area shape="poly" title=" " alt="" coords="1485,600,1696,645,1695,651,1484,605"/>
+<area shape="poly" title=" " alt="" coords="1084,274,1276,222,1278,228,1085,279"/>
+<area shape="poly" title=" " alt="" coords="1249,274,1306,229,1309,233,1252,279"/>
+<area shape="poly" title=" " alt="" coords="2277,279,1828,154,1829,149,2278,274"/>
+<area shape="poly" title=" " alt="" coords="2274,279,2228,272,1981,247,1738,230,1381,214,1381,209,1738,224,1981,242,2228,267,2274,274"/>
+<area shape="poly" title=" " alt="" coords="2341,300,2428,348,2426,353,2338,305"/>
+<area shape="poly" title=" " alt="" coords="2260,305,2216,312,1735,379,1263,436,579,509,579,503,1262,430,1734,373,2216,307,2259,299"/>
+<area shape="poly" title=" " alt="" coords="933,271,957,267,1270,216,1271,221,958,272,934,277"/>
+<area shape="rect" href="../../d3/d42/bme_8hpp.html" title=" " alt="" coords="839,357,945,383"/>
+<area shape="poly" title=" " alt="" coords="869,309,884,343,879,346,864,311"/>
+<area shape="poly" title=" " alt="" coords="946,369,1029,376,1075,384,1121,397,1162,416,1196,441,1218,474,1225,493,1227,515,1227,591,1231,625,1241,657,1269,711,1264,713,1236,660,1226,626,1221,591,1221,515,1219,495,1213,476,1192,444,1159,420,1119,402,1074,389,1028,381,945,374"/>
+<area shape="poly" title=" " alt="" coords="839,384,578,431,577,426,838,378"/>
+<area shape="rect" href="../../d0/de4/Seeed__BME280_8h.html" title=" " alt="" coords="885,577,1019,603"/>
+<area shape="poly" title=" " alt="" coords="898,382,948,563,943,564,893,384"/>
+<area shape="poly" title=" " alt="" coords="885,602,823,617,762,642,736,660,716,681,702,706,697,736,697,885,700,917,708,950,728,1004,723,1006,703,951,695,918,692,885,692,735,697,704,711,678,733,656,760,638,822,612,884,597"/>
+<area shape="poly" title=" " alt="" coords="1020,596,1607,655,1606,660,1019,601"/>
+<area shape="poly" title=" " alt="" coords="1403,271,1355,232,1359,228,1407,267"/>
+<area shape="poly" title=" " alt="" coords="1346,310,1332,312,1129,343,959,364,958,359,1128,337,1332,307,1345,304"/>
+<area shape="poly" title=" " alt="" coords="760,271,784,267,920,247,1056,232,1270,212,1270,217,1057,237,921,253,784,272,761,276"/>
+<area shape="poly" title=" " alt="" coords="736,307,850,350,848,355,734,312"/>
+<area shape="poly" title=" " alt="" coords="1619,273,1379,223,1381,218,1620,268"/>
+</map>
+</div>
+</div><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="func-members" name="func-members"></a>
+Fonctions</h2></td></tr>
+<tr class="memitem:ad99238b20899946e55e11c5267eac661" id="r_ad99238b20899946e55e11c5267eac661"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ad99238b20899946e55e11c5267eac661">acquisition</a> (void(*<a class="el" href="../../dc/de5/timer_8cpp.html#a0dd3eda581df650a6e765bb5720a54c2">callback</a>)())</td></tr>
+<tr class="memdesc:ad99238b20899946e55e11c5267eac661"><td class="mdescLeft">&#160;</td><td class="mdescRight">Fonction d'acquisition des données.  <br /></td></tr>
+<tr class="separator:ad99238b20899946e55e11c5267eac661"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="var-members" name="var-members"></a>
+Variables</h2></td></tr>
+<tr class="memitem:ab49a5cee0ca11699cc8d79deaab108fb" id="r_ab49a5cee0ca11699cc8d79deaab108fb"><td class="memItemLeft" align="right" valign="top">unsigned long&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ab49a5cee0ca11699cc8d79deaab108fb">previousAcquisition</a> = <a class="el" href="../../d9/dcd/StdioStream_8h.html#a070d2ce7b6bb7e5c05602aa8c308d0c4">NULL</a></td></tr>
+<tr class="memdesc:ab49a5cee0ca11699cc8d79deaab108fb"><td class="mdescLeft">&#160;</td><td class="mdescRight">Stocke le timestamp du début de la dernière acquisition.  <br /></td></tr>
+<tr class="separator:ab49a5cee0ca11699cc8d79deaab108fb"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aaa58ff38484ff06317eaa8ca0f11c7b5" id="r_aaa58ff38484ff06317eaa8ca0f11c7b5"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aaa58ff38484ff06317eaa8ca0f11c7b5">errors</a> [<a class="el" href="../../df/dd7/consts_8hpp.html#aa8f8564a6944121058f4c4278894ead1">NUMBER_OF_SENSORS</a>]</td></tr>
+<tr class="memdesc:aaa58ff38484ff06317eaa8ca0f11c7b5"><td class="mdescLeft">&#160;</td><td class="mdescRight">Tableau de booléens indiquant si un capteur a réussi à acquérir une donnée.  <br /></td></tr>
+<tr class="separator:aaa58ff38484ff06317eaa8ca0f11c7b5"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad4abfb477f89f314bf0ccf282f899ebe" id="r_ad4abfb477f89f314bf0ccf282f899ebe"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ad4abfb477f89f314bf0ccf282f899ebe">underAcquisition</a> = false</td></tr>
+<tr class="memdesc:ad4abfb477f89f314bf0ccf282f899ebe"><td class="mdescLeft">&#160;</td><td class="mdescRight">Indique si une acquisition est en cours.  <br /></td></tr>
+<tr class="separator:ad4abfb477f89f314bf0ccf282f899ebe"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aabf5fb545987de59138fea59a7eb0332" id="r_aabf5fb545987de59138fea59a7eb0332"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aabf5fb545987de59138fea59a7eb0332">numberOfErrors</a></td></tr>
+<tr class="memdesc:aabf5fb545987de59138fea59a7eb0332"><td class="mdescLeft">&#160;</td><td class="mdescRight">Nombre d'erreur restantes dans l'acquisition en cours.  <br /></td></tr>
+<tr class="separator:aabf5fb545987de59138fea59a7eb0332"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table>
+<h2 class="groupheader">Documentation des fonctions</h2>
+<a id="ad99238b20899946e55e11c5267eac661" name="ad99238b20899946e55e11c5267eac661"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad99238b20899946e55e11c5267eac661">&#9670;&#160;</a></span>acquisition()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void acquisition </td>
+          <td>(</td>
+          <td class="paramtype">void(*)()&#160;</td>
+          <td class="paramname"><em>callback</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Fonction d'acquisition des données. </p>
+<p>Cette fonction est exécutée à chaque cycle de la boucle. Elle permet d'acquérir les données de chaque capteur et de les stocker dans le tableau <a class="el" href="../../df/d0a/main_8cpp.html#a24d75ba726f5bdccda5373ed326b38f8">lastMeasurements</a> L'acquisition est réalisée uniquement si <a class="el" href="#ad4abfb477f89f314bf0ccf282f899ebe">underAcquisition</a> est à true sinon la fonction démarre une autre acquisition si le delais avec la précédente est assez long.</p>
+<p>L'acquisition continue tant qu'il reste au moins une erreur sauf si la durée d'acquisition dépasse une valeur maximale. </p>
+<div class="dynheader">
+Voici le graphe d'appel pour cette fonction :</div>
+<div class="dyncontent">
+<div class="center"><img src="../../d6/d30/acquisition_8cpp_ad99238b20899946e55e11c5267eac661_cgraph.png" border="0" usemap="#ad6/d30/acquisition_8cpp_ad99238b20899946e55e11c5267eac661_cgraph" alt=""/></div>
+<map name="ad6/d30/acquisition_8cpp_ad99238b20899946e55e11c5267eac661_cgraph" id="ad6/d30/acquisition_8cpp_ad99238b20899946e55e11c5267eac661_cgraph">
+<area shape="rect" title="Fonction d&#39;acquisition des données." alt="" coords="5,129,99,155"/>
+<area shape="rect" href="../../dc/d3d/gps_8cpp.html#a05a3d705d8063851304bb49200834d1b" title="Lit les données GPS." alt="" coords="181,55,258,80"/>
+<area shape="poly" title=" " alt="" coords="81,127,176,83,179,88,83,132"/>
+<area shape="rect" href="../../dd/db1/error_8cpp.html#aa07018cc68b21b664b4ca75a67e679f0" title=" " alt="" coords="147,153,292,179"/>
+<area shape="poly" title=" " alt="" coords="99,146,133,151,132,156,98,151"/>
+<area shape="rect" href="../../d2/de7/classSoftwareSerial.html#a4cbf77a4e90e15ca576972d7952659c5" title=" " alt="" coords="340,5,524,31"/>
+<area shape="poly" title=" " alt="" coords="258,56,363,31,364,36,259,61"/>
+<area shape="rect" href="../../d2/de7/classSoftwareSerial.html#a7b3fb4a8f57d2b5f2233f841d71ef80f" title=" " alt="" coords="572,5,767,31"/>
+<area shape="poly" title=" " alt="" coords="524,15,558,15,558,21,524,21"/>
+<area shape="rect" href="../../db/d17/led_8cpp.html#a7ba25f44529972e627561bcf6efc192f" title=" " alt="" coords="345,153,519,179"/>
+<area shape="poly" title=" " alt="" coords="292,163,331,163,331,169,292,169"/>
+<area shape="rect" href="../../db/d17/led_8cpp.html#ac050c3041978fab0c3028de0fdc31618" title=" " alt="" coords="345,252,519,277"/>
+<area shape="poly" title=" " alt="" coords="239,177,284,207,341,238,360,246,358,250,339,243,281,212,236,181"/>
+<area shape="rect" href="../../db/d17/led_8cpp.html#aa04c4b7972bc68200e4d2da56b097115" title=" " alt="" coords="353,301,511,327"/>
+<area shape="poly" title=" " alt="" coords="231,177,274,231,306,262,341,288,354,294,351,299,339,292,302,266,270,235,227,180"/>
+<area shape="rect" href="../../db/d17/led_8cpp.html#a59bf7437503d490ee53223c3bd20aa0c" title=" " alt="" coords="349,104,515,129"/>
+<area shape="poly" title=" " alt="" coords="274,151,363,130,364,135,275,156"/>
+<area shape="rect" href="../../db/d17/led_8cpp.html#a3f8b463c1fa4e1715beb1a4a6e4c36b3" title=" " alt="" coords="349,203,515,228"/>
+<area shape="poly" title=" " alt="" coords="275,176,364,197,363,202,274,181"/>
+<area shape="rect" href="../../db/d17/led_8cpp.html#a91398c440a9f9f48d59e14eb727e61ae" title=" " alt="" coords="347,55,517,80"/>
+<area shape="poly" title=" " alt="" coords="236,151,281,120,339,89,358,82,360,86,341,94,284,125,239,155"/>
+<area shape="rect" href="../../db/d17/led_8cpp.html#a568e3f9750c24e5262ff1953d439acaa" title=" " alt="" coords="620,172,719,197"/>
+<area shape="poly" title=" " alt="" coords="520,170,607,177,606,182,519,176"/>
+<area shape="rect" href="../../db/d17/led_8cpp.html#a1c1c60dba65e2b65592bf4a0fe46b91c" title=" " alt="" coords="598,121,741,147"/>
+<area shape="poly" title=" " alt="" coords="519,152,584,143,585,148,520,157"/>
+<area shape="rect" href="../../db/d17/led_8cpp.html#ae18cd762c6f843eb4421cd651a5d3940" title=" " alt="" coords="823,172,951,197"/>
+<area shape="poly" title=" " alt="" coords="719,182,809,182,809,187,719,187"/>
+<area shape="rect" href="../../d5/dc9/classChainableLED.html#a2b8a41a192a231e77cad268bdbaebd34" title=" " alt="" coords="1007,172,1209,197"/>
+<area shape="poly" title=" " alt="" coords="951,182,993,182,993,187,951,187"/>
+<area shape="rect" href="../../d5/dc9/classChainableLED.html#af9dddebec83065625cbd6f8f05b992e7" title=" " alt="" coords="1491,172,1672,197"/>
+<area shape="poly" title=" " alt="" coords="1210,182,1477,182,1477,187,1210,187"/>
+<area shape="rect" href="../../d5/dc9/classChainableLED.html#a7c5c2661fc02dee9f174485a2fadeb7a" title=" " alt="" coords="1257,197,1443,223"/>
+<area shape="poly" title=" " alt="" coords="1210,193,1244,196,1243,202,1209,198"/>
+<area shape="rect" href="../../d5/dc9/classChainableLED.html#af384841b6f083865c7fce288b039d275" title=" " alt="" coords="1720,172,1859,197"/>
+<area shape="poly" title=" " alt="" coords="1672,182,1706,182,1706,187,1672,187"/>
+<area shape="poly" title=" " alt="" coords="1443,197,1477,193,1478,199,1443,202"/>
+<area shape="poly" title=" " alt="" coords="741,136,959,157,1027,167,1026,172,958,162,740,141"/>
+<area shape="poly" title=" " alt="" coords="491,249,523,238,547,224,571,209,606,196,608,201,573,214,549,228,525,243,493,254"/>
+<area shape="rect" href="../../db/d17/led_8cpp.html#ac69de171075f82d3c3f75385a54ce10a" title=" " alt="" coords="599,223,740,248"/>
+<area shape="poly" title=" " alt="" coords="519,251,584,243,585,248,520,257"/>
+<area shape="poly" title=" " alt="" coords="740,228,958,207,1026,197,1027,202,959,213,740,233"/>
+<area shape="poly" title=" " alt="" coords="502,299,522,288,538,269,546,250,553,229,570,209,605,192,608,197,574,213,558,232,551,252,543,272,526,292,505,304"/>
+<area shape="rect" href="../../db/d17/led_8cpp.html#a4f39000a638bc309a30f90d7fbb5a8a1" title=" " alt="" coords="821,279,953,304"/>
+<area shape="poly" title=" " alt="" coords="511,307,807,293,807,298,511,313"/>
+<area shape="poly" title=" " alt="" coords="913,276,1067,201,1069,206,916,281"/>
+<area shape="poly" title=" " alt="" coords="485,127,525,138,573,155,608,166,606,171,571,161,523,143,484,132"/>
+<area shape="poly" title=" " alt="" coords="516,120,584,125,584,130,515,125"/>
+<area shape="poly" title=" " alt="" coords="515,202,606,190,607,195,516,207"/>
+<area shape="poly" title=" " alt="" coords="516,220,585,226,584,231,515,225"/>
+<area shape="poly" title=" " alt="" coords="504,78,526,89,542,106,550,123,558,140,574,156,608,172,606,177,570,160,554,143,546,126,538,109,522,93,501,83"/>
+<area shape="rect" href="../../db/d17/led_8cpp.html#af8230cfc3cf386fa1253cd37b3cd215d" title=" " alt="" coords="815,68,959,93"/>
+<area shape="poly" title=" " alt="" coords="517,67,801,76,801,81,517,72"/>
+<area shape="poly" title=" " alt="" coords="916,91,1069,164,1067,169,914,96"/>
+</map>
+</div>
+<div class="dynheader">
+Voici le graphe des appelants de cette fonction :</div>
+<div class="dyncontent">
+<div class="center"><img src="../../d6/d30/acquisition_8cpp_ad99238b20899946e55e11c5267eac661_icgraph.png" border="0" usemap="#ad6/d30/acquisition_8cpp_ad99238b20899946e55e11c5267eac661_icgraph" alt=""/></div>
+<map name="ad6/d30/acquisition_8cpp_ad99238b20899946e55e11c5267eac661_icgraph" id="ad6/d30/acquisition_8cpp_ad99238b20899946e55e11c5267eac661_icgraph">
+<area shape="rect" title="Fonction d&#39;acquisition des données." alt="" coords="344,55,437,80"/>
+<area shape="rect" href="../../d9/ddd/economy_8cpp.html#a35740c7a73b48d918cb4e6d891d46bed" title=" " alt="" coords="116,5,284,31"/>
+<area shape="poly" title=" " alt="" coords="330,54,295,45,251,33,253,28,297,39,331,49"/>
+<area shape="rect" href="../../d6/d46/maintenance_8cpp.html#ae80c7faecffa585182b14e2ee396009e" title=" " alt="" coords="104,55,296,80"/>
+<area shape="poly" title=" " alt="" coords="330,70,296,70,296,65,330,65"/>
+<area shape="rect" href="../../df/d92/standard_8cpp.html#ad0b3e86793f7441084351fc2de4d4c45" title=" " alt="" coords="117,104,283,129"/>
+<area shape="poly" title=" " alt="" coords="331,85,250,107,249,101,330,80"/>
+<area shape="rect" href="../../df/d0a/main_8cpp.html#afe461d27b9c48d5921c00d521181f12f" title=" " alt="" coords="5,55,56,80"/>
+<area shape="poly" title=" " alt="" coords="132,37,105,45,57,61,56,56,103,39,131,32"/>
+<area shape="poly" title=" " alt="" coords="90,70,56,70,56,65,90,65"/>
+<area shape="poly" title=" " alt="" coords="135,103,103,94,56,78,57,73,105,89,136,98"/>
+</map>
+</div>
+
+</div>
+</div>
+<h2 class="groupheader">Documentation des variables</h2>
+<a id="aaa58ff38484ff06317eaa8ca0f11c7b5" name="aaa58ff38484ff06317eaa8ca0f11c7b5"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aaa58ff38484ff06317eaa8ca0f11c7b5">&#9670;&#160;</a></span>errors</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool errors[<a class="el" href="../../df/dd7/consts_8hpp.html#aa8f8564a6944121058f4c4278894ead1">NUMBER_OF_SENSORS</a>]</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Tableau de booléens indiquant si un capteur a réussi à acquérir une donnée. </p>
+<p>Ce tableau est initialisé à true pour chaque capteur au début de l'acquisition. L'acquisition continue tant qu'il reste au moins une erreur sauf si la durée d'acquisition dépasse une valeur maximale.</p>
+<p>La taille de ce tableau est repportée dans la variable numberOfSensors</p>
+
+</div>
+</div>
+<a id="aabf5fb545987de59138fea59a7eb0332" name="aabf5fb545987de59138fea59a7eb0332"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aabf5fb545987de59138fea59a7eb0332">&#9670;&#160;</a></span>numberOfErrors</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">int numberOfErrors</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Nombre d'erreur restantes dans l'acquisition en cours. </p>
+<p>L'acquisition démarre avec un nombre d'erreur équivalent au nombre de capteurs disponibles. À chaque fois qu'un capteur réussi à acquérir une donnée, le nombre d'erreur est décrémenté. Lorsque le nombre d'erreur atteint 0, l'acquisition est terminée. </p>
+
+</div>
+</div>
+<a id="ab49a5cee0ca11699cc8d79deaab108fb" name="ab49a5cee0ca11699cc8d79deaab108fb"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab49a5cee0ca11699cc8d79deaab108fb">&#9670;&#160;</a></span>previousAcquisition</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">unsigned long previousAcquisition = <a class="el" href="../../d9/dcd/StdioStream_8h.html#a070d2ce7b6bb7e5c05602aa8c308d0c4">NULL</a></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Stocke le timestamp du début de la dernière acquisition. </p>
+<p>Cette variable permet à la fois de savoir si la dernière acquisition est a plus de x secondes pour pouvoir en relancer une et de savoir si l'acquisition en cours ne dépasse pas une durée maximale. </p>
+
+</div>
+</div>
+<a id="ad4abfb477f89f314bf0ccf282f899ebe" name="ad4abfb477f89f314bf0ccf282f899ebe"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad4abfb477f89f314bf0ccf282f899ebe">&#9670;&#160;</a></span>underAcquisition</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool underAcquisition = false</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Indique si une acquisition est en cours. </p>
+<p>La fonction acquisition est exécutée à chaque cycle de la boucle <a class="el" href="../../df/d0a/main_8cpp.html#afe461d27b9c48d5921c00d521181f12f">loop</a> , peut importe si une acquisition est en cours ou non et si des capteurs sont en erreur. Cette variable permet alors de faire la distinction entre une acquisition en cours et une acquisition finie. </p>
+
+</div>
+</div>
+</div><!-- contents -->
+</div><!-- doc-content -->
+<!-- start footer part -->
+<div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
+  <ul>
+    <li class="navelem"><a class="el" href="../../dir_68267d1309a1af8e8297ef4c3efbcdba.html">src</a></li><li class="navelem"><a class="el" href="../../d6/d30/acquisition_8cpp.html">acquisition.cpp</a></li>
+    <li class="footer">Généré par <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.10.0 </li>
+  </ul>
+</div>
+</body>
+</html>

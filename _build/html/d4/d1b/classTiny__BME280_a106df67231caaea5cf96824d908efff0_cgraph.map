@@ -1,0 +1,5 @@
+<map id="Tiny_BME280::readTemperature" name="Tiny_BME280::readTemperature">
+<area shape="rect" id="Node000001" title="Returns the temperature from the sensor." alt="" coords="5,5,235,31"/>
+<area shape="rect" id="Node000002" href="$d4/d1b/classTiny__BME280.html#ab2b70e2d8fb9580e63f5c4288e041a42" title="Reads a 24 bit value over I2C." alt="" coords="283,5,445,31"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="235,15,269,15,269,21,235,21"/>
+</map>

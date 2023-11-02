@@ -1,0 +1,9 @@
+<map id="Graphe hiérarchique des classes" name="Graphe hiérarchique des classes">
+<area shape="rect" id="Node000000" href="$df/d16/classAdafruit__Sensor.html" title="Common sensor interface to unify various sensors. Intentionally modeled after sensors...." alt="" coords="5,55,131,80"/>
+<area shape="rect" id="Node000001" href="$d7/dd5/classTiny__BME280__Humidity.html" title=" " alt="" coords="179,5,356,31"/>
+<area shape="poly" id="edge1_Node000000_Node000001" title=" " alt="" coords="132,49,215,28,216,33,134,54"/>
+<area shape="rect" id="Node000002" href="$db/d9c/classTiny__BME280__Pressure.html" title=" " alt="" coords="181,55,354,80"/>
+<area shape="poly" id="edge2_Node000000_Node000002" title=" " alt="" coords="145,65,180,65,180,70,145,70"/>
+<area shape="rect" id="Node000003" href="$d6/dd1/classTiny__BME280__Temp.html" title=" " alt="" coords="191,104,343,129"/>
+<area shape="poly" id="edge3_Node000000_Node000003" title=" " alt="" coords="134,81,216,101,215,107,132,86"/>
+</map>

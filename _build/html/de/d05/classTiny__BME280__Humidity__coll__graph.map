@@ -1,0 +1,24 @@
+<map id="Tiny_BME280_Humidity" name="Tiny_BME280_Humidity">
+<area shape="rect" id="Node000001" title=" " alt="" coords="183,108,360,133"/>
+<area shape="rect" id="Node000003" href="$d4/d1b/classTiny__BME280.html" title="Class that stores state and functions for interacting with BME280 IC." alt="" coords="524,156,635,181"/>
+<area shape="poly" id="edge9_Node000003_Node000001" title=" " alt="" coords="374,113,437,116,501,127,532,139,559,153,556,158,530,144,499,132,437,122,374,118"/>
+<area shape="rect" id="Node000002" href="$df/d16/classAdafruit__Sensor.html" title="Common sensor interface to unify various sensors. Intentionally modeled after sensors...." alt="" coords="5,108,131,133"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="145,118,183,118,183,123,145,123"/>
+<area shape="rect" id="Node000004" href="$d6/dd1/classTiny__BME280__Temp.html" title=" " alt="" coords="804,88,956,113"/>
+<area shape="poly" id="edge4_Node000004_Node000002" title=" " alt="" coords="89,95,128,62,153,47,179,35,226,22,274,13,372,4,470,6,565,16,653,32,731,51,845,85,843,90,730,56,652,37,564,21,469,11,372,9,275,18,227,27,181,40,155,52,132,67,93,99"/>
+<area shape="rect" id="Node000005" href="$db/d9c/classTiny__BME280__Pressure.html" title=" " alt="" coords="793,224,967,249"/>
+<area shape="poly" id="edge7_Node000005_Node000002" title=" " alt="" coords="78,146,91,185,111,230,141,275,160,293,181,309,226,330,272,346,320,356,369,361,469,360,566,345,658,322,739,295,852,247,854,252,741,300,659,327,568,350,469,365,369,367,319,361,271,351,224,335,179,313,156,298,137,278,107,233,86,187,73,148"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="510,164,386,147,328,136,329,131,387,142,511,159"/>
+<area shape="poly" id="edge5_Node000004_Node000003" title=" " alt="" coords="613,146,658,127,732,110,803,102,804,107,733,116,659,132,615,151"/>
+<area shape="poly" id="edge8_Node000005_Node000003" title=" " alt="" coords="603,189,628,211,660,229,692,238,726,243,793,244,793,250,726,248,691,243,658,234,625,216,599,193"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="841,121,770,147,700,161,635,168,635,163,699,155,769,142,839,116"/>
+<area shape="poly" id="edge6_Node000003_Node000005" title=" " alt="" coords="809,223,634,183,636,178,810,218"/>
+<area shape="rect" id="Node000006" href="$da/d77/structbme280__calib__data.html" title="calibration data" alt="" coords="197,224,346,249"/>
+<area shape="poly" id="edge10_Node000003_Node000006" title=" " alt="" coords="360,235,429,230,499,214,533,198,561,179,564,183,536,202,501,219,430,235,360,241"/>
+<area shape="rect" id="Node000007" href="$d6/dd8/structTiny__BME280_1_1config.html" title="config register" alt="" coords="193,273,350,298"/>
+<area shape="poly" id="edge11_Node000003_Node000007" title=" " alt="" coords="364,287,432,278,467,269,499,255,522,239,542,219,569,180,573,183,546,222,525,243,501,260,468,274,433,284,365,292"/>
+<area shape="rect" id="Node000008" href="$d6/d58/structTiny__BME280_1_1ctrl__meas.html" title="ctrl_meas register" alt="" coords="180,50,363,76"/>
+<area shape="poly" id="edge12_Node000003_Node000008" title=" " alt="" coords="377,63,440,73,501,94,522,107,542,123,570,153,566,157,538,127,519,111,499,99,438,78,376,68"/>
+<area shape="rect" id="Node000009" href="$d6/d11/structTiny__BME280_1_1ctrl__hum.html" title="ctrl_hum register" alt="" coords="184,174,359,200"/>
+<area shape="poly" id="edge13_Node000003_Node000009" title=" " alt="" coords="373,192,436,192,500,187,539,178,540,184,500,192,436,197,373,197"/>
+</map>

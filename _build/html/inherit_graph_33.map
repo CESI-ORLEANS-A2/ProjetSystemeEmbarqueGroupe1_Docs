@@ -1,0 +1,9 @@
+<map id="Graphe hiérarchique des classes" name="Graphe hiérarchique des classes">
+<area shape="rect" id="Node000000" href="$d8/d15/classFatPartition.html" title="Access FAT16 and FAT32 partitions on raw file devices." alt="" coords="5,13,100,38"/>
+<area shape="rect" id="Node000001" href="$d3/dd5/classFatVolume.html" title="Integration class for the FatLib library." alt="" coords="148,13,239,38"/>
+<area shape="poly" id="edge42_Node000000_Node000001" title=" " alt="" coords="114,23,148,23,148,28,114,28"/>
+<area shape="rect" id="Node000002" href="$da/d81/classSdBase.html" title=" " alt="" coords="287,5,444,45"/>
+<area shape="poly" id="edge43_Node000001_Node000002" title=" " alt="" coords="252,23,286,23,286,28,252,28"/>
+<area shape="rect" id="Node000003" href="$d6/d4c/classSdFat32.html" title="SD file system class for FAT volumes." alt="" coords="492,13,565,38"/>
+<area shape="poly" id="edge44_Node000002_Node000003" title=" " alt="" coords="458,23,492,23,492,28,458,28"/>
+</map>

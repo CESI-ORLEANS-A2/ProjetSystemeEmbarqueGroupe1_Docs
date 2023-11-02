@@ -1,0 +1,385 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "https://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="fr">
+<head>
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=11"/>
+<meta name="generator" content="Doxygen 1.10.0"/>
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+<title>Station_Méteo_Groupe_1: Adafruit Unified Sensor Driver</title>
+<link href="../../tabs.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="../../jquery.js"></script>
+<script type="text/javascript" src="../../dynsections.js"></script>
+<script type="text/javascript" src="../../clipboard.js"></script>
+<link href="../../navtree.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="../../resize.js"></script>
+<script type="text/javascript" src="../../navtreedata.js"></script>
+<script type="text/javascript" src="../../navtree.js"></script>
+<link href="../../search/search.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="../../search/searchdata.js"></script>
+<script type="text/javascript" src="../../search/search.js"></script>
+<link href="../../doxygen.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+<div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+<div id="titlearea">
+<table cellspacing="0" cellpadding="0">
+ <tbody>
+ <tr id="projectrow">
+  <td id="projectalign">
+   <div id="projectname">Station_Méteo_Groupe_1<span id="projectnumber">&#160;v0.0.1</span>
+   </div>
+  </td>
+ </tr>
+ </tbody>
+</table>
+</div>
+<!-- end header part -->
+<!-- Généré par Doxygen 1.10.0 -->
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+var searchBox = new SearchBox("searchBox", "../../search/",'.html');
+/* @license-end */
+</script>
+<script type="text/javascript" src="../../menudata.js"></script>
+<script type="text/javascript" src="../../menu.js"></script>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+$(function() {
+  initMenu('../../',true,false,'search.php','Recherche');
+  $(document).ready(function() { init_search(); });
+});
+/* @license-end */
+</script>
+<div id="main-nav"></div>
+</div><!-- top -->
+<div id="side-nav" class="ui-resizable side-nav-resizable">
+  <div id="nav-tree">
+    <div id="nav-tree-contents">
+      <div id="nav-sync" class="sync"></div>
+    </div>
+  </div>
+  <div id="splitbar" style="-moz-user-select:none;" 
+       class="ui-resizable-handle">
+  </div>
+</div>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+$(document).ready(function(){initNavTree('d3/d69/md__2mnt_2d_2Cours_210_8_01CESI_01A2_2Blocs_201_01-_01Systeme_01embarque_2Livrables_2Station__Mef5b7787abfbb1ce146eb1e5b49bdd10c.html','../../'); initResizable(); });
+/* @license-end */
+</script>
+<div id="doc-content">
+<!-- window showing the filter options -->
+<div id="MSearchSelectWindow"
+     onmouseover="return searchBox.OnSearchSelectShow()"
+     onmouseout="return searchBox.OnSearchSelectHide()"
+     onkeydown="return searchBox.OnSearchSelectKey(event)">
+</div>
+
+<!-- iframe showing the search results (closed by default) -->
+<div id="MSearchResultsWindow">
+<div id="MSearchResults">
+<div class="SRPage">
+<div id="SRIndex">
+<div id="SRResults"></div>
+<div class="SRStatus" id="Loading">Chargement...</div>
+<div class="SRStatus" id="Searching">Recherche...</div>
+<div class="SRStatus" id="NoMatches">Aucune correspondance</div>
+</div>
+</div>
+</div>
+</div>
+
+<div><div class="header">
+  <div class="headertitle"><div class="title">Adafruit Unified Sensor Driver</div></div>
+</div><!--header-->
+<div class="contents">
+<div class="textblock"><p><a class="anchor" id="autotoc_md0"></a> Many small embedded systems exist to collect data from sensors, analyse the data, and either take an appropriate action or send that sensor data to another system for processing.</p>
+<p>One of the many challenges of embedded systems design is the fact that parts you used today may be out of production tomorrow, or system requirements may change and you may need to choose a different sensor down the road.</p>
+<p>Creating new drivers is a relatively easy task, but integrating them into existing systems is both error prone and time consuming since sensors rarely use the exact same units of measurement.</p>
+<p>By reducing all data to a single <b><a class="el" href="../../d4/d2a/structsensors__event__t.html">sensors_event_t</a></b> 'type' and settling on specific, <b>standardised SI units</b> for each sensor family the same sensor types return values that are comparable with any other similar sensor. This enables you to switch sensor models with very little impact on the rest of the system, which can help mitigate some of the risks and problems of sensor availability and code reuse.</p>
+<p>The unified sensor abstraction layer is also useful for data-logging and data-transmission since you only have one well-known type to log or transmit over the air or wire.</p>
+<h1><a class="anchor" id="autotoc_md1"></a>
+Unified Sensor Drivers</h1>
+<p>The following drivers are based on the Adafruit Unified <a class="el" href="../../de/d5a/structSensor.html" title="Structure représentant un capteur.">Sensor</a> Driver:</p>
+<p><b>Accelerometers</b></p><ul>
+<li><a href="https://github.com/adafruit/Adafruit_ADXL345">Adafruit_ADXL345</a></li>
+<li><a href="https://github.com/adafruit/Adafruit_LSM303DLHC">Adafruit_LSM303DLHC</a></li>
+<li><a href="https://github.com/adafruit/Adafruit_MMA8451_Library">Adafruit_MMA8451_Library</a></li>
+</ul>
+<p><b>Gyroscope</b></p><ul>
+<li><a href="https://github.com/adafruit/Adafruit_L3GD20_U">Adafruit_L3GD20_U</a></li>
+</ul>
+<p><b>Light</b></p><ul>
+<li><a href="https://github.com/adafruit/Adafruit_TSL2561">Adafruit_TSL2561</a></li>
+<li><a href="https://github.com/adafruit/Adafruit_TSL2591_Library">Adafruit_TSL2591_Library</a></li>
+</ul>
+<p><b>Magnetometers</b></p><ul>
+<li><a href="https://github.com/adafruit/Adafruit_LSM303DLHC">Adafruit_LSM303DLHC</a></li>
+<li><a href="https://github.com/adafruit/Adafruit_HMC5883_Unified">Adafruit_HMC5883_Unified</a></li>
+</ul>
+<p><b>Barometric Pressure</b></p><ul>
+<li><a href="https://github.com/adafruit/Adafruit_BMP085_Unified">Adafruit_BMP085_Unified</a></li>
+<li><a href="https://github.com/adafruit/Adafruit_BMP183_Unified_Library">Adafruit_BMP183_Unified_Library</a></li>
+</ul>
+<p><b>Humidity &amp; Temperature</b></p><ul>
+<li><a href="https://github.com/adafruit/DHT-sensor-library">DHT-sensor-library</a></li>
+</ul>
+<p><b>Humidity, Temperature, &amp; Barometric Pressure</b></p><ul>
+<li><a href="https://github.com/adafruit/Adafruit_BME280_Library/">Adafruit_BME280_Library</a></li>
+</ul>
+<p><b>Orientation</b></p><ul>
+<li><a href="https://github.com/adafruit/Adafruit_BNO055">Adafruit_BNO055</a></li>
+</ul>
+<p><b>All in one device</b></p><ul>
+<li><a href="https://github.com/adafruit/Adafruit_LSM9DS0_Library">Adafruit_LSM9DS0</a> (accelerometer, gyroscope, magnetometer)</li>
+<li><a href="https://github.com/adafruit/Adafruit_LSM9DS1/">Adafruit_LSM9DS1</a> (accelerometer, gyroscope, magnetometer)</li>
+</ul>
+<h1><a class="anchor" id="autotoc_md2"></a>
+How Does it Work?</h1>
+<p>Any driver that supports the Adafruit unified sensor abstraction layer will implement the <a class="el" href="../../df/d16/classAdafruit__Sensor.html" title="Common sensor interface to unify various sensors. Intentionally modeled after sensors....">Adafruit_Sensor</a> base class. There are two main typedefs and one enum defined in <a class="el" href="../../d8/d21/Adafruit__Sensor_8h.html">Adafruit_Sensor.h</a> that are used to 'abstract' away the sensor details and values:</p>
+<h1><a class="anchor" id="autotoc_md3"></a>
+Sensor Types (&lt;tt&gt;sensors_type_t&lt;/tt&gt;)</h1>
+<p>These pre-defined sensor types are used to properly handle the two related typedefs below, and allows us determine what types of units the sensor uses, etc.</p>
+<div class="fragment"><div class="line"> ++</div>
+<div class="line"><span class="keyword">typedef</span> <span class="keyword">enum</span></div>
+<div class="line">{</div>
+<div class="line">  <a class="code hl_enumvalue" href="../../d8/d21/Adafruit__Sensor_8h.html#af0bc43b5dae696582a77176e6e4ff643abd9779b04292b5e8054485b10fccb99c">SENSOR_TYPE_ACCELEROMETER</a>         = (1),</div>
+<div class="line">  <a class="code hl_enumvalue" href="../../d8/d21/Adafruit__Sensor_8h.html#af0bc43b5dae696582a77176e6e4ff643a74438e3f4f1f8cb1e97ccebbd1096fe8">SENSOR_TYPE_MAGNETIC_FIELD</a>        = (2),</div>
+<div class="line">  <a class="code hl_enumvalue" href="../../d8/d21/Adafruit__Sensor_8h.html#af0bc43b5dae696582a77176e6e4ff643af2ccaca19bdabe513c45c058003ed596">SENSOR_TYPE_ORIENTATION</a>           = (3),</div>
+<div class="line">  <a class="code hl_enumvalue" href="../../d8/d21/Adafruit__Sensor_8h.html#af0bc43b5dae696582a77176e6e4ff643adc01250dcba5642d294f74ba4d115c28">SENSOR_TYPE_GYROSCOPE</a>             = (4),</div>
+<div class="line">  <a class="code hl_enumvalue" href="../../d8/d21/Adafruit__Sensor_8h.html#af0bc43b5dae696582a77176e6e4ff643ae19c28b874a4ef6706d44af6f373f743">SENSOR_TYPE_LIGHT</a>                 = (5),</div>
+<div class="line">  <a class="code hl_enumvalue" href="../../d8/d21/Adafruit__Sensor_8h.html#af0bc43b5dae696582a77176e6e4ff643a81634a16935829065d399d686c44ad86">SENSOR_TYPE_PRESSURE</a>              = (6),</div>
+<div class="line">  <a class="code hl_enumvalue" href="../../d8/d21/Adafruit__Sensor_8h.html#af0bc43b5dae696582a77176e6e4ff643a47912cab9ef79bbe4eb20538a88ce59c">SENSOR_TYPE_PROXIMITY</a>             = (8),</div>
+<div class="line">  <a class="code hl_enumvalue" href="../../d8/d21/Adafruit__Sensor_8h.html#af0bc43b5dae696582a77176e6e4ff643ac7d364262029cc21bc865577d5288a1e">SENSOR_TYPE_GRAVITY</a>               = (9),</div>
+<div class="line">  <a class="code hl_enumvalue" href="../../d8/d21/Adafruit__Sensor_8h.html#af0bc43b5dae696582a77176e6e4ff643a914a1f090dcc61586318fd4eb4cb1384">SENSOR_TYPE_LINEAR_ACCELERATION</a>   = (10),</div>
+<div class="line">  <a class="code hl_enumvalue" href="../../d8/d21/Adafruit__Sensor_8h.html#af0bc43b5dae696582a77176e6e4ff643ac407aca03c7ce72ea55e52f40477561b">SENSOR_TYPE_ROTATION_VECTOR</a>       = (11),</div>
+<div class="line">  <a class="code hl_enumvalue" href="../../d8/d21/Adafruit__Sensor_8h.html#af0bc43b5dae696582a77176e6e4ff643ad9ebf0d3f835c55738b4d4e915768875">SENSOR_TYPE_RELATIVE_HUMIDITY</a>     = (12),</div>
+<div class="line">  <a class="code hl_enumvalue" href="../../d8/d21/Adafruit__Sensor_8h.html#af0bc43b5dae696582a77176e6e4ff643a7d9456395f361833de2ee3ef12a1af2a">SENSOR_TYPE_AMBIENT_TEMPERATURE</a>   = (13),</div>
+<div class="line">  <a class="code hl_enumvalue" href="../../d8/d21/Adafruit__Sensor_8h.html#af0bc43b5dae696582a77176e6e4ff643aac4a182cee3a61ab359afa073b352b02">SENSOR_TYPE_VOLTAGE</a>               = (15),</div>
+<div class="line">  <a class="code hl_enumvalue" href="../../d8/d21/Adafruit__Sensor_8h.html#af0bc43b5dae696582a77176e6e4ff643ac822523f1553bc62459b208283e27fa5">SENSOR_TYPE_CURRENT</a>               = (16),</div>
+<div class="line">  <a class="code hl_enumvalue" href="../../d8/d21/Adafruit__Sensor_8h.html#af0bc43b5dae696582a77176e6e4ff643ae41c2d95d02910a0e15266a9f4f1ed63">SENSOR_TYPE_COLOR</a>                 = (17),</div>
+<div class="line">  <a class="code hl_enumvalue" href="../../d8/d21/Adafruit__Sensor_8h.html#af0bc43b5dae696582a77176e6e4ff643a8fe1eefa1b328a2309468157d5cac708">SENSOR_TYPE_TVOC</a>                  = (18),</div>
+<div class="line">  <a class="code hl_enumvalue" href="../../d8/d21/Adafruit__Sensor_8h.html#af0bc43b5dae696582a77176e6e4ff643a62cb6aaf8b0b9ca89809c1a997d8e4aa">SENSOR_TYPE_VOC_INDEX</a>             = (19),</div>
+<div class="line">  <a class="code hl_enumvalue" href="../../d8/d21/Adafruit__Sensor_8h.html#af0bc43b5dae696582a77176e6e4ff643a7b5b13e7b0b5ddede5da02b9b641ded0">SENSOR_TYPE_NOX_INDEX</a>             = (20),</div>
+<div class="line">  <a class="code hl_enumvalue" href="../../d8/d21/Adafruit__Sensor_8h.html#af0bc43b5dae696582a77176e6e4ff643a25ded0461434d9a7c9da1cee49ae4d0c">SENSOR_TYPE_CO2</a>                   = (21),</div>
+<div class="line">  <a class="code hl_enumvalue" href="../../d8/d21/Adafruit__Sensor_8h.html#af0bc43b5dae696582a77176e6e4ff643a0e79dfb97be708264c62ef9db3443166">SENSOR_TYPE_ECO2</a>                  = (22),</div>
+<div class="line">  <a class="code hl_enumvalue" href="../../d8/d21/Adafruit__Sensor_8h.html#af0bc43b5dae696582a77176e6e4ff643a4e1f3cc1ed1177960f2043f0f0578ea6">SENSOR_TYPE_PM10_STD</a>              = (23),</div>
+<div class="line">  <a class="code hl_enumvalue" href="../../d8/d21/Adafruit__Sensor_8h.html#af0bc43b5dae696582a77176e6e4ff643a452c51de6a8c3b6870275c4357028dc9">SENSOR_TYPE_PM25_STD</a>              = (24),</div>
+<div class="line">  <a class="code hl_enumvalue" href="../../d8/d21/Adafruit__Sensor_8h.html#af0bc43b5dae696582a77176e6e4ff643a07693f91b7ff1162744491900f0c2323">SENSOR_TYPE_PM100_STD</a>             = (25),</div>
+<div class="line">  <a class="code hl_enumvalue" href="../../d8/d21/Adafruit__Sensor_8h.html#af0bc43b5dae696582a77176e6e4ff643afbabfdfb529c6d9b188c652067107894">SENSOR_TYPE_PM10_ENV</a>              = (26),</div>
+<div class="line">  <a class="code hl_enumvalue" href="../../d8/d21/Adafruit__Sensor_8h.html#af0bc43b5dae696582a77176e6e4ff643abfb48d33e86680404942187f29856a4b">SENSOR_TYPE_PM25_ENV</a>              = (27),</div>
+<div class="line">  <a class="code hl_enumvalue" href="../../d8/d21/Adafruit__Sensor_8h.html#af0bc43b5dae696582a77176e6e4ff643a85565025c01951ecaeae7efed9494aad">SENSOR_TYPE_PM100_ENV</a>             = (28),</div>
+<div class="line">  <a class="code hl_enumvalue" href="../../d8/d21/Adafruit__Sensor_8h.html#af0bc43b5dae696582a77176e6e4ff643a914dbad63e0ab1d5e3d109f82ac70ac3">SENSOR_TYPE_GAS_RESISTANCE</a>        = (29),</div>
+<div class="line">  <a class="code hl_enumvalue" href="../../d8/d21/Adafruit__Sensor_8h.html#af0bc43b5dae696582a77176e6e4ff643a226ee263a70720ea77615773d7cf85b7">SENSOR_TYPE_UNITLESS_PERCENT</a>      = (30),</div>
+<div class="line">  <a class="code hl_enumvalue" href="../../d8/d21/Adafruit__Sensor_8h.html#af0bc43b5dae696582a77176e6e4ff643ad8d3b328398e98dcf5a13f2e17952426">SENSOR_TYPE_ALTITUDE</a>              = (31),</div>
+<div class="line">} <a class="code hl_enumeration" href="../../d8/d21/Adafruit__Sensor_8h.html#af0bc43b5dae696582a77176e6e4ff643">sensors_type_t</a>;</div>
+<div class="ttc" id="aAdafruit__Sensor_8h_html_af0bc43b5dae696582a77176e6e4ff643"><div class="ttname"><a href="../../d8/d21/Adafruit__Sensor_8h.html#af0bc43b5dae696582a77176e6e4ff643">sensors_type_t</a></div><div class="ttdeci">sensors_type_t</div><div class="ttdef"><b>Definition</b> Adafruit_Sensor.h:52</div></div>
+<div class="ttc" id="aAdafruit__Sensor_8h_html_af0bc43b5dae696582a77176e6e4ff643a07693f91b7ff1162744491900f0c2323"><div class="ttname"><a href="../../d8/d21/Adafruit__Sensor_8h.html#af0bc43b5dae696582a77176e6e4ff643a07693f91b7ff1162744491900f0c2323">SENSOR_TYPE_PM100_STD</a></div><div class="ttdeci">@ SENSOR_TYPE_PM100_STD</div><div class="ttdef"><b>Definition</b> Adafruit_Sensor.h:77</div></div>
+<div class="ttc" id="aAdafruit__Sensor_8h_html_af0bc43b5dae696582a77176e6e4ff643a0e79dfb97be708264c62ef9db3443166"><div class="ttname"><a href="../../d8/d21/Adafruit__Sensor_8h.html#af0bc43b5dae696582a77176e6e4ff643a0e79dfb97be708264c62ef9db3443166">SENSOR_TYPE_ECO2</a></div><div class="ttdeci">@ SENSOR_TYPE_ECO2</div><div class="ttdef"><b>Definition</b> Adafruit_Sensor.h:74</div></div>
+<div class="ttc" id="aAdafruit__Sensor_8h_html_af0bc43b5dae696582a77176e6e4ff643a226ee263a70720ea77615773d7cf85b7"><div class="ttname"><a href="../../d8/d21/Adafruit__Sensor_8h.html#af0bc43b5dae696582a77176e6e4ff643a226ee263a70720ea77615773d7cf85b7">SENSOR_TYPE_UNITLESS_PERCENT</a></div><div class="ttdeci">@ SENSOR_TYPE_UNITLESS_PERCENT</div><div class="ttdef"><b>Definition</b> Adafruit_Sensor.h:82</div></div>
+<div class="ttc" id="aAdafruit__Sensor_8h_html_af0bc43b5dae696582a77176e6e4ff643a25ded0461434d9a7c9da1cee49ae4d0c"><div class="ttname"><a href="../../d8/d21/Adafruit__Sensor_8h.html#af0bc43b5dae696582a77176e6e4ff643a25ded0461434d9a7c9da1cee49ae4d0c">SENSOR_TYPE_CO2</a></div><div class="ttdeci">@ SENSOR_TYPE_CO2</div><div class="ttdef"><b>Definition</b> Adafruit_Sensor.h:73</div></div>
+<div class="ttc" id="aAdafruit__Sensor_8h_html_af0bc43b5dae696582a77176e6e4ff643a452c51de6a8c3b6870275c4357028dc9"><div class="ttname"><a href="../../d8/d21/Adafruit__Sensor_8h.html#af0bc43b5dae696582a77176e6e4ff643a452c51de6a8c3b6870275c4357028dc9">SENSOR_TYPE_PM25_STD</a></div><div class="ttdeci">@ SENSOR_TYPE_PM25_STD</div><div class="ttdef"><b>Definition</b> Adafruit_Sensor.h:76</div></div>
+<div class="ttc" id="aAdafruit__Sensor_8h_html_af0bc43b5dae696582a77176e6e4ff643a47912cab9ef79bbe4eb20538a88ce59c"><div class="ttname"><a href="../../d8/d21/Adafruit__Sensor_8h.html#af0bc43b5dae696582a77176e6e4ff643a47912cab9ef79bbe4eb20538a88ce59c">SENSOR_TYPE_PROXIMITY</a></div><div class="ttdeci">@ SENSOR_TYPE_PROXIMITY</div><div class="ttdef"><b>Definition</b> Adafruit_Sensor.h:59</div></div>
+<div class="ttc" id="aAdafruit__Sensor_8h_html_af0bc43b5dae696582a77176e6e4ff643a4e1f3cc1ed1177960f2043f0f0578ea6"><div class="ttname"><a href="../../d8/d21/Adafruit__Sensor_8h.html#af0bc43b5dae696582a77176e6e4ff643a4e1f3cc1ed1177960f2043f0f0578ea6">SENSOR_TYPE_PM10_STD</a></div><div class="ttdeci">@ SENSOR_TYPE_PM10_STD</div><div class="ttdef"><b>Definition</b> Adafruit_Sensor.h:75</div></div>
+<div class="ttc" id="aAdafruit__Sensor_8h_html_af0bc43b5dae696582a77176e6e4ff643a62cb6aaf8b0b9ca89809c1a997d8e4aa"><div class="ttname"><a href="../../d8/d21/Adafruit__Sensor_8h.html#af0bc43b5dae696582a77176e6e4ff643a62cb6aaf8b0b9ca89809c1a997d8e4aa">SENSOR_TYPE_VOC_INDEX</a></div><div class="ttdeci">@ SENSOR_TYPE_VOC_INDEX</div><div class="ttdef"><b>Definition</b> Adafruit_Sensor.h:71</div></div>
+<div class="ttc" id="aAdafruit__Sensor_8h_html_af0bc43b5dae696582a77176e6e4ff643a74438e3f4f1f8cb1e97ccebbd1096fe8"><div class="ttname"><a href="../../d8/d21/Adafruit__Sensor_8h.html#af0bc43b5dae696582a77176e6e4ff643a74438e3f4f1f8cb1e97ccebbd1096fe8">SENSOR_TYPE_MAGNETIC_FIELD</a></div><div class="ttdeci">@ SENSOR_TYPE_MAGNETIC_FIELD</div><div class="ttdef"><b>Definition</b> Adafruit_Sensor.h:54</div></div>
+<div class="ttc" id="aAdafruit__Sensor_8h_html_af0bc43b5dae696582a77176e6e4ff643a7b5b13e7b0b5ddede5da02b9b641ded0"><div class="ttname"><a href="../../d8/d21/Adafruit__Sensor_8h.html#af0bc43b5dae696582a77176e6e4ff643a7b5b13e7b0b5ddede5da02b9b641ded0">SENSOR_TYPE_NOX_INDEX</a></div><div class="ttdeci">@ SENSOR_TYPE_NOX_INDEX</div><div class="ttdef"><b>Definition</b> Adafruit_Sensor.h:72</div></div>
+<div class="ttc" id="aAdafruit__Sensor_8h_html_af0bc43b5dae696582a77176e6e4ff643a7d9456395f361833de2ee3ef12a1af2a"><div class="ttname"><a href="../../d8/d21/Adafruit__Sensor_8h.html#af0bc43b5dae696582a77176e6e4ff643a7d9456395f361833de2ee3ef12a1af2a">SENSOR_TYPE_AMBIENT_TEMPERATURE</a></div><div class="ttdeci">@ SENSOR_TYPE_AMBIENT_TEMPERATURE</div><div class="ttdef"><b>Definition</b> Adafruit_Sensor.h:65</div></div>
+<div class="ttc" id="aAdafruit__Sensor_8h_html_af0bc43b5dae696582a77176e6e4ff643a81634a16935829065d399d686c44ad86"><div class="ttname"><a href="../../d8/d21/Adafruit__Sensor_8h.html#af0bc43b5dae696582a77176e6e4ff643a81634a16935829065d399d686c44ad86">SENSOR_TYPE_PRESSURE</a></div><div class="ttdeci">@ SENSOR_TYPE_PRESSURE</div><div class="ttdef"><b>Definition</b> Adafruit_Sensor.h:58</div></div>
+<div class="ttc" id="aAdafruit__Sensor_8h_html_af0bc43b5dae696582a77176e6e4ff643a85565025c01951ecaeae7efed9494aad"><div class="ttname"><a href="../../d8/d21/Adafruit__Sensor_8h.html#af0bc43b5dae696582a77176e6e4ff643a85565025c01951ecaeae7efed9494aad">SENSOR_TYPE_PM100_ENV</a></div><div class="ttdeci">@ SENSOR_TYPE_PM100_ENV</div><div class="ttdef"><b>Definition</b> Adafruit_Sensor.h:80</div></div>
+<div class="ttc" id="aAdafruit__Sensor_8h_html_af0bc43b5dae696582a77176e6e4ff643a8fe1eefa1b328a2309468157d5cac708"><div class="ttname"><a href="../../d8/d21/Adafruit__Sensor_8h.html#af0bc43b5dae696582a77176e6e4ff643a8fe1eefa1b328a2309468157d5cac708">SENSOR_TYPE_TVOC</a></div><div class="ttdeci">@ SENSOR_TYPE_TVOC</div><div class="ttdef"><b>Definition</b> Adafruit_Sensor.h:70</div></div>
+<div class="ttc" id="aAdafruit__Sensor_8h_html_af0bc43b5dae696582a77176e6e4ff643a914a1f090dcc61586318fd4eb4cb1384"><div class="ttname"><a href="../../d8/d21/Adafruit__Sensor_8h.html#af0bc43b5dae696582a77176e6e4ff643a914a1f090dcc61586318fd4eb4cb1384">SENSOR_TYPE_LINEAR_ACCELERATION</a></div><div class="ttdeci">@ SENSOR_TYPE_LINEAR_ACCELERATION</div><div class="ttdef"><b>Definition</b> Adafruit_Sensor.h:61</div></div>
+<div class="ttc" id="aAdafruit__Sensor_8h_html_af0bc43b5dae696582a77176e6e4ff643a914dbad63e0ab1d5e3d109f82ac70ac3"><div class="ttname"><a href="../../d8/d21/Adafruit__Sensor_8h.html#af0bc43b5dae696582a77176e6e4ff643a914dbad63e0ab1d5e3d109f82ac70ac3">SENSOR_TYPE_GAS_RESISTANCE</a></div><div class="ttdeci">@ SENSOR_TYPE_GAS_RESISTANCE</div><div class="ttdef"><b>Definition</b> Adafruit_Sensor.h:81</div></div>
+<div class="ttc" id="aAdafruit__Sensor_8h_html_af0bc43b5dae696582a77176e6e4ff643aac4a182cee3a61ab359afa073b352b02"><div class="ttname"><a href="../../d8/d21/Adafruit__Sensor_8h.html#af0bc43b5dae696582a77176e6e4ff643aac4a182cee3a61ab359afa073b352b02">SENSOR_TYPE_VOLTAGE</a></div><div class="ttdeci">@ SENSOR_TYPE_VOLTAGE</div><div class="ttdef"><b>Definition</b> Adafruit_Sensor.h:67</div></div>
+<div class="ttc" id="aAdafruit__Sensor_8h_html_af0bc43b5dae696582a77176e6e4ff643abd9779b04292b5e8054485b10fccb99c"><div class="ttname"><a href="../../d8/d21/Adafruit__Sensor_8h.html#af0bc43b5dae696582a77176e6e4ff643abd9779b04292b5e8054485b10fccb99c">SENSOR_TYPE_ACCELEROMETER</a></div><div class="ttdeci">@ SENSOR_TYPE_ACCELEROMETER</div><div class="ttdef"><b>Definition</b> Adafruit_Sensor.h:53</div></div>
+<div class="ttc" id="aAdafruit__Sensor_8h_html_af0bc43b5dae696582a77176e6e4ff643abfb48d33e86680404942187f29856a4b"><div class="ttname"><a href="../../d8/d21/Adafruit__Sensor_8h.html#af0bc43b5dae696582a77176e6e4ff643abfb48d33e86680404942187f29856a4b">SENSOR_TYPE_PM25_ENV</a></div><div class="ttdeci">@ SENSOR_TYPE_PM25_ENV</div><div class="ttdef"><b>Definition</b> Adafruit_Sensor.h:79</div></div>
+<div class="ttc" id="aAdafruit__Sensor_8h_html_af0bc43b5dae696582a77176e6e4ff643ac407aca03c7ce72ea55e52f40477561b"><div class="ttname"><a href="../../d8/d21/Adafruit__Sensor_8h.html#af0bc43b5dae696582a77176e6e4ff643ac407aca03c7ce72ea55e52f40477561b">SENSOR_TYPE_ROTATION_VECTOR</a></div><div class="ttdeci">@ SENSOR_TYPE_ROTATION_VECTOR</div><div class="ttdef"><b>Definition</b> Adafruit_Sensor.h:63</div></div>
+<div class="ttc" id="aAdafruit__Sensor_8h_html_af0bc43b5dae696582a77176e6e4ff643ac7d364262029cc21bc865577d5288a1e"><div class="ttname"><a href="../../d8/d21/Adafruit__Sensor_8h.html#af0bc43b5dae696582a77176e6e4ff643ac7d364262029cc21bc865577d5288a1e">SENSOR_TYPE_GRAVITY</a></div><div class="ttdeci">@ SENSOR_TYPE_GRAVITY</div><div class="ttdef"><b>Definition</b> Adafruit_Sensor.h:60</div></div>
+<div class="ttc" id="aAdafruit__Sensor_8h_html_af0bc43b5dae696582a77176e6e4ff643ac822523f1553bc62459b208283e27fa5"><div class="ttname"><a href="../../d8/d21/Adafruit__Sensor_8h.html#af0bc43b5dae696582a77176e6e4ff643ac822523f1553bc62459b208283e27fa5">SENSOR_TYPE_CURRENT</a></div><div class="ttdeci">@ SENSOR_TYPE_CURRENT</div><div class="ttdef"><b>Definition</b> Adafruit_Sensor.h:68</div></div>
+<div class="ttc" id="aAdafruit__Sensor_8h_html_af0bc43b5dae696582a77176e6e4ff643ad8d3b328398e98dcf5a13f2e17952426"><div class="ttname"><a href="../../d8/d21/Adafruit__Sensor_8h.html#af0bc43b5dae696582a77176e6e4ff643ad8d3b328398e98dcf5a13f2e17952426">SENSOR_TYPE_ALTITUDE</a></div><div class="ttdeci">@ SENSOR_TYPE_ALTITUDE</div><div class="ttdef"><b>Definition</b> Adafruit_Sensor.h:83</div></div>
+<div class="ttc" id="aAdafruit__Sensor_8h_html_af0bc43b5dae696582a77176e6e4ff643ad9ebf0d3f835c55738b4d4e915768875"><div class="ttname"><a href="../../d8/d21/Adafruit__Sensor_8h.html#af0bc43b5dae696582a77176e6e4ff643ad9ebf0d3f835c55738b4d4e915768875">SENSOR_TYPE_RELATIVE_HUMIDITY</a></div><div class="ttdeci">@ SENSOR_TYPE_RELATIVE_HUMIDITY</div><div class="ttdef"><b>Definition</b> Adafruit_Sensor.h:64</div></div>
+<div class="ttc" id="aAdafruit__Sensor_8h_html_af0bc43b5dae696582a77176e6e4ff643adc01250dcba5642d294f74ba4d115c28"><div class="ttname"><a href="../../d8/d21/Adafruit__Sensor_8h.html#af0bc43b5dae696582a77176e6e4ff643adc01250dcba5642d294f74ba4d115c28">SENSOR_TYPE_GYROSCOPE</a></div><div class="ttdeci">@ SENSOR_TYPE_GYROSCOPE</div><div class="ttdef"><b>Definition</b> Adafruit_Sensor.h:56</div></div>
+<div class="ttc" id="aAdafruit__Sensor_8h_html_af0bc43b5dae696582a77176e6e4ff643ae19c28b874a4ef6706d44af6f373f743"><div class="ttname"><a href="../../d8/d21/Adafruit__Sensor_8h.html#af0bc43b5dae696582a77176e6e4ff643ae19c28b874a4ef6706d44af6f373f743">SENSOR_TYPE_LIGHT</a></div><div class="ttdeci">@ SENSOR_TYPE_LIGHT</div><div class="ttdef"><b>Definition</b> Adafruit_Sensor.h:57</div></div>
+<div class="ttc" id="aAdafruit__Sensor_8h_html_af0bc43b5dae696582a77176e6e4ff643ae41c2d95d02910a0e15266a9f4f1ed63"><div class="ttname"><a href="../../d8/d21/Adafruit__Sensor_8h.html#af0bc43b5dae696582a77176e6e4ff643ae41c2d95d02910a0e15266a9f4f1ed63">SENSOR_TYPE_COLOR</a></div><div class="ttdeci">@ SENSOR_TYPE_COLOR</div><div class="ttdef"><b>Definition</b> Adafruit_Sensor.h:69</div></div>
+<div class="ttc" id="aAdafruit__Sensor_8h_html_af0bc43b5dae696582a77176e6e4ff643af2ccaca19bdabe513c45c058003ed596"><div class="ttname"><a href="../../d8/d21/Adafruit__Sensor_8h.html#af0bc43b5dae696582a77176e6e4ff643af2ccaca19bdabe513c45c058003ed596">SENSOR_TYPE_ORIENTATION</a></div><div class="ttdeci">@ SENSOR_TYPE_ORIENTATION</div><div class="ttdef"><b>Definition</b> Adafruit_Sensor.h:55</div></div>
+<div class="ttc" id="aAdafruit__Sensor_8h_html_af0bc43b5dae696582a77176e6e4ff643afbabfdfb529c6d9b188c652067107894"><div class="ttname"><a href="../../d8/d21/Adafruit__Sensor_8h.html#af0bc43b5dae696582a77176e6e4ff643afbabfdfb529c6d9b188c652067107894">SENSOR_TYPE_PM10_ENV</a></div><div class="ttdeci">@ SENSOR_TYPE_PM10_ENV</div><div class="ttdef"><b>Definition</b> Adafruit_Sensor.h:78</div></div>
+</div><!-- fragment --><h1><a class="anchor" id="autotoc_md4"></a>
+Sensor Details (&lt;tt&gt;sensor_t&lt;/tt&gt;)</h1>
+<p>This typedef describes the specific capabilities of this sensor, and allows us to know what sensor we are using beneath the abstraction layer.</p>
+<div class="fragment"><div class="line"> ++</div>
+<div class="line"><span class="comment">/* Sensor details (40 bytes) */</span></div>
+<div class="line"><span class="keyword">typedef</span> <span class="keyword">struct</span></div>
+<div class="line">{</div>
+<div class="line">    <span class="keywordtype">char</span>     name[12];</div>
+<div class="line">    int32_t  version;</div>
+<div class="line">    int32_t  sensor_id;</div>
+<div class="line">    int32_t  type;</div>
+<div class="line">    <span class="keywordtype">float</span>    max_value;</div>
+<div class="line">    <span class="keywordtype">float</span>    min_value;</div>
+<div class="line">    <span class="keywordtype">float</span>    resolution;</div>
+<div class="line">    int32_t  min_delay;</div>
+<div class="line">} <a class="code hl_struct" href="../../db/dd8/structsensor__t.html">sensor_t</a>;</div>
+<div class="ttc" id="astructsensor__t_html"><div class="ttname"><a href="../../db/dd8/structsensor__t.html">sensor_t</a></div><div class="ttdef"><b>Definition</b> Adafruit_Sensor.h:183</div></div>
+</div><!-- fragment --><p>The individual fields are intended to be used as follows:</p>
+<ul>
+<li><b>name</b>: The sensor name or ID, up to a maximum of twelve characters (ex. "MPL115A2")</li>
+<li><b>version</b>: The version of the sensor HW and the driver to allow us to differentiate versions of the board or driver</li>
+<li><b>sensor_id</b>: A unique sensor identifier that is used to differentiate this specific sensor instance from any others that are present on the system or in the sensor network</li>
+<li><b>type</b>: The sensor type, based on <b>sensors_type_t</b> in sensors.h</li>
+<li><b>max_value</b>: The maximum value that this sensor can return (in the appropriate SI unit)</li>
+<li><b>min_value</b>: The minimum value that this sensor can return (in the appropriate SI unit)</li>
+<li><b>resolution</b>: The smallest difference between two values that this sensor can report (in the appropriate SI unit)</li>
+<li><b>min_delay</b>: The minimum delay in microseconds between two sensor events, or '0' if there is no constant sensor rate</li>
+</ul>
+<h1><a class="anchor" id="autotoc_md5"></a>
+Sensor Data/Events (&lt;tt&gt;sensors_event_t&lt;/tt&gt;)</h1>
+<p>This typedef is used to return sensor data from any sensor supported by the abstraction layer, using standard SI units and scales.</p>
+<div class="fragment"><div class="line"> ++</div>
+<div class="line"><span class="comment">/* Sensor event (36 bytes) */</span></div>
+<div class="line"><span class="keyword">typedef</span> <span class="keyword">struct</span></div>
+<div class="line">{</div>
+<div class="line">    int32_t version;</div>
+<div class="line">    int32_t sensor_id;</div>
+<div class="line">    int32_t type;</div>
+<div class="line">    int32_t reserved0;</div>
+<div class="line">    int32_t timestamp;</div>
+<div class="line">    <span class="keyword">union</span></div>
+<div class="line">    {</div>
+<div class="line">        <span class="keywordtype">float</span>           data[4];</div>
+<div class="line">        <a class="code hl_struct" href="../../df/d6c/structsensors__vec__t.html">sensors_vec_t</a>   acceleration;</div>
+<div class="line">        <a class="code hl_struct" href="../../df/d6c/structsensors__vec__t.html">sensors_vec_t</a>   magnetic;</div>
+<div class="line">        <a class="code hl_struct" href="../../df/d6c/structsensors__vec__t.html">sensors_vec_t</a>   orientation;</div>
+<div class="line">        <a class="code hl_struct" href="../../df/d6c/structsensors__vec__t.html">sensors_vec_t</a>   gyro;</div>
+<div class="line">        <span class="keywordtype">float</span>           temperature;</div>
+<div class="line">        <span class="keywordtype">float</span>           distance;</div>
+<div class="line">        <span class="keywordtype">float</span>           light;</div>
+<div class="line">        <span class="keywordtype">float</span>           pressure;</div>
+<div class="line">        <span class="keywordtype">float</span>           relative_humidity;</div>
+<div class="line">        <span class="keywordtype">float</span>           current;</div>
+<div class="line">        <span class="keywordtype">float</span>           voltage;</div>
+<div class="line">        <span class="keywordtype">float</span>           tvoc;</div>
+<div class="line">        <span class="keywordtype">float</span>           voc_index;</div>
+<div class="line">        <span class="keywordtype">float</span>           nox_index;</div>
+<div class="line">        <span class="keywordtype">float</span>           CO2,</div>
+<div class="line">        <span class="keywordtype">float</span>           eCO2,</div>
+<div class="line">        <span class="keywordtype">float</span>           pm10_std,</div>
+<div class="line">        <span class="keywordtype">float</span>           pm25_std,</div>
+<div class="line">        <span class="keywordtype">float</span>           pm100_std,</div>
+<div class="line">        <span class="keywordtype">float</span>           pm10_env,</div>
+<div class="line">        <span class="keywordtype">float</span>           pm25_env,</div>
+<div class="line">        <span class="keywordtype">float</span>           pm100_env,</div>
+<div class="line">        <span class="keywordtype">float</span>           gas_resistance,</div>
+<div class="line">        <span class="keywordtype">float</span>           unitless_percent,</div>
+<div class="line">        <span class="keywordtype">float</span>           altitude,</div>
+<div class="line">        <a class="code hl_struct" href="../../d1/df5/structsensors__color__t.html">sensors_color_t</a> color;</div>
+<div class="line">    };</div>
+<div class="line">} <a class="code hl_struct" href="../../d4/d2a/structsensors__event__t.html">sensors_event_t</a>;</div>
+<div class="ttc" id="astructsensors__color__t_html"><div class="ttname"><a href="../../d1/df5/structsensors__color__t.html">sensors_color_t</a></div><div class="ttdef"><b>Definition</b> Adafruit_Sensor.h:114</div></div>
+<div class="ttc" id="astructsensors__event__t_html"><div class="ttname"><a href="../../d4/d2a/structsensors__event__t.html">sensors_event_t</a></div><div class="ttdef"><b>Definition</b> Adafruit_Sensor.h:130</div></div>
+<div class="ttc" id="astructsensors__vec__t_html"><div class="ttname"><a href="../../df/d6c/structsensors__vec__t.html">sensors_vec_t</a></div><div class="ttdef"><b>Definition</b> Adafruit_Sensor.h:87</div></div>
+</div><!-- fragment --><p> It includes the following fields:</p>
+<ul>
+<li><b>version</b>: Contain 'sizeof(sensors_event_t)' to identify which version of the API we're using in case this changes in the future</li>
+<li><b>sensor_id</b>: A unique sensor identifier that is used to differentiate this specific sensor instance from any others that are present on the system or in the sensor network (must match the sensor_id value in the corresponding <a class="el" href="../../db/dd8/structsensor__t.html">sensor_t</a> enum above!)</li>
+<li><b>type</b>: the sensor type, based on <b>sensors_type_t</b> in sensors.h</li>
+<li><b>timestamp</b>: time in milliseconds when the sensor value was read</li>
+<li><b>data[4]</b>: An array of four 32-bit values that allows us to encapsulate any type of sensor data via a simple union (further described below)</li>
+</ul>
+<h1><a class="anchor" id="autotoc_md6"></a>
+Required Functions</h1>
+<p>In addition to the two standard types and the sensor type enum, all drivers based on <a class="el" href="../../df/d16/classAdafruit__Sensor.html" title="Common sensor interface to unify various sensors. Intentionally modeled after sensors....">Adafruit_Sensor</a> must also implement the following two functions:</p>
+<div class="fragment"><div class="line"> ++</div>
+<div class="line"><span class="keywordtype">bool</span> getEvent(<a class="code hl_struct" href="../../d4/d2a/structsensors__event__t.html">sensors_event_t</a>*);</div>
+</div><!-- fragment --><p> Calling this function will populate the supplied <a class="el" href="../../d4/d2a/structsensors__event__t.html">sensors_event_t</a> reference with the latest available sensor data. You should call this function as often as you want to update your data.</p>
+<div class="fragment"><div class="line"> ++</div>
+<div class="line"><span class="keywordtype">void</span> getSensor(<a class="code hl_struct" href="../../db/dd8/structsensor__t.html">sensor_t</a>*);</div>
+</div><!-- fragment --><p> Calling this function will provide some basic information about the sensor (the sensor name, driver version, min and max values, etc.</p>
+<h1><a class="anchor" id="autotoc_md7"></a>
+Standardised SI values for &lt;tt&gt;sensors_event_t&lt;/tt&gt;</h1>
+<p>A key part of the abstraction layer is the standardization of values on SI units of a particular scale, which is accomplished via the data[4] union in <a class="el" href="../../d4/d2a/structsensors__event__t.html">sensors_event_t</a> above. This 16 byte union includes fields for each main sensor type, and uses the following SI units and scales:</p>
+<ul>
+<li><b>acceleration</b>: values are in <b>meter per second per second</b> (m/s^2)</li>
+<li><b>magnetic</b>: values are in <b>micro-Tesla</b> (uT)</li>
+<li><b>orientation</b>: values are in <b>degrees</b></li>
+<li><b>gyro</b>: values are in <b>rad/s</b></li>
+<li><b>temperature</b>: values in <b>degrees centigrade</b> (Celsius)</li>
+<li><b>distance</b>: values are in <b>centimeters</b></li>
+<li><b>light</b>: values are in <b>SI lux</b> units</li>
+<li><b>pressure</b>: values are in <b>hectopascal</b> (hPa)</li>
+<li><b>relative_humidity</b>: values are in <b>percent</b></li>
+<li><b>current</b>: values are in <b>milliamps</b> (mA)</li>
+<li><b>voltage</b>: values are in <b>volts</b> (V)</li>
+<li><b>color</b>: values are in 0..1.0 RGB channel luminosity and 32-bit RGBA format</li>
+<li><b>tvoc</b>: values are in <b>parts per billion</b> (ppb)</li>
+<li><b>voc_index</b>: values are an <b>index</b> from 1-500 with 100 being normal</li>
+<li><b>nox_index</b>: values are an <b>index</b> from 1-500 with 100 being normal</li>
+<li><b>CO2</b>: values are in <b>parts per million</b> (ppm)</li>
+<li><b>eCO2</b>: values are in <b>parts per million</b> (ppm)</li>
+<li><b>pm10_std</b>: values are in <b>parts per million</b> (ppm)</li>
+<li><b>pm25_std</b>: values are in <b>parts per million</b> (ppm)</li>
+<li><b>pm100_std</b>: values are in <b>parts per million</b> (ppm)</li>
+<li><b>pm10_env</b>: values are in <b>parts per million</b> (ppm)</li>
+<li><b>pm25_env</b>: values are in <b>parts per million</b> (ppm)</li>
+<li><b>pm100_env</b>: values are in <b>parts per million</b> (ppm)</li>
+<li><b>gas_resistance</b>: values are in <b>ohms</b></li>
+<li><b>unitless_percent</b>: values are in <b>%</b></li>
+<li><b>altitude</b>: values are in <b>meters</b> (m)</li>
+</ul>
+<h1><a class="anchor" id="autotoc_md8"></a>
+The Unified Driver Abstraction Layer in Practice</h1>
+<p>Using the unified sensor abstraction layer is relatively easy once a compliant driver has been created.</p>
+<p>Every compliant sensor can now be read using a single, well-known 'type' (<a class="el" href="../../d4/d2a/structsensors__event__t.html">sensors_event_t</a>), and there is a standardized way of interrogating a sensor about its specific capabilities (via <a class="el" href="../../db/dd8/structsensor__t.html">sensor_t</a>).</p>
+<p>An example of reading the <a href="https://github.com/adafruit/Adafruit_TSL2561">TSL2561</a> light sensor can be seen below:</p>
+<div class="fragment"><div class="line">++</div>
+<div class="line">Adafruit_TSL2561 tsl = Adafruit_TSL2561(TSL2561_ADDR_FLOAT, 12345);</div>
+<div class="line">...</div>
+<div class="line"><span class="comment">/* Get a new sensor event */</span> </div>
+<div class="line"><a class="code hl_struct" href="../../d4/d2a/structsensors__event__t.html">sensors_event_t</a> event;</div>
+<div class="line">tsl.getEvent(&amp;event);</div>
+<div class="line"> </div>
+<div class="line"><span class="comment">/* Display the results (light is measured in lux) */</span></div>
+<div class="line"><span class="keywordflow">if</span> (event.<a class="code hl_variable" href="../../d4/d2a/structsensors__event__t.html#adefd2ce2da44e4449ef7cadeaecc6cfd">light</a>)</div>
+<div class="line">{</div>
+<div class="line">  Serial.print(event.<a class="code hl_variable" href="../../d4/d2a/structsensors__event__t.html#adefd2ce2da44e4449ef7cadeaecc6cfd">light</a>); Serial.println(<span class="stringliteral">&quot; lux&quot;</span>);</div>
+<div class="line">}</div>
+<div class="line"><span class="keywordflow">else</span></div>
+<div class="line">{</div>
+<div class="line">  <span class="comment">/* If event.light = 0 lux the sensor is probably saturated</span></div>
+<div class="line"><span class="comment">     and no reliable data could be generated! */</span></div>
+<div class="line">  Serial.println(<span class="stringliteral">&quot;Sensor overload&quot;</span>);</div>
+<div class="line">}</div>
+<div class="ttc" id="astructsensors__event__t_html_adefd2ce2da44e4449ef7cadeaecc6cfd"><div class="ttname"><a href="../../d4/d2a/structsensors__event__t.html#adefd2ce2da44e4449ef7cadeaecc6cfd">sensors_event_t::light</a></div><div class="ttdeci">float light</div><div class="ttdef"><b>Definition</b> Adafruit_Sensor.h:146</div></div>
+</div><!-- fragment --><p>Similarly, we can get the basic technical capabilities of this sensor with the following code:</p>
+<div class="fragment"><div class="line">++</div>
+<div class="line"><a class="code hl_struct" href="../../db/dd8/structsensor__t.html">sensor_t</a> sensor;</div>
+<div class="line"> </div>
+<div class="line"><a class="code hl_struct" href="../../db/dd8/structsensor__t.html">sensor_t</a> sensor;</div>
+<div class="line">tsl.getSensor(&amp;sensor);</div>
+<div class="line"> </div>
+<div class="line"><span class="comment">/* Display the sensor details */</span></div>
+<div class="line">Serial.println(<span class="stringliteral">&quot;------------------------------------&quot;</span>);</div>
+<div class="line">Serial.print  (<span class="stringliteral">&quot;Sensor:       &quot;</span>); Serial.println(sensor.<a class="code hl_variable" href="../../db/dd8/structsensor__t.html#a4383b68d36f9dc4096d83583c3b009bf">name</a>);</div>
+<div class="line">Serial.print  (<span class="stringliteral">&quot;Driver Ver:   &quot;</span>); Serial.println(sensor.<a class="code hl_variable" href="../../db/dd8/structsensor__t.html#a274f12a47669fbd2b61935706339e1c2">version</a>);</div>
+<div class="line">Serial.print  (<span class="stringliteral">&quot;Unique ID:    &quot;</span>); Serial.println(sensor.<a class="code hl_variable" href="../../db/dd8/structsensor__t.html#a224f6201d59873cc1b6e9dd8a1894736">sensor_id</a>);</div>
+<div class="line">Serial.print  (<span class="stringliteral">&quot;Max Value:    &quot;</span>); Serial.print(sensor.<a class="code hl_variable" href="../../db/dd8/structsensor__t.html#a1a17359f1080eb169a452656f7dec1ee">max_value</a>); Serial.println(<span class="stringliteral">&quot; lux&quot;</span>);</div>
+<div class="line">Serial.print  (<span class="stringliteral">&quot;Min Value:    &quot;</span>); Serial.print(sensor.<a class="code hl_variable" href="../../db/dd8/structsensor__t.html#a4556ed82a0389a7f6af25a6fd0ee1431">min_value</a>); Serial.println(<span class="stringliteral">&quot; lux&quot;</span>);</div>
+<div class="line">Serial.print  (<span class="stringliteral">&quot;Resolution:   &quot;</span>); Serial.print(sensor.<a class="code hl_variable" href="../../db/dd8/structsensor__t.html#a926aba3216afd50e62c0a6cdbcc7433a">resolution</a>); Serial.println(<span class="stringliteral">&quot; lux&quot;</span>);  </div>
+<div class="line">Serial.println(<span class="stringliteral">&quot;------------------------------------&quot;</span>);</div>
+<div class="line">Serial.println(<span class="stringliteral">&quot;&quot;</span>);</div>
+<div class="ttc" id="astructsensor__t_html_a1a17359f1080eb169a452656f7dec1ee"><div class="ttname"><a href="../../db/dd8/structsensor__t.html#a1a17359f1080eb169a452656f7dec1ee">sensor_t::max_value</a></div><div class="ttdeci">float max_value</div><div class="ttdef"><b>Definition</b> Adafruit_Sensor.h:188</div></div>
+<div class="ttc" id="astructsensor__t_html_a224f6201d59873cc1b6e9dd8a1894736"><div class="ttname"><a href="../../db/dd8/structsensor__t.html#a224f6201d59873cc1b6e9dd8a1894736">sensor_t::sensor_id</a></div><div class="ttdeci">int32_t sensor_id</div><div class="ttdef"><b>Definition</b> Adafruit_Sensor.h:186</div></div>
+<div class="ttc" id="astructsensor__t_html_a274f12a47669fbd2b61935706339e1c2"><div class="ttname"><a href="../../db/dd8/structsensor__t.html#a274f12a47669fbd2b61935706339e1c2">sensor_t::version</a></div><div class="ttdeci">int32_t version</div><div class="ttdef"><b>Definition</b> Adafruit_Sensor.h:185</div></div>
+<div class="ttc" id="astructsensor__t_html_a4383b68d36f9dc4096d83583c3b009bf"><div class="ttname"><a href="../../db/dd8/structsensor__t.html#a4383b68d36f9dc4096d83583c3b009bf">sensor_t::name</a></div><div class="ttdeci">char name[12]</div><div class="ttdef"><b>Definition</b> Adafruit_Sensor.h:184</div></div>
+<div class="ttc" id="astructsensor__t_html_a4556ed82a0389a7f6af25a6fd0ee1431"><div class="ttname"><a href="../../db/dd8/structsensor__t.html#a4556ed82a0389a7f6af25a6fd0ee1431">sensor_t::min_value</a></div><div class="ttdeci">float min_value</div><div class="ttdef"><b>Definition</b> Adafruit_Sensor.h:189</div></div>
+<div class="ttc" id="astructsensor__t_html_a926aba3216afd50e62c0a6cdbcc7433a"><div class="ttname"><a href="../../db/dd8/structsensor__t.html#a926aba3216afd50e62c0a6cdbcc7433a">sensor_t::resolution</a></div><div class="ttdeci">float resolution</div><div class="ttdef"><b>Definition</b> Adafruit_Sensor.h:190</div></div>
+</div><!-- fragment --> </div></div><!-- contents -->
+</div><!-- PageDoc -->
+</div><!-- doc-content -->
+<!-- start footer part -->
+<div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
+  <ul>
+    <li class="footer">Généré par <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.10.0 </li>
+  </ul>
+</div>
+</body>
+</html>

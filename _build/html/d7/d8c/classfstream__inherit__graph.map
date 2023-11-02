@@ -1,0 +1,19 @@
+<map id="fstream" name="fstream">
+<area shape="rect" id="Node000001" title="file input/output stream." alt="" coords="101,299,174,324"/>
+<area shape="rect" id="Node000002" href="$d1/d31/classiostream.html" title="Input/Output stream." alt="" coords="161,225,241,251"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="184,263,150,300,146,297,180,259"/>
+<area shape="rect" id="Node000003" href="$d4/d07/classistream.html" title="Input Stream." alt="" coords="165,152,237,177"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="204,191,204,225,199,225,199,191"/>
+<area shape="rect" id="Node000004" href="$df/d02/classios.html" title="Error and state information for all streams." alt="" coords="181,79,222,104"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="204,118,204,152,199,152,199,118"/>
+<area shape="rect" id="Node000006" href="$d0/d43/classostream.html" title="Output Stream." alt="" coords="262,152,338,177"/>
+<area shape="poly" id="edge6_Node000006_Node000004" title=" " alt="" coords="230,110,285,150,282,154,226,114"/>
+<area shape="rect" id="Node000007" href="$d0/d4a/classStreamBaseClass.html" title="base type for FAT and exFAT streams" alt="" coords="5,152,141,177"/>
+<area shape="poly" id="edge9_Node000007_Node000004" title=" " alt="" coords="170,113,96,154,93,149,167,108"/>
+<area shape="rect" id="Node000005" href="$d4/dc1/classios__base.html" title="Base class for all streams." alt="" coords="162,5,241,31"/>
+<area shape="poly" id="edge4_Node000004_Node000005" title=" " alt="" coords="204,44,204,79,199,79,199,44"/>
+<area shape="poly" id="edge5_Node000002_Node000006" title=" " alt="" coords="275,187,219,227,216,223,272,183"/>
+<area shape="poly" id="edge7_Node000001_Node000007" title=" " alt="" coords="86,189,135,297,130,300,82,191"/>
+<area shape="rect" id="Node000008" href="$d0/db5/classFsBaseFile.html" title="FsBaseFile class." alt="" coords="11,79,135,104"/>
+<area shape="poly" id="edge8_Node000007_Node000008" title=" " alt="" coords="76,118,76,152,71,152,71,118"/>
+</map>

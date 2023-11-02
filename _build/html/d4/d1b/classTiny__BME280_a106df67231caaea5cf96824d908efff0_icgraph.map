@@ -1,0 +1,15 @@
+<map id="Tiny_BME280::readTemperature" name="Tiny_BME280::readTemperature">
+<area shape="rect" id="Node000001" title="Returns the temperature from the sensor." alt="" coords="519,55,748,80"/>
+<area shape="rect" id="Node000002" href="$d6/dd1/classTiny__BME280__Temp.html#ab3688bcaf449086ff0bb2f1f31b64d6f" title="Gets the temperature as a standard sensor event." alt="" coords="252,5,471,31"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="549,55,432,33,433,28,550,50"/>
+<area shape="rect" id="Node000003" href="$d4/d1b/classTiny__BME280.html#a605f1e7a8ff97f7953e929f7dae0305f" title="Returns the humidity from the sensor." alt="" coords="258,55,465,80"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="505,70,465,70,465,65,505,65"/>
+<area shape="rect" id="Node000005" href="$d4/d1b/classTiny__BME280.html#a6d9bd7e6e3ec84d4dbaaf4fd0292344f" title="Returns the pressure from the sensor." alt="" coords="260,111,463,136"/>
+<area shape="poly" id="edge4_Node000001_Node000005" title=" " alt="" coords="558,85,425,113,423,108,557,80"/>
+<area shape="rect" id="Node000004" href="$d7/dd5/classTiny__BME280__Humidity.html#abe6a0e635931dc6cd4c8817ca331c550" title="Gets the humidity as a standard sensor event." alt="" coords="16,39,193,79"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="244,66,194,65,194,59,244,61"/>
+<area shape="rect" id="Node000006" href="$db/d9c/classTiny__BME280__Pressure.html#a211cb9441b4c083257b915d8a692b197" title="Gets the pressure as a standard sensor event." alt="" coords="18,103,191,143"/>
+<area shape="poly" id="edge5_Node000005_Node000006" title=" " alt="" coords="247,126,192,126,192,121,247,121"/>
+<area shape="rect" id="Node000007" href="$d4/d1b/classTiny__BME280.html#a31778391214d9703b30b6a045cab6614" title=" " alt="" coords="5,168,204,193"/>
+<area shape="poly" id="edge6_Node000005_Node000007" title=" " alt="" coords="291,142,163,171,162,165,290,136"/>
+</map>

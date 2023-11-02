@@ -1,0 +1,24 @@
+<map id="File32" name="File32">
+<area shape="rect" id="Node000001" title="FAT16/FAT32 file with Arduino Stream." alt="" coords="51,521,113,547"/>
+<area shape="rect" id="Node000002" href="$d1/d9b/classStreamFile.html" title=" " alt="" coords="5,432,159,472"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="85,486,85,521,79,521,79,486"/>
+<area shape="rect" id="Node000003" title=" " alt="" coords="29,344,109,369"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="75,382,82,431,77,432,70,383"/>
+<area shape="rect" id="Node000004" href="$d3/db4/classFatFile.html" title="Basic file class." alt="" coords="133,344,197,369"/>
+<area shape="poly" id="edge3_Node000002_Node000004" title=" " alt="" coords="147,382,101,434,97,430,143,378"/>
+<area shape="rect" id="Node000005" href="$d3/dd5/classFatVolume.html" title="Integration class for the FatLib library." alt="" coords="197,439,287,465"/>
+<area shape="poly" id="edge12_Node000005_Node000004" title=" " alt="" coords="156,382,154,395,158,407,175,425,198,437,196,442,172,429,153,409,149,396,151,382"/>
+<area shape="poly" id="edge4_Node000004_Node000005" title=" " alt="" coords="230,428,211,395,183,372,186,368,215,392,235,425"/>
+<area shape="poly" id="edge11_Node000005_Node000005" title=" " alt="" coords="302,443,310,446,314,452,305,460,288,463,287,457,303,455,309,452,307,450,300,448"/>
+<area shape="rect" id="Node000006" href="$d8/d15/classFatPartition.html" title="Access FAT16 and FAT32 partitions on raw file devices." alt="" coords="260,344,355,369"/>
+<area shape="poly" id="edge5_Node000005_Node000006" title=" " alt="" coords="303,384,291,409,276,427,260,441,256,437,272,423,286,407,298,381"/>
+<area shape="rect" id="Node000007" href="$d2/dec/classDedicatedSpiCard.html" title="Raw access to SD and SDHC flash memory cards via dedicate SPI port." alt="" coords="211,168,350,193"/>
+<area shape="poly" id="edge6_Node000006_Node000007" title=" " alt="" coords="277,207,272,242,274,281,287,315,302,343,297,345,282,317,269,282,266,242,271,206"/>
+<area shape="rect" id="Node000010" href="$dd/db1/classFsCache.html" title="Sector cache." alt="" coords="369,256,446,281"/>
+<area shape="poly" id="edge10_Node000010_Node000007" title=" " alt="" coords="311,199,392,254,389,258,308,203"/>
+<area shape="rect" id="Node000008" href="$d8/d7f/classSharedSpiCard.html" title="Raw access to SD and SDHC flash memory cards via shared SPI port." alt="" coords="222,93,339,119"/>
+<area shape="poly" id="edge7_Node000007_Node000008" title=" " alt="" coords="283,133,283,168,278,168,278,133"/>
+<area shape="rect" id="Node000009" href="$d0/d25/classSdSpiArduinoDriver.html" title="Optimized SPI class for access to SD and SDHC flash memory cards." alt="" coords="207,5,355,31"/>
+<area shape="poly" id="edge8_Node000008_Node000009" title=" " alt="" coords="283,45,283,93,278,93,278,45"/>
+<area shape="poly" id="edge9_Node000006_Node000010" title=" " alt="" coords="385,292,323,345,320,341,382,288"/>
+</map>

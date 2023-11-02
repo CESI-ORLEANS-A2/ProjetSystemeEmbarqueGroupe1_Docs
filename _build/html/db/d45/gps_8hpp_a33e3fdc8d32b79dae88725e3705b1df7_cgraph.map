@@ -1,0 +1,9 @@
+<map id="initGPS" name="initGPS">
+<area shape="rect" id="Node000001" title="Initialise le GPS." alt="" coords="5,31,75,56"/>
+<area shape="rect" id="Node000002" href="$d2/de7/classSoftwareSerial.html#af1b194359d70894b3a2f38236a68480e" title=" " alt="" coords="123,31,283,56"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="75,41,109,41,109,46,75,46"/>
+<area shape="rect" id="Node000003" href="$d2/de7/classSoftwareSerial.html#ad235539ef28939836bd0bde9387eb8fc" title=" " alt="" coords="350,5,510,31"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="283,32,336,26,337,31,284,37"/>
+<area shape="rect" id="Node000004" href="$d2/de7/classSoftwareSerial.html#a1dc4448e5fdf2516f47439fb4f62f4be" title=" " alt="" coords="331,55,529,80"/>
+<area shape="poly" id="edge3_Node000002_Node000004" title=" " alt="" coords="283,49,317,53,317,58,283,54"/>
+</map>

@@ -1,0 +1,14 @@
+<map id="SdBase&lt; Vol, Fmt &gt;" name="SdBase&lt; Vol, Fmt &gt;">
+<area shape="rect" id="Node000001" title="base SD file system template class." alt="" coords="19,344,173,369"/>
+<area shape="rect" id="Node000002" title=" " alt="" coords="5,256,48,281"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="47,291,88,342,84,345,43,294"/>
+<area shape="rect" id="Node000003" href="$d2/dec/classDedicatedSpiCard.html" title="Raw access to SD and SDHC flash memory cards via dedicate SPI port." alt="" coords="48,168,187,193"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="117,207,111,256,100,344,95,343,105,256,112,206"/>
+<area shape="rect" id="Node000006" href="$dd/d6a/classSdCardFactory.html" title="Setup a SPI card or SDIO card." alt="" coords="173,256,288,281"/>
+<area shape="poly" id="edge6_Node000006_Node000003" title=" " alt="" coords="145,199,217,254,214,258,142,204"/>
+<area shape="rect" id="Node000004" href="$d8/d7f/classSharedSpiCard.html" title="Raw access to SD and SDHC flash memory cards via shared SPI port." alt="" coords="59,93,176,119"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="120,133,120,168,115,168,115,133"/>
+<area shape="rect" id="Node000005" href="$d0/d25/classSdSpiArduinoDriver.html" title="Optimized SPI class for access to SD and SDHC flash memory cards." alt="" coords="43,5,191,31"/>
+<area shape="poly" id="edge4_Node000004_Node000005" title=" " alt="" coords="120,45,120,93,115,93,115,45"/>
+<area shape="poly" id="edge5_Node000001_Node000006" title=" " alt="" coords="202,291,116,346,113,341,199,287"/>
+</map>

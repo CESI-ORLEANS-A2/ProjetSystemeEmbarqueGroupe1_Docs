@@ -1,0 +1,398 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "https://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="fr">
+<head>
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=11"/>
+<meta name="generator" content="Doxygen 1.10.0"/>
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+<title>Station_Méteo_Groupe_1: Référence du fichier /mnt/d/Cours/10. CESI A2/Blocs/01 - Systeme embarque/Livrables/Station_Meteo_Groupe_1/libs/SdFat/src/ExFatLib/ExFatFile.cpp</title>
+<link href="../../tabs.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="../../jquery.js"></script>
+<script type="text/javascript" src="../../dynsections.js"></script>
+<script type="text/javascript" src="../../clipboard.js"></script>
+<link href="../../navtree.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="../../resize.js"></script>
+<script type="text/javascript" src="../../navtreedata.js"></script>
+<script type="text/javascript" src="../../navtree.js"></script>
+<link href="../../search/search.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="../../search/searchdata.js"></script>
+<script type="text/javascript" src="../../search/search.js"></script>
+<link href="../../doxygen.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+<div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+<div id="titlearea">
+<table cellspacing="0" cellpadding="0">
+ <tbody>
+ <tr id="projectrow">
+  <td id="projectalign">
+   <div id="projectname">Station_Méteo_Groupe_1<span id="projectnumber">&#160;v0.0.1</span>
+   </div>
+  </td>
+ </tr>
+ </tbody>
+</table>
+</div>
+<!-- end header part -->
+<!-- Généré par Doxygen 1.10.0 -->
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+var searchBox = new SearchBox("searchBox", "../../search/",'.html');
+/* @license-end */
+</script>
+<script type="text/javascript" src="../../menudata.js"></script>
+<script type="text/javascript" src="../../menu.js"></script>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+$(function() {
+  initMenu('../../',true,false,'search.php','Recherche');
+  $(document).ready(function() { init_search(); });
+});
+/* @license-end */
+</script>
+<div id="main-nav"></div>
+</div><!-- top -->
+<div id="side-nav" class="ui-resizable side-nav-resizable">
+  <div id="nav-tree">
+    <div id="nav-tree-contents">
+      <div id="nav-sync" class="sync"></div>
+    </div>
+  </div>
+  <div id="splitbar" style="-moz-user-select:none;" 
+       class="ui-resizable-handle">
+  </div>
+</div>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+$(document).ready(function(){initNavTree('dc/d1f/ExFatFile_8cpp.html','../../'); initResizable(); });
+/* @license-end */
+</script>
+<div id="doc-content">
+<!-- window showing the filter options -->
+<div id="MSearchSelectWindow"
+     onmouseover="return searchBox.OnSearchSelectShow()"
+     onmouseout="return searchBox.OnSearchSelectHide()"
+     onkeydown="return searchBox.OnSearchSelectKey(event)">
+</div>
+
+<!-- iframe showing the search results (closed by default) -->
+<div id="MSearchResultsWindow">
+<div id="MSearchResults">
+<div class="SRPage">
+<div id="SRIndex">
+<div id="SRResults"></div>
+<div class="SRStatus" id="Loading">Chargement...</div>
+<div class="SRStatus" id="Searching">Recherche...</div>
+<div class="SRStatus" id="NoMatches">Aucune correspondance</div>
+</div>
+</div>
+</div>
+</div>
+
+<div class="header">
+  <div class="summary">
+<a href="#define-members">Macros</a> &#124;
+<a href="#func-members">Fonctions</a>  </div>
+  <div class="headertitle"><div class="title">Référence du fichier ExFatFile.cpp</div></div>
+</div><!--header-->
+<div class="contents">
+<div class="textblock"><code>#include &quot;<a class="el" href="../../d0/d74/DebugMacros_8h_source.html">../common/DebugMacros.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="../../dc/d45/FsUtf_8h_source.html">../common/FsUtf.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="../../d3/dbd/ExFatLib_8h_source.html">ExFatLib.h</a>&quot;</code><br />
+</div><div class="textblock"><div class="dynheader">
+Graphe des dépendances par inclusion de ExFatFile.cpp:</div>
+<div class="dyncontent">
+<div class="center"><img src="../../d3/d40/ExFatFile_8cpp__incl.png" border="0" usemap="#a_2mnt_2d_2Cours_210_8_01CESI_01A2_2Blocs_201_01-_01Systeme_01embarque_2Livrables_2Station__Meteo__Groupe__1_2libs_2SdFat_2src_2ExFatLib_2ExFatFile_8cpp" alt=""/></div>
+<map name="a_2mnt_2d_2Cours_210_8_01CESI_01A2_2Blocs_201_01-_01Systeme_01embarque_2Livrables_2Station__Meteo__Groupe__1_2libs_2SdFat_2src_2ExFatLib_2ExFatFile_8cpp" id="a_2mnt_2d_2Cours_210_8_01CESI_01A2_2Blocs_201_01-_01Systeme_01embarque_2Livrables_2Station__Meteo__Groupe__1_2libs_2SdFat_2src_2ExFatLib_2ExFatFile_8cpp">
+<area shape="rect" title=" " alt="" coords="1251,5,1456,89"/>
+<area shape="rect" href="../../d0/d74/DebugMacros_8h.html" title=" " alt="" coords="1255,284,1451,309"/>
+<area shape="poly" title=" " alt="" coords="1356,89,1356,270,1351,270,1351,89"/>
+<area shape="rect" href="../../dc/d45/FsUtf_8h.html" title="Unicode Transformation Format functions." alt="" coords="1553,871,1695,896"/>
+<area shape="poly" title=" " alt="" coords="1437,87,1472,112,1504,143,1526,180,1532,200,1535,222,1535,738,1541,774,1558,808,1580,837,1602,860,1598,863,1576,840,1554,810,1536,776,1529,738,1529,222,1527,201,1521,182,1499,147,1469,116,1434,92"/>
+<area shape="rect" href="../../d3/dbd/ExFatLib_8h.html" title=" " alt="" coords="1173,137,1261,163"/>
+<area shape="poly" title=" " alt="" coords="1300,91,1245,131,1242,127,1296,87"/>
+<area shape="rect" href="../../d0/d1b/SysCall_8h.html" title="SysCall class." alt="" coords="407,871,489,896"/>
+<area shape="poly" title=" " alt="" coords="1330,312,1115,409,960,472,798,532,746,544,703,549,663,557,616,580,573,611,545,641,522,677,497,725,482,760,470,796,455,858,450,856,464,794,477,758,492,723,518,675,541,638,570,607,613,575,661,552,702,544,745,539,797,527,958,467,1113,404,1328,307"/>
+<area shape="rect" title=" " alt="" coords="989,944,1064,969"/>
+<area shape="poly" title=" " alt="" coords="490,891,502,893,768,928,976,949,975,954,767,934,501,899,489,897"/>
+<area shape="rect" title=" " alt="" coords="970,1017,1041,1043"/>
+<area shape="poly" title=" " alt="" coords="473,894,555,930,661,967,741,986,822,1002,957,1021,956,1026,821,1007,740,992,659,972,553,935,471,899"/>
+<area shape="rect" href="../../d4/d1f/SdFatConfig_8h.html" title="configuration definitions" alt="" coords="209,944,332,969"/>
+<area shape="poly" title=" " alt="" coords="420,898,313,941,311,936,419,894"/>
+<area shape="poly" title=" " alt="" coords="333,964,351,967,697,1001,956,1022,956,1028,697,1007,350,972,332,970"/>
+<area shape="rect" title=" " alt="" coords="229,1017,313,1043"/>
+<area shape="poly" title=" " alt="" coords="273,970,273,1004,268,1004,268,970"/>
+<area shape="poly" title=" " alt="" coords="1553,896,1078,952,1077,947,1553,890"/>
+<area shape="poly" title=" " alt="" coords="1618,898,1585,936,1562,956,1536,972,1495,986,1440,997,1306,1014,1166,1025,1054,1030,1054,1024,1165,1019,1305,1009,1439,992,1494,980,1534,967,1559,951,1582,932,1614,895"/>
+<area shape="rect" href="../../da/dd4/ExFatFormatter_8h.html" title=" " alt="" coords="794,431,926,456"/>
+<area shape="poly" title=" " alt="" coords="1205,165,886,424,883,420,1202,161"/>
+<area shape="rect" href="../../d3/d8c/ExFatVolume_8h.html" title=" " alt="" coords="650,211,769,236"/>
+<area shape="poly" title=" " alt="" coords="1174,160,782,215,782,209,1173,155"/>
+<area shape="rect" href="../../d8/d4c/FsBlockDevice_8h.html" title=" " alt="" coords="583,504,785,529"/>
+<area shape="poly" title=" " alt="" coords="833,458,727,501,725,496,831,454"/>
+<area shape="rect" href="../../d5/d77/SdCard_8h.html" title="Top level include for SPI and SDIO cards." alt="" coords="627,577,757,603"/>
+<area shape="poly" title=" " alt="" coords="688,529,692,564,687,564,683,530"/>
+<area shape="rect" href="../../d5/dc1/SdSpiCard_8h.html" title="Classes for SPI access to SD/SDHC cards." alt="" coords="642,651,742,676"/>
+<area shape="poly" title=" " alt="" coords="695,603,695,637,689,637,689,603"/>
+<area shape="rect" href="../../d9/d0a/SdioCard_8h.html" title="Classes for SDIO cards." alt="" coords="766,651,858,676"/>
+<area shape="poly" title=" " alt="" coords="713,600,782,641,779,646,710,605"/>
+<area shape="poly" title=" " alt="" coords="642,669,606,675,567,685,529,701,497,726,475,756,461,792,454,827,451,857,446,857,449,826,456,790,470,754,493,722,527,697,565,680,605,670,642,664"/>
+<area shape="poly" title=" " alt="" coords="743,671,896,701,991,722,1010,745,1024,771,1032,799,1037,829,1039,885,1034,930,1029,930,1033,885,1032,829,1027,801,1019,773,1006,748,988,726,895,706,742,677"/>
+<area shape="rect" href="../../df/d48/SdSpiDriver_8h.html" title="SpiDriver classes." alt="" coords="507,724,693,749"/>
+<area shape="poly" title=" " alt="" coords="679,678,627,718,624,713,676,674"/>
+<area shape="rect" href="../../d4/da0/SdCardInfo_8h.html" title="Definitions for SD cards." alt="" coords="871,797,977,823"/>
+<area shape="poly" title=" " alt="" coords="712,674,828,747,895,788,892,792,825,752,709,679"/>
+<area shape="rect" href="../../dd/d48/SdCardInterface_8h.html" title="Abstract interface for an SD card." alt="" coords="839,724,977,749"/>
+<area shape="poly" title=" " alt="" coords="728,673,861,717,859,722,726,679"/>
+<area shape="poly" title=" " alt="" coords="589,752,472,863,468,859,586,748"/>
+<area shape="rect" title=" " alt="" coords="558,797,613,823"/>
+<area shape="poly" title=" " alt="" coords="600,750,593,784,588,783,595,749"/>
+<area shape="rect" href="../../da/de9/SdSpiArduinoDriver_8h.html" title="SpiDriver classes for Arduino compatible systems." alt="" coords="689,797,847,823"/>
+<area shape="poly" title=" " alt="" coords="628,747,729,789,727,794,626,752"/>
+<area shape="rect" href="../../db/d6a/SdSpiLibDriver_8h.html" title="Class using only simple SPI library functions." alt="" coords="513,871,641,896"/>
+<area shape="poly" title=" " alt="" coords="738,825,622,868,620,863,736,820"/>
+<area shape="poly" title=" " alt="" coords="872,823,859,825,683,848,504,873,503,868,682,843,858,820,871,818"/>
+<area shape="poly" title=" " alt="" coords="872,825,769,849,727,862,706,872,702,883,706,895,730,924,759,949,791,969,826,985,896,1008,956,1021,955,1026,894,1014,824,990,789,974,756,953,726,928,702,897,696,883,702,869,725,857,768,844,871,819"/>
+<area shape="poly" title=" " alt="" coords="913,749,921,784,916,785,908,750"/>
+<area shape="rect" href="../../dc/de5/FsBlockDeviceInterface_8h.html" title="FsBlockDeviceInterface include file." alt="" coords="716,871,977,896"/>
+<area shape="poly" title=" " alt="" coords="935,747,959,761,981,779,994,800,995,812,990,824,963,851,928,869,926,864,960,847,986,821,990,811,989,802,977,783,956,765,932,752"/>
+<area shape="poly" title=" " alt="" coords="877,894,986,936,984,941,875,899"/>
+<area shape="poly" title=" " alt="" coords="861,894,984,1006,981,1010,858,898"/>
+<area shape="poly" title=" " alt="" coords="803,678,733,746,681,788,625,825,564,853,504,872,502,867,562,848,623,820,678,784,729,742,799,674"/>
+<area shape="poly" title=" " alt="" coords="829,674,883,713,880,718,826,678"/>
+<area shape="rect" href="../../d3/da9/ExFatFile_8h.html" title="ExFatFile class." alt="" coords="251,284,343,309"/>
+<area shape="poly" title=" " alt="" coords="650,237,357,288,356,283,649,232"/>
+<area shape="rect" title=" " alt="" coords="94,357,165,383"/>
+<area shape="poly" title=" " alt="" coords="271,312,170,354,168,349,269,307"/>
+<area shape="rect" title=" " alt="" coords="189,357,259,383"/>
+<area shape="poly" title=" " alt="" coords="287,312,248,350,244,346,283,308"/>
+<area shape="rect" href="../../d3/d4d/FmtNumber_8h.html" title=" " alt="" coords="1244,871,1428,896"/>
+<area shape="poly" title=" " alt="" coords="344,298,548,313,823,341,954,361,1064,383,1107,396,1140,410,1161,425,1169,441,1169,738,1172,760,1181,781,1194,799,1211,816,1250,843,1290,863,1288,868,1248,848,1207,820,1190,803,1176,784,1167,762,1164,738,1164,443,1157,428,1137,415,1105,401,1063,389,953,366,822,347,548,318,343,303"/>
+<area shape="rect" href="../../d9/d33/FsApiConstants_8h.html" title=" " alt="" coords="93,504,301,529"/>
+<area shape="poly" title=" " alt="" coords="297,311,273,384,243,444,214,493,210,491,239,441,268,382,292,309"/>
+<area shape="rect" href="../../d9/d5f/FsDateTime_8h.html" title=" " alt="" coords="1256,797,1443,823"/>
+<area shape="poly" title=" " alt="" coords="343,296,800,314,1046,331,1135,342,1186,355,1220,370,1246,386,1264,409,1271,442,1271,664,1277,700,1291,733,1310,762,1330,786,1326,789,1306,765,1287,736,1271,701,1265,665,1265,442,1259,411,1243,390,1217,375,1184,360,1134,347,1045,337,800,319,343,302"/>
+<area shape="rect" href="../../de/d72/FsName_8h.html" title="FsName class." alt="" coords="17,797,178,823"/>
+<area shape="poly" title=" " alt="" coords="251,303,178,313,138,322,98,335,63,354,34,377,15,406,8,442,8,664,15,701,31,734,53,763,75,786,71,790,49,767,27,737,10,702,3,665,3,442,10,404,30,373,60,349,96,331,136,317,177,307,251,298"/>
+<area shape="rect" href="../../d2/d24/ExFatPartition_8h.html" title="ExFatPartition include file." alt="" coords="465,357,588,383"/>
+<area shape="poly" title=" " alt="" coords="335,307,477,351,475,356,333,312"/>
+<area shape="rect" href="../../d8/db8/ArduinoFiles_8h.html" title=" " alt="" coords="43,577,229,603"/>
+<area shape="poly" title=" " alt="" coords="251,307,153,326,109,341,94,350,83,359,69,381,60,401,56,420,56,439,66,480,84,528,96,549,112,566,108,570,92,552,79,530,61,482,51,440,51,419,55,399,65,378,79,356,91,346,107,336,152,321,250,302"/>
+<area shape="poly" title=" " alt="" coords="1287,899,1078,946,1077,941,1286,893"/>
+<area shape="poly" title=" " alt="" coords="1311,899,1045,1014,1043,1009,1308,894"/>
+<area shape="rect" title=" " alt="" coords="1234,944,1302,969"/>
+<area shape="poly" title=" " alt="" coords="1327,898,1291,936,1287,932,1323,894"/>
+<area shape="poly" title=" " alt="" coords="210,528,227,549,244,576,263,617,268,637,269,662,269,738,270,764,275,784,284,801,301,821,321,838,345,851,394,869,393,874,343,856,318,842,297,825,280,804,270,786,265,764,264,738,264,662,263,638,258,619,239,579,223,552,206,531"/>
+<area shape="poly" title=" " alt="" coords="1256,816,927,832,718,849,503,873,503,868,717,843,926,827,1255,811"/>
+<area shape="poly" title=" " alt="" coords="1386,820,1426,839,1463,869,1485,894,1501,919,1506,944,1502,958,1492,971,1469,983,1427,994,1306,1010,1168,1022,1054,1029,1054,1024,1168,1017,1305,1005,1426,988,1468,978,1489,967,1497,955,1501,944,1496,921,1481,897,1459,873,1423,844,1384,825"/>
+<area shape="rect" href="../../dd/ded/CompileDateTime_8h.html" title=" " alt="" coords="1327,944,1479,969"/>
+<area shape="poly" title=" " alt="" coords="1382,820,1415,839,1430,853,1442,870,1447,887,1444,904,1426,935,1421,932,1439,902,1441,887,1438,872,1426,857,1412,844,1380,825"/>
+<area shape="poly" title=" " alt="" coords="1339,972,1055,1023,1054,1017,1338,967"/>
+<area shape="poly" title=" " alt="" coords="154,820,394,868,393,874,153,825"/>
+<area shape="poly" title=" " alt="" coords="127,820,318,889,449,931,585,967,688,987,791,1003,957,1022,956,1027,790,1008,687,993,583,972,447,936,316,894,126,825"/>
+<area shape="poly" title=" " alt="" coords="495,385,462,404,447,416,436,432,412,488,400,549,397,610,400,671,408,729,419,780,442,857,437,858,414,782,403,730,395,672,391,610,395,548,407,487,431,429,443,413,459,399,492,380"/>
+<area shape="poly" title=" " alt="" coords="551,380,586,401,622,429,650,460,672,491,668,494,646,463,618,433,583,405,548,385"/>
+<area shape="rect" href="../../d2/df7/FsCache_8h.html" title="Common cache code for exFAT and FAT." alt="" coords="445,431,608,456"/>
+<area shape="poly" title=" " alt="" coords="529,383,529,417,524,417,524,383"/>
+<area shape="rect" href="../../dc/d87/FsStructs_8h.html" title=" " alt="" coords="1053,871,1219,896"/>
+<area shape="poly" title=" " alt="" coords="588,371,734,381,822,390,909,404,990,422,1056,446,1082,461,1101,477,1114,495,1119,515,1119,738,1124,802,1133,857,1128,858,1118,803,1113,738,1113,516,1109,497,1098,480,1079,465,1054,451,988,427,908,409,821,395,734,386,588,376"/>
+<area shape="poly" title=" " alt="" coords="526,457,487,592,465,693,449,798,449,857,443,857,444,797,460,692,482,591,520,455"/>
+<area shape="poly" title=" " alt="" coords="553,454,647,496,645,501,551,458"/>
+<area shape="poly" title=" " alt="" coords="1120,898,1058,939,1055,934,1117,894"/>
+<area shape="poly" title=" " alt="" coords="1131,898,1109,932,1078,971,1034,1011,1031,1007,1074,968,1105,929,1127,895"/>
+<area shape="poly" title=" " alt="" coords="141,602,151,644,171,703,203,766,225,795,250,821,283,843,320,858,358,869,394,875,393,880,357,874,319,863,280,847,246,825,221,799,199,769,166,705,146,645,136,604"/>
+</map>
+</div>
+</div><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="define-members" name="define-members"></a>
+Macros</h2></td></tr>
+<tr class="memitem:a247aabef4f899fd0d8d2a5564f527b9b" id="r_a247aabef4f899fd0d8d2a5564f527b9b"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a247aabef4f899fd0d8d2a5564f527b9b">DBG_FILE</a>&#160;&#160;&#160;&quot;ExFatFile.cpp&quot;</td></tr>
+<tr class="separator:a247aabef4f899fd0d8d2a5564f527b9b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="func-members" name="func-members"></a>
+Fonctions</h2></td></tr>
+<tr class="memitem:ab7723be37d52c9e1f6b0d62feb5c66ac" id="r_ab7723be37d52c9e1f6b0d62feb5c66ac"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ab7723be37d52c9e1f6b0d62feb5c66ac">lfnLegalChar</a> (uint8_t c)</td></tr>
+<tr class="separator:ab7723be37d52c9e1f6b0d62feb5c66ac"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table>
+<h2 class="groupheader">Documentation des macros</h2>
+<a id="a247aabef4f899fd0d8d2a5564f527b9b" name="a247aabef4f899fd0d8d2a5564f527b9b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a247aabef4f899fd0d8d2a5564f527b9b">&#9670;&#160;</a></span>DBG_FILE</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define DBG_FILE&#160;&#160;&#160;&quot;ExFatFile.cpp&quot;</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Copyright (c) 2011-2022 Bill Greiman This file is part of the SdFat library for SD memory cards.</p>
+<p>MIT License</p>
+<p>Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:</p>
+<p>The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.</p>
+<p>THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE. </p>
+
+</div>
+</div>
+<h2 class="groupheader">Documentation des fonctions</h2>
+<a id="ab7723be37d52c9e1f6b0d62feb5c66ac" name="ab7723be37d52c9e1f6b0d62feb5c66ac"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab7723be37d52c9e1f6b0d62feb5c66ac">&#9670;&#160;</a></span>lfnLegalChar()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool lfnLegalChar </td>
+          <td>(</td>
+          <td class="paramtype">uint8_t&#160;</td>
+          <td class="paramname"><em>c</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p>test for legal character.</p>
+<dl class="params"><dt>Paramètres</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">c</td><td>character to be tested.</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Renvoie</dt><dd>true for legal character else false. </dd></dl>
+<div class="dynheader">
+Voici le graphe d'appel pour cette fonction :</div>
+<div class="dyncontent">
+<div class="center"><img src="../../dc/d1f/ExFatFile_8cpp_ab7723be37d52c9e1f6b0d62feb5c66ac_cgraph.png" border="0" usemap="#adc/d1f/ExFatFile_8cpp_ab7723be37d52c9e1f6b0d62feb5c66ac_cgraph" alt=""/></div>
+<map name="adc/d1f/ExFatFile_8cpp_ab7723be37d52c9e1f6b0d62feb5c66ac_cgraph" id="adc/d1f/ExFatFile_8cpp_ab7723be37d52c9e1f6b0d62feb5c66ac_cgraph">
+<area shape="rect" title=" " alt="" coords="5,5,109,31"/>
+<area shape="rect" href="../../dc/d87/FsStructs_8h.html#a8db42467e8007d70b578fcb8b11ea3e8" title=" " alt="" coords="157,5,288,31"/>
+<area shape="poly" title=" " alt="" coords="110,15,144,15,144,21,110,21"/>
+</map>
+</div>
+<div class="dynheader">
+Voici le graphe des appelants de cette fonction :</div>
+<div class="dyncontent">
+<div class="center"><img src="../../dc/d1f/ExFatFile_8cpp_ab7723be37d52c9e1f6b0d62feb5c66ac_icgraph.png" border="0" usemap="#adc/d1f/ExFatFile_8cpp_ab7723be37d52c9e1f6b0d62feb5c66ac_icgraph" alt=""/></div>
+<map name="adc/d1f/ExFatFile_8cpp_ab7723be37d52c9e1f6b0d62feb5c66ac_icgraph" id="adc/d1f/ExFatFile_8cpp_ab7723be37d52c9e1f6b0d62feb5c66ac_icgraph">
+<area shape="rect" title=" " alt="" coords="1348,301,1452,327"/>
+<area shape="rect" href="../../d6/d7f/classExFatFile.html#a2f4dcc1eba01055754bae58b5348d8cc" title=" " alt="" coords="1109,301,1300,327"/>
+<area shape="poly" title=" " alt="" coords="1334,317,1300,317,1300,311,1334,311"/>
+<area shape="rect" href="../../d6/d7f/classExFatFile.html#ad9ca8c5ba1de8965e65b9f25f31baeff" title=" " alt="" coords="935,55,1061,80"/>
+<area shape="poly" title=" " alt="" coords="1182,292,1008,82,1012,78,1186,289"/>
+<area shape="rect" href="../../d6/d7f/classExFatFile.html#a5b115247c8e1a8cd643412f4d548e673" title=" " alt="" coords="938,548,1058,573"/>
+<area shape="poly" title=" " alt="" coords="1186,339,1012,550,1008,546,1182,336"/>
+<area shape="poly" title=" " alt="" coords="1033,45,1023,36,998,33,977,35,966,40,964,46,970,53,966,56,959,46,963,36,976,30,998,28,1025,32,1036,40"/>
+<area shape="rect" href="../../d9/dce/classExFatVolume.html#abb00cfff7943fe637a99b292798865e0" title=" " alt="" coords="727,5,879,31"/>
+<area shape="poly" title=" " alt="" coords="933,54,853,33,854,28,935,49"/>
+<area shape="rect" href="../../d0/db5/classFsBaseFile.html#a8b7aa7f2c63882e483336dfe12ef6800" title=" " alt="" coords="733,55,872,80"/>
+<area shape="poly" title=" " alt="" coords="921,70,872,70,872,65,921,65"/>
+<area shape="rect" href="../../d9/dce/classExFatVolume.html#a0f4cf7e2853225380574724314327597" title=" " alt="" coords="507,5,659,31"/>
+<area shape="poly" title=" " alt="" coords="713,21,659,21,659,15,713,15"/>
+<area shape="rect" href="../../d9/dce/classExFatVolume.html#a4b089dc93a25d9d87d8dc3fc42a139d5" title=" " alt="" coords="728,104,877,129"/>
+<area shape="poly" title=" " alt="" coords="991,535,977,446,954,329,923,216,905,172,885,143,870,132,873,127,889,139,909,169,928,214,959,327,982,445,996,534"/>
+<area shape="rect" href="../../d9/dce/classExFatVolume.html#ae79fbebf59d900b845ade864d9d3c4dd" title=" " alt="" coords="728,153,877,179"/>
+<area shape="poly" title=" " alt="" coords="994,535,990,466,976,374,962,325,943,277,917,231,885,192,869,181,873,177,888,188,922,228,947,274,967,323,981,373,996,466,1000,534"/>
+<area shape="rect" href="../../d9/dce/classExFatVolume.html#a0f9c04da8382686190df76ff957e9a19" title=" " alt="" coords="729,203,876,228"/>
+<area shape="poly" title=" " alt="" coords="993,534,986,474,969,395,955,353,937,312,914,275,885,241,869,230,872,226,888,237,918,271,942,310,960,351,974,394,991,473,998,534"/>
+<area shape="rect" href="../../d6/d7f/classExFatFile.html#ab1be7938b64f74a51581f4839fefed4b" title=" " alt="" coords="729,252,876,277"/>
+<area shape="poly" title=" " alt="" coords="991,535,982,483,963,417,931,349,910,318,885,291,868,280,871,275,888,287,914,315,936,346,968,415,987,482,996,534"/>
+<area shape="rect" href="../../d6/d7f/classExFatFile.html#a32df2d7ac56a76a647cedf4192ac9abe" title=" " alt="" coords="739,301,866,327"/>
+<area shape="poly" title=" " alt="" coords="989,535,976,493,956,440,926,386,907,361,885,340,865,328,867,323,888,336,911,358,930,383,961,438,981,491,994,534"/>
+<area shape="rect" href="../../d9/dce/classExFatVolume.html#a5e2e029b02d3c98bc0b8fcbdab566af6" title=" " alt="" coords="726,351,879,376"/>
+<area shape="poly" title=" " alt="" coords="985,536,970,503,948,463,920,423,885,389,865,378,868,374,888,385,924,420,953,460,975,500,990,534"/>
+<area shape="rect" href="../../d9/dce/classExFatVolume.html#a2e44d5d26a25d610c4b0d97fa5b1f505" title=" " alt="" coords="740,400,865,425"/>
+<area shape="poly" title=" " alt="" coords="979,538,940,488,914,461,885,439,862,428,864,423,888,434,918,457,944,484,984,535"/>
+<area shape="rect" href="../../d6/d7f/classExFatFile.html#aaf738b1f00b8ae1664020f238c1a9a48" title=" " alt="" coords="743,449,863,475"/>
+<area shape="poly" title=" " alt="" coords="969,542,931,514,886,488,856,477,858,472,888,484,933,510,972,537"/>
+<area shape="rect" href="../../d9/dce/classExFatVolume.html#ae5d8f37ac6505471ef78fb4db518fb8b" title=" " alt="" coords="729,499,876,524"/>
+<area shape="poly" title=" " alt="" coords="933,547,853,527,854,521,935,542"/>
+<area shape="rect" href="../../d6/d7f/classExFatFile.html#aaa69f5263c70b1945fbbb672cfdf5d15" title=" " alt="" coords="743,548,863,573"/>
+<area shape="poly" title=" " alt="" coords="924,563,863,563,863,558,924,558"/>
+<area shape="rect" href="../../d0/db5/classFsBaseFile.html#aa767859d4a4b4716ebbc4ea42a6d74df" title=" " alt="" coords="737,597,869,623"/>
+<area shape="poly" title=" " alt="" coords="935,579,854,600,853,595,933,574"/>
+<area shape="rect" href="../../d0/db5/classFsBaseFile.html#a4743d118f085f6a13692d12bdd3c4556" title=" " alt="" coords="737,647,869,672"/>
+<area shape="poly" title=" " alt="" coords="971,584,933,611,888,636,855,649,853,644,886,632,930,606,968,580"/>
+<area shape="rect" href="../../d0/db5/classFsBaseFile.html#a0186e56b21fd584b02db4b763df05f64" title=" " alt="" coords="737,696,869,721"/>
+<area shape="poly" title=" " alt="" coords="983,587,944,637,918,663,888,686,862,698,859,693,885,681,914,659,940,633,979,583"/>
+<area shape="rect" href="../../d6/d7f/classExFatFile.html#a69c6f8e9a10bcfb83e378ef73f556ab7" title=" " alt="" coords="743,745,863,771"/>
+<area shape="poly" title=" " alt="" coords="989,587,974,621,952,661,924,700,888,735,864,748,862,743,885,731,920,697,948,658,970,618,985,585"/>
+<area shape="rect" href="../../d6/d7f/classExFatFile.html#a145a2fa9269876bae17a44569b4625fb" title=" " alt="" coords="733,795,872,820"/>
+<area shape="poly" title=" " alt="" coords="994,587,981,630,960,683,930,737,911,762,888,784,867,797,865,792,885,780,907,759,925,734,955,681,976,628,988,586"/>
+<area shape="rect" href="../../d9/dce/classExFatVolume.html#ac4d15484d30dd40ecdb4d331d29534d9" title=" " alt="" coords="721,844,885,869"/>
+<area shape="poly" title=" " alt="" coords="996,588,986,639,967,705,936,774,914,805,888,833,869,846,866,842,885,829,910,802,931,771,962,703,981,638,991,587"/>
+<area shape="rect" href="../../d9/dce/classExFatVolume.html#a6a31fd969e29608509e75adbf46fcd5d" title=" " alt="" coords="721,893,885,919"/>
+<area shape="poly" title=" " alt="" coords="998,588,991,648,974,727,960,769,941,810,918,849,888,883,869,896,866,891,885,879,913,845,936,808,955,767,969,725,986,647,993,587"/>
+<area shape="rect" href="../../d6/d7f/classExFatFile.html#a707e3a4139319fb5d4e31d591b3c5b77" title=" " alt="" coords="733,943,872,968"/>
+<area shape="poly" title=" " alt="" coords="999,587,995,656,980,748,966,797,947,846,921,892,888,932,871,945,867,940,885,928,917,889,942,844,961,796,975,747,990,655,994,587"/>
+<area shape="rect" href="../../d9/dce/classExFatVolume.html#afaa44ad57398f8c293b9a35aa150ce75" title=" " alt="" coords="728,992,877,1017"/>
+<area shape="poly" title=" " alt="" coords="996,587,982,675,959,793,928,906,909,951,889,981,871,994,868,990,885,977,904,948,923,904,954,792,977,675,990,587"/>
+<area shape="rect" href="../../d9/dce/classExFatVolume.html#a1af3c481f14ff2d390aabe6226658b01" title=" " alt="" coords="719,1041,887,1067"/>
+<area shape="poly" title=" " alt="" coords="997,587,984,685,962,817,948,884,930,945,911,996,889,1030,871,1043,868,1039,885,1027,906,993,925,944,942,883,957,816,979,684,991,587"/>
+<area shape="rect" href="../../d4/d27/classFsVolume.html#a10bf5efca24ce1412e03b3e15837b2fd" title=" " alt="" coords="518,79,647,104"/>
+<area shape="poly" title=" " alt="" coords="714,109,647,101,648,96,714,104"/>
+<area shape="rect" href="../../d4/d27/classFsVolume.html#a76ac996fb61db9665fb5d5b4916ca16f" title=" " alt="" coords="518,128,647,153"/>
+<area shape="poly" title=" " alt="" coords="714,129,648,136,647,131,714,124"/>
+<area shape="rect" href="../../d0/db5/classFsBaseFile.html#a76aea9766ffeae5454381a0704e62505" title=" " alt="" coords="513,301,652,327"/>
+<area shape="poly" title=" " alt="" coords="725,317,652,317,652,311,725,311"/>
+<area shape="rect" href="../../d9/dce/classExFatVolume.html#a29b670f7086e74ad5c50ecdad2e72d5b" title=" " alt="" coords="509,473,656,499"/>
+<area shape="poly" title=" " alt="" coords="715,504,656,497,656,492,716,499"/>
+<area shape="rect" href="../../da/d64/classStdioStream.html#a4ffc37225fb6deed98905aa71d1f9c4b" title=" " alt="" coords="509,523,656,548"/>
+<area shape="poly" title=" " alt="" coords="741,596,718,587,670,562,636,551,638,545,672,557,720,582,742,591"/>
+<area shape="rect" href="../../d0/db5/classFsBaseFile.html#a6034c6dfce320e2869901890398831b4" title=" " alt="" coords="497,572,668,597"/>
+<area shape="poly" title=" " alt="" coords="722,603,668,597,668,592,723,598"/>
+<area shape="rect" href="../../d4/d27/classFsVolume.html#ab429316ed9e57a52ecfb938aca7dff6c" title=" " alt="" coords="530,621,635,647"/>
+<area shape="poly" title=" " alt="" coords="723,621,636,631,635,626,722,616"/>
+<area shape="rect" href="../../d0/d4a/classStreamBaseClass.html#ae35297f11506f154597015f9216b72df" title=" " alt="" coords="495,671,671,696"/>
+<area shape="poly" title=" " alt="" coords="740,629,720,636,672,660,634,673,632,668,670,656,718,632,738,624"/>
+<area shape="rect" href="../../d4/d27/classFsVolume.html#a6d51ed047796f7d382384c60c7bfac75" title=" " alt="" coords="519,745,646,771"/>
+<area shape="poly" title=" " alt="" coords="728,631,720,636,704,653,696,670,688,689,673,709,644,731,614,748,612,743,641,727,669,705,683,686,691,668,700,650,717,632,725,627"/>
+<area shape="rect" href="../../d0/d68/classifstream.html#a169694d6535fd551fd6db48a2867590e" title=" " alt="" coords="325,597,442,623"/>
+<area shape="poly" title=" " alt="" coords="518,669,494,660,446,636,419,625,421,620,448,632,496,656,520,664"/>
+<area shape="rect" href="../../d7/df9/classfstream.html#a85b24d94552991f33caf4c3a83420879" title=" " alt="" coords="327,647,440,672"/>
+<area shape="poly" title=" " alt="" coords="481,674,440,669,441,664,481,668"/>
+<area shape="rect" href="../../d9/d93/classofstream.html#a4b9d30c742fbe01baa336406c7afdcb2" title=" " alt="" coords="323,696,444,721"/>
+<area shape="poly" title=" " alt="" coords="481,699,445,704,444,698,481,694"/>
+<area shape="rect" href="../../d0/d68/classifstream.html#a11f4bfaa5c37cfcf8878c367fd861a88" title=" " alt="" coords="118,597,258,623"/>
+<area shape="poly" title=" " alt="" coords="311,613,258,613,258,607,311,607"/>
+<area shape="rect" href="../../d7/df9/classfstream.html#aed23877c52f828cab8de7a23603b3b6c" title=" " alt="" coords="122,647,254,672"/>
+<area shape="poly" title=" " alt="" coords="313,662,254,662,254,657,313,657"/>
+<area shape="rect" href="../../d9/d93/classofstream.html#abd1a07c492699c44f149da45b8d593c1" title=" " alt="" coords="114,696,262,721"/>
+<area shape="poly" title=" " alt="" coords="309,711,262,711,262,706,309,706"/>
+<area shape="rect" href="../../d4/d27/classFsVolume.html#ad41f53fd35fa60aa8972ac2036dae4de" title=" " alt="" coords="320,745,447,771"/>
+<area shape="poly" title=" " alt="" coords="505,761,447,761,447,755,505,755"/>
+<area shape="rect" href="../../d0/ded/sd_8cpp.html#a5b86241374c9a379af845d4adaa170b5" title="Sauvegarde des données sur la carte SD." alt="" coords="341,795,425,820"/>
+<area shape="poly" title=" " alt="" coords="518,777,427,800,425,794,517,771"/>
+<area shape="rect" href="../../d9/ddd/economy_8cpp.html#a35740c7a73b48d918cb4e6d891d46bed" title=" " alt="" coords="104,769,272,795"/>
+<area shape="poly" title=" " alt="" coords="327,803,272,796,273,790,328,798"/>
+<area shape="rect" href="../../df/d92/standard_8cpp.html#ad0b3e86793f7441084351fc2de4d4c45" title=" " alt="" coords="105,819,271,844"/>
+<area shape="poly" title=" " alt="" coords="328,817,272,824,271,818,327,811"/>
+<area shape="rect" href="../../df/d0a/main_8cpp.html#afe461d27b9c48d5921c00d521181f12f" title=" " alt="" coords="5,795,56,820"/>
+<area shape="poly" title=" " alt="" coords="96,800,57,806,56,801,95,794"/>
+<area shape="poly" title=" " alt="" coords="91,819,56,814,57,808,92,814"/>
+<area shape="rect" href="../../d9/dce/classExFatVolume.html#a1396c06f6c5e138889125d2f62cdbdcb" title=" " alt="" coords="501,893,665,919"/>
+<area shape="poly" title=" " alt="" coords="707,909,665,909,665,903,707,903"/>
+<area shape="rect" href="../../d9/dce/classExFatVolume.html#ae6d409b7f24593dca7aae70513e18b70" title=" " alt="" coords="499,1041,667,1067"/>
+<area shape="poly" title=" " alt="" coords="705,1057,667,1057,667,1051,705,1051"/>
+</map>
+</div>
+
+</div>
+</div>
+</div><!-- contents -->
+</div><!-- doc-content -->
+<!-- start footer part -->
+<div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
+  <ul>
+    <li class="navelem"><a class="el" href="../../dir_6719ab1f1f7655efc2fa43f7eb574fd1.html">libs</a></li><li class="navelem"><a class="el" href="../../dir_42eee409255dea5a142129cbb92a8b55.html">SdFat</a></li><li class="navelem"><a class="el" href="../../dir_2f4080adc233fc166a1397b7e1f61311.html">src</a></li><li class="navelem"><a class="el" href="../../dir_aecc3a6520ada2ca11d1bde3393e9cc6.html">ExFatLib</a></li><li class="navelem"><a class="el" href="../../dc/d1f/ExFatFile_8cpp.html">ExFatFile.cpp</a></li>
+    <li class="footer">Généré par <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.10.0 </li>
+  </ul>
+</div>
+</body>
+</html>

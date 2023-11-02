@@ -1,0 +1,5 @@
+<map id="SharedSpiCard" name="SharedSpiCard">
+<area shape="rect" id="Node000001" title="Raw access to SD and SDHC flash memory cards via shared SPI port." alt="" coords="16,5,133,31"/>
+<area shape="rect" id="Node000002" href="$d2/dec/classDedicatedSpiCard.html" title="Raw access to SD and SDHC flash memory cards via dedicate SPI port." alt="" coords="5,79,144,104"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="77,44,77,79,72,79,72,44"/>
+</map>

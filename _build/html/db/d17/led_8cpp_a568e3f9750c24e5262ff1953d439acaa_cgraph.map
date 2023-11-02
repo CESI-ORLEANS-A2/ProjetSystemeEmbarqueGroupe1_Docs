@@ -1,0 +1,14 @@
+<map id="initLEDLoop" name="initLEDLoop">
+<area shape="rect" id="Node000001" title=" " alt="" coords="5,5,104,31"/>
+<area shape="rect" id="Node000002" href="$db/d17/led_8cpp.html#ae18cd762c6f843eb4421cd651a5d3940" title=" " alt="" coords="152,5,280,31"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="104,15,138,15,138,21,104,21"/>
+<area shape="rect" id="Node000003" href="$d5/dc9/classChainableLED.html#a2b8a41a192a231e77cad268bdbaebd34" title=" " alt="" coords="328,5,531,31"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="281,15,314,15,314,21,281,21"/>
+<area shape="rect" id="Node000004" href="$d5/dc9/classChainableLED.html#af9dddebec83065625cbd6f8f05b992e7" title=" " alt="" coords="812,5,993,31"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="531,15,798,15,798,21,531,21"/>
+<area shape="rect" id="Node000006" href="$d5/dc9/classChainableLED.html#a7c5c2661fc02dee9f174485a2fadeb7a" title=" " alt="" coords="579,31,764,56"/>
+<area shape="poly" id="edge5_Node000003_Node000006" title=" " alt="" coords="531,26,565,30,564,35,530,31"/>
+<area shape="rect" id="Node000005" href="$d5/dc9/classChainableLED.html#af384841b6f083865c7fce288b039d275" title=" " alt="" coords="1041,5,1180,31"/>
+<area shape="poly" id="edge4_Node000004_Node000005" title=" " alt="" coords="993,15,1028,15,1028,21,993,21"/>
+<area shape="poly" id="edge6_Node000006_Node000004" title=" " alt="" coords="764,31,798,27,799,32,765,36"/>
+</map>

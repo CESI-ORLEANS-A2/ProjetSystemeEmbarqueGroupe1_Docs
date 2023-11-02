@@ -1,0 +1,29 @@
+<map id="Tiny_BME280::init" name="Tiny_BME280::init">
+<area shape="rect" id="Node000001" title="Initialise sensor with given parameters / settings." alt="" coords="5,107,144,132"/>
+<area shape="rect" id="Node000002" href="$d4/d1b/classTiny__BME280.html#ab9df818cc5d654495a403dbe121d5322" title="return true if chip is busy reading cal data" alt="" coords="192,5,445,31"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="92,104,136,76,191,48,238,32,240,37,193,52,139,81,95,109"/>
+<area shape="rect" id="Node000003" href="$d4/d1b/classTiny__BME280.html#a631cc94459e8f0cdb46caacf6266eb57" title="Reads an 8 bit value over I2C." alt="" coords="521,5,676,31"/>
+<area shape="poly" id="edge3_Node000001_Node000003" title=" " alt="" coords="132,104,191,91,512,30,513,36,193,97,133,109"/>
+<area shape="rect" id="Node000004" href="$d4/d1b/classTiny__BME280.html#ab43c5a7fdfa831563e9b588c2928ed8e" title="Reads the factory&#45;set coefficients." alt="" coords="207,107,431,132"/>
+<area shape="poly" id="edge4_Node000001_Node000004" title=" " alt="" coords="145,117,193,117,193,122,145,122"/>
+<area shape="rect" id="Node000008" href="$d4/d1b/classTiny__BME280.html#a5ef48ff16d11914ebd34628df02c63f9" title="setup sensor with given parameters / settings" alt="" coords="219,205,418,231"/>
+<area shape="poly" id="edge10_Node000001_Node000008" title=" " alt="" coords="108,130,274,197,272,202,106,134"/>
+<area shape="rect" id="Node000012" href="$d4/d1b/classTiny__BME280.html#ad9a42aed9801eb95065745eabdf7e670" title="Writes an 8 bit value over I2C." alt="" coords="519,304,678,329"/>
+<area shape="poly" id="edge15_Node000001_Node000012" title=" " alt="" coords="86,131,127,185,158,215,193,240,271,273,354,295,435,307,506,313,505,318,434,313,353,300,270,278,191,244,155,219,123,188,82,134"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="446,15,508,15,508,21,446,21"/>
+<area shape="poly" id="edge7_Node000004_Node000003" title=" " alt="" coords="390,104,444,85,468,67,492,48,529,32,531,37,495,52,471,71,447,90,392,109"/>
+<area shape="rect" id="Node000005" href="$d4/d1b/classTiny__BME280.html#a91c6dd90a0518655c27d12d0f7d462fe" title="Reads a signed 16 bit little endian value over I2C." alt="" coords="752,81,937,107"/>
+<area shape="poly" id="edge5_Node000004_Node000005" title=" " alt="" coords="390,104,493,91,620,86,738,87,738,93,621,92,494,97,391,109"/>
+<area shape="rect" id="Node000007" href="$d4/d1b/classTiny__BME280.html#a91b268f8bf722d5f317e5d6029116d7a" title="Reads a signed little endian 16 bit value over I2C." alt="" coords="502,107,695,132"/>
+<area shape="poly" id="edge8_Node000004_Node000007" title=" " alt="" coords="431,117,488,117,488,122,431,122"/>
+<area shape="rect" id="Node000006" href="$d4/d1b/classTiny__BME280.html#a336e34f6d83b30ea2fd7da60954cccb1" title="Reads a 16 bit value over I2C." alt="" coords="985,81,1148,107"/>
+<area shape="poly" id="edge6_Node000005_Node000006" title=" " alt="" coords="938,91,972,91,972,97,938,97"/>
+<area shape="poly" id="edge9_Node000007_Node000005" title=" " alt="" coords="695,107,738,102,738,108,696,112"/>
+<area shape="rect" id="Node000009" href="$d6/dd8/structTiny__BME280_1_1config.html#adef36b57c517713fcec45159134408d2" title=" " alt="" coords="505,156,692,181"/>
+<area shape="poly" id="edge11_Node000008_Node000009" title=" " alt="" coords="391,203,512,181,513,186,392,208"/>
+<area shape="rect" id="Node000010" href="$d6/d58/structTiny__BME280_1_1ctrl__meas.html#a696b8d72794d352a5b33b92dcc575200" title=" " alt="" coords="493,205,704,231"/>
+<area shape="poly" id="edge12_Node000008_Node000010" title=" " alt="" coords="418,215,480,215,480,221,418,221"/>
+<area shape="rect" id="Node000011" href="$d6/d11/structTiny__BME280_1_1ctrl__hum.html#a53f85d87bdf492d40cb651a0674ce59a" title=" " alt="" coords="497,255,701,280"/>
+<area shape="poly" id="edge13_Node000008_Node000011" title=" " alt="" coords="392,228,513,250,512,255,391,233"/>
+<area shape="poly" id="edge14_Node000008_Node000012" title=" " alt="" coords="349,228,494,290,521,298,520,303,492,295,347,233"/>
+</map>

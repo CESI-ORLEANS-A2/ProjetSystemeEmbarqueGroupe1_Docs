@@ -1,0 +1,809 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "https://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="fr">
+<head>
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=11"/>
+<meta name="generator" content="Doxygen 1.10.0"/>
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+<title>Station_Méteo_Groupe_1: Référence du fichier /mnt/d/Cours/10. CESI A2/Blocs/01 - Systeme embarque/Livrables/Station_Meteo_Groupe_1/include/peripherals/clock.hpp</title>
+<link href="../../tabs.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="../../jquery.js"></script>
+<script type="text/javascript" src="../../dynsections.js"></script>
+<script type="text/javascript" src="../../clipboard.js"></script>
+<link href="../../navtree.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="../../resize.js"></script>
+<script type="text/javascript" src="../../navtreedata.js"></script>
+<script type="text/javascript" src="../../navtree.js"></script>
+<link href="../../search/search.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="../../search/searchdata.js"></script>
+<script type="text/javascript" src="../../search/search.js"></script>
+<link href="../../doxygen.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+<div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+<div id="titlearea">
+<table cellspacing="0" cellpadding="0">
+ <tbody>
+ <tr id="projectrow">
+  <td id="projectalign">
+   <div id="projectname">Station_Méteo_Groupe_1<span id="projectnumber">&#160;v0.0.1</span>
+   </div>
+  </td>
+ </tr>
+ </tbody>
+</table>
+</div>
+<!-- end header part -->
+<!-- Généré par Doxygen 1.10.0 -->
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+var searchBox = new SearchBox("searchBox", "../../search/",'.html');
+/* @license-end */
+</script>
+<script type="text/javascript" src="../../menudata.js"></script>
+<script type="text/javascript" src="../../menu.js"></script>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+$(function() {
+  initMenu('../../',true,false,'search.php','Recherche');
+  $(document).ready(function() { init_search(); });
+});
+/* @license-end */
+</script>
+<div id="main-nav"></div>
+</div><!-- top -->
+<div id="side-nav" class="ui-resizable side-nav-resizable">
+  <div id="nav-tree">
+    <div id="nav-tree-contents">
+      <div id="nav-sync" class="sync"></div>
+    </div>
+  </div>
+  <div id="splitbar" style="-moz-user-select:none;" 
+       class="ui-resizable-handle">
+  </div>
+</div>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+$(document).ready(function(){initNavTree('db/d21/clock_8hpp.html','../../'); initResizable(); });
+/* @license-end */
+</script>
+<div id="doc-content">
+<!-- window showing the filter options -->
+<div id="MSearchSelectWindow"
+     onmouseover="return searchBox.OnSearchSelectShow()"
+     onmouseout="return searchBox.OnSearchSelectHide()"
+     onkeydown="return searchBox.OnSearchSelectKey(event)">
+</div>
+
+<!-- iframe showing the search results (closed by default) -->
+<div id="MSearchResultsWindow">
+<div id="MSearchResults">
+<div class="SRPage">
+<div id="SRIndex">
+<div id="SRResults"></div>
+<div class="SRStatus" id="Loading">Chargement...</div>
+<div class="SRStatus" id="Searching">Recherche...</div>
+<div class="SRStatus" id="NoMatches">Aucune correspondance</div>
+</div>
+</div>
+</div>
+</div>
+
+<div class="header">
+  <div class="summary">
+<a href="#define-members">Macros</a> &#124;
+<a href="#func-members">Fonctions</a> &#124;
+<a href="#var-members">Variables</a>  </div>
+  <div class="headertitle"><div class="title">Référence du fichier clock.hpp</div></div>
+</div><!--header-->
+<div class="contents">
+<div class="textblock"><code>#include &lt;<a class="el" href="../../de/dba/DS1307_8h_source.html">DS1307.h</a>&gt;</code><br />
+</div><div class="textblock"><div class="dynheader">
+Graphe des dépendances par inclusion de clock.hpp:</div>
+<div class="dyncontent">
+<div class="center"><img src="../../d5/d9b/clock_8hpp__incl.png" border="0" usemap="#a_2mnt_2d_2Cours_210_8_01CESI_01A2_2Blocs_201_01-_01Systeme_01embarque_2Livrables_2Station__Meteo__Groupe__1_2include_2peripherals_2clock_8hpp" alt=""/></div>
+<map name="a_2mnt_2d_2Cours_210_8_01CESI_01A2_2Blocs_201_01-_01Systeme_01embarque_2Livrables_2Station__Meteo__Groupe__1_2include_2peripherals_2clock_8hpp" id="a_2mnt_2d_2Cours_210_8_01CESI_01A2_2Blocs_201_01-_01Systeme_01embarque_2Livrables_2Station__Meteo__Groupe__1_2include_2peripherals_2clock_8hpp">
+<area shape="rect" title=" " alt="" coords="5,5,272,89"/>
+<area shape="rect" href="../../de/dba/DS1307_8h.html" title=" " alt="" coords="97,137,181,163"/>
+<area shape="poly" title=" " alt="" coords="141,89,141,124,136,124,136,89"/>
+<area shape="rect" title=" " alt="" coords="97,211,181,236"/>
+<area shape="poly" title=" " alt="" coords="141,163,141,197,136,197,136,163"/>
+</map>
+</div>
+</div><div class="textblock"><div class="dynheader">
+Ce graphe montre quels fichiers incluent directement ou indirectement ce fichier :</div>
+<div class="dyncontent">
+<div class="center"><img src="../../df/d68/clock_8hpp__dep__incl.png" border="0" usemap="#a_2mnt_2d_2Cours_210_8_01CESI_01A2_2Blocs_201_01-_01Systeme_01embarque_2Livrables_2Station__Meteo__Groupe__1_2include_2peripherals_2clock_8hppdep" alt=""/></div>
+<map name="a_2mnt_2d_2Cours_210_8_01CESI_01A2_2Blocs_201_01-_01Systeme_01embarque_2Livrables_2Station__Meteo__Groupe__1_2include_2peripherals_2clock_8hppdep" id="a_2mnt_2d_2Cours_210_8_01CESI_01A2_2Blocs_201_01-_01Systeme_01embarque_2Livrables_2Station__Meteo__Groupe__1_2include_2peripherals_2clock_8hppdep">
+<area shape="rect" title=" " alt="" coords="1560,5,1827,89"/>
+<area shape="rect" href="../../d0/d00/main_8hpp.html" title=" " alt="" coords="1431,145,1686,214"/>
+<area shape="poly" title=" " alt="" coords="1643,101,1596,146,1592,142,1639,97"/>
+<area shape="rect" href="../../da/d8a/clock_8cpp.html" title=" " alt="" coords="1710,137,1949,221"/>
+<area shape="poly" title=" " alt="" coords="1748,97,1788,135,1784,139,1744,101"/>
+<area shape="rect" href="../../db/d0c/acquisition_8hpp.html" title=" " alt="" coords="380,277,673,346"/>
+<area shape="poly" title=" " alt="" coords="1418,194,1101,224,914,246,728,272,674,281,673,276,728,267,914,241,1101,219,1417,189"/>
+<area shape="rect" href="../../d8/dc9/maintenance_8hpp.html" title=" " alt="" coords="545,533,783,617"/>
+<area shape="poly" title=" " alt="" coords="1417,184,1251,189,1068,203,980,214,903,229,838,248,792,271,769,308,736,379,676,534,671,532,731,377,764,305,789,267,836,243,901,224,980,209,1067,197,1251,183,1417,178"/>
+<area shape="rect" href="../../df/d04/standard_8hpp.html" title=" " alt="" coords="387,665,626,749"/>
+<area shape="poly" title=" " alt="" coords="1418,194,1337,205,1249,221,1158,243,1070,272,1004,297,953,320,908,352,861,403,843,432,833,459,827,513,825,539,819,566,807,592,785,619,765,635,747,646,712,655,673,659,627,668,627,668,626,663,626,663,673,653,711,650,745,641,762,631,781,615,802,590,814,564,820,539,822,512,828,458,838,429,857,400,904,348,950,316,1002,292,1068,267,1156,238,1248,216,1336,200,1417,189"/>
+<area shape="rect" href="../../d5/d98/sd_8hpp.html" title=" " alt="" coords="5,409,320,478"/>
+<area shape="poly" title=" " alt="" coords="1417,183,1162,187,854,199,702,210,563,226,445,246,357,272,303,300,255,337,214,376,184,410,180,407,210,372,251,333,301,296,355,267,444,241,562,221,702,205,854,194,1162,181,1417,178"/>
+<area shape="rect" href="../../db/d42/interpreter_8hpp.html" title=" " alt="" coords="1093,277,1384,346"/>
+<area shape="poly" title=" " alt="" coords="1464,222,1322,279,1320,274,1462,217"/>
+<area shape="rect" href="../../d1/dc5/serial_8hpp.html" title=" " alt="" coords="1168,401,1435,485"/>
+<area shape="poly" title=" " alt="" coords="1505,224,1455,271,1438,293,1427,312,1415,332,1398,355,1351,403,1347,399,1394,352,1411,329,1422,310,1434,290,1451,268,1502,220"/>
+<area shape="rect" href="../../de/d1e/humidity_8hpp.html" title=" " alt="" coords="945,797,1212,881"/>
+<area shape="poly" title=" " alt="" coords="1552,229,1538,311,1513,415,1494,469,1470,523,1441,574,1405,619,1390,632,1375,640,1346,647,1317,652,1284,668,1261,688,1246,708,1232,728,1210,751,1142,799,1139,795,1206,747,1228,725,1242,704,1257,684,1281,663,1315,647,1345,642,1373,635,1387,628,1401,615,1436,571,1466,521,1489,467,1508,413,1533,310,1546,228"/>
+<area shape="rect" href="../../d5/ddb/pressure_8hpp.html" title=" " alt="" coords="1511,797,1777,881"/>
+<area shape="poly" title=" " alt="" coords="1559,227,1574,399,1600,617,1615,714,1631,796,1626,798,1609,715,1595,618,1568,400,1554,228"/>
+<area shape="rect" href="../../dc/d32/temperature_8hpp.html" title=" " alt="" coords="1801,797,2068,881"/>
+<area shape="poly" title=" " alt="" coords="1575,226,1593,268,1609,321,1617,367,1624,448,1627,486,1635,526,1650,568,1674,616,1714,671,1762,719,1813,761,1861,795,1858,799,1810,766,1759,723,1710,674,1670,619,1645,570,1630,527,1622,487,1618,449,1612,368,1604,322,1588,270,1570,228"/>
+<area shape="rect" href="../../d1/dfa/mode_8hpp.html" title=" " alt="" coords="1733,277,1992,346"/>
+<area shape="poly" title=" " alt="" coords="1643,217,1777,274,1775,279,1641,222"/>
+<area shape="rect" href="../../dc/d0a/configuration_8hpp.html" title=" " alt="" coords="2017,269,2255,353"/>
+<area shape="poly" title=" " alt="" coords="1669,215,1686,219,1772,235,1839,242,1907,250,1993,267,2017,273,2016,278,1991,272,1906,256,1838,248,1771,240,1685,224,1668,220"/>
+<area shape="rect" href="../../d0/d42/economy_8hpp.html" title=" " alt="" coords="2279,269,2518,353"/>
+<area shape="poly" title=" " alt="" coords="1666,215,1686,219,1772,232,1845,239,1970,242,2096,245,2169,253,2255,267,2280,272,2279,277,2254,272,2169,258,2095,251,1970,247,1844,244,1771,237,1685,224,1665,220"/>
+<area shape="rect" href="../../de/d53/brightness_8hpp.html" title=" " alt="" coords="2543,269,2809,353"/>
+<area shape="poly" title=" " alt="" coords="1665,215,1686,219,1811,236,1918,244,2013,246,2102,244,2191,241,2286,242,2393,250,2519,267,2543,271,2542,277,2518,272,2393,255,2285,248,2191,247,2102,249,2013,251,1918,250,1811,242,1685,224,1664,220"/>
+<area shape="rect" href="../../df/d0a/main_8cpp.html" title=" " alt="" coords="2833,277,3060,346"/>
+<area shape="poly" title=" " alt="" coords="1676,215,1698,219,1867,241,2012,248,2140,246,2260,240,2379,234,2508,233,2652,243,2822,267,2854,274,2853,279,2821,272,2652,248,2507,239,2380,239,2260,245,2140,252,2012,253,1867,246,1697,224,1675,220"/>
+<area shape="poly" title=" " alt="" coords="431,356,405,377,385,403,374,425,370,444,373,463,385,484,417,516,457,540,500,556,545,565,544,571,499,561,454,544,414,520,381,487,368,465,365,444,369,423,380,400,401,373,428,351"/>
+<area shape="poly" title=" " alt="" coords="626,351,652,373,673,400,684,423,688,444,685,465,673,487,657,503,640,511,603,513,566,515,550,521,534,535,516,565,507,599,504,634,504,665,499,665,498,634,502,598,512,563,530,532,547,517,565,510,603,508,638,506,654,498,669,484,680,463,683,444,679,425,668,403,648,377,622,356"/>
+<area shape="poly" title=" " alt="" coords="420,353,257,411,256,406,419,348"/>
+<area shape="rect" href="../../d6/d30/acquisition_8cpp.html" title=" " alt="" coords="395,409,659,478"/>
+<area shape="poly" title=" " alt="" coords="529,360,529,409,524,409,524,360"/>
+<area shape="poly" title=" " alt="" coords="690,520,757,369,789,302,813,267,860,243,925,224,1002,209,1089,197,1270,183,1431,178,1431,184,1270,189,1089,203,1003,214,926,229,862,248,816,271,794,305,762,371,695,522"/>
+<area shape="rect" href="../../d6/d46/maintenance_8cpp.html" title=" " alt="" coords="152,665,363,749"/>
+<area shape="poly" title=" " alt="" coords="532,619,375,668,364,672,362,667,374,663,531,614"/>
+<area shape="poly" title=" " alt="" coords="639,666,650,663,697,653,735,650,769,641,786,631,805,615,826,590,838,564,844,539,846,512,852,458,862,429,881,400,928,348,974,316,1026,292,1092,267,1178,238,1267,217,1353,201,1431,190,1432,195,1354,206,1268,222,1180,243,1094,272,1028,297,977,320,932,352,885,403,867,432,857,459,851,513,849,539,843,566,831,592,809,619,789,635,771,646,736,655,697,659,651,668,640,671"/>
+<area shape="rect" href="../../df/d92/standard_8cpp.html" title=" " alt="" coords="393,797,604,881"/>
+<area shape="poly" title=" " alt="" coords="506,763,504,797,499,797,501,763"/>
+<area shape="poly" title=" " alt="" coords="207,397,282,327,329,293,379,267,468,241,586,221,725,205,877,194,1182,181,1431,178,1431,183,1182,187,877,199,726,210,587,226,469,246,381,272,331,298,285,331,210,400"/>
+<area shape="poly" title=" " alt="" coords="306,479,545,541,544,546,305,484"/>
+<area shape="rect" href="../../d0/ded/sd_8cpp.html" title=" " alt="" coords="20,541,305,610"/>
+<area shape="poly" title=" " alt="" coords="165,492,165,541,160,541,160,492"/>
+<area shape="poly" title=" " alt="" coords="1263,357,1284,400,1279,402,1259,360"/>
+<area shape="rect" href="../../d2/de2/interpreter_8cpp.html" title=" " alt="" coords="883,409,1144,478"/>
+<area shape="poly" title=" " alt="" coords="1170,355,1073,411,1070,406,1167,351"/>
+<area shape="poly" title=" " alt="" coords="1155,488,1021,514,890,536,784,555,783,550,889,531,1020,509,1154,483"/>
+<area shape="rect" href="../../d9/d99/error_8hpp.html" title=" " alt="" coords="1165,533,1403,617"/>
+<area shape="poly" title=" " alt="" coords="1297,499,1292,533,1287,533,1291,499"/>
+<area shape="rect" href="../../de/d25/serial_8cpp.html" title=" " alt="" coords="902,533,1141,617"/>
+<area shape="poly" title=" " alt="" coords="1202,493,1111,536,1108,531,1200,489"/>
+<area shape="poly" title=" " alt="" coords="1152,620,1074,633,1007,639,893,644,780,648,715,655,639,668,627,671,626,665,638,663,714,650,780,643,893,638,1006,634,1073,627,1151,615"/>
+<area shape="rect" href="../../d3/d42/bme_8hpp.html" title=" " alt="" coords="1307,673,1586,742"/>
+<area shape="poly" title=" " alt="" coords="1348,624,1406,670,1403,674,1344,628"/>
+<area shape="rect" href="../../db/d45/gps_8hpp.html" title=" " alt="" coords="651,673,973,742"/>
+<area shape="poly" title=" " alt="" coords="1152,620,946,675,945,670,1151,615"/>
+<area shape="rect" href="../../dd/db1/error_8cpp.html" title=" " alt="" coords="997,665,1208,749"/>
+<area shape="poly" title=" " alt="" coords="1217,628,1162,667,1159,663,1214,623"/>
+<area shape="poly" title=" " alt="" coords="1339,749,1195,800,1194,795,1337,744"/>
+<area shape="poly" title=" " alt="" coords="1511,748,1583,795,1580,799,1508,752"/>
+<area shape="poly" title=" " alt="" coords="1592,743,1790,795,1802,798,1801,803,1789,800,1591,748"/>
+<area shape="rect" href="../../d4/d82/bme_8cpp.html" title=" " alt="" coords="1237,805,1486,874"/>
+<area shape="poly" title=" " alt="" coords="1419,755,1386,806,1381,803,1415,752"/>
+<area shape="poly" title=" " alt="" coords="1174,788,1230,747,1252,725,1266,704,1281,684,1305,663,1339,647,1369,642,1397,635,1411,628,1425,615,1462,568,1492,515,1516,458,1534,401,1555,294,1560,214,1566,215,1560,295,1539,403,1521,460,1497,517,1467,571,1429,619,1414,632,1399,640,1370,647,1341,652,1308,668,1285,688,1270,708,1256,728,1234,751,1177,792"/>
+<area shape="rect" href="../../dd/d8e/humidity_8cpp.html" title=" " alt="" coords="959,929,1198,1013"/>
+<area shape="poly" title=" " alt="" coords="1081,895,1081,929,1076,929,1076,895"/>
+<area shape="poly" title=" " alt="" coords="1642,784,1619,618,1590,387,1566,215,1571,214,1595,387,1624,617,1647,783"/>
+<area shape="rect" href="../../d8/ddf/pressure_8cpp.html" title=" " alt="" coords="1525,929,1763,1013"/>
+<area shape="poly" title=" " alt="" coords="1647,895,1647,929,1641,929,1641,895"/>
+<area shape="poly" title=" " alt="" coords="1866,792,1822,758,1775,717,1731,671,1694,619,1669,570,1654,527,1646,487,1642,449,1636,368,1628,322,1612,270,1586,216,1591,213,1617,268,1633,321,1641,367,1648,448,1651,486,1659,526,1674,568,1698,616,1735,667,1779,714,1825,754,1869,787"/>
+<area shape="rect" href="../../d0/d3d/temperature_8cpp.html" title=" " alt="" coords="1815,929,2054,1013"/>
+<area shape="poly" title=" " alt="" coords="1937,895,1937,929,1932,929,1932,895"/>
+<area shape="rect" href="../../dc/d3d/gps_8cpp.html" title=" " alt="" coords="628,805,921,874"/>
+<area shape="poly" title=" " alt="" coords="801,756,787,805,782,804,796,755"/>
+<area shape="poly" title=" " alt="" coords="1779,274,1644,217,1646,212,1781,269"/>
+<area shape="rect" href="../../df/d0a/buttons_8hpp.html" title=" " alt="" coords="1683,401,1949,485"/>
+<area shape="poly" title=" " alt="" coords="1848,360,1833,402,1828,400,1843,358"/>
+<area shape="rect" href="../../d9/d88/mode_8cpp.html" title=" " alt="" coords="1974,409,2205,478"/>
+<area shape="poly" title=" " alt="" coords="1935,351,2032,406,2029,411,1932,355"/>
+<area shape="poly" title=" " alt="" coords="1756,394,1719,355,1702,332,1691,312,1679,293,1662,271,1602,216,1605,212,1666,268,1684,290,1695,310,1706,329,1723,352,1760,390"/>
+<area shape="rect" href="../../d9/d52/buttons_8cpp.html" title=" " alt="" coords="1697,533,1935,617"/>
+<area shape="poly" title=" " alt="" coords="1819,499,1819,533,1813,533,1813,499"/>
+<area shape="poly" title=" " alt="" coords="2003,269,1923,255,1858,247,1792,239,1709,224,1679,217,1680,211,1710,219,1793,234,1859,242,1924,249,2004,264"/>
+<area shape="rect" href="../../df/d22/configuration_8cpp.html" title=" " alt="" coords="2229,401,2440,485"/>
+<area shape="poly" title=" " alt="" coords="2212,359,2273,399,2270,403,2209,363"/>
+<area shape="poly" title=" " alt="" coords="2265,270,2183,257,2112,250,1990,247,1866,244,1793,237,1709,224,1676,217,1677,211,1710,219,1794,232,1866,239,1990,242,2113,245,2184,251,2266,264"/>
+<area shape="rect" href="../../d9/ddd/economy_8cpp.html" title=" " alt="" coords="2464,401,2675,485"/>
+<area shape="poly" title=" " alt="" coords="2465,360,2517,399,2513,403,2462,364"/>
+<area shape="poly" title=" " alt="" coords="2529,270,2406,254,2302,247,2121,249,2034,251,1940,250,1833,242,1709,224,1675,217,1676,211,1710,219,1834,236,1940,244,2034,246,2121,244,2302,242,2407,249,2529,264"/>
+<area shape="rect" href="../../d8/d9d/brightness_8cpp.html" title=" " alt="" coords="2699,401,2938,485"/>
+<area shape="poly" title=" " alt="" coords="2733,361,2775,399,2772,403,2729,365"/>
+</map>
+</div>
+</div>
+<p><a href="../../db/d21/clock_8hpp_source.html">Aller au code source de ce fichier.</a></p>
+<table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="define-members" name="define-members"></a>
+Macros</h2></td></tr>
+<tr class="memitem:ac716d5d3c9825936a9ea49f56ef5d8fe" id="r_ac716d5d3c9825936a9ea49f56ef5d8fe"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ac716d5d3c9825936a9ea49f56ef5d8fe">initClock</a>()&#160;&#160;&#160;clock.begin()</td></tr>
+<tr class="separator:ac716d5d3c9825936a9ea49f56ef5d8fe"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa459590f98e9f42f17f9d26d622fb582" id="r_aa459590f98e9f42f17f9d26d622fb582"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aa459590f98e9f42f17f9d26d622fb582">readClock</a>()&#160;&#160;&#160;clock.getTime()</td></tr>
+<tr class="separator:aa459590f98e9f42f17f9d26d622fb582"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5292b81efdb376318570bf6385192b15" id="r_a5292b81efdb376318570bf6385192b15"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a5292b81efdb376318570bf6385192b15">getHour</a>()&#160;&#160;&#160;clock.hour</td></tr>
+<tr class="separator:a5292b81efdb376318570bf6385192b15"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a278f54b98fb4c3ee167410c1b85a618a" id="r_a278f54b98fb4c3ee167410c1b85a618a"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a278f54b98fb4c3ee167410c1b85a618a">getMinute</a>()&#160;&#160;&#160;clock.minute</td></tr>
+<tr class="separator:a278f54b98fb4c3ee167410c1b85a618a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae4c931d4e47b8e09372e29bf939c871e" id="r_ae4c931d4e47b8e09372e29bf939c871e"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ae4c931d4e47b8e09372e29bf939c871e">getSecond</a>()&#160;&#160;&#160;clock.second</td></tr>
+<tr class="separator:ae4c931d4e47b8e09372e29bf939c871e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7918bf8a7003d8381dd03e95a37d2795" id="r_a7918bf8a7003d8381dd03e95a37d2795"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a7918bf8a7003d8381dd03e95a37d2795">getDay</a>()&#160;&#160;&#160;clock.dayOfMonth</td></tr>
+<tr class="separator:a7918bf8a7003d8381dd03e95a37d2795"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a054558e36977d14f915ef34c6d37fdbd" id="r_a054558e36977d14f915ef34c6d37fdbd"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a054558e36977d14f915ef34c6d37fdbd">getMonth</a>()&#160;&#160;&#160;clock.month</td></tr>
+<tr class="separator:a054558e36977d14f915ef34c6d37fdbd"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:abf8b8694d3c755590d90d328cae2fa8d" id="r_abf8b8694d3c755590d90d328cae2fa8d"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#abf8b8694d3c755590d90d328cae2fa8d">getYear</a>()&#160;&#160;&#160;clock.year</td></tr>
+<tr class="separator:abf8b8694d3c755590d90d328cae2fa8d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae01bf3ff31a16bc8ba1aa3374e20afae" id="r_ae01bf3ff31a16bc8ba1aa3374e20afae"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ae01bf3ff31a16bc8ba1aa3374e20afae">getYearFull</a>()&#160;&#160;&#160;clock.year + 2000</td></tr>
+<tr class="separator:ae01bf3ff31a16bc8ba1aa3374e20afae"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3dd13ee5b598fb34bf42c764835e1748" id="r_a3dd13ee5b598fb34bf42c764835e1748"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a3dd13ee5b598fb34bf42c764835e1748">getDayOfWeek</a>()&#160;&#160;&#160;clock.dayOfWeek</td></tr>
+<tr class="separator:a3dd13ee5b598fb34bf42c764835e1748"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="func-members" name="func-members"></a>
+Fonctions</h2></td></tr>
+<tr class="memitem:ac6daa7051c56f2758c8f1a555b38b54f" id="r_ac6daa7051c56f2758c8f1a555b38b54f"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ac6daa7051c56f2758c8f1a555b38b54f">setHour</a> (int hour)</td></tr>
+<tr class="separator:ac6daa7051c56f2758c8f1a555b38b54f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a046d520d9db3b46e7914380f53b9cbc4" id="r_a046d520d9db3b46e7914380f53b9cbc4"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a046d520d9db3b46e7914380f53b9cbc4">setMinute</a> (int minute)</td></tr>
+<tr class="separator:a046d520d9db3b46e7914380f53b9cbc4"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0bc46f276c5d52a4adecb25609a98c8c" id="r_a0bc46f276c5d52a4adecb25609a98c8c"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a0bc46f276c5d52a4adecb25609a98c8c">setSecond</a> (int second)</td></tr>
+<tr class="separator:a0bc46f276c5d52a4adecb25609a98c8c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab234f32040a0417cf7e4052226570ea7" id="r_ab234f32040a0417cf7e4052226570ea7"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ab234f32040a0417cf7e4052226570ea7">setDay</a> (int day)</td></tr>
+<tr class="separator:ab234f32040a0417cf7e4052226570ea7"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0819a812360d2bf138d207150a04c1f5" id="r_a0819a812360d2bf138d207150a04c1f5"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a0819a812360d2bf138d207150a04c1f5">setMonth</a> (int month)</td></tr>
+<tr class="separator:a0819a812360d2bf138d207150a04c1f5"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2268b24626953c1eac1d5b18db74cc4b" id="r_a2268b24626953c1eac1d5b18db74cc4b"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a2268b24626953c1eac1d5b18db74cc4b">setYear</a> (int year)</td></tr>
+<tr class="separator:a2268b24626953c1eac1d5b18db74cc4b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af6cbeb88490e4d37173075da9a7b077b" id="r_af6cbeb88490e4d37173075da9a7b077b"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#af6cbeb88490e4d37173075da9a7b077b">setYearFull</a> (int year)</td></tr>
+<tr class="separator:af6cbeb88490e4d37173075da9a7b077b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a267604a5694bbeec1f8bb522c02e30ea" id="r_a267604a5694bbeec1f8bb522c02e30ea"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a267604a5694bbeec1f8bb522c02e30ea">setDayOfWeek</a> (int dayOfWeek)</td></tr>
+<tr class="separator:a267604a5694bbeec1f8bb522c02e30ea"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="var-members" name="var-members"></a>
+Variables</h2></td></tr>
+<tr class="memitem:ae36a6148b9a02b71b1a4447b8621ac78" id="r_ae36a6148b9a02b71b1a4447b8621ac78"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d8/da8/classDS1307.html">DS1307</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ae36a6148b9a02b71b1a4447b8621ac78">clock</a></td></tr>
+<tr class="separator:ae36a6148b9a02b71b1a4447b8621ac78"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table>
+<h2 class="groupheader">Documentation des macros</h2>
+<a id="a7918bf8a7003d8381dd03e95a37d2795" name="a7918bf8a7003d8381dd03e95a37d2795"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a7918bf8a7003d8381dd03e95a37d2795">&#9670;&#160;</a></span>getDay</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define getDay</td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td>&#160;&#160;&#160;clock.dayOfMonth</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a3dd13ee5b598fb34bf42c764835e1748" name="a3dd13ee5b598fb34bf42c764835e1748"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a3dd13ee5b598fb34bf42c764835e1748">&#9670;&#160;</a></span>getDayOfWeek</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define getDayOfWeek</td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td>&#160;&#160;&#160;clock.dayOfWeek</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a5292b81efdb376318570bf6385192b15" name="a5292b81efdb376318570bf6385192b15"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a5292b81efdb376318570bf6385192b15">&#9670;&#160;</a></span>getHour</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define getHour</td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td>&#160;&#160;&#160;clock.hour</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a278f54b98fb4c3ee167410c1b85a618a" name="a278f54b98fb4c3ee167410c1b85a618a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a278f54b98fb4c3ee167410c1b85a618a">&#9670;&#160;</a></span>getMinute</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define getMinute</td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td>&#160;&#160;&#160;clock.minute</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a054558e36977d14f915ef34c6d37fdbd" name="a054558e36977d14f915ef34c6d37fdbd"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a054558e36977d14f915ef34c6d37fdbd">&#9670;&#160;</a></span>getMonth</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define getMonth</td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td>&#160;&#160;&#160;clock.month</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="ae4c931d4e47b8e09372e29bf939c871e" name="ae4c931d4e47b8e09372e29bf939c871e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae4c931d4e47b8e09372e29bf939c871e">&#9670;&#160;</a></span>getSecond</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define getSecond</td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td>&#160;&#160;&#160;clock.second</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="abf8b8694d3c755590d90d328cae2fa8d" name="abf8b8694d3c755590d90d328cae2fa8d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#abf8b8694d3c755590d90d328cae2fa8d">&#9670;&#160;</a></span>getYear</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define getYear</td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td>&#160;&#160;&#160;clock.year</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="ae01bf3ff31a16bc8ba1aa3374e20afae" name="ae01bf3ff31a16bc8ba1aa3374e20afae"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae01bf3ff31a16bc8ba1aa3374e20afae">&#9670;&#160;</a></span>getYearFull</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define getYearFull</td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td>&#160;&#160;&#160;clock.year + 2000</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="ac716d5d3c9825936a9ea49f56ef5d8fe" name="ac716d5d3c9825936a9ea49f56ef5d8fe"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac716d5d3c9825936a9ea49f56ef5d8fe">&#9670;&#160;</a></span>initClock</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define initClock</td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td>&#160;&#160;&#160;clock.begin()</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="aa459590f98e9f42f17f9d26d622fb582" name="aa459590f98e9f42f17f9d26d622fb582"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa459590f98e9f42f17f9d26d622fb582">&#9670;&#160;</a></span>readClock</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define readClock</td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td>&#160;&#160;&#160;clock.getTime()</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<h2 class="groupheader">Documentation des fonctions</h2>
+<a id="ab234f32040a0417cf7e4052226570ea7" name="ab234f32040a0417cf7e4052226570ea7"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab234f32040a0417cf7e4052226570ea7">&#9670;&#160;</a></span>setDay()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void setDay </td>
+          <td>(</td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>day</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<div class="dynheader">
+Voici le graphe d'appel pour cette fonction :</div>
+<div class="dyncontent">
+<div class="center"><img src="../../db/d21/clock_8hpp_ab234f32040a0417cf7e4052226570ea7_cgraph.png" border="0" usemap="#adb/d21/clock_8hpp_ab234f32040a0417cf7e4052226570ea7_cgraph" alt=""/></div>
+<map name="adb/d21/clock_8hpp_ab234f32040a0417cf7e4052226570ea7_cgraph" id="adb/d21/clock_8hpp_ab234f32040a0417cf7e4052226570ea7_cgraph">
+<area shape="rect" title=" " alt="" coords="5,5,73,31"/>
+<area shape="rect" href="../../d8/da8/classDS1307.html#a4cab80ca2e496b7fe5b68611b0cb1831" title=" " alt="" coords="121,5,255,31"/>
+<area shape="poly" title=" " alt="" coords="73,15,108,15,108,21,73,21"/>
+<area shape="rect" href="../../d8/da8/classDS1307.html#ae3d92c328b98282714d95f600dd4c0c7" title=" " alt="" coords="303,5,444,31"/>
+<area shape="poly" title=" " alt="" coords="255,15,288,15,288,21,255,21"/>
+</map>
+</div>
+<div class="dynheader">
+Voici le graphe des appelants de cette fonction :</div>
+<div class="dyncontent">
+<div class="center"><img src="../../db/d21/clock_8hpp_ab234f32040a0417cf7e4052226570ea7_icgraph.png" border="0" usemap="#adb/d21/clock_8hpp_ab234f32040a0417cf7e4052226570ea7_icgraph" alt=""/></div>
+<map name="adb/d21/clock_8hpp_ab234f32040a0417cf7e4052226570ea7_icgraph" id="adb/d21/clock_8hpp_ab234f32040a0417cf7e4052226570ea7_icgraph">
+<area shape="rect" title=" " alt="" coords="593,5,661,31"/>
+<area shape="rect" href="../../df/d22/configuration_8cpp.html#a109c8a943c63a9d6d5dbd7b5c423a11b" title=" " alt="" coords="347,5,545,31"/>
+<area shape="poly" title=" " alt="" coords="580,21,546,21,546,15,580,15"/>
+<area shape="rect" href="../../df/d22/configuration_8cpp.html#a007ee20d2ddf2c89e855b63e6e812b65" title=" " alt="" coords="104,5,299,31"/>
+<area shape="poly" title=" " alt="" coords="333,21,299,21,299,15,333,15"/>
+<area shape="rect" href="../../df/d0a/main_8cpp.html#afe461d27b9c48d5921c00d521181f12f" title=" " alt="" coords="5,5,56,31"/>
+<area shape="poly" title=" " alt="" coords="90,21,56,21,56,15,90,15"/>
+</map>
+</div>
+
+</div>
+</div>
+<a id="a267604a5694bbeec1f8bb522c02e30ea" name="a267604a5694bbeec1f8bb522c02e30ea"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a267604a5694bbeec1f8bb522c02e30ea">&#9670;&#160;</a></span>setDayOfWeek()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void setDayOfWeek </td>
+          <td>(</td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>dayOfWeek</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<div class="dynheader">
+Voici le graphe d'appel pour cette fonction :</div>
+<div class="dyncontent">
+<div class="center"><img src="../../db/d21/clock_8hpp_a267604a5694bbeec1f8bb522c02e30ea_cgraph.png" border="0" usemap="#adb/d21/clock_8hpp_a267604a5694bbeec1f8bb522c02e30ea_cgraph" alt=""/></div>
+<map name="adb/d21/clock_8hpp_a267604a5694bbeec1f8bb522c02e30ea_cgraph" id="adb/d21/clock_8hpp_a267604a5694bbeec1f8bb522c02e30ea_cgraph">
+<area shape="rect" title=" " alt="" coords="5,5,124,31"/>
+<area shape="rect" href="../../d8/da8/classDS1307.html#a4cab80ca2e496b7fe5b68611b0cb1831" title=" " alt="" coords="172,5,305,31"/>
+<area shape="poly" title=" " alt="" coords="124,15,158,15,158,21,124,21"/>
+<area shape="rect" href="../../d8/da8/classDS1307.html#ae3d92c328b98282714d95f600dd4c0c7" title=" " alt="" coords="353,5,495,31"/>
+<area shape="poly" title=" " alt="" coords="305,15,339,15,339,21,305,21"/>
+</map>
+</div>
+<div class="dynheader">
+Voici le graphe des appelants de cette fonction :</div>
+<div class="dyncontent">
+<div class="center"><img src="../../db/d21/clock_8hpp_a267604a5694bbeec1f8bb522c02e30ea_icgraph.png" border="0" usemap="#adb/d21/clock_8hpp_a267604a5694bbeec1f8bb522c02e30ea_icgraph" alt=""/></div>
+<map name="adb/d21/clock_8hpp_a267604a5694bbeec1f8bb522c02e30ea_icgraph" id="adb/d21/clock_8hpp_a267604a5694bbeec1f8bb522c02e30ea_icgraph">
+<area shape="rect" title=" " alt="" coords="593,5,712,31"/>
+<area shape="rect" href="../../df/d22/configuration_8cpp.html#a109c8a943c63a9d6d5dbd7b5c423a11b" title=" " alt="" coords="347,5,545,31"/>
+<area shape="poly" title=" " alt="" coords="579,21,545,21,545,15,579,15"/>
+<area shape="rect" href="../../df/d22/configuration_8cpp.html#a007ee20d2ddf2c89e855b63e6e812b65" title=" " alt="" coords="104,5,299,31"/>
+<area shape="poly" title=" " alt="" coords="333,21,299,21,299,15,333,15"/>
+<area shape="rect" href="../../df/d0a/main_8cpp.html#afe461d27b9c48d5921c00d521181f12f" title=" " alt="" coords="5,5,56,31"/>
+<area shape="poly" title=" " alt="" coords="90,21,56,21,56,15,90,15"/>
+</map>
+</div>
+
+</div>
+</div>
+<a id="ac6daa7051c56f2758c8f1a555b38b54f" name="ac6daa7051c56f2758c8f1a555b38b54f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac6daa7051c56f2758c8f1a555b38b54f">&#9670;&#160;</a></span>setHour()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void setHour </td>
+          <td>(</td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>hour</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<div class="dynheader">
+Voici le graphe d'appel pour cette fonction :</div>
+<div class="dyncontent">
+<div class="center"><img src="../../db/d21/clock_8hpp_ac6daa7051c56f2758c8f1a555b38b54f_cgraph.png" border="0" usemap="#adb/d21/clock_8hpp_ac6daa7051c56f2758c8f1a555b38b54f_cgraph" alt=""/></div>
+<map name="adb/d21/clock_8hpp_ac6daa7051c56f2758c8f1a555b38b54f_cgraph" id="adb/d21/clock_8hpp_ac6daa7051c56f2758c8f1a555b38b54f_cgraph">
+<area shape="rect" title=" " alt="" coords="5,5,79,31"/>
+<area shape="rect" href="../../d8/da8/classDS1307.html#a4cab80ca2e496b7fe5b68611b0cb1831" title=" " alt="" coords="127,5,260,31"/>
+<area shape="poly" title=" " alt="" coords="79,15,113,15,113,21,79,21"/>
+<area shape="rect" href="../../d8/da8/classDS1307.html#ae3d92c328b98282714d95f600dd4c0c7" title=" " alt="" coords="308,5,449,31"/>
+<area shape="poly" title=" " alt="" coords="260,15,294,15,294,21,260,21"/>
+</map>
+</div>
+<div class="dynheader">
+Voici le graphe des appelants de cette fonction :</div>
+<div class="dyncontent">
+<div class="center"><img src="../../db/d21/clock_8hpp_ac6daa7051c56f2758c8f1a555b38b54f_icgraph.png" border="0" usemap="#adb/d21/clock_8hpp_ac6daa7051c56f2758c8f1a555b38b54f_icgraph" alt=""/></div>
+<map name="adb/d21/clock_8hpp_ac6daa7051c56f2758c8f1a555b38b54f_icgraph" id="adb/d21/clock_8hpp_ac6daa7051c56f2758c8f1a555b38b54f_icgraph">
+<area shape="rect" title=" " alt="" coords="593,5,667,31"/>
+<area shape="rect" href="../../df/d22/configuration_8cpp.html#a109c8a943c63a9d6d5dbd7b5c423a11b" title=" " alt="" coords="347,5,545,31"/>
+<area shape="poly" title=" " alt="" coords="580,21,546,21,546,15,580,15"/>
+<area shape="rect" href="../../df/d22/configuration_8cpp.html#a007ee20d2ddf2c89e855b63e6e812b65" title=" " alt="" coords="104,5,299,31"/>
+<area shape="poly" title=" " alt="" coords="333,21,299,21,299,15,333,15"/>
+<area shape="rect" href="../../df/d0a/main_8cpp.html#afe461d27b9c48d5921c00d521181f12f" title=" " alt="" coords="5,5,56,31"/>
+<area shape="poly" title=" " alt="" coords="90,21,56,21,56,15,90,15"/>
+</map>
+</div>
+
+</div>
+</div>
+<a id="a046d520d9db3b46e7914380f53b9cbc4" name="a046d520d9db3b46e7914380f53b9cbc4"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a046d520d9db3b46e7914380f53b9cbc4">&#9670;&#160;</a></span>setMinute()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void setMinute </td>
+          <td>(</td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>minute</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<div class="dynheader">
+Voici le graphe d'appel pour cette fonction :</div>
+<div class="dyncontent">
+<div class="center"><img src="../../db/d21/clock_8hpp_a046d520d9db3b46e7914380f53b9cbc4_cgraph.png" border="0" usemap="#adb/d21/clock_8hpp_a046d520d9db3b46e7914380f53b9cbc4_cgraph" alt=""/></div>
+<map name="adb/d21/clock_8hpp_a046d520d9db3b46e7914380f53b9cbc4_cgraph" id="adb/d21/clock_8hpp_a046d520d9db3b46e7914380f53b9cbc4_cgraph">
+<area shape="rect" title=" " alt="" coords="5,5,92,31"/>
+<area shape="rect" href="../../d8/da8/classDS1307.html#a4cab80ca2e496b7fe5b68611b0cb1831" title=" " alt="" coords="140,5,273,31"/>
+<area shape="poly" title=" " alt="" coords="92,15,126,15,126,21,92,21"/>
+<area shape="rect" href="../../d8/da8/classDS1307.html#ae3d92c328b98282714d95f600dd4c0c7" title=" " alt="" coords="321,5,463,31"/>
+<area shape="poly" title=" " alt="" coords="273,15,307,15,307,21,273,21"/>
+</map>
+</div>
+<div class="dynheader">
+Voici le graphe des appelants de cette fonction :</div>
+<div class="dyncontent">
+<div class="center"><img src="../../db/d21/clock_8hpp_a046d520d9db3b46e7914380f53b9cbc4_icgraph.png" border="0" usemap="#adb/d21/clock_8hpp_a046d520d9db3b46e7914380f53b9cbc4_icgraph" alt=""/></div>
+<map name="adb/d21/clock_8hpp_a046d520d9db3b46e7914380f53b9cbc4_icgraph" id="adb/d21/clock_8hpp_a046d520d9db3b46e7914380f53b9cbc4_icgraph">
+<area shape="rect" title=" " alt="" coords="593,5,680,31"/>
+<area shape="rect" href="../../df/d22/configuration_8cpp.html#a109c8a943c63a9d6d5dbd7b5c423a11b" title=" " alt="" coords="347,5,545,31"/>
+<area shape="poly" title=" " alt="" coords="579,21,545,21,545,15,579,15"/>
+<area shape="rect" href="../../df/d22/configuration_8cpp.html#a007ee20d2ddf2c89e855b63e6e812b65" title=" " alt="" coords="104,5,299,31"/>
+<area shape="poly" title=" " alt="" coords="333,21,299,21,299,15,333,15"/>
+<area shape="rect" href="../../df/d0a/main_8cpp.html#afe461d27b9c48d5921c00d521181f12f" title=" " alt="" coords="5,5,56,31"/>
+<area shape="poly" title=" " alt="" coords="90,21,56,21,56,15,90,15"/>
+</map>
+</div>
+
+</div>
+</div>
+<a id="a0819a812360d2bf138d207150a04c1f5" name="a0819a812360d2bf138d207150a04c1f5"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a0819a812360d2bf138d207150a04c1f5">&#9670;&#160;</a></span>setMonth()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void setMonth </td>
+          <td>(</td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>month</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<div class="dynheader">
+Voici le graphe d'appel pour cette fonction :</div>
+<div class="dyncontent">
+<div class="center"><img src="../../db/d21/clock_8hpp_a0819a812360d2bf138d207150a04c1f5_cgraph.png" border="0" usemap="#adb/d21/clock_8hpp_a0819a812360d2bf138d207150a04c1f5_cgraph" alt=""/></div>
+<map name="adb/d21/clock_8hpp_a0819a812360d2bf138d207150a04c1f5_cgraph" id="adb/d21/clock_8hpp_a0819a812360d2bf138d207150a04c1f5_cgraph">
+<area shape="rect" title=" " alt="" coords="5,5,88,31"/>
+<area shape="rect" href="../../d8/da8/classDS1307.html#a4cab80ca2e496b7fe5b68611b0cb1831" title=" " alt="" coords="136,5,269,31"/>
+<area shape="poly" title=" " alt="" coords="88,15,122,15,122,21,88,21"/>
+<area shape="rect" href="../../d8/da8/classDS1307.html#ae3d92c328b98282714d95f600dd4c0c7" title=" " alt="" coords="317,5,459,31"/>
+<area shape="poly" title=" " alt="" coords="269,15,303,15,303,21,269,21"/>
+</map>
+</div>
+<div class="dynheader">
+Voici le graphe des appelants de cette fonction :</div>
+<div class="dyncontent">
+<div class="center"><img src="../../db/d21/clock_8hpp_a0819a812360d2bf138d207150a04c1f5_icgraph.png" border="0" usemap="#adb/d21/clock_8hpp_a0819a812360d2bf138d207150a04c1f5_icgraph" alt=""/></div>
+<map name="adb/d21/clock_8hpp_a0819a812360d2bf138d207150a04c1f5_icgraph" id="adb/d21/clock_8hpp_a0819a812360d2bf138d207150a04c1f5_icgraph">
+<area shape="rect" title=" " alt="" coords="593,5,676,31"/>
+<area shape="rect" href="../../df/d22/configuration_8cpp.html#a109c8a943c63a9d6d5dbd7b5c423a11b" title=" " alt="" coords="347,5,545,31"/>
+<area shape="poly" title=" " alt="" coords="579,21,546,21,546,15,579,15"/>
+<area shape="rect" href="../../df/d22/configuration_8cpp.html#a007ee20d2ddf2c89e855b63e6e812b65" title=" " alt="" coords="104,5,299,31"/>
+<area shape="poly" title=" " alt="" coords="333,21,299,21,299,15,333,15"/>
+<area shape="rect" href="../../df/d0a/main_8cpp.html#afe461d27b9c48d5921c00d521181f12f" title=" " alt="" coords="5,5,56,31"/>
+<area shape="poly" title=" " alt="" coords="90,21,56,21,56,15,90,15"/>
+</map>
+</div>
+
+</div>
+</div>
+<a id="a0bc46f276c5d52a4adecb25609a98c8c" name="a0bc46f276c5d52a4adecb25609a98c8c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a0bc46f276c5d52a4adecb25609a98c8c">&#9670;&#160;</a></span>setSecond()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void setSecond </td>
+          <td>(</td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>second</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<div class="dynheader">
+Voici le graphe d'appel pour cette fonction :</div>
+<div class="dyncontent">
+<div class="center"><img src="../../db/d21/clock_8hpp_a0bc46f276c5d52a4adecb25609a98c8c_cgraph.png" border="0" usemap="#adb/d21/clock_8hpp_a0bc46f276c5d52a4adecb25609a98c8c_cgraph" alt=""/></div>
+<map name="adb/d21/clock_8hpp_a0bc46f276c5d52a4adecb25609a98c8c_cgraph" id="adb/d21/clock_8hpp_a0bc46f276c5d52a4adecb25609a98c8c_cgraph">
+<area shape="rect" title=" " alt="" coords="5,5,95,31"/>
+<area shape="rect" href="../../d8/da8/classDS1307.html#a4cab80ca2e496b7fe5b68611b0cb1831" title=" " alt="" coords="143,5,276,31"/>
+<area shape="poly" title=" " alt="" coords="95,15,129,15,129,21,95,21"/>
+<area shape="rect" href="../../d8/da8/classDS1307.html#ae3d92c328b98282714d95f600dd4c0c7" title=" " alt="" coords="324,5,465,31"/>
+<area shape="poly" title=" " alt="" coords="276,15,310,15,310,21,276,21"/>
+</map>
+</div>
+<div class="dynheader">
+Voici le graphe des appelants de cette fonction :</div>
+<div class="dyncontent">
+<div class="center"><img src="../../db/d21/clock_8hpp_a0bc46f276c5d52a4adecb25609a98c8c_icgraph.png" border="0" usemap="#adb/d21/clock_8hpp_a0bc46f276c5d52a4adecb25609a98c8c_icgraph" alt=""/></div>
+<map name="adb/d21/clock_8hpp_a0bc46f276c5d52a4adecb25609a98c8c_icgraph" id="adb/d21/clock_8hpp_a0bc46f276c5d52a4adecb25609a98c8c_icgraph">
+<area shape="rect" title=" " alt="" coords="593,5,683,31"/>
+<area shape="rect" href="../../df/d22/configuration_8cpp.html#a109c8a943c63a9d6d5dbd7b5c423a11b" title=" " alt="" coords="347,5,545,31"/>
+<area shape="poly" title=" " alt="" coords="580,21,546,21,546,15,580,15"/>
+<area shape="rect" href="../../df/d22/configuration_8cpp.html#a007ee20d2ddf2c89e855b63e6e812b65" title=" " alt="" coords="104,5,299,31"/>
+<area shape="poly" title=" " alt="" coords="333,21,299,21,299,15,333,15"/>
+<area shape="rect" href="../../df/d0a/main_8cpp.html#afe461d27b9c48d5921c00d521181f12f" title=" " alt="" coords="5,5,56,31"/>
+<area shape="poly" title=" " alt="" coords="90,21,56,21,56,15,90,15"/>
+</map>
+</div>
+
+</div>
+</div>
+<a id="a2268b24626953c1eac1d5b18db74cc4b" name="a2268b24626953c1eac1d5b18db74cc4b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a2268b24626953c1eac1d5b18db74cc4b">&#9670;&#160;</a></span>setYear()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void setYear </td>
+          <td>(</td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>year</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<div class="dynheader">
+Voici le graphe d'appel pour cette fonction :</div>
+<div class="dyncontent">
+<div class="center"><img src="../../db/d21/clock_8hpp_a2268b24626953c1eac1d5b18db74cc4b_cgraph.png" border="0" usemap="#adb/d21/clock_8hpp_a2268b24626953c1eac1d5b18db74cc4b_cgraph" alt=""/></div>
+<map name="adb/d21/clock_8hpp_a2268b24626953c1eac1d5b18db74cc4b_cgraph" id="adb/d21/clock_8hpp_a2268b24626953c1eac1d5b18db74cc4b_cgraph">
+<area shape="rect" title=" " alt="" coords="5,5,75,31"/>
+<area shape="rect" href="../../d8/da8/classDS1307.html#a4cab80ca2e496b7fe5b68611b0cb1831" title=" " alt="" coords="123,5,256,31"/>
+<area shape="poly" title=" " alt="" coords="75,15,109,15,109,21,75,21"/>
+<area shape="rect" href="../../d8/da8/classDS1307.html#ae3d92c328b98282714d95f600dd4c0c7" title=" " alt="" coords="304,5,445,31"/>
+<area shape="poly" title=" " alt="" coords="256,15,290,15,290,21,256,21"/>
+</map>
+</div>
+<div class="dynheader">
+Voici le graphe des appelants de cette fonction :</div>
+<div class="dyncontent">
+<div class="center"><img src="../../db/d21/clock_8hpp_a2268b24626953c1eac1d5b18db74cc4b_icgraph.png" border="0" usemap="#adb/d21/clock_8hpp_a2268b24626953c1eac1d5b18db74cc4b_icgraph" alt=""/></div>
+<map name="adb/d21/clock_8hpp_a2268b24626953c1eac1d5b18db74cc4b_icgraph" id="adb/d21/clock_8hpp_a2268b24626953c1eac1d5b18db74cc4b_icgraph">
+<area shape="rect" title=" " alt="" coords="593,5,663,31"/>
+<area shape="rect" href="../../df/d22/configuration_8cpp.html#a109c8a943c63a9d6d5dbd7b5c423a11b" title=" " alt="" coords="347,5,545,31"/>
+<area shape="poly" title=" " alt="" coords="579,21,546,21,546,15,579,15"/>
+<area shape="rect" href="../../df/d22/configuration_8cpp.html#a007ee20d2ddf2c89e855b63e6e812b65" title=" " alt="" coords="104,5,299,31"/>
+<area shape="poly" title=" " alt="" coords="333,21,299,21,299,15,333,15"/>
+<area shape="rect" href="../../df/d0a/main_8cpp.html#afe461d27b9c48d5921c00d521181f12f" title=" " alt="" coords="5,5,56,31"/>
+<area shape="poly" title=" " alt="" coords="90,21,56,21,56,15,90,15"/>
+</map>
+</div>
+
+</div>
+</div>
+<a id="af6cbeb88490e4d37173075da9a7b077b" name="af6cbeb88490e4d37173075da9a7b077b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af6cbeb88490e4d37173075da9a7b077b">&#9670;&#160;</a></span>setYearFull()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void setYearFull </td>
+          <td>(</td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>year</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<div class="dynheader">
+Voici le graphe d'appel pour cette fonction :</div>
+<div class="dyncontent">
+<div class="center"><img src="../../db/d21/clock_8hpp_af6cbeb88490e4d37173075da9a7b077b_cgraph.png" border="0" usemap="#adb/d21/clock_8hpp_af6cbeb88490e4d37173075da9a7b077b_cgraph" alt=""/></div>
+<map name="adb/d21/clock_8hpp_af6cbeb88490e4d37173075da9a7b077b_cgraph" id="adb/d21/clock_8hpp_af6cbeb88490e4d37173075da9a7b077b_cgraph">
+<area shape="rect" title=" " alt="" coords="5,5,97,31"/>
+<area shape="rect" href="../../d8/da8/classDS1307.html#a4cab80ca2e496b7fe5b68611b0cb1831" title=" " alt="" coords="145,5,279,31"/>
+<area shape="poly" title=" " alt="" coords="98,15,131,15,131,21,98,21"/>
+<area shape="rect" href="../../d8/da8/classDS1307.html#ae3d92c328b98282714d95f600dd4c0c7" title=" " alt="" coords="327,5,468,31"/>
+<area shape="poly" title=" " alt="" coords="279,15,312,15,312,21,279,21"/>
+</map>
+</div>
+
+</div>
+</div>
+<h2 class="groupheader">Documentation des variables</h2>
+<a id="ae36a6148b9a02b71b1a4447b8621ac78" name="ae36a6148b9a02b71b1a4447b8621ac78"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae36a6148b9a02b71b1a4447b8621ac78">&#9670;&#160;</a></span>clock</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="../../d8/da8/classDS1307.html">DS1307</a> clock</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">extern</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+</div><!-- contents -->
+</div><!-- doc-content -->
+<!-- start footer part -->
+<div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
+  <ul>
+    <li class="navelem"><a class="el" href="../../dir_d44c64559bbebec7f509842c48db8b23.html">include</a></li><li class="navelem"><a class="el" href="../../dir_5e7d457258874aaf9dabe6fd7863f814.html">peripherals</a></li><li class="navelem"><a class="el" href="../../db/d21/clock_8hpp.html">clock.hpp</a></li>
+    <li class="footer">Généré par <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.10.0 </li>
+  </ul>
+</div>
+</body>
+</html>

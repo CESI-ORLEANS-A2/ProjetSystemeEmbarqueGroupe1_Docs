@@ -1,0 +1,9 @@
+<map id="redButtonPressed" name="redButtonPressed">
+<area shape="rect" id="Node000001" title="Réalise le changement de mode lorsqu&#39;on appuie sur le bouton rouge pendant BUTTON_DELAY." alt="" coords="472,5,609,31"/>
+<area shape="rect" id="Node000002" href="$d9/d52/buttons_8cpp.html#a54d82e2e60914d150743dcfe6ddbbece" title="Fonction appelée lors de l&#39;appui sur le bouton vert ou rouge." alt="" coords="309,5,424,31"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="458,21,424,21,424,15,458,15"/>
+<area shape="rect" id="Node000003" href="$d9/d52/buttons_8cpp.html#a82677b3df6b653b673a4b1735af9d45d" title="Initialise les interruptions sur les boutons." alt="" coords="112,5,261,31"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="296,21,262,21,262,15,296,15"/>
+<area shape="rect" id="Node000004" href="$df/d0a/main_8cpp.html#a4fc01d736fe50cf5b977f755b675f11d" title=" " alt="" coords="5,5,64,31"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="99,21,64,21,64,15,99,15"/>
+</map>

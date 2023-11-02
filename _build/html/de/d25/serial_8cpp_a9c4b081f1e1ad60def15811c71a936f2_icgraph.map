@@ -1,0 +1,13 @@
+<map id="printVersion" name="printVersion">
+<area shape="rect" id="Node000001" title="Affiche la version du logiciel sur le port série." alt="" coords="593,31,693,56"/>
+<area shape="rect" id="Node000002" href="$df/d22/configuration_8cpp.html#a109c8a943c63a9d6d5dbd7b5c423a11b" title=" " alt="" coords="347,5,545,31"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="579,38,545,33,545,28,580,33"/>
+<area shape="rect" id="Node000005" href="$de/d25/serial_8cpp.html#a2531a428197475f184bd61c0b412396a" title="Initialise le port série." alt="" coords="406,55,486,80"/>
+<area shape="poly" id="edge4_Node000001_Node000005" title=" " alt="" coords="580,54,486,65,486,60,579,48"/>
+<area shape="rect" id="Node000003" href="$df/d22/configuration_8cpp.html#a007ee20d2ddf2c89e855b63e6e812b65" title=" " alt="" coords="104,5,299,31"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="333,21,299,21,299,15,333,15"/>
+<area shape="rect" id="Node000004" href="$df/d0a/main_8cpp.html#afe461d27b9c48d5921c00d521181f12f" title=" " alt="" coords="5,5,56,31"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="90,21,56,21,56,15,90,15"/>
+<area shape="rect" id="Node000006" href="$df/d0a/main_8cpp.html#a4fc01d736fe50cf5b977f755b675f11d" title=" " alt="" coords="172,55,231,80"/>
+<area shape="poly" id="edge5_Node000005_Node000006" title=" " alt="" coords="392,70,231,70,231,65,392,65"/>
+</map>
