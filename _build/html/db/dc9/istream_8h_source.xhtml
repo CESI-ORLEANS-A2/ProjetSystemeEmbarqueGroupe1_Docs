@@ -1,0 +1,357 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "https://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="fr">
+<head>
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=11"/>
+<meta name="generator" content="Doxygen 1.10.0"/>
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+<title>Station_Méteo_Groupe_1:  Fichier source de /mnt/d/Cours/10. CESI A2/Blocs/01 - Systeme embarque/Livrables/Station_Meteo_Groupe_1 - Copy/libs/SdFat/src/iostream/istream.h</title>
+<link href="../../tabs.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="../../jquery.js"></script>
+<script type="text/javascript" src="../../dynsections.js"></script>
+<script type="text/javascript" src="../../clipboard.js"></script>
+<link href="../../navtree.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="../../resize.js"></script>
+<script type="text/javascript" src="../../navtreedata.js"></script>
+<script type="text/javascript" src="../../navtree.js"></script>
+<link href="../../search/search.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="../../search/searchdata.js"></script>
+<script type="text/javascript" src="../../search/search.js"></script>
+<link href="../../doxygen.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+<div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+<div id="titlearea">
+<table cellspacing="0" cellpadding="0">
+ <tbody>
+ <tr id="projectrow">
+  <td id="projectalign">
+   <div id="projectname">Station_Méteo_Groupe_1<span id="projectnumber">&#160;v0.0.1</span>
+   </div>
+  </td>
+ </tr>
+ </tbody>
+</table>
+</div>
+<!-- end header part -->
+<!-- Généré par Doxygen 1.10.0 -->
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+var searchBox = new SearchBox("searchBox", "../../search/",'.xhtml');
+/* @license-end */
+</script>
+<script type="text/javascript" src="../../menudata.js"></script>
+<script type="text/javascript" src="../../menu.js"></script>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+$(function() {
+  initMenu('../../',true,false,'search.php','Recherche');
+  $(document).ready(function() { init_search(); });
+});
+/* @license-end */
+</script>
+<div id="main-nav"></div>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+$(document).ready(function() { init_codefold(1); });
+/* @license-end */
+</script>
+</div><!-- top -->
+<div id="side-nav" class="ui-resizable side-nav-resizable">
+  <div id="nav-tree">
+    <div id="nav-tree-contents">
+      <div id="nav-sync" class="sync"></div>
+    </div>
+  </div>
+  <div id="splitbar" style="-moz-user-select:none;" 
+       class="ui-resizable-handle">
+  </div>
+</div>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+$(document).ready(function(){initNavTree('db/dc9/istream_8h_source.xhtml','../../'); initResizable(); });
+/* @license-end */
+</script>
+<div id="doc-content">
+<!-- window showing the filter options -->
+<div id="MSearchSelectWindow"
+     onmouseover="return searchBox.OnSearchSelectShow()"
+     onmouseout="return searchBox.OnSearchSelectHide()"
+     onkeydown="return searchBox.OnSearchSelectKey(event)">
+</div>
+
+<!-- iframe showing the search results (closed by default) -->
+<div id="MSearchResultsWindow">
+<div id="MSearchResults">
+<div class="SRPage">
+<div id="SRIndex">
+<div id="SRResults"></div>
+<div class="SRStatus" id="Loading">Chargement...</div>
+<div class="SRStatus" id="Searching">Recherche...</div>
+<div class="SRStatus" id="NoMatches">Aucune correspondance</div>
+</div>
+</div>
+</div>
+</div>
+
+<div class="header">
+  <div class="headertitle"><div class="title">istream.h</div></div>
+</div><!--header-->
+<div class="contents">
+<a href="../../db/dc9/istream_8h.xhtml">Aller à la documentation de ce fichier.</a><div class="fragment"><div class="line"><a id="l00001" name="l00001"></a><span class="lineno">    1</span> </div>
+<div class="line"><a id="l00025" name="l00025"></a><span class="lineno">   25</span><span class="preprocessor">#ifndef istream_h</span></div>
+<div class="line"><a id="l00026" name="l00026"></a><span class="lineno">   26</span><span class="preprocessor">#define istream_h</span></div>
+<div class="line"><a id="l00031" name="l00031"></a><span class="lineno">   31</span><span class="preprocessor">#include &quot;<a class="code" href="../../df/dd5/ios_8h.xhtml">ios.h</a>&quot;</span></div>
+<div class="line"><a id="l00032" name="l00032"></a><span class="lineno">   32</span> </div>
+<div class="foldopen" id="foldopen00037" data-start="{" data-end="};">
+<div class="line"><a id="l00037" name="l00037"></a><span class="lineno"><a class="line" href="../../d4/d07/classistream.xhtml">   37</a></span><span class="keyword">class </span><a class="code hl_class" href="../../d4/d07/classistream.xhtml">istream</a> : <span class="keyword">public</span> <span class="keyword">virtual</span> <a class="code hl_class" href="../../df/d02/classios.xhtml">ios</a> {</div>
+<div class="line"><a id="l00038" name="l00038"></a><span class="lineno">   38</span> <span class="keyword">public</span>:</div>
+<div class="line"><a id="l00039" name="l00039"></a><span class="lineno"><a class="line" href="../../d4/d07/classistream_addc5126126b85763f6b10d3b25f4709e.xhtml#addc5126126b85763f6b10d3b25f4709e">   39</a></span>  <a class="code hl_function" href="../../d4/d07/classistream_addc5126126b85763f6b10d3b25f4709e.xhtml#addc5126126b85763f6b10d3b25f4709e">istream</a>() = <span class="keywordflow">default</span>;</div>
+<div class="line"><a id="l00044" name="l00044"></a><span class="lineno"><a class="line" href="../../d4/d07/classistream_ad045f93ac6d39641c40a37c02060f21b.xhtml#ad045f93ac6d39641c40a37c02060f21b">   44</a></span>  <a class="code hl_class" href="../../d4/d07/classistream.xhtml">istream</a>&amp; <a class="code hl_function" href="../../d4/d07/classistream_ad045f93ac6d39641c40a37c02060f21b.xhtml#ad045f93ac6d39641c40a37c02060f21b">operator&gt;&gt;</a>(<a class="code hl_class" href="../../d4/d07/classistream.xhtml">istream</a>&amp; (*pf)(<a class="code hl_class" href="../../d4/d07/classistream.xhtml">istream</a>&amp; str)) { <span class="keywordflow">return</span> pf(*<span class="keyword">this</span>); }</div>
+<div class="foldopen" id="foldopen00049" data-start="{" data-end="}">
+<div class="line"><a id="l00049" name="l00049"></a><span class="lineno"><a class="line" href="../../d4/d07/classistream_adc1e42bb10036c4fc824f24378736c7c.xhtml#adc1e42bb10036c4fc824f24378736c7c">   49</a></span>  <a class="code hl_class" href="../../d4/d07/classistream.xhtml">istream</a>&amp; <a class="code hl_function" href="../../d4/d07/classistream_adc1e42bb10036c4fc824f24378736c7c.xhtml#adc1e42bb10036c4fc824f24378736c7c">operator&gt;&gt;</a>(<a class="code hl_class" href="../../d4/dc1/classios__base.xhtml">ios_base</a>&amp; (*pf)(<a class="code hl_class" href="../../d4/dc1/classios__base.xhtml">ios_base</a>&amp; str)) {</div>
+<div class="line"><a id="l00050" name="l00050"></a><span class="lineno">   50</span>    pf(*<span class="keyword">this</span>);</div>
+<div class="line"><a id="l00051" name="l00051"></a><span class="lineno">   51</span>    <span class="keywordflow">return</span> *<span class="keyword">this</span>;</div>
+<div class="line"><a id="l00052" name="l00052"></a><span class="lineno">   52</span>  }</div>
+</div>
+<div class="foldopen" id="foldopen00057" data-start="{" data-end="}">
+<div class="line"><a id="l00057" name="l00057"></a><span class="lineno"><a class="line" href="../../d4/d07/classistream_add7f7009a192e404d04897a08347116d.xhtml#add7f7009a192e404d04897a08347116d">   57</a></span>  <a class="code hl_class" href="../../d4/d07/classistream.xhtml">istream</a>&amp; <a class="code hl_function" href="../../d4/d07/classistream_add7f7009a192e404d04897a08347116d.xhtml#add7f7009a192e404d04897a08347116d">operator&gt;&gt;</a>(<a class="code hl_class" href="../../df/d02/classios.xhtml">ios</a>&amp; (*pf)(<a class="code hl_class" href="../../df/d02/classios.xhtml">ios</a>&amp; str)) {</div>
+<div class="line"><a id="l00058" name="l00058"></a><span class="lineno">   58</span>    pf(*<span class="keyword">this</span>);</div>
+<div class="line"><a id="l00059" name="l00059"></a><span class="lineno">   59</span>    <span class="keywordflow">return</span> *<span class="keyword">this</span>;</div>
+<div class="line"><a id="l00060" name="l00060"></a><span class="lineno">   60</span>  }</div>
+</div>
+<div class="foldopen" id="foldopen00066" data-start="{" data-end="}">
+<div class="line"><a id="l00066" name="l00066"></a><span class="lineno"><a class="line" href="../../d4/d07/classistream_a7f26af90b7de8d95553e346c059801a3.xhtml#a7f26af90b7de8d95553e346c059801a3">   66</a></span>  <a class="code hl_class" href="../../d4/d07/classistream.xhtml">istream</a>&amp; <a class="code hl_function" href="../../d4/d07/classistream_a7f26af90b7de8d95553e346c059801a3.xhtml#a7f26af90b7de8d95553e346c059801a3">operator&gt;&gt;</a>(<span class="keywordtype">char</span>* str) {</div>
+<div class="line"><a id="l00067" name="l00067"></a><span class="lineno">   67</span>    <a class="code hl_function" href="../../d4/d07/classistream_a86905009b7c556cf3ac614379c700406.xhtml#a86905009b7c556cf3ac614379c700406">getStr</a>(str);</div>
+<div class="line"><a id="l00068" name="l00068"></a><span class="lineno">   68</span>    <span class="keywordflow">return</span> *<span class="keyword">this</span>;</div>
+<div class="line"><a id="l00069" name="l00069"></a><span class="lineno">   69</span>  }</div>
+</div>
+<div class="foldopen" id="foldopen00075" data-start="{" data-end="}">
+<div class="line"><a id="l00075" name="l00075"></a><span class="lineno"><a class="line" href="../../d4/d07/classistream_a679ae010afb953bbb589c8eeaebebafd.xhtml#a679ae010afb953bbb589c8eeaebebafd">   75</a></span>  <a class="code hl_class" href="../../d4/d07/classistream.xhtml">istream</a>&amp; <a class="code hl_function" href="../../d4/d07/classistream_a679ae010afb953bbb589c8eeaebebafd.xhtml#a679ae010afb953bbb589c8eeaebebafd">operator&gt;&gt;</a>(<span class="keywordtype">char</span>&amp; ch) {</div>
+<div class="line"><a id="l00076" name="l00076"></a><span class="lineno">   76</span>    <a class="code hl_function" href="../../d4/d07/classistream_a97190a6a14b97ae0c8e1409474d231db.xhtml#a97190a6a14b97ae0c8e1409474d231db">getChar</a>(&amp;ch);</div>
+<div class="line"><a id="l00077" name="l00077"></a><span class="lineno">   77</span>    <span class="keywordflow">return</span> *<span class="keyword">this</span>;</div>
+<div class="line"><a id="l00078" name="l00078"></a><span class="lineno">   78</span>  }</div>
+</div>
+<div class="foldopen" id="foldopen00084" data-start="{" data-end="}">
+<div class="line"><a id="l00084" name="l00084"></a><span class="lineno"><a class="line" href="../../d4/d07/classistream_a44735a1432865ffab97e4b865b3e8157.xhtml#a44735a1432865ffab97e4b865b3e8157">   84</a></span>  <a class="code hl_class" href="../../d4/d07/classistream.xhtml">istream</a>&amp; <a class="code hl_function" href="../../d4/d07/classistream_a44735a1432865ffab97e4b865b3e8157.xhtml#a44735a1432865ffab97e4b865b3e8157">operator&gt;&gt;</a>(<span class="keywordtype">signed</span> <span class="keywordtype">char</span>* str) {</div>
+<div class="line"><a id="l00085" name="l00085"></a><span class="lineno">   85</span>    <a class="code hl_function" href="../../d4/d07/classistream_a86905009b7c556cf3ac614379c700406.xhtml#a86905009b7c556cf3ac614379c700406">getStr</a>(<span class="keyword">reinterpret_cast&lt;</span><span class="keywordtype">char</span>*<span class="keyword">&gt;</span>(str));</div>
+<div class="line"><a id="l00086" name="l00086"></a><span class="lineno">   86</span>    <span class="keywordflow">return</span> *<span class="keyword">this</span>;</div>
+<div class="line"><a id="l00087" name="l00087"></a><span class="lineno">   87</span>  }</div>
+</div>
+<div class="foldopen" id="foldopen00093" data-start="{" data-end="}">
+<div class="line"><a id="l00093" name="l00093"></a><span class="lineno"><a class="line" href="../../d4/d07/classistream_a205e90330fff062ce326414788a32dab.xhtml#a205e90330fff062ce326414788a32dab">   93</a></span>  <a class="code hl_class" href="../../d4/d07/classistream.xhtml">istream</a>&amp; <a class="code hl_function" href="../../d4/d07/classistream_a205e90330fff062ce326414788a32dab.xhtml#a205e90330fff062ce326414788a32dab">operator&gt;&gt;</a>(<span class="keywordtype">signed</span> <span class="keywordtype">char</span>&amp; ch) {</div>
+<div class="line"><a id="l00094" name="l00094"></a><span class="lineno">   94</span>    <a class="code hl_function" href="../../d4/d07/classistream_a97190a6a14b97ae0c8e1409474d231db.xhtml#a97190a6a14b97ae0c8e1409474d231db">getChar</a>(<span class="keyword">reinterpret_cast&lt;</span><span class="keywordtype">char</span>*<span class="keyword">&gt;</span>(&amp;ch));</div>
+<div class="line"><a id="l00095" name="l00095"></a><span class="lineno">   95</span>    <span class="keywordflow">return</span> *<span class="keyword">this</span>;</div>
+<div class="line"><a id="l00096" name="l00096"></a><span class="lineno">   96</span>  }</div>
+</div>
+<div class="foldopen" id="foldopen00102" data-start="{" data-end="}">
+<div class="line"><a id="l00102" name="l00102"></a><span class="lineno"><a class="line" href="../../d4/d07/classistream_acc838a1a815184e2a36fdf0fdb2a4a26.xhtml#acc838a1a815184e2a36fdf0fdb2a4a26">  102</a></span>  <a class="code hl_class" href="../../d4/d07/classistream.xhtml">istream</a>&amp; <a class="code hl_function" href="../../d4/d07/classistream_acc838a1a815184e2a36fdf0fdb2a4a26.xhtml#acc838a1a815184e2a36fdf0fdb2a4a26">operator&gt;&gt;</a>(<span class="keywordtype">unsigned</span> <span class="keywordtype">char</span>* str) {</div>
+<div class="line"><a id="l00103" name="l00103"></a><span class="lineno">  103</span>    <a class="code hl_function" href="../../d4/d07/classistream_a86905009b7c556cf3ac614379c700406.xhtml#a86905009b7c556cf3ac614379c700406">getStr</a>(<span class="keyword">reinterpret_cast&lt;</span><span class="keywordtype">char</span>*<span class="keyword">&gt;</span>(str));</div>
+<div class="line"><a id="l00104" name="l00104"></a><span class="lineno">  104</span>    <span class="keywordflow">return</span> *<span class="keyword">this</span>;</div>
+<div class="line"><a id="l00105" name="l00105"></a><span class="lineno">  105</span>  }</div>
+</div>
+<div class="foldopen" id="foldopen00111" data-start="{" data-end="}">
+<div class="line"><a id="l00111" name="l00111"></a><span class="lineno"><a class="line" href="../../d4/d07/classistream_a0412869210fcb5c319da1f55eb047825.xhtml#a0412869210fcb5c319da1f55eb047825">  111</a></span>  <a class="code hl_class" href="../../d4/d07/classistream.xhtml">istream</a>&amp; <a class="code hl_function" href="../../d4/d07/classistream_a0412869210fcb5c319da1f55eb047825.xhtml#a0412869210fcb5c319da1f55eb047825">operator&gt;&gt;</a>(<span class="keywordtype">unsigned</span> <span class="keywordtype">char</span>&amp; ch) {</div>
+<div class="line"><a id="l00112" name="l00112"></a><span class="lineno">  112</span>    <a class="code hl_function" href="../../d4/d07/classistream_a97190a6a14b97ae0c8e1409474d231db.xhtml#a97190a6a14b97ae0c8e1409474d231db">getChar</a>(<span class="keyword">reinterpret_cast&lt;</span><span class="keywordtype">char</span>*<span class="keyword">&gt;</span>(&amp;ch));</div>
+<div class="line"><a id="l00113" name="l00113"></a><span class="lineno">  113</span>    <span class="keywordflow">return</span> *<span class="keyword">this</span>;</div>
+<div class="line"><a id="l00114" name="l00114"></a><span class="lineno">  114</span>  }</div>
+</div>
+<div class="foldopen" id="foldopen00120" data-start="{" data-end="}">
+<div class="line"><a id="l00120" name="l00120"></a><span class="lineno"><a class="line" href="../../d4/d07/classistream_ad1cb81b7ee0b9bee9cb1793451c322b8.xhtml#ad1cb81b7ee0b9bee9cb1793451c322b8">  120</a></span>  <a class="code hl_class" href="../../d4/d07/classistream.xhtml">istream</a>&amp; <a class="code hl_function" href="../../d4/d07/classistream_ad1cb81b7ee0b9bee9cb1793451c322b8.xhtml#ad1cb81b7ee0b9bee9cb1793451c322b8">operator&gt;&gt;</a>(<span class="keywordtype">bool</span>&amp; arg) {</div>
+<div class="line"><a id="l00121" name="l00121"></a><span class="lineno">  121</span>    <a class="code hl_function" href="../../d4/d07/classistream_a9a14b9b12e82c1da3fc47095faec0685.xhtml#a9a14b9b12e82c1da3fc47095faec0685">getBool</a>(&amp;arg);</div>
+<div class="line"><a id="l00122" name="l00122"></a><span class="lineno">  122</span>    <span class="keywordflow">return</span> *<span class="keyword">this</span>;</div>
+<div class="line"><a id="l00123" name="l00123"></a><span class="lineno">  123</span>  }</div>
+</div>
+<div class="foldopen" id="foldopen00129" data-start="{" data-end="}">
+<div class="line"><a id="l00129" name="l00129"></a><span class="lineno"><a class="line" href="../../d4/d07/classistream_a0a06a5d7368b56a071b58b84789d6c4c.xhtml#a0a06a5d7368b56a071b58b84789d6c4c">  129</a></span>  <a class="code hl_class" href="../../d4/d07/classistream.xhtml">istream</a>&amp; <a class="code hl_function" href="../../d4/d07/classistream_a0a06a5d7368b56a071b58b84789d6c4c.xhtml#a0a06a5d7368b56a071b58b84789d6c4c">operator&gt;&gt;</a>(<span class="keywordtype">short</span>&amp; arg) {  <span class="comment">// NOLINT</span></div>
+<div class="line"><a id="l00130" name="l00130"></a><span class="lineno">  130</span>    <a class="code hl_function" href="../../d4/d07/classistream_a80d0d54abe80ccbd71f809f83fb313d8.xhtml#a80d0d54abe80ccbd71f809f83fb313d8">getNumber</a>(&amp;arg);</div>
+<div class="line"><a id="l00131" name="l00131"></a><span class="lineno">  131</span>    <span class="keywordflow">return</span> *<span class="keyword">this</span>;</div>
+<div class="line"><a id="l00132" name="l00132"></a><span class="lineno">  132</span>  }</div>
+</div>
+<div class="foldopen" id="foldopen00138" data-start="{" data-end="}">
+<div class="line"><a id="l00138" name="l00138"></a><span class="lineno"><a class="line" href="../../d4/d07/classistream_a2260c0cafc4f1434a83bd76abca0cd46.xhtml#a2260c0cafc4f1434a83bd76abca0cd46">  138</a></span>  <a class="code hl_class" href="../../d4/d07/classistream.xhtml">istream</a>&amp; <a class="code hl_function" href="../../d4/d07/classistream_a2260c0cafc4f1434a83bd76abca0cd46.xhtml#a2260c0cafc4f1434a83bd76abca0cd46">operator&gt;&gt;</a>(<span class="keywordtype">unsigned</span> <span class="keywordtype">short</span>&amp; arg) {  <span class="comment">// NOLINT</span></div>
+<div class="line"><a id="l00139" name="l00139"></a><span class="lineno">  139</span>    <a class="code hl_function" href="../../d4/d07/classistream_a80d0d54abe80ccbd71f809f83fb313d8.xhtml#a80d0d54abe80ccbd71f809f83fb313d8">getNumber</a>(&amp;arg);</div>
+<div class="line"><a id="l00140" name="l00140"></a><span class="lineno">  140</span>    <span class="keywordflow">return</span> *<span class="keyword">this</span>;</div>
+<div class="line"><a id="l00141" name="l00141"></a><span class="lineno">  141</span>  }</div>
+</div>
+<div class="foldopen" id="foldopen00147" data-start="{" data-end="}">
+<div class="line"><a id="l00147" name="l00147"></a><span class="lineno"><a class="line" href="../../d4/d07/classistream_a8b9bebcd2d6a2bfec01b4b70e90bd32e.xhtml#a8b9bebcd2d6a2bfec01b4b70e90bd32e">  147</a></span>  <a class="code hl_class" href="../../d4/d07/classistream.xhtml">istream</a>&amp; <a class="code hl_function" href="../../d4/d07/classistream_a8b9bebcd2d6a2bfec01b4b70e90bd32e.xhtml#a8b9bebcd2d6a2bfec01b4b70e90bd32e">operator&gt;&gt;</a>(<span class="keywordtype">int</span>&amp; arg) {</div>
+<div class="line"><a id="l00148" name="l00148"></a><span class="lineno">  148</span>    <a class="code hl_function" href="../../d4/d07/classistream_a80d0d54abe80ccbd71f809f83fb313d8.xhtml#a80d0d54abe80ccbd71f809f83fb313d8">getNumber</a>(&amp;arg);</div>
+<div class="line"><a id="l00149" name="l00149"></a><span class="lineno">  149</span>    <span class="keywordflow">return</span> *<span class="keyword">this</span>;</div>
+<div class="line"><a id="l00150" name="l00150"></a><span class="lineno">  150</span>  }</div>
+</div>
+<div class="foldopen" id="foldopen00156" data-start="{" data-end="}">
+<div class="line"><a id="l00156" name="l00156"></a><span class="lineno"><a class="line" href="../../d4/d07/classistream_a5270ae963d43a2f8452786af855fe1c7.xhtml#a5270ae963d43a2f8452786af855fe1c7">  156</a></span>  <a class="code hl_class" href="../../d4/d07/classistream.xhtml">istream</a>&amp; <a class="code hl_function" href="../../d4/d07/classistream_a5270ae963d43a2f8452786af855fe1c7.xhtml#a5270ae963d43a2f8452786af855fe1c7">operator&gt;&gt;</a>(<span class="keywordtype">unsigned</span> <span class="keywordtype">int</span>&amp; arg) {</div>
+<div class="line"><a id="l00157" name="l00157"></a><span class="lineno">  157</span>    <a class="code hl_function" href="../../d4/d07/classistream_a80d0d54abe80ccbd71f809f83fb313d8.xhtml#a80d0d54abe80ccbd71f809f83fb313d8">getNumber</a>(&amp;arg);</div>
+<div class="line"><a id="l00158" name="l00158"></a><span class="lineno">  158</span>    <span class="keywordflow">return</span> *<span class="keyword">this</span>;</div>
+<div class="line"><a id="l00159" name="l00159"></a><span class="lineno">  159</span>  }</div>
+</div>
+<div class="foldopen" id="foldopen00165" data-start="{" data-end="}">
+<div class="line"><a id="l00165" name="l00165"></a><span class="lineno"><a class="line" href="../../d4/d07/classistream_aec2f50a52b65a4756acc95374cf67dda.xhtml#aec2f50a52b65a4756acc95374cf67dda">  165</a></span>  <a class="code hl_class" href="../../d4/d07/classistream.xhtml">istream</a>&amp; <a class="code hl_function" href="../../d4/d07/classistream_aec2f50a52b65a4756acc95374cf67dda.xhtml#aec2f50a52b65a4756acc95374cf67dda">operator&gt;&gt;</a>(<span class="keywordtype">long</span>&amp; arg) {  <span class="comment">// NOLINT</span></div>
+<div class="line"><a id="l00166" name="l00166"></a><span class="lineno">  166</span>    <a class="code hl_function" href="../../d4/d07/classistream_a80d0d54abe80ccbd71f809f83fb313d8.xhtml#a80d0d54abe80ccbd71f809f83fb313d8">getNumber</a>(&amp;arg);</div>
+<div class="line"><a id="l00167" name="l00167"></a><span class="lineno">  167</span>    <span class="keywordflow">return</span> *<span class="keyword">this</span>;</div>
+<div class="line"><a id="l00168" name="l00168"></a><span class="lineno">  168</span>  }</div>
+</div>
+<div class="foldopen" id="foldopen00174" data-start="{" data-end="}">
+<div class="line"><a id="l00174" name="l00174"></a><span class="lineno"><a class="line" href="../../d4/d07/classistream_a181b109260cb3874f8cfce393918df47.xhtml#a181b109260cb3874f8cfce393918df47">  174</a></span>  <a class="code hl_class" href="../../d4/d07/classistream.xhtml">istream</a>&amp; <a class="code hl_function" href="../../d4/d07/classistream_a181b109260cb3874f8cfce393918df47.xhtml#a181b109260cb3874f8cfce393918df47">operator&gt;&gt;</a>(<span class="keywordtype">unsigned</span> <span class="keywordtype">long</span>&amp; arg) {  <span class="comment">// NOLINT</span></div>
+<div class="line"><a id="l00175" name="l00175"></a><span class="lineno">  175</span>    <a class="code hl_function" href="../../d4/d07/classistream_a80d0d54abe80ccbd71f809f83fb313d8.xhtml#a80d0d54abe80ccbd71f809f83fb313d8">getNumber</a>(&amp;arg);</div>
+<div class="line"><a id="l00176" name="l00176"></a><span class="lineno">  176</span>    <span class="keywordflow">return</span> *<span class="keyword">this</span>;</div>
+<div class="line"><a id="l00177" name="l00177"></a><span class="lineno">  177</span>  }</div>
+</div>
+<div class="foldopen" id="foldopen00183" data-start="{" data-end="}">
+<div class="line"><a id="l00183" name="l00183"></a><span class="lineno"><a class="line" href="../../d4/d07/classistream_a1dc611d45252414ebfbec4898aa7d1ba.xhtml#a1dc611d45252414ebfbec4898aa7d1ba">  183</a></span>  <a class="code hl_class" href="../../d4/d07/classistream.xhtml">istream</a>&amp; <a class="code hl_function" href="../../d4/d07/classistream_a1dc611d45252414ebfbec4898aa7d1ba.xhtml#a1dc611d45252414ebfbec4898aa7d1ba">operator&gt;&gt;</a>(<span class="keywordtype">double</span>&amp; arg) {</div>
+<div class="line"><a id="l00184" name="l00184"></a><span class="lineno">  184</span>    <a class="code hl_function" href="../../d4/d07/classistream_adf90e879a65ea616c39ab4e47779dfb9.xhtml#adf90e879a65ea616c39ab4e47779dfb9">getDouble</a>(&amp;arg);</div>
+<div class="line"><a id="l00185" name="l00185"></a><span class="lineno">  185</span>    <span class="keywordflow">return</span> *<span class="keyword">this</span>;</div>
+<div class="line"><a id="l00186" name="l00186"></a><span class="lineno">  186</span>  }</div>
+</div>
+<div class="foldopen" id="foldopen00192" data-start="{" data-end="}">
+<div class="line"><a id="l00192" name="l00192"></a><span class="lineno"><a class="line" href="../../d4/d07/classistream_af937cf5104134941c2f5e2121f3634d2.xhtml#af937cf5104134941c2f5e2121f3634d2">  192</a></span>  <a class="code hl_class" href="../../d4/d07/classistream.xhtml">istream</a>&amp; <a class="code hl_function" href="../../d4/d07/classistream_af937cf5104134941c2f5e2121f3634d2.xhtml#af937cf5104134941c2f5e2121f3634d2">operator&gt;&gt;</a>(<span class="keywordtype">float</span>&amp; arg) {</div>
+<div class="line"><a id="l00193" name="l00193"></a><span class="lineno">  193</span>    <span class="keywordtype">double</span> v;</div>
+<div class="line"><a id="l00194" name="l00194"></a><span class="lineno">  194</span>    <a class="code hl_function" href="../../d4/d07/classistream_adf90e879a65ea616c39ab4e47779dfb9.xhtml#adf90e879a65ea616c39ab4e47779dfb9">getDouble</a>(&amp;v);</div>
+<div class="line"><a id="l00195" name="l00195"></a><span class="lineno">  195</span>    arg = v;</div>
+<div class="line"><a id="l00196" name="l00196"></a><span class="lineno">  196</span>    <span class="keywordflow">return</span> *<span class="keyword">this</span>;</div>
+<div class="line"><a id="l00197" name="l00197"></a><span class="lineno">  197</span>  }</div>
+</div>
+<div class="foldopen" id="foldopen00203" data-start="{" data-end="}">
+<div class="line"><a id="l00203" name="l00203"></a><span class="lineno"><a class="line" href="../../d4/d07/classistream_a8d66c960f75d5d53fdcf02515c63f660.xhtml#a8d66c960f75d5d53fdcf02515c63f660">  203</a></span>  <a class="code hl_class" href="../../d4/d07/classistream.xhtml">istream</a>&amp; <a class="code hl_function" href="../../d4/d07/classistream_a8d66c960f75d5d53fdcf02515c63f660.xhtml#a8d66c960f75d5d53fdcf02515c63f660">operator&gt;&gt;</a>(<span class="keywordtype">void</span>*&amp; arg) {</div>
+<div class="line"><a id="l00204" name="l00204"></a><span class="lineno">  204</span>    uint32_t val;</div>
+<div class="line"><a id="l00205" name="l00205"></a><span class="lineno">  205</span>    <a class="code hl_function" href="../../d4/d07/classistream_a80d0d54abe80ccbd71f809f83fb313d8.xhtml#a80d0d54abe80ccbd71f809f83fb313d8">getNumber</a>(&amp;val);</div>
+<div class="line"><a id="l00206" name="l00206"></a><span class="lineno">  206</span>    arg = <span class="keyword">reinterpret_cast&lt;</span><span class="keywordtype">void</span>*<span class="keyword">&gt;</span>(val);</div>
+<div class="line"><a id="l00207" name="l00207"></a><span class="lineno">  207</span>    <span class="keywordflow">return</span> *<span class="keyword">this</span>;</div>
+<div class="line"><a id="l00208" name="l00208"></a><span class="lineno">  208</span>  }</div>
+</div>
+<div class="line"><a id="l00213" name="l00213"></a><span class="lineno"><a class="line" href="../../d4/d07/classistream_ad0a3db5199ca44b191a9675f2dd3a098.xhtml#ad0a3db5199ca44b191a9675f2dd3a098">  213</a></span>  <a class="code hl_typedef" href="../../d4/dc1/classios__base_a82836e1d3cc603fba8f0b54d323a2dff.xhtml#a82836e1d3cc603fba8f0b54d323a2dff">streamsize</a> <a class="code hl_function" href="../../d4/d07/classistream_ad0a3db5199ca44b191a9675f2dd3a098.xhtml#ad0a3db5199ca44b191a9675f2dd3a098">gcount</a>()<span class="keyword"> const </span>{ <span class="keywordflow">return</span> <a class="code hl_variable" href="../../d4/d07/classistream_a9284295ae33598b08c272685cc7ef1cb.xhtml#a9284295ae33598b08c272685cc7ef1cb">m_gcount</a>; }</div>
+<div class="line"><a id="l00220" name="l00220"></a><span class="lineno">  220</span>  <span class="keywordtype">int</span> <a class="code hl_function" href="../../d4/d07/classistream_a36573c9b7fc522e6c85a73221019fd11.xhtml#a36573c9b7fc522e6c85a73221019fd11">get</a>();</div>
+<div class="line"><a id="l00228" name="l00228"></a><span class="lineno">  228</span>  <a class="code hl_class" href="../../d4/d07/classistream.xhtml">istream</a>&amp; <a class="code hl_function" href="../../d4/d07/classistream_a36573c9b7fc522e6c85a73221019fd11.xhtml#a36573c9b7fc522e6c85a73221019fd11">get</a>(<span class="keywordtype">char</span>&amp; ch);</div>
+<div class="line"><a id="l00243" name="l00243"></a><span class="lineno">  243</span>  <a class="code hl_class" href="../../d4/d07/classistream.xhtml">istream</a>&amp; <a class="code hl_function" href="../../d4/d07/classistream_a36573c9b7fc522e6c85a73221019fd11.xhtml#a36573c9b7fc522e6c85a73221019fd11">get</a>(<span class="keywordtype">char</span>* str, <a class="code hl_typedef" href="../../d4/dc1/classios__base_a82836e1d3cc603fba8f0b54d323a2dff.xhtml#a82836e1d3cc603fba8f0b54d323a2dff">streamsize</a> n, <span class="keywordtype">char</span> delim = <span class="charliteral">&#39;\n&#39;</span>);</div>
+<div class="line"><a id="l00260" name="l00260"></a><span class="lineno">  260</span>  <a class="code hl_class" href="../../d4/d07/classistream.xhtml">istream</a>&amp; <a class="code hl_function" href="../../d4/d07/classistream_a7ea6a5edd6b44a6e1ed297fb278b5d52.xhtml#a7ea6a5edd6b44a6e1ed297fb278b5d52">getline</a>(<span class="keywordtype">char</span>* str, <a class="code hl_typedef" href="../../d4/dc1/classios__base_a82836e1d3cc603fba8f0b54d323a2dff.xhtml#a82836e1d3cc603fba8f0b54d323a2dff">streamsize</a> n, <span class="keywordtype">char</span> delim = <span class="charliteral">&#39;\n&#39;</span>);</div>
+<div class="line"><a id="l00276" name="l00276"></a><span class="lineno">  276</span>  <a class="code hl_class" href="../../d4/d07/classistream.xhtml">istream</a>&amp; <a class="code hl_function" href="../../d4/d07/classistream_a12597b03d86b66047a5581bbd26eb032.xhtml#a12597b03d86b66047a5581bbd26eb032">ignore</a>(<a class="code hl_typedef" href="../../d4/dc1/classios__base_a82836e1d3cc603fba8f0b54d323a2dff.xhtml#a82836e1d3cc603fba8f0b54d323a2dff">streamsize</a> n = 1, <span class="keywordtype">int</span> delim = -1);</div>
+<div class="line"><a id="l00283" name="l00283"></a><span class="lineno">  283</span>  <span class="keywordtype">int</span> <a class="code hl_function" href="../../d4/d07/classistream_a4022265e0ede3698454f1ff59348c14a.xhtml#a4022265e0ede3698454f1ff59348c14a">peek</a>();</div>
+<div class="line"><a id="l00284" name="l00284"></a><span class="lineno">  284</span>  <span class="comment">// istream&amp; read(char *str, streamsize count);</span></div>
+<div class="line"><a id="l00285" name="l00285"></a><span class="lineno">  285</span>  <span class="comment">// streamsize readsome(char *str, streamsize count);</span></div>
+<div class="line"><a id="l00289" name="l00289"></a><span class="lineno"><a class="line" href="../../d4/d07/classistream_a18332bdcb7fbe33ca06045c786cac4c3.xhtml#a18332bdcb7fbe33ca06045c786cac4c3">  289</a></span>  <a class="code hl_typedef" href="../../d4/dc1/classios__base_abe85cf1f181b8bce8022f05ab76aae7f.xhtml#abe85cf1f181b8bce8022f05ab76aae7f">pos_type</a> <a class="code hl_function" href="../../d4/d07/classistream_a18332bdcb7fbe33ca06045c786cac4c3.xhtml#a18332bdcb7fbe33ca06045c786cac4c3">tellg</a>() { <span class="keywordflow">return</span> tellpos(); }</div>
+<div class="foldopen" id="foldopen00295" data-start="{" data-end="}">
+<div class="line"><a id="l00295" name="l00295"></a><span class="lineno"><a class="line" href="../../d4/d07/classistream_a9e678b2dcb1dfb71c48c6ab714ec39a3.xhtml#a9e678b2dcb1dfb71c48c6ab714ec39a3">  295</a></span>  <a class="code hl_class" href="../../d4/d07/classistream.xhtml">istream</a>&amp; <a class="code hl_function" href="../../d4/d07/classistream_a9e678b2dcb1dfb71c48c6ab714ec39a3.xhtml#a9e678b2dcb1dfb71c48c6ab714ec39a3">seekg</a>(<a class="code hl_typedef" href="../../d4/dc1/classios__base_abe85cf1f181b8bce8022f05ab76aae7f.xhtml#abe85cf1f181b8bce8022f05ab76aae7f">pos_type</a> pos) {</div>
+<div class="line"><a id="l00296" name="l00296"></a><span class="lineno">  296</span>    <span class="keywordflow">if</span> (!seekpos(pos)) {</div>
+<div class="line"><a id="l00297" name="l00297"></a><span class="lineno">  297</span>      <a class="code hl_function" href="../../df/d02/classios_aee5d194656bdfb0c8621b23ea2f51afb.xhtml#aee5d194656bdfb0c8621b23ea2f51afb">setstate</a>(<a class="code hl_variable" href="../../d4/dc1/classios__base_a36157154001bcce17827db6786e35efd.xhtml#a36157154001bcce17827db6786e35efd">failbit</a>);</div>
+<div class="line"><a id="l00298" name="l00298"></a><span class="lineno">  298</span>    }</div>
+<div class="line"><a id="l00299" name="l00299"></a><span class="lineno">  299</span>    <span class="keywordflow">return</span> *<span class="keyword">this</span>;</div>
+<div class="line"><a id="l00300" name="l00300"></a><span class="lineno">  300</span>  }</div>
+</div>
+<div class="foldopen" id="foldopen00309" data-start="{" data-end="}">
+<div class="line"><a id="l00309" name="l00309"></a><span class="lineno"><a class="line" href="../../d4/d07/classistream_a238330132978e59417208c72fc2e3137.xhtml#a238330132978e59417208c72fc2e3137">  309</a></span>  <a class="code hl_class" href="../../d4/d07/classistream.xhtml">istream</a>&amp; <a class="code hl_function" href="../../d4/d07/classistream_a238330132978e59417208c72fc2e3137.xhtml#a238330132978e59417208c72fc2e3137">seekg</a>(<a class="code hl_typedef" href="../../d4/dc1/classios__base_a45de7cca0d01da781f4b886179c65c22.xhtml#a45de7cca0d01da781f4b886179c65c22">off_type</a> off, <a class="code hl_enumeration" href="../../d4/dc1/classios__base_ab01103ba35f6ba93a704b3ec0c86191e.xhtml#ab01103ba35f6ba93a704b3ec0c86191e">seekdir</a> way) {</div>
+<div class="line"><a id="l00310" name="l00310"></a><span class="lineno">  310</span>    <span class="keywordflow">if</span> (!seekoff(off, way)) {</div>
+<div class="line"><a id="l00311" name="l00311"></a><span class="lineno">  311</span>      <a class="code hl_function" href="../../df/d02/classios_aee5d194656bdfb0c8621b23ea2f51afb.xhtml#aee5d194656bdfb0c8621b23ea2f51afb">setstate</a>(<a class="code hl_variable" href="../../d4/dc1/classios__base_a36157154001bcce17827db6786e35efd.xhtml#a36157154001bcce17827db6786e35efd">failbit</a>);</div>
+<div class="line"><a id="l00312" name="l00312"></a><span class="lineno">  312</span>    }</div>
+<div class="line"><a id="l00313" name="l00313"></a><span class="lineno">  313</span>    <span class="keywordflow">return</span> *<span class="keyword">this</span>;</div>
+<div class="line"><a id="l00314" name="l00314"></a><span class="lineno">  314</span>  }</div>
+</div>
+<div class="line"><a id="l00315" name="l00315"></a><span class="lineno">  315</span>  <span class="keywordtype">void</span> <a class="code hl_function" href="../../d4/d07/classistream_a0f7468be86d93de5d33fa99095898279.xhtml#a0f7468be86d93de5d33fa99095898279">skipWhite</a>();</div>
+<div class="line"><a id="l00316" name="l00316"></a><span class="lineno">  316</span> </div>
+<div class="line"><a id="l00317" name="l00317"></a><span class="lineno">  317</span> <span class="keyword">protected</span>:</div>
+<div class="line"><a id="l00319" name="l00319"></a><span class="lineno">  319</span> </div>
+<div class="line"><a id="l00323" name="l00323"></a><span class="lineno">  323</span>  <span class="keyword">virtual</span> int16_t getch() = 0;</div>
+<div class="line"><a id="l00329" name="l00329"></a><span class="lineno">  329</span>  int16_t getch(<a class="code hl_struct" href="../../df/da6/structfspos__t.xhtml">pos_t</a>* pos) {</div>
+<div class="line"><a id="l00330" name="l00330"></a><span class="lineno">  330</span>    getpos(pos);</div>
+<div class="line"><a id="l00331" name="l00331"></a><span class="lineno">  331</span>    <span class="keywordflow">return</span> getch();</div>
+<div class="line"><a id="l00332" name="l00332"></a><span class="lineno">  332</span>  }</div>
+<div class="line"><a id="l00337" name="l00337"></a><span class="lineno">  337</span>  <span class="keyword">virtual</span> <span class="keywordtype">void</span> getpos(<a class="code hl_struct" href="../../df/da6/structfspos__t.xhtml">pos_t</a>* pos) = 0;</div>
+<div class="line"><a id="l00342" name="l00342"></a><span class="lineno">  342</span>  <span class="keyword">virtual</span> <span class="keywordtype">bool</span> seekoff(<a class="code hl_typedef" href="../../d4/dc1/classios__base_a45de7cca0d01da781f4b886179c65c22.xhtml#a45de7cca0d01da781f4b886179c65c22">off_type</a> off, <a class="code hl_enumeration" href="../../d4/dc1/classios__base_ab01103ba35f6ba93a704b3ec0c86191e.xhtml#ab01103ba35f6ba93a704b3ec0c86191e">seekdir</a> way) = 0;</div>
+<div class="line"><a id="l00343" name="l00343"></a><span class="lineno">  343</span>  <span class="keyword">virtual</span> <span class="keywordtype">bool</span> seekpos(<a class="code hl_typedef" href="../../d4/dc1/classios__base_abe85cf1f181b8bce8022f05ab76aae7f.xhtml#abe85cf1f181b8bce8022f05ab76aae7f">pos_type</a> pos) = 0;</div>
+<div class="line"><a id="l00344" name="l00344"></a><span class="lineno">  344</span>  <span class="keyword">virtual</span> <span class="keywordtype">void</span> setpos(<a class="code hl_struct" href="../../df/da6/structfspos__t.xhtml">pos_t</a>* pos) = 0;</div>
+<div class="line"><a id="l00345" name="l00345"></a><span class="lineno">  345</span>  <span class="keyword">virtual</span> <a class="code hl_typedef" href="../../d4/dc1/classios__base_abe85cf1f181b8bce8022f05ab76aae7f.xhtml#abe85cf1f181b8bce8022f05ab76aae7f">pos_type</a> tellpos() = 0;</div>
+<div class="line"><a id="l00346" name="l00346"></a><span class="lineno">  346</span> </div>
+<div class="line"><a id="l00348" name="l00348"></a><span class="lineno">  348</span> <span class="keyword">private</span>:</div>
+<div class="line"><a id="l00349" name="l00349"></a><span class="lineno">  349</span>  <span class="keywordtype">void</span> <a class="code hl_function" href="../../d4/d07/classistream_a9a14b9b12e82c1da3fc47095faec0685.xhtml#a9a14b9b12e82c1da3fc47095faec0685">getBool</a>(<span class="keywordtype">bool</span>* b);</div>
+<div class="line"><a id="l00350" name="l00350"></a><span class="lineno">  350</span>  <span class="keywordtype">void</span> <a class="code hl_function" href="../../d4/d07/classistream_a97190a6a14b97ae0c8e1409474d231db.xhtml#a97190a6a14b97ae0c8e1409474d231db">getChar</a>(<span class="keywordtype">char</span>* ch);</div>
+<div class="line"><a id="l00351" name="l00351"></a><span class="lineno">  351</span>  <span class="keywordtype">bool</span> <a class="code hl_function" href="../../d4/d07/classistream_adf90e879a65ea616c39ab4e47779dfb9.xhtml#adf90e879a65ea616c39ab4e47779dfb9">getDouble</a>(<span class="keywordtype">double</span>* value);</div>
+<div class="line"><a id="l00352" name="l00352"></a><span class="lineno">  352</span>  <span class="keyword">template</span> &lt;<span class="keyword">typename</span> T&gt;</div>
+<div class="line"><a id="l00353" name="l00353"></a><span class="lineno">  353</span>  <span class="keywordtype">void</span> <a class="code hl_function" href="../../d4/d07/classistream_a80d0d54abe80ccbd71f809f83fb313d8.xhtml#a80d0d54abe80ccbd71f809f83fb313d8">getNumber</a>(T* value);</div>
+<div class="line"><a id="l00354" name="l00354"></a><span class="lineno">  354</span>  <span class="keywordtype">bool</span> <a class="code hl_function" href="../../d4/d07/classistream_a80d0d54abe80ccbd71f809f83fb313d8.xhtml#a80d0d54abe80ccbd71f809f83fb313d8">getNumber</a>(uint32_t posMax, uint32_t negMax, uint32_t* num);</div>
+<div class="line"><a id="l00355" name="l00355"></a><span class="lineno">  355</span>  <span class="keywordtype">void</span> <a class="code hl_function" href="../../d4/d07/classistream_a86905009b7c556cf3ac614379c700406.xhtml#a86905009b7c556cf3ac614379c700406">getStr</a>(<span class="keywordtype">char</span>* str);</div>
+<div class="line"><a id="l00356" name="l00356"></a><span class="lineno">  356</span>  int16_t <a class="code hl_function" href="../../d4/d07/classistream_ab675f55618058912ac1b9026eac8445e.xhtml#ab675f55618058912ac1b9026eac8445e">readSkip</a>();</div>
+<div class="line"><a id="l00357" name="l00357"></a><span class="lineno">  357</span> </div>
+<div class="line"><a id="l00358" name="l00358"></a><span class="lineno"><a class="line" href="../../d4/d07/classistream_a9284295ae33598b08c272685cc7ef1cb.xhtml#a9284295ae33598b08c272685cc7ef1cb">  358</a></span>  <span class="keywordtype">size_t</span> <a class="code hl_variable" href="../../d4/d07/classistream_a9284295ae33598b08c272685cc7ef1cb.xhtml#a9284295ae33598b08c272685cc7ef1cb">m_gcount</a> = 0;</div>
+<div class="line"><a id="l00359" name="l00359"></a><span class="lineno">  359</span>};</div>
+</div>
+<div class="line"><a id="l00360" name="l00360"></a><span class="lineno">  360</span><span class="comment">//------------------------------------------------------------------------------</span></div>
+<div class="line"><a id="l00361" name="l00361"></a><span class="lineno">  361</span><span class="keyword">template</span> &lt;<span class="keyword">typename</span> T&gt;</div>
+<div class="foldopen" id="foldopen00362" data-start="{" data-end="}">
+<div class="line"><a id="l00362" name="l00362"></a><span class="lineno"><a class="line" href="../../d4/d07/classistream_a80d0d54abe80ccbd71f809f83fb313d8.xhtml#a80d0d54abe80ccbd71f809f83fb313d8">  362</a></span><span class="keywordtype">void</span> <a class="code hl_function" href="../../d4/d07/classistream_a80d0d54abe80ccbd71f809f83fb313d8.xhtml#a80d0d54abe80ccbd71f809f83fb313d8">istream::getNumber</a>(T* value) {</div>
+<div class="line"><a id="l00363" name="l00363"></a><span class="lineno">  363</span>  uint32_t tmp;</div>
+<div class="line"><a id="l00364" name="l00364"></a><span class="lineno">  364</span>  <span class="keywordflow">if</span> ((T)-1 &lt; 0) {</div>
+<div class="line"><a id="l00365" name="l00365"></a><span class="lineno">  365</span>    <span class="comment">// number is signed, max positive value</span></div>
+<div class="line"><a id="l00366" name="l00366"></a><span class="lineno">  366</span>    uint32_t <span class="keyword">const</span> <a class="code hl_variable" href="../../d5/df3/wiring_8c_ab3cd915d758008bd19d0f2428fbb354a.xhtml#ab3cd915d758008bd19d0f2428fbb354a">m</a> = ((uint32_t)-1) &gt;&gt; (33 - <span class="keyword">sizeof</span>(T) * 8);</div>
+<div class="line"><a id="l00367" name="l00367"></a><span class="lineno">  367</span>    <span class="comment">// max absolute value of negative number is m + 1.</span></div>
+<div class="line"><a id="l00368" name="l00368"></a><span class="lineno">  368</span>    <span class="keywordflow">if</span> (<a class="code hl_function" href="../../d4/d07/classistream_a80d0d54abe80ccbd71f809f83fb313d8.xhtml#a80d0d54abe80ccbd71f809f83fb313d8">getNumber</a>(<a class="code hl_variable" href="../../d5/df3/wiring_8c_ab3cd915d758008bd19d0f2428fbb354a.xhtml#ab3cd915d758008bd19d0f2428fbb354a">m</a>, <a class="code hl_variable" href="../../d5/df3/wiring_8c_ab3cd915d758008bd19d0f2428fbb354a.xhtml#ab3cd915d758008bd19d0f2428fbb354a">m</a> + 1, &amp;tmp)) {</div>
+<div class="line"><a id="l00369" name="l00369"></a><span class="lineno">  369</span>      *value = (T)tmp;</div>
+<div class="line"><a id="l00370" name="l00370"></a><span class="lineno">  370</span>    }</div>
+<div class="line"><a id="l00371" name="l00371"></a><span class="lineno">  371</span>  } <span class="keywordflow">else</span> {</div>
+<div class="line"><a id="l00372" name="l00372"></a><span class="lineno">  372</span>    <span class="comment">// max unsigned value for T</span></div>
+<div class="line"><a id="l00373" name="l00373"></a><span class="lineno">  373</span>    uint32_t <span class="keyword">const</span> <a class="code hl_variable" href="../../d5/df3/wiring_8c_ab3cd915d758008bd19d0f2428fbb354a.xhtml#ab3cd915d758008bd19d0f2428fbb354a">m</a> = (T)-1;</div>
+<div class="line"><a id="l00374" name="l00374"></a><span class="lineno">  374</span>    <span class="keywordflow">if</span> (<a class="code hl_function" href="../../d4/d07/classistream_a80d0d54abe80ccbd71f809f83fb313d8.xhtml#a80d0d54abe80ccbd71f809f83fb313d8">getNumber</a>(<a class="code hl_variable" href="../../d5/df3/wiring_8c_ab3cd915d758008bd19d0f2428fbb354a.xhtml#ab3cd915d758008bd19d0f2428fbb354a">m</a>, <a class="code hl_variable" href="../../d5/df3/wiring_8c_ab3cd915d758008bd19d0f2428fbb354a.xhtml#ab3cd915d758008bd19d0f2428fbb354a">m</a>, &amp;tmp)) {</div>
+<div class="line"><a id="l00375" name="l00375"></a><span class="lineno">  375</span>      *value = (T)tmp;</div>
+<div class="line"><a id="l00376" name="l00376"></a><span class="lineno">  376</span>    }</div>
+<div class="line"><a id="l00377" name="l00377"></a><span class="lineno">  377</span>  }</div>
+<div class="line"><a id="l00378" name="l00378"></a><span class="lineno">  378</span>}</div>
+</div>
+<div class="line"><a id="l00379" name="l00379"></a><span class="lineno">  379</span><span class="preprocessor">#endif  </span><span class="comment">// istream_h</span></div>
+<div class="ttc" id="aclassios__base_a36157154001bcce17827db6786e35efd_xhtml_a36157154001bcce17827db6786e35efd"><div class="ttname"><a href="../../d4/dc1/classios__base_a36157154001bcce17827db6786e35efd.xhtml#a36157154001bcce17827db6786e35efd">ios_base::failbit</a></div><div class="ttdeci">static const iostate failbit</div><div class="ttdef"><b>Definition</b> ios.h:62</div></div>
+<div class="ttc" id="aclassios__base_a45de7cca0d01da781f4b886179c65c22_xhtml_a45de7cca0d01da781f4b886179c65c22"><div class="ttname"><a href="../../d4/dc1/classios__base_a45de7cca0d01da781f4b886179c65c22.xhtml#a45de7cca0d01da781f4b886179c65c22">ios_base::off_type</a></div><div class="ttdeci">int32_t off_type</div><div class="ttdef"><b>Definition</b> ios.h:72</div></div>
+<div class="ttc" id="aclassios__base_a82836e1d3cc603fba8f0b54d323a2dff_xhtml_a82836e1d3cc603fba8f0b54d323a2dff"><div class="ttname"><a href="../../d4/dc1/classios__base_a82836e1d3cc603fba8f0b54d323a2dff.xhtml#a82836e1d3cc603fba8f0b54d323a2dff">ios_base::streamsize</a></div><div class="ttdeci">uint32_t streamsize</div><div class="ttdef"><b>Definition</b> ios.h:68</div></div>
+<div class="ttc" id="aclassios__base_ab01103ba35f6ba93a704b3ec0c86191e_xhtml_ab01103ba35f6ba93a704b3ec0c86191e"><div class="ttname"><a href="../../d4/dc1/classios__base_ab01103ba35f6ba93a704b3ec0c86191e.xhtml#ab01103ba35f6ba93a704b3ec0c86191e">ios_base::seekdir</a></div><div class="ttdeci">seekdir</div><div class="ttdef"><b>Definition</b> ios.h:85</div></div>
+<div class="ttc" id="aclassios__base_abe85cf1f181b8bce8022f05ab76aae7f_xhtml_abe85cf1f181b8bce8022f05ab76aae7f"><div class="ttname"><a href="../../d4/dc1/classios__base_abe85cf1f181b8bce8022f05ab76aae7f.xhtml#abe85cf1f181b8bce8022f05ab76aae7f">ios_base::pos_type</a></div><div class="ttdeci">uint32_t pos_type</div><div class="ttdef"><b>Definition</b> ios.h:70</div></div>
+<div class="ttc" id="aclassios__base_xhtml"><div class="ttname"><a href="../../d4/dc1/classios__base.xhtml">ios_base</a></div><div class="ttdoc">Base class for all streams.</div><div class="ttdef"><b>Definition</b> ios.h:50</div></div>
+<div class="ttc" id="aclassios_aee5d194656bdfb0c8621b23ea2f51afb_xhtml_aee5d194656bdfb0c8621b23ea2f51afb"><div class="ttname"><a href="../../df/d02/classios_aee5d194656bdfb0c8621b23ea2f51afb.xhtml#aee5d194656bdfb0c8621b23ea2f51afb">ios::setstate</a></div><div class="ttdeci">void setstate(iostate state)</div><div class="ttdef"><b>Definition</b> ios.h:420</div></div>
+<div class="ttc" id="aclassios_xhtml"><div class="ttname"><a href="../../df/d02/classios.xhtml">ios</a></div><div class="ttdoc">Error and state information for all streams.</div><div class="ttdef"><b>Definition</b> ios.h:382</div></div>
+<div class="ttc" id="aclassistream_a0412869210fcb5c319da1f55eb047825_xhtml_a0412869210fcb5c319da1f55eb047825"><div class="ttname"><a href="../../d4/d07/classistream_a0412869210fcb5c319da1f55eb047825.xhtml#a0412869210fcb5c319da1f55eb047825">istream::operator&gt;&gt;</a></div><div class="ttdeci">istream &amp; operator&gt;&gt;(unsigned char &amp;ch)</div><div class="ttdef"><b>Definition</b> istream.h:111</div></div>
+<div class="ttc" id="aclassistream_a0a06a5d7368b56a071b58b84789d6c4c_xhtml_a0a06a5d7368b56a071b58b84789d6c4c"><div class="ttname"><a href="../../d4/d07/classistream_a0a06a5d7368b56a071b58b84789d6c4c.xhtml#a0a06a5d7368b56a071b58b84789d6c4c">istream::operator&gt;&gt;</a></div><div class="ttdeci">istream &amp; operator&gt;&gt;(short &amp;arg)</div><div class="ttdef"><b>Definition</b> istream.h:129</div></div>
+<div class="ttc" id="aclassistream_a0f7468be86d93de5d33fa99095898279_xhtml_a0f7468be86d93de5d33fa99095898279"><div class="ttname"><a href="../../d4/d07/classistream_a0f7468be86d93de5d33fa99095898279.xhtml#a0f7468be86d93de5d33fa99095898279">istream::skipWhite</a></div><div class="ttdeci">void skipWhite()</div><div class="ttdef"><b>Definition</b> istream.cpp:389</div></div>
+<div class="ttc" id="aclassistream_a12597b03d86b66047a5581bbd26eb032_xhtml_a12597b03d86b66047a5581bbd26eb032"><div class="ttname"><a href="../../d4/d07/classistream_a12597b03d86b66047a5581bbd26eb032.xhtml#a12597b03d86b66047a5581bbd26eb032">istream::ignore</a></div><div class="ttdeci">istream &amp; ignore(streamsize n=1, int delim=-1)</div><div class="ttdef"><b>Definition</b> istream.cpp:349</div></div>
+<div class="ttc" id="aclassistream_a181b109260cb3874f8cfce393918df47_xhtml_a181b109260cb3874f8cfce393918df47"><div class="ttname"><a href="../../d4/d07/classistream_a181b109260cb3874f8cfce393918df47.xhtml#a181b109260cb3874f8cfce393918df47">istream::operator&gt;&gt;</a></div><div class="ttdeci">istream &amp; operator&gt;&gt;(unsigned long &amp;arg)</div><div class="ttdef"><b>Definition</b> istream.h:174</div></div>
+<div class="ttc" id="aclassistream_a18332bdcb7fbe33ca06045c786cac4c3_xhtml_a18332bdcb7fbe33ca06045c786cac4c3"><div class="ttname"><a href="../../d4/d07/classistream_a18332bdcb7fbe33ca06045c786cac4c3.xhtml#a18332bdcb7fbe33ca06045c786cac4c3">istream::tellg</a></div><div class="ttdeci">pos_type tellg()</div><div class="ttdef"><b>Definition</b> istream.h:289</div></div>
+<div class="ttc" id="aclassistream_a1dc611d45252414ebfbec4898aa7d1ba_xhtml_a1dc611d45252414ebfbec4898aa7d1ba"><div class="ttname"><a href="../../d4/d07/classistream_a1dc611d45252414ebfbec4898aa7d1ba.xhtml#a1dc611d45252414ebfbec4898aa7d1ba">istream::operator&gt;&gt;</a></div><div class="ttdeci">istream &amp; operator&gt;&gt;(double &amp;arg)</div><div class="ttdef"><b>Definition</b> istream.h:183</div></div>
+<div class="ttc" id="aclassistream_a205e90330fff062ce326414788a32dab_xhtml_a205e90330fff062ce326414788a32dab"><div class="ttname"><a href="../../d4/d07/classistream_a205e90330fff062ce326414788a32dab.xhtml#a205e90330fff062ce326414788a32dab">istream::operator&gt;&gt;</a></div><div class="ttdeci">istream &amp; operator&gt;&gt;(signed char &amp;ch)</div><div class="ttdef"><b>Definition</b> istream.h:93</div></div>
+<div class="ttc" id="aclassistream_a2260c0cafc4f1434a83bd76abca0cd46_xhtml_a2260c0cafc4f1434a83bd76abca0cd46"><div class="ttname"><a href="../../d4/d07/classistream_a2260c0cafc4f1434a83bd76abca0cd46.xhtml#a2260c0cafc4f1434a83bd76abca0cd46">istream::operator&gt;&gt;</a></div><div class="ttdeci">istream &amp; operator&gt;&gt;(unsigned short &amp;arg)</div><div class="ttdef"><b>Definition</b> istream.h:138</div></div>
+<div class="ttc" id="aclassistream_a238330132978e59417208c72fc2e3137_xhtml_a238330132978e59417208c72fc2e3137"><div class="ttname"><a href="../../d4/d07/classistream_a238330132978e59417208c72fc2e3137.xhtml#a238330132978e59417208c72fc2e3137">istream::seekg</a></div><div class="ttdeci">istream &amp; seekg(off_type off, seekdir way)</div><div class="ttdef"><b>Definition</b> istream.h:309</div></div>
+<div class="ttc" id="aclassistream_a36573c9b7fc522e6c85a73221019fd11_xhtml_a36573c9b7fc522e6c85a73221019fd11"><div class="ttname"><a href="../../d4/d07/classistream_a36573c9b7fc522e6c85a73221019fd11.xhtml#a36573c9b7fc522e6c85a73221019fd11">istream::get</a></div><div class="ttdeci">int get()</div><div class="ttdef"><b>Definition</b> istream.cpp:33</div></div>
+<div class="ttc" id="aclassistream_a4022265e0ede3698454f1ff59348c14a_xhtml_a4022265e0ede3698454f1ff59348c14a"><div class="ttname"><a href="../../d4/d07/classistream_a4022265e0ede3698454f1ff59348c14a.xhtml#a4022265e0ede3698454f1ff59348c14a">istream::peek</a></div><div class="ttdeci">int peek()</div><div class="ttdef"><b>Definition</b> istream.cpp:364</div></div>
+<div class="ttc" id="aclassistream_a44735a1432865ffab97e4b865b3e8157_xhtml_a44735a1432865ffab97e4b865b3e8157"><div class="ttname"><a href="../../d4/d07/classistream_a44735a1432865ffab97e4b865b3e8157.xhtml#a44735a1432865ffab97e4b865b3e8157">istream::operator&gt;&gt;</a></div><div class="ttdeci">istream &amp; operator&gt;&gt;(signed char *str)</div><div class="ttdef"><b>Definition</b> istream.h:84</div></div>
+<div class="ttc" id="aclassistream_a5270ae963d43a2f8452786af855fe1c7_xhtml_a5270ae963d43a2f8452786af855fe1c7"><div class="ttname"><a href="../../d4/d07/classistream_a5270ae963d43a2f8452786af855fe1c7.xhtml#a5270ae963d43a2f8452786af855fe1c7">istream::operator&gt;&gt;</a></div><div class="ttdeci">istream &amp; operator&gt;&gt;(unsigned int &amp;arg)</div><div class="ttdef"><b>Definition</b> istream.h:156</div></div>
+<div class="ttc" id="aclassistream_a679ae010afb953bbb589c8eeaebebafd_xhtml_a679ae010afb953bbb589c8eeaebebafd"><div class="ttname"><a href="../../d4/d07/classistream_a679ae010afb953bbb589c8eeaebebafd.xhtml#a679ae010afb953bbb589c8eeaebebafd">istream::operator&gt;&gt;</a></div><div class="ttdeci">istream &amp; operator&gt;&gt;(char &amp;ch)</div><div class="ttdef"><b>Definition</b> istream.h:75</div></div>
+<div class="ttc" id="aclassistream_a7ea6a5edd6b44a6e1ed297fb278b5d52_xhtml_a7ea6a5edd6b44a6e1ed297fb278b5d52"><div class="ttname"><a href="../../d4/d07/classistream_a7ea6a5edd6b44a6e1ed297fb278b5d52.xhtml#a7ea6a5edd6b44a6e1ed297fb278b5d52">istream::getline</a></div><div class="ttdeci">istream &amp; getline(char *str, streamsize n, char delim='\n')</div><div class="ttdef"><b>Definition</b> istream.cpp:230</div></div>
+<div class="ttc" id="aclassistream_a7f26af90b7de8d95553e346c059801a3_xhtml_a7f26af90b7de8d95553e346c059801a3"><div class="ttname"><a href="../../d4/d07/classistream_a7f26af90b7de8d95553e346c059801a3.xhtml#a7f26af90b7de8d95553e346c059801a3">istream::operator&gt;&gt;</a></div><div class="ttdeci">istream &amp; operator&gt;&gt;(char *str)</div><div class="ttdef"><b>Definition</b> istream.h:66</div></div>
+<div class="ttc" id="aclassistream_a80d0d54abe80ccbd71f809f83fb313d8_xhtml_a80d0d54abe80ccbd71f809f83fb313d8"><div class="ttname"><a href="../../d4/d07/classistream_a80d0d54abe80ccbd71f809f83fb313d8.xhtml#a80d0d54abe80ccbd71f809f83fb313d8">istream::getNumber</a></div><div class="ttdeci">void getNumber(T *value)</div><div class="ttdef"><b>Definition</b> istream.h:362</div></div>
+<div class="ttc" id="aclassistream_a86905009b7c556cf3ac614379c700406_xhtml_a86905009b7c556cf3ac614379c700406"><div class="ttname"><a href="../../d4/d07/classistream_a86905009b7c556cf3ac614379c700406.xhtml#a86905009b7c556cf3ac614379c700406">istream::getStr</a></div><div class="ttdeci">void getStr(char *str)</div><div class="ttdef"><b>Definition</b> istream.cpp:322</div></div>
+<div class="ttc" id="aclassistream_a8b9bebcd2d6a2bfec01b4b70e90bd32e_xhtml_a8b9bebcd2d6a2bfec01b4b70e90bd32e"><div class="ttname"><a href="../../d4/d07/classistream_a8b9bebcd2d6a2bfec01b4b70e90bd32e.xhtml#a8b9bebcd2d6a2bfec01b4b70e90bd32e">istream::operator&gt;&gt;</a></div><div class="ttdeci">istream &amp; operator&gt;&gt;(int &amp;arg)</div><div class="ttdef"><b>Definition</b> istream.h:147</div></div>
+<div class="ttc" id="aclassistream_a8d66c960f75d5d53fdcf02515c63f660_xhtml_a8d66c960f75d5d53fdcf02515c63f660"><div class="ttname"><a href="../../d4/d07/classistream_a8d66c960f75d5d53fdcf02515c63f660.xhtml#a8d66c960f75d5d53fdcf02515c63f660">istream::operator&gt;&gt;</a></div><div class="ttdeci">istream &amp; operator&gt;&gt;(void *&amp;arg)</div><div class="ttdef"><b>Definition</b> istream.h:203</div></div>
+<div class="ttc" id="aclassistream_a9284295ae33598b08c272685cc7ef1cb_xhtml_a9284295ae33598b08c272685cc7ef1cb"><div class="ttname"><a href="../../d4/d07/classistream_a9284295ae33598b08c272685cc7ef1cb.xhtml#a9284295ae33598b08c272685cc7ef1cb">istream::m_gcount</a></div><div class="ttdeci">size_t m_gcount</div><div class="ttdef"><b>Definition</b> istream.h:358</div></div>
+<div class="ttc" id="aclassistream_a97190a6a14b97ae0c8e1409474d231db_xhtml_a97190a6a14b97ae0c8e1409474d231db"><div class="ttname"><a href="../../d4/d07/classistream_a97190a6a14b97ae0c8e1409474d231db.xhtml#a97190a6a14b97ae0c8e1409474d231db">istream::getChar</a></div><div class="ttdeci">void getChar(char *ch)</div><div class="ttdef"><b>Definition</b> istream.cpp:119</div></div>
+<div class="ttc" id="aclassistream_a9a14b9b12e82c1da3fc47095faec0685_xhtml_a9a14b9b12e82c1da3fc47095faec0685"><div class="ttname"><a href="../../d4/d07/classistream_a9a14b9b12e82c1da3fc47095faec0685.xhtml#a9a14b9b12e82c1da3fc47095faec0685">istream::getBool</a></div><div class="ttdeci">void getBool(bool *b)</div><div class="ttdef"><b>Definition</b> istream.cpp:76</div></div>
+<div class="ttc" id="aclassistream_a9e678b2dcb1dfb71c48c6ab714ec39a3_xhtml_a9e678b2dcb1dfb71c48c6ab714ec39a3"><div class="ttname"><a href="../../d4/d07/classistream_a9e678b2dcb1dfb71c48c6ab714ec39a3.xhtml#a9e678b2dcb1dfb71c48c6ab714ec39a3">istream::seekg</a></div><div class="ttdeci">istream &amp; seekg(pos_type pos)</div><div class="ttdef"><b>Definition</b> istream.h:295</div></div>
+<div class="ttc" id="aclassistream_ab675f55618058912ac1b9026eac8445e_xhtml_ab675f55618058912ac1b9026eac8445e"><div class="ttname"><a href="../../d4/d07/classistream_ab675f55618058912ac1b9026eac8445e.xhtml#ab675f55618058912ac1b9026eac8445e">istream::readSkip</a></div><div class="ttdeci">int16_t readSkip()</div><div class="ttdef"><b>Definition</b> istream.cpp:380</div></div>
+<div class="ttc" id="aclassistream_acc838a1a815184e2a36fdf0fdb2a4a26_xhtml_acc838a1a815184e2a36fdf0fdb2a4a26"><div class="ttname"><a href="../../d4/d07/classistream_acc838a1a815184e2a36fdf0fdb2a4a26.xhtml#acc838a1a815184e2a36fdf0fdb2a4a26">istream::operator&gt;&gt;</a></div><div class="ttdeci">istream &amp; operator&gt;&gt;(unsigned char *str)</div><div class="ttdef"><b>Definition</b> istream.h:102</div></div>
+<div class="ttc" id="aclassistream_ad045f93ac6d39641c40a37c02060f21b_xhtml_ad045f93ac6d39641c40a37c02060f21b"><div class="ttname"><a href="../../d4/d07/classistream_ad045f93ac6d39641c40a37c02060f21b.xhtml#ad045f93ac6d39641c40a37c02060f21b">istream::operator&gt;&gt;</a></div><div class="ttdeci">istream &amp; operator&gt;&gt;(istream &amp;(*pf)(istream &amp;str))</div><div class="ttdef"><b>Definition</b> istream.h:44</div></div>
+<div class="ttc" id="aclassistream_ad0a3db5199ca44b191a9675f2dd3a098_xhtml_ad0a3db5199ca44b191a9675f2dd3a098"><div class="ttname"><a href="../../d4/d07/classistream_ad0a3db5199ca44b191a9675f2dd3a098.xhtml#ad0a3db5199ca44b191a9675f2dd3a098">istream::gcount</a></div><div class="ttdeci">streamsize gcount() const</div><div class="ttdef"><b>Definition</b> istream.h:213</div></div>
+<div class="ttc" id="aclassistream_ad1cb81b7ee0b9bee9cb1793451c322b8_xhtml_ad1cb81b7ee0b9bee9cb1793451c322b8"><div class="ttname"><a href="../../d4/d07/classistream_ad1cb81b7ee0b9bee9cb1793451c322b8.xhtml#ad1cb81b7ee0b9bee9cb1793451c322b8">istream::operator&gt;&gt;</a></div><div class="ttdeci">istream &amp; operator&gt;&gt;(bool &amp;arg)</div><div class="ttdef"><b>Definition</b> istream.h:120</div></div>
+<div class="ttc" id="aclassistream_adc1e42bb10036c4fc824f24378736c7c_xhtml_adc1e42bb10036c4fc824f24378736c7c"><div class="ttname"><a href="../../d4/d07/classistream_adc1e42bb10036c4fc824f24378736c7c.xhtml#adc1e42bb10036c4fc824f24378736c7c">istream::operator&gt;&gt;</a></div><div class="ttdeci">istream &amp; operator&gt;&gt;(ios_base &amp;(*pf)(ios_base &amp;str))</div><div class="ttdef"><b>Definition</b> istream.h:49</div></div>
+<div class="ttc" id="aclassistream_add7f7009a192e404d04897a08347116d_xhtml_add7f7009a192e404d04897a08347116d"><div class="ttname"><a href="../../d4/d07/classistream_add7f7009a192e404d04897a08347116d.xhtml#add7f7009a192e404d04897a08347116d">istream::operator&gt;&gt;</a></div><div class="ttdeci">istream &amp; operator&gt;&gt;(ios &amp;(*pf)(ios &amp;str))</div><div class="ttdef"><b>Definition</b> istream.h:57</div></div>
+<div class="ttc" id="aclassistream_addc5126126b85763f6b10d3b25f4709e_xhtml_addc5126126b85763f6b10d3b25f4709e"><div class="ttname"><a href="../../d4/d07/classistream_addc5126126b85763f6b10d3b25f4709e.xhtml#addc5126126b85763f6b10d3b25f4709e">istream::istream</a></div><div class="ttdeci">istream()=default</div></div>
+<div class="ttc" id="aclassistream_adf90e879a65ea616c39ab4e47779dfb9_xhtml_adf90e879a65ea616c39ab4e47779dfb9"><div class="ttname"><a href="../../d4/d07/classistream_adf90e879a65ea616c39ab4e47779dfb9.xhtml#adf90e879a65ea616c39ab4e47779dfb9">istream::getDouble</a></div><div class="ttdeci">bool getDouble(double *value)</div><div class="ttdef"><b>Definition</b> istream.cpp:133</div></div>
+<div class="ttc" id="aclassistream_aec2f50a52b65a4756acc95374cf67dda_xhtml_aec2f50a52b65a4756acc95374cf67dda"><div class="ttname"><a href="../../d4/d07/classistream_aec2f50a52b65a4756acc95374cf67dda.xhtml#aec2f50a52b65a4756acc95374cf67dda">istream::operator&gt;&gt;</a></div><div class="ttdeci">istream &amp; operator&gt;&gt;(long &amp;arg)</div><div class="ttdef"><b>Definition</b> istream.h:165</div></div>
+<div class="ttc" id="aclassistream_af937cf5104134941c2f5e2121f3634d2_xhtml_af937cf5104134941c2f5e2121f3634d2"><div class="ttname"><a href="../../d4/d07/classistream_af937cf5104134941c2f5e2121f3634d2.xhtml#af937cf5104134941c2f5e2121f3634d2">istream::operator&gt;&gt;</a></div><div class="ttdeci">istream &amp; operator&gt;&gt;(float &amp;arg)</div><div class="ttdef"><b>Definition</b> istream.h:192</div></div>
+<div class="ttc" id="aclassistream_xhtml"><div class="ttname"><a href="../../d4/d07/classistream.xhtml">istream</a></div><div class="ttdoc">Input Stream.</div><div class="ttdef"><b>Definition</b> istream.h:37</div></div>
+<div class="ttc" id="aios_8h_xhtml"><div class="ttname"><a href="../../df/dd5/ios_8h.xhtml">ios.h</a></div><div class="ttdoc">ios_base and ios classes</div></div>
+<div class="ttc" id="astructfspos__t_xhtml"><div class="ttname"><a href="../../df/da6/structfspos__t.xhtml">fspos_t</a></div><div class="ttdef"><b>Definition</b> FsStructs.h:147</div></div>
+<div class="ttc" id="awiring_8c_ab3cd915d758008bd19d0f2428fbb354a_xhtml_ab3cd915d758008bd19d0f2428fbb354a"><div class="ttname"><a href="../../d5/df3/wiring_8c_ab3cd915d758008bd19d0f2428fbb354a.xhtml#ab3cd915d758008bd19d0f2428fbb354a">m</a></div><div class="ttdeci">m</div><div class="ttdef"><b>Definition</b> wiring.c:53</div></div>
+</div><!-- fragment --></div><!-- contents -->
+</div><!-- doc-content -->
+<!-- start footer part -->
+<div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
+  <ul>
+    <li class="navelem"><a class="el" href="../../dir_6719ab1f1f7655efc2fa43f7eb574fd1.xhtml">libs</a></li><li class="navelem"><a class="el" href="../../dir_42eee409255dea5a142129cbb92a8b55.xhtml">SdFat</a></li><li class="navelem"><a class="el" href="../../dir_2f4080adc233fc166a1397b7e1f61311.xhtml">src</a></li><li class="navelem"><a class="el" href="../../dir_978e350f7d295217ae94722c0815efe0.xhtml">iostream</a></li><li class="navelem"><a class="el" href="../../db/dc9/istream_8h.xhtml">istream.h</a></li>
+    <li class="footer">Généré par <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.10.0 </li>
+  </ul>
+</div>
+</body>
+</html>

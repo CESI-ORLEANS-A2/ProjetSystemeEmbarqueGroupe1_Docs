@@ -1,0 +1,233 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "https://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="fr">
+<head>
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=11"/>
+<meta name="generator" content="Doxygen 1.10.0"/>
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+<title>Station_Méteo_Groupe_1:  Fichier source de /mnt/d/Cours/10. CESI A2/Blocs/01 - Systeme embarque/Livrables/Station_Meteo_Groupe_1 - Copy/libs/SdFat/src/SdCard/SdioCard.h</title>
+<link href="../../tabs.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="../../jquery.js"></script>
+<script type="text/javascript" src="../../dynsections.js"></script>
+<script type="text/javascript" src="../../clipboard.js"></script>
+<link href="../../navtree.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="../../resize.js"></script>
+<script type="text/javascript" src="../../navtreedata.js"></script>
+<script type="text/javascript" src="../../navtree.js"></script>
+<link href="../../search/search.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="../../search/searchdata.js"></script>
+<script type="text/javascript" src="../../search/search.js"></script>
+<link href="../../doxygen.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+<div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+<div id="titlearea">
+<table cellspacing="0" cellpadding="0">
+ <tbody>
+ <tr id="projectrow">
+  <td id="projectalign">
+   <div id="projectname">Station_Méteo_Groupe_1<span id="projectnumber">&#160;v0.0.1</span>
+   </div>
+  </td>
+ </tr>
+ </tbody>
+</table>
+</div>
+<!-- end header part -->
+<!-- Généré par Doxygen 1.10.0 -->
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+var searchBox = new SearchBox("searchBox", "../../search/",'.xhtml');
+/* @license-end */
+</script>
+<script type="text/javascript" src="../../menudata.js"></script>
+<script type="text/javascript" src="../../menu.js"></script>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+$(function() {
+  initMenu('../../',true,false,'search.php','Recherche');
+  $(document).ready(function() { init_search(); });
+});
+/* @license-end */
+</script>
+<div id="main-nav"></div>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+$(document).ready(function() { init_codefold(1); });
+/* @license-end */
+</script>
+</div><!-- top -->
+<div id="side-nav" class="ui-resizable side-nav-resizable">
+  <div id="nav-tree">
+    <div id="nav-tree-contents">
+      <div id="nav-sync" class="sync"></div>
+    </div>
+  </div>
+  <div id="splitbar" style="-moz-user-select:none;" 
+       class="ui-resizable-handle">
+  </div>
+</div>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+$(document).ready(function(){initNavTree('d9/d0a/SdioCard_8h_source.xhtml','../../'); initResizable(); });
+/* @license-end */
+</script>
+<div id="doc-content">
+<!-- window showing the filter options -->
+<div id="MSearchSelectWindow"
+     onmouseover="return searchBox.OnSearchSelectShow()"
+     onmouseout="return searchBox.OnSearchSelectHide()"
+     onkeydown="return searchBox.OnSearchSelectKey(event)">
+</div>
+
+<!-- iframe showing the search results (closed by default) -->
+<div id="MSearchResultsWindow">
+<div id="MSearchResults">
+<div class="SRPage">
+<div id="SRIndex">
+<div id="SRResults"></div>
+<div class="SRStatus" id="Loading">Chargement...</div>
+<div class="SRStatus" id="Searching">Recherche...</div>
+<div class="SRStatus" id="NoMatches">Aucune correspondance</div>
+</div>
+</div>
+</div>
+</div>
+
+<div class="header">
+  <div class="headertitle"><div class="title">SdioCard.h</div></div>
+</div><!--header-->
+<div class="contents">
+<a href="../../d9/d0a/SdioCard_8h.xhtml">Aller à la documentation de ce fichier.</a><div class="fragment"><div class="line"><a id="l00001" name="l00001"></a><span class="lineno">    1</span> </div>
+<div class="line"><a id="l00029" name="l00029"></a><span class="lineno">   29</span><span class="preprocessor">#ifndef SdioCard_h</span></div>
+<div class="line"><a id="l00030" name="l00030"></a><span class="lineno">   30</span><span class="preprocessor">#define SdioCard_h</span></div>
+<div class="line"><a id="l00031" name="l00031"></a><span class="lineno">   31</span><span class="preprocessor">#include &quot;../common/SysCall.h&quot;</span></div>
+<div class="line"><a id="l00032" name="l00032"></a><span class="lineno">   32</span><span class="preprocessor">#include &quot;<a class="code" href="../../dd/d48/SdCardInterface_8h.xhtml">SdCardInterface.h</a>&quot;</span></div>
+<div class="line"><a id="l00034" name="l00034"></a><span class="lineno"><a class="line" href="../../d9/d0a/SdioCard_8h_a1c5d1f4b7ddcc64038cc1b04ba24a8d6.xhtml#a1c5d1f4b7ddcc64038cc1b04ba24a8d6">   34</a></span><span class="preprocessor">#define FIFO_SDIO 0</span></div>
+<div class="line"><a id="l00036" name="l00036"></a><span class="lineno"><a class="line" href="../../d9/d0a/SdioCard_8h_acd156872b5729d84f0f84e86eaaccec7.xhtml#acd156872b5729d84f0f84e86eaaccec7">   36</a></span><span class="preprocessor">#define DMA_SDIO 1</span></div>
+<div class="foldopen" id="foldopen00041" data-start="{" data-end="};">
+<div class="line"><a id="l00041" name="l00041"></a><span class="lineno"><a class="line" href="../../d0/d30/classSdioConfig.xhtml">   41</a></span><span class="keyword">class </span><a class="code hl_class" href="../../d0/d30/classSdioConfig.xhtml">SdioConfig</a> {</div>
+<div class="line"><a id="l00042" name="l00042"></a><span class="lineno">   42</span> <span class="keyword">public</span>:</div>
+<div class="line"><a id="l00043" name="l00043"></a><span class="lineno"><a class="line" href="../../d0/d30/classSdioConfig_a8217be5851e87bf4e9138e4c20588583.xhtml#a8217be5851e87bf4e9138e4c20588583">   43</a></span>  <a class="code hl_function" href="../../d0/d30/classSdioConfig_a8217be5851e87bf4e9138e4c20588583.xhtml#a8217be5851e87bf4e9138e4c20588583">SdioConfig</a>() {}</div>
+<div class="line"><a id="l00048" name="l00048"></a><span class="lineno"><a class="line" href="../../d0/d30/classSdioConfig_a1eaa863465cec6f67210b4888532b3dd.xhtml#a1eaa863465cec6f67210b4888532b3dd">   48</a></span>  <span class="keyword">explicit</span> <a class="code hl_function" href="../../d0/d30/classSdioConfig_a1eaa863465cec6f67210b4888532b3dd.xhtml#a1eaa863465cec6f67210b4888532b3dd">SdioConfig</a>(uint8_t opt) : <a class="code hl_variable" href="../../d0/d30/classSdioConfig_ab27e024bb4cb4064a16d5ac5dd25930d.xhtml#ab27e024bb4cb4064a16d5ac5dd25930d">m_options</a>(opt) {}</div>
+<div class="line"><a id="l00050" name="l00050"></a><span class="lineno"><a class="line" href="../../d0/d30/classSdioConfig_a905aeb5dc774c63af6e72b3be51fc845.xhtml#a905aeb5dc774c63af6e72b3be51fc845">   50</a></span>  uint8_t <a class="code hl_function" href="../../d0/d30/classSdioConfig_a905aeb5dc774c63af6e72b3be51fc845.xhtml#a905aeb5dc774c63af6e72b3be51fc845">options</a>() { <span class="keywordflow">return</span> <a class="code hl_variable" href="../../d0/d30/classSdioConfig_ab27e024bb4cb4064a16d5ac5dd25930d.xhtml#ab27e024bb4cb4064a16d5ac5dd25930d">m_options</a>; }</div>
+<div class="line"><a id="l00052" name="l00052"></a><span class="lineno"><a class="line" href="../../d0/d30/classSdioConfig_a07ddb8b18bf24fa61fdd289a112e79a8.xhtml#a07ddb8b18bf24fa61fdd289a112e79a8">   52</a></span>  <span class="keywordtype">bool</span> <a class="code hl_function" href="../../d0/d30/classSdioConfig_a07ddb8b18bf24fa61fdd289a112e79a8.xhtml#a07ddb8b18bf24fa61fdd289a112e79a8">useDma</a>() { <span class="keywordflow">return</span> <a class="code hl_variable" href="../../d0/d30/classSdioConfig_ab27e024bb4cb4064a16d5ac5dd25930d.xhtml#ab27e024bb4cb4064a16d5ac5dd25930d">m_options</a> &amp; <a class="code hl_define" href="../../d9/d0a/SdioCard_8h_acd156872b5729d84f0f84e86eaaccec7.xhtml#acd156872b5729d84f0f84e86eaaccec7">DMA_SDIO</a>; }</div>
+<div class="line"><a id="l00053" name="l00053"></a><span class="lineno">   53</span> </div>
+<div class="line"><a id="l00054" name="l00054"></a><span class="lineno">   54</span> <span class="keyword">private</span>:</div>
+<div class="line"><a id="l00055" name="l00055"></a><span class="lineno"><a class="line" href="../../d0/d30/classSdioConfig_ab27e024bb4cb4064a16d5ac5dd25930d.xhtml#ab27e024bb4cb4064a16d5ac5dd25930d">   55</a></span>  uint8_t <a class="code hl_variable" href="../../d0/d30/classSdioConfig_ab27e024bb4cb4064a16d5ac5dd25930d.xhtml#ab27e024bb4cb4064a16d5ac5dd25930d">m_options</a> = <a class="code hl_define" href="../../d9/d0a/SdioCard_8h_a1c5d1f4b7ddcc64038cc1b04ba24a8d6.xhtml#a1c5d1f4b7ddcc64038cc1b04ba24a8d6">FIFO_SDIO</a>;</div>
+<div class="line"><a id="l00056" name="l00056"></a><span class="lineno">   56</span>};</div>
+</div>
+<div class="line"><a id="l00057" name="l00057"></a><span class="lineno">   57</span><span class="comment">//------------------------------------------------------------------------------</span></div>
+<div class="foldopen" id="foldopen00062" data-start="{" data-end="};">
+<div class="line"><a id="l00062" name="l00062"></a><span class="lineno"><a class="line" href="../../dc/d09/classSdioCard.xhtml">   62</a></span><span class="keyword">class </span><a class="code hl_class" href="../../dc/d09/classSdioCard.xhtml">SdioCard</a> : <span class="keyword">public</span> <a class="code hl_class" href="../../d9/d18/classSdCardInterface.xhtml">SdCardInterface</a> {</div>
+<div class="line"><a id="l00063" name="l00063"></a><span class="lineno">   63</span> <span class="keyword">public</span>:</div>
+<div class="line"><a id="l00068" name="l00068"></a><span class="lineno"><a class="line" href="../../dc/d09/classSdioCard_afbb5ab075dfd16ceebfcba5a20e70434.xhtml#afbb5ab075dfd16ceebfcba5a20e70434">   68</a></span>  <span class="keywordtype">bool</span> <a class="code hl_function" href="../../dc/d09/classSdioCard_afbb5ab075dfd16ceebfcba5a20e70434.xhtml#afbb5ab075dfd16ceebfcba5a20e70434">begin</a>(<a class="code hl_class" href="../../d0/d30/classSdioConfig.xhtml">SdioConfig</a> sdioConfig);</div>
+<div class="line"><a id="l00075" name="l00075"></a><span class="lineno"><a class="line" href="../../dc/d09/classSdioCard_afb7c7e59bb70fe774a4a604fdc4556fa.xhtml#afb7c7e59bb70fe774a4a604fdc4556fa">   75</a></span>  <span class="keywordtype">bool</span> <a class="code hl_function" href="../../dc/d09/classSdioCard_afb7c7e59bb70fe774a4a604fdc4556fa.xhtml#afb7c7e59bb70fe774a4a604fdc4556fa">cardCMD6</a>(uint32_t arg, uint8_t* <a class="code hl_function" href="../../dc/d09/classSdioCard_a58880a055e58410f8b22658b88622f63.xhtml#a58880a055e58410f8b22658b88622f63">status</a>);</div>
+<div class="line"><a id="l00079" name="l00079"></a><span class="lineno"><a class="line" href="../../dc/d09/classSdioCard_a852e59d4209f97aabac634c05df3dcb9.xhtml#a852e59d4209f97aabac634c05df3dcb9">   79</a></span>  <span class="keywordtype">void</span> <a class="code hl_function" href="../../dc/d09/classSdioCard_a852e59d4209f97aabac634c05df3dcb9.xhtml#a852e59d4209f97aabac634c05df3dcb9">end</a>() {}</div>
+<div class="line"><a id="l00080" name="l00080"></a><span class="lineno">   80</span> </div>
+<div class="line"><a id="l00081" name="l00081"></a><span class="lineno">   81</span><span class="preprocessor">#ifndef DOXYGEN_SHOULD_SKIP_THIS</span></div>
+<div class="line"><a id="l00082" name="l00082"></a><span class="lineno"><a class="line" href="../../dc/d09/classSdioCard_a7714f26fac45af8537a5d1486f42dad1.xhtml#a7714f26fac45af8537a5d1486f42dad1">   82</a></span>  uint32_t <a class="code hl_function" href="../../dc/d09/classSdioCard_a7714f26fac45af8537a5d1486f42dad1.xhtml#a7714f26fac45af8537a5d1486f42dad1">__attribute__</a>((error(<span class="stringliteral">&quot;use sectorCount()&quot;</span>))) cardSize();</div>
+<div class="line"><a id="l00083" name="l00083"></a><span class="lineno">   83</span><span class="preprocessor">#endif  </span><span class="comment">// DOXYGEN_SHOULD_SKIP_THIS</span></div>
+<div class="line"><a id="l00096" name="l00096"></a><span class="lineno"><a class="line" href="../../dc/d09/classSdioCard_a03b1cdcf988acbdee91bfa8974be50f9.xhtml#a03b1cdcf988acbdee91bfa8974be50f9">   96</a></span>  bool erase(uint32_t firstSector, uint32_t lastSector);</div>
+<div class="line"><a id="l00101" name="l00101"></a><span class="lineno"><a class="line" href="../../dc/d09/classSdioCard_a1d505c4fb461bb7103692054ef6f7f1f.xhtml#a1d505c4fb461bb7103692054ef6f7f1f">  101</a></span>  uint8_t <a class="code hl_function" href="../../dc/d09/classSdioCard_a1d505c4fb461bb7103692054ef6f7f1f.xhtml#a1d505c4fb461bb7103692054ef6f7f1f">errorCode</a>() <span class="keyword">const</span>;</div>
+<div class="line"><a id="l00103" name="l00103"></a><span class="lineno"><a class="line" href="../../dc/d09/classSdioCard_a9c2da202da95162d2eb694363fbe8654.xhtml#a9c2da202da95162d2eb694363fbe8654">  103</a></span>  uint32_t <a class="code hl_function" href="../../dc/d09/classSdioCard_a9c2da202da95162d2eb694363fbe8654.xhtml#a9c2da202da95162d2eb694363fbe8654">errorData</a>() <span class="keyword">const</span>;</div>
+<div class="line"><a id="l00105" name="l00105"></a><span class="lineno"><a class="line" href="../../dc/d09/classSdioCard_a37e477b39d2a9c874fd338b4f7ef6b0e.xhtml#a37e477b39d2a9c874fd338b4f7ef6b0e">  105</a></span>  uint32_t <a class="code hl_function" href="../../dc/d09/classSdioCard_a37e477b39d2a9c874fd338b4f7ef6b0e.xhtml#a37e477b39d2a9c874fd338b4f7ef6b0e">errorLine</a>() <span class="keyword">const</span>;</div>
+<div class="line"><a id="l00111" name="l00111"></a><span class="lineno"><a class="line" href="../../dc/d09/classSdioCard_a560bdfc96932d073c2b0610600560f78.xhtml#a560bdfc96932d073c2b0610600560f78">  111</a></span>  <span class="keywordtype">bool</span> <a class="code hl_function" href="../../dc/d09/classSdioCard_a560bdfc96932d073c2b0610600560f78.xhtml#a560bdfc96932d073c2b0610600560f78">isBusy</a>();</div>
+<div class="line"><a id="l00113" name="l00113"></a><span class="lineno"><a class="line" href="../../dc/d09/classSdioCard_a3532a1a4b8a43a51ed9b5853186203cb.xhtml#a3532a1a4b8a43a51ed9b5853186203cb">  113</a></span>  uint32_t <a class="code hl_function" href="../../dc/d09/classSdioCard_a3532a1a4b8a43a51ed9b5853186203cb.xhtml#a3532a1a4b8a43a51ed9b5853186203cb">kHzSdClk</a>();</div>
+<div class="line"><a id="l00121" name="l00121"></a><span class="lineno"><a class="line" href="../../dc/d09/classSdioCard_a77ae4fbe24bb04b74af5d388d4139dde.xhtml#a77ae4fbe24bb04b74af5d388d4139dde">  121</a></span>  <span class="keywordtype">bool</span> <a class="code hl_function" href="../../dc/d09/classSdioCard_a77ae4fbe24bb04b74af5d388d4139dde.xhtml#a77ae4fbe24bb04b74af5d388d4139dde">readSector</a>(uint32_t sector, uint8_t* dst);</div>
+<div class="line"><a id="l00130" name="l00130"></a><span class="lineno"><a class="line" href="../../dc/d09/classSdioCard_a1ed4229446a5a2fe815d460b027243b9.xhtml#a1ed4229446a5a2fe815d460b027243b9">  130</a></span>  <span class="keywordtype">bool</span> <a class="code hl_function" href="../../dc/d09/classSdioCard_a1ed4229446a5a2fe815d460b027243b9.xhtml#a1ed4229446a5a2fe815d460b027243b9">readSectors</a>(uint32_t sector, uint8_t* dst, <span class="keywordtype">size_t</span> ns);</div>
+<div class="line"><a id="l00140" name="l00140"></a><span class="lineno"><a class="line" href="../../dc/d09/classSdioCard_a2490b07ee400aaf799ea5c37052041bf.xhtml#a2490b07ee400aaf799ea5c37052041bf">  140</a></span>  <span class="keywordtype">bool</span> <a class="code hl_function" href="../../dc/d09/classSdioCard_a2490b07ee400aaf799ea5c37052041bf.xhtml#a2490b07ee400aaf799ea5c37052041bf">readCID</a>(<a class="code hl_class" href="../../d7/d9b/structcid__t.xhtml">cid_t</a>* cid);</div>
+<div class="line"><a id="l00149" name="l00149"></a><span class="lineno"><a class="line" href="../../dc/d09/classSdioCard_a72bbb4fda29fb6313981a63ea2f43d5f.xhtml#a72bbb4fda29fb6313981a63ea2f43d5f">  149</a></span>  <span class="keywordtype">bool</span> <a class="code hl_function" href="../../dc/d09/classSdioCard_a72bbb4fda29fb6313981a63ea2f43d5f.xhtml#a72bbb4fda29fb6313981a63ea2f43d5f">readCSD</a>(<a class="code hl_class" href="../../d8/ded/structcsd__t.xhtml">csd_t</a>* csd);</div>
+<div class="line"><a id="l00156" name="l00156"></a><span class="lineno"><a class="line" href="../../dc/d09/classSdioCard_a9dc1cd99d0136e514faaecf56a6318d2.xhtml#a9dc1cd99d0136e514faaecf56a6318d2">  156</a></span>  <span class="keywordtype">bool</span> <a class="code hl_function" href="../../dc/d09/classSdioCard_a9dc1cd99d0136e514faaecf56a6318d2.xhtml#a9dc1cd99d0136e514faaecf56a6318d2">readData</a>(uint8_t* dst);</div>
+<div class="line"><a id="l00162" name="l00162"></a><span class="lineno"><a class="line" href="../../dc/d09/classSdioCard_adc583f7a27f57ce55ce474b1379b9303.xhtml#adc583f7a27f57ce55ce474b1379b9303">  162</a></span>  <span class="keywordtype">bool</span> <a class="code hl_function" href="../../dc/d09/classSdioCard_adc583f7a27f57ce55ce474b1379b9303.xhtml#adc583f7a27f57ce55ce474b1379b9303">readOCR</a>(uint32_t* ocr);</div>
+<div class="line"><a id="l00168" name="l00168"></a><span class="lineno"><a class="line" href="../../dc/d09/classSdioCard_a4f82669694ef9622043ac99a87902a8d.xhtml#a4f82669694ef9622043ac99a87902a8d">  168</a></span>  <span class="keywordtype">bool</span> <a class="code hl_function" href="../../dc/d09/classSdioCard_a4f82669694ef9622043ac99a87902a8d.xhtml#a4f82669694ef9622043ac99a87902a8d">readSCR</a>(<a class="code hl_class" href="../../df/dac/structscr__t.xhtml">scr_t</a>* scr);</div>
+<div class="line"><a id="l00173" name="l00173"></a><span class="lineno"><a class="line" href="../../dc/d09/classSdioCard_a51253c0f05e7e760beea0af7e0a16cd0.xhtml#a51253c0f05e7e760beea0af7e0a16cd0">  173</a></span>  <span class="keywordtype">bool</span> <a class="code hl_function" href="../../dc/d09/classSdioCard_a51253c0f05e7e760beea0af7e0a16cd0.xhtml#a51253c0f05e7e760beea0af7e0a16cd0">readSDS</a>(<a class="code hl_class" href="../../d2/db0/structsds__t.xhtml">sds_t</a>* sds);</div>
+<div class="line"><a id="l00183" name="l00183"></a><span class="lineno"><a class="line" href="../../dc/d09/classSdioCard_a9fde1fb0e6603e7140cac16395815df0.xhtml#a9fde1fb0e6603e7140cac16395815df0">  183</a></span>  <span class="keywordtype">bool</span> <a class="code hl_function" href="../../dc/d09/classSdioCard_a9fde1fb0e6603e7140cac16395815df0.xhtml#a9fde1fb0e6603e7140cac16395815df0">readStart</a>(uint32_t sector);</div>
+<div class="line"><a id="l00193" name="l00193"></a><span class="lineno"><a class="line" href="../../dc/d09/classSdioCard_a54732c9d38998ddd42b72b720e0ee54c.xhtml#a54732c9d38998ddd42b72b720e0ee54c">  193</a></span>  <span class="keywordtype">bool</span> <a class="code hl_function" href="../../dc/d09/classSdioCard_a54732c9d38998ddd42b72b720e0ee54c.xhtml#a54732c9d38998ddd42b72b720e0ee54c">readStart</a>(uint32_t sector, uint32_t count);</div>
+<div class="line"><a id="l00198" name="l00198"></a><span class="lineno"><a class="line" href="../../dc/d09/classSdioCard_a5bd3f206d790149340783135d08eb701.xhtml#a5bd3f206d790149340783135d08eb701">  198</a></span>  <span class="keywordtype">bool</span> <a class="code hl_function" href="../../dc/d09/classSdioCard_a5bd3f206d790149340783135d08eb701.xhtml#a5bd3f206d790149340783135d08eb701">readStop</a>();</div>
+<div class="line"><a id="l00200" name="l00200"></a><span class="lineno"><a class="line" href="../../dc/d09/classSdioCard_a58880a055e58410f8b22658b88622f63.xhtml#a58880a055e58410f8b22658b88622f63">  200</a></span>  uint32_t <a class="code hl_function" href="../../dc/d09/classSdioCard_a58880a055e58410f8b22658b88622f63.xhtml#a58880a055e58410f8b22658b88622f63">status</a>();</div>
+<div class="line"><a id="l00207" name="l00207"></a><span class="lineno"><a class="line" href="../../dc/d09/classSdioCard_a49a502cf7b59dc559a6c75a3285e6c1a.xhtml#a49a502cf7b59dc559a6c75a3285e6c1a">  207</a></span>  uint32_t <a class="code hl_function" href="../../dc/d09/classSdioCard_a49a502cf7b59dc559a6c75a3285e6c1a.xhtml#a49a502cf7b59dc559a6c75a3285e6c1a">sectorCount</a>();</div>
+<div class="line"><a id="l00215" name="l00215"></a><span class="lineno"><a class="line" href="../../dc/d09/classSdioCard_a7170ee90fbbea5e34e42ed1f8d64177e.xhtml#a7170ee90fbbea5e34e42ed1f8d64177e">  215</a></span>  <span class="keywordtype">bool</span> <a class="code hl_function" href="../../dc/d09/classSdioCard_a7170ee90fbbea5e34e42ed1f8d64177e.xhtml#a7170ee90fbbea5e34e42ed1f8d64177e">stopTransmission</a>(<span class="keywordtype">bool</span> blocking);</div>
+<div class="line"><a id="l00217" name="l00217"></a><span class="lineno"><a class="line" href="../../dc/d09/classSdioCard_a1201ec7a6fa91b73a1daa584a1b055f7.xhtml#a1201ec7a6fa91b73a1daa584a1b055f7">  217</a></span>  <span class="keywordtype">bool</span> <a class="code hl_function" href="../../dc/d09/classSdioCard_a1201ec7a6fa91b73a1daa584a1b055f7.xhtml#a1201ec7a6fa91b73a1daa584a1b055f7">syncDevice</a>();</div>
+<div class="line"><a id="l00221" name="l00221"></a><span class="lineno"><a class="line" href="../../dc/d09/classSdioCard_a22451464dba5275838908c2d19392850.xhtml#a22451464dba5275838908c2d19392850">  221</a></span>  uint8_t <a class="code hl_function" href="../../dc/d09/classSdioCard_a22451464dba5275838908c2d19392850.xhtml#a22451464dba5275838908c2d19392850">type</a>() <span class="keyword">const</span>;</div>
+<div class="line"><a id="l00229" name="l00229"></a><span class="lineno"><a class="line" href="../../dc/d09/classSdioCard_a74919a168bac68028ce62222500cf238.xhtml#a74919a168bac68028ce62222500cf238">  229</a></span>  <span class="keywordtype">bool</span> <a class="code hl_function" href="../../dc/d09/classSdioCard_a74919a168bac68028ce62222500cf238.xhtml#a74919a168bac68028ce62222500cf238">writeSector</a>(uint32_t sector, <span class="keyword">const</span> uint8_t* src);</div>
+<div class="line"><a id="l00238" name="l00238"></a><span class="lineno"><a class="line" href="../../dc/d09/classSdioCard_a55e2fc82ef9ecf7272a94b565c50303b.xhtml#a55e2fc82ef9ecf7272a94b565c50303b">  238</a></span>  <span class="keywordtype">bool</span> <a class="code hl_function" href="../../dc/d09/classSdioCard_a55e2fc82ef9ecf7272a94b565c50303b.xhtml#a55e2fc82ef9ecf7272a94b565c50303b">writeSectors</a>(uint32_t sector, <span class="keyword">const</span> uint8_t* src, <span class="keywordtype">size_t</span> ns);</div>
+<div class="line"><a id="l00243" name="l00243"></a><span class="lineno"><a class="line" href="../../dc/d09/classSdioCard_a8467e7ffafa45ff930b38a6f18e9547a.xhtml#a8467e7ffafa45ff930b38a6f18e9547a">  243</a></span>  <span class="keywordtype">bool</span> <a class="code hl_function" href="../../dc/d09/classSdioCard_a8467e7ffafa45ff930b38a6f18e9547a.xhtml#a8467e7ffafa45ff930b38a6f18e9547a">writeData</a>(<span class="keyword">const</span> uint8_t* src);</div>
+<div class="line"><a id="l00253" name="l00253"></a><span class="lineno"><a class="line" href="../../dc/d09/classSdioCard_a1edd70537e2d7fa556532790cf413b5c.xhtml#a1edd70537e2d7fa556532790cf413b5c">  253</a></span>  <span class="keywordtype">bool</span> <a class="code hl_function" href="../../dc/d09/classSdioCard_a1edd70537e2d7fa556532790cf413b5c.xhtml#a1edd70537e2d7fa556532790cf413b5c">writeStart</a>(uint32_t sector);</div>
+<div class="line"><a id="l00263" name="l00263"></a><span class="lineno"><a class="line" href="../../dc/d09/classSdioCard_a82fe097fdbae26b3c8f92f215499cdf3.xhtml#a82fe097fdbae26b3c8f92f215499cdf3">  263</a></span>  <span class="keywordtype">bool</span> <a class="code hl_function" href="../../dc/d09/classSdioCard_a82fe097fdbae26b3c8f92f215499cdf3.xhtml#a82fe097fdbae26b3c8f92f215499cdf3">writeStart</a>(uint32_t sector, uint32_t count);</div>
+<div class="line"><a id="l00264" name="l00264"></a><span class="lineno">  264</span> </div>
+<div class="line"><a id="l00269" name="l00269"></a><span class="lineno"><a class="line" href="../../dc/d09/classSdioCard_acb560c2ea1f30c646b96f02e728b0fe1.xhtml#acb560c2ea1f30c646b96f02e728b0fe1">  269</a></span>  <span class="keywordtype">bool</span> <a class="code hl_function" href="../../dc/d09/classSdioCard_acb560c2ea1f30c646b96f02e728b0fe1.xhtml#acb560c2ea1f30c646b96f02e728b0fe1">writeStop</a>();</div>
+<div class="line"><a id="l00270" name="l00270"></a><span class="lineno">  270</span> </div>
+<div class="line"><a id="l00271" name="l00271"></a><span class="lineno">  271</span> <span class="keyword">private</span>:</div>
+<div class="line"><a id="l00272" name="l00272"></a><span class="lineno"><a class="line" href="../../dc/d09/classSdioCard_a3dbcf4fbf70a98cf0b05aca31227a468.xhtml#a3dbcf4fbf70a98cf0b05aca31227a468">  272</a></span>  <span class="keyword">static</span> <span class="keyword">const</span> uint8_t <a class="code hl_variable" href="../../dc/d09/classSdioCard_a3dbcf4fbf70a98cf0b05aca31227a468.xhtml#a3dbcf4fbf70a98cf0b05aca31227a468">IDLE_STATE</a> = 0;</div>
+<div class="line"><a id="l00273" name="l00273"></a><span class="lineno"><a class="line" href="../../dc/d09/classSdioCard_a1f15024d10377857b9b83e42465a1c27.xhtml#a1f15024d10377857b9b83e42465a1c27">  273</a></span>  <span class="keyword">static</span> <span class="keyword">const</span> uint8_t <a class="code hl_variable" href="../../dc/d09/classSdioCard_a1f15024d10377857b9b83e42465a1c27.xhtml#a1f15024d10377857b9b83e42465a1c27">READ_STATE</a> = 1;</div>
+<div class="line"><a id="l00274" name="l00274"></a><span class="lineno"><a class="line" href="../../dc/d09/classSdioCard_ac139e1b1823341e24e1ddb8c880af501.xhtml#ac139e1b1823341e24e1ddb8c880af501">  274</a></span>  <span class="keyword">static</span> <span class="keyword">const</span> uint8_t <a class="code hl_variable" href="../../dc/d09/classSdioCard_ac139e1b1823341e24e1ddb8c880af501.xhtml#ac139e1b1823341e24e1ddb8c880af501">WRITE_STATE</a> = 2;</div>
+<div class="line"><a id="l00275" name="l00275"></a><span class="lineno"><a class="line" href="../../dc/d09/classSdioCard_a2c548541cd917620b48d3927afad5f06.xhtml#a2c548541cd917620b48d3927afad5f06">  275</a></span>  uint32_t <a class="code hl_variable" href="../../dc/d09/classSdioCard_a2c548541cd917620b48d3927afad5f06.xhtml#a2c548541cd917620b48d3927afad5f06">m_curSector</a>;</div>
+<div class="line"><a id="l00276" name="l00276"></a><span class="lineno"><a class="line" href="../../dc/d09/classSdioCard_aa2d642df5c63212474278523f159e5de.xhtml#aa2d642df5c63212474278523f159e5de">  276</a></span>  <a class="code hl_class" href="../../d0/d30/classSdioConfig.xhtml">SdioConfig</a> <a class="code hl_variable" href="../../dc/d09/classSdioCard_aa2d642df5c63212474278523f159e5de.xhtml#aa2d642df5c63212474278523f159e5de">m_sdioConfig</a>;</div>
+<div class="line"><a id="l00277" name="l00277"></a><span class="lineno"><a class="line" href="../../dc/d09/classSdioCard_a09d8aeff6bf198b1edfc1e59ef81b816.xhtml#a09d8aeff6bf198b1edfc1e59ef81b816">  277</a></span>  uint8_t <a class="code hl_variable" href="../../dc/d09/classSdioCard_a09d8aeff6bf198b1edfc1e59ef81b816.xhtml#a09d8aeff6bf198b1edfc1e59ef81b816">m_curState</a> = <a class="code hl_variable" href="../../dc/d09/classSdioCard_a3dbcf4fbf70a98cf0b05aca31227a468.xhtml#a3dbcf4fbf70a98cf0b05aca31227a468">IDLE_STATE</a>;</div>
+<div class="line"><a id="l00278" name="l00278"></a><span class="lineno">  278</span>};</div>
+</div>
+<div class="line"><a id="l00279" name="l00279"></a><span class="lineno">  279</span><span class="preprocessor">#endif  </span><span class="comment">// SdioCard_h</span></div>
+<div class="ttc" id="aSdCardInterface_8h_xhtml"><div class="ttname"><a href="../../dd/d48/SdCardInterface_8h.xhtml">SdCardInterface.h</a></div><div class="ttdoc">Abstract interface for an SD card.</div></div>
+<div class="ttc" id="aSdioCard_8h_a1c5d1f4b7ddcc64038cc1b04ba24a8d6_xhtml_a1c5d1f4b7ddcc64038cc1b04ba24a8d6"><div class="ttname"><a href="../../d9/d0a/SdioCard_8h_a1c5d1f4b7ddcc64038cc1b04ba24a8d6.xhtml#a1c5d1f4b7ddcc64038cc1b04ba24a8d6">FIFO_SDIO</a></div><div class="ttdeci">#define FIFO_SDIO</div><div class="ttdef"><b>Definition</b> SdioCard.h:34</div></div>
+<div class="ttc" id="aSdioCard_8h_acd156872b5729d84f0f84e86eaaccec7_xhtml_acd156872b5729d84f0f84e86eaaccec7"><div class="ttname"><a href="../../d9/d0a/SdioCard_8h_acd156872b5729d84f0f84e86eaaccec7.xhtml#acd156872b5729d84f0f84e86eaaccec7">DMA_SDIO</a></div><div class="ttdeci">#define DMA_SDIO</div><div class="ttdef"><b>Definition</b> SdioCard.h:36</div></div>
+<div class="ttc" id="aclassSdCardInterface_xhtml"><div class="ttname"><a href="../../d9/d18/classSdCardInterface.xhtml">SdCardInterface</a></div><div class="ttdoc">Abstract interface for an SD card.</div><div class="ttdef"><b>Definition</b> SdCardInterface.h:37</div></div>
+<div class="ttc" id="aclassSdioCard_a09d8aeff6bf198b1edfc1e59ef81b816_xhtml_a09d8aeff6bf198b1edfc1e59ef81b816"><div class="ttname"><a href="../../dc/d09/classSdioCard_a09d8aeff6bf198b1edfc1e59ef81b816.xhtml#a09d8aeff6bf198b1edfc1e59ef81b816">SdioCard::m_curState</a></div><div class="ttdeci">uint8_t m_curState</div><div class="ttdef"><b>Definition</b> SdioCard.h:277</div></div>
+<div class="ttc" id="aclassSdioCard_a1201ec7a6fa91b73a1daa584a1b055f7_xhtml_a1201ec7a6fa91b73a1daa584a1b055f7"><div class="ttname"><a href="../../dc/d09/classSdioCard_a1201ec7a6fa91b73a1daa584a1b055f7.xhtml#a1201ec7a6fa91b73a1daa584a1b055f7">SdioCard::syncDevice</a></div><div class="ttdeci">bool syncDevice()</div></div>
+<div class="ttc" id="aclassSdioCard_a1d505c4fb461bb7103692054ef6f7f1f_xhtml_a1d505c4fb461bb7103692054ef6f7f1f"><div class="ttname"><a href="../../dc/d09/classSdioCard_a1d505c4fb461bb7103692054ef6f7f1f.xhtml#a1d505c4fb461bb7103692054ef6f7f1f">SdioCard::errorCode</a></div><div class="ttdeci">uint8_t errorCode() const</div></div>
+<div class="ttc" id="aclassSdioCard_a1ed4229446a5a2fe815d460b027243b9_xhtml_a1ed4229446a5a2fe815d460b027243b9"><div class="ttname"><a href="../../dc/d09/classSdioCard_a1ed4229446a5a2fe815d460b027243b9.xhtml#a1ed4229446a5a2fe815d460b027243b9">SdioCard::readSectors</a></div><div class="ttdeci">bool readSectors(uint32_t sector, uint8_t *dst, size_t ns)</div></div>
+<div class="ttc" id="aclassSdioCard_a1edd70537e2d7fa556532790cf413b5c_xhtml_a1edd70537e2d7fa556532790cf413b5c"><div class="ttname"><a href="../../dc/d09/classSdioCard_a1edd70537e2d7fa556532790cf413b5c.xhtml#a1edd70537e2d7fa556532790cf413b5c">SdioCard::writeStart</a></div><div class="ttdeci">bool writeStart(uint32_t sector)</div></div>
+<div class="ttc" id="aclassSdioCard_a1f15024d10377857b9b83e42465a1c27_xhtml_a1f15024d10377857b9b83e42465a1c27"><div class="ttname"><a href="../../dc/d09/classSdioCard_a1f15024d10377857b9b83e42465a1c27.xhtml#a1f15024d10377857b9b83e42465a1c27">SdioCard::READ_STATE</a></div><div class="ttdeci">static const uint8_t READ_STATE</div><div class="ttdef"><b>Definition</b> SdioCard.h:273</div></div>
+<div class="ttc" id="aclassSdioCard_a22451464dba5275838908c2d19392850_xhtml_a22451464dba5275838908c2d19392850"><div class="ttname"><a href="../../dc/d09/classSdioCard_a22451464dba5275838908c2d19392850.xhtml#a22451464dba5275838908c2d19392850">SdioCard::type</a></div><div class="ttdeci">uint8_t type() const</div></div>
+<div class="ttc" id="aclassSdioCard_a2490b07ee400aaf799ea5c37052041bf_xhtml_a2490b07ee400aaf799ea5c37052041bf"><div class="ttname"><a href="../../dc/d09/classSdioCard_a2490b07ee400aaf799ea5c37052041bf.xhtml#a2490b07ee400aaf799ea5c37052041bf">SdioCard::readCID</a></div><div class="ttdeci">bool readCID(cid_t *cid)</div></div>
+<div class="ttc" id="aclassSdioCard_a2c548541cd917620b48d3927afad5f06_xhtml_a2c548541cd917620b48d3927afad5f06"><div class="ttname"><a href="../../dc/d09/classSdioCard_a2c548541cd917620b48d3927afad5f06.xhtml#a2c548541cd917620b48d3927afad5f06">SdioCard::m_curSector</a></div><div class="ttdeci">uint32_t m_curSector</div><div class="ttdef"><b>Definition</b> SdioCard.h:275</div></div>
+<div class="ttc" id="aclassSdioCard_a3532a1a4b8a43a51ed9b5853186203cb_xhtml_a3532a1a4b8a43a51ed9b5853186203cb"><div class="ttname"><a href="../../dc/d09/classSdioCard_a3532a1a4b8a43a51ed9b5853186203cb.xhtml#a3532a1a4b8a43a51ed9b5853186203cb">SdioCard::kHzSdClk</a></div><div class="ttdeci">uint32_t kHzSdClk()</div></div>
+<div class="ttc" id="aclassSdioCard_a37e477b39d2a9c874fd338b4f7ef6b0e_xhtml_a37e477b39d2a9c874fd338b4f7ef6b0e"><div class="ttname"><a href="../../dc/d09/classSdioCard_a37e477b39d2a9c874fd338b4f7ef6b0e.xhtml#a37e477b39d2a9c874fd338b4f7ef6b0e">SdioCard::errorLine</a></div><div class="ttdeci">uint32_t errorLine() const</div></div>
+<div class="ttc" id="aclassSdioCard_a3dbcf4fbf70a98cf0b05aca31227a468_xhtml_a3dbcf4fbf70a98cf0b05aca31227a468"><div class="ttname"><a href="../../dc/d09/classSdioCard_a3dbcf4fbf70a98cf0b05aca31227a468.xhtml#a3dbcf4fbf70a98cf0b05aca31227a468">SdioCard::IDLE_STATE</a></div><div class="ttdeci">static const uint8_t IDLE_STATE</div><div class="ttdef"><b>Definition</b> SdioCard.h:272</div></div>
+<div class="ttc" id="aclassSdioCard_a49a502cf7b59dc559a6c75a3285e6c1a_xhtml_a49a502cf7b59dc559a6c75a3285e6c1a"><div class="ttname"><a href="../../dc/d09/classSdioCard_a49a502cf7b59dc559a6c75a3285e6c1a.xhtml#a49a502cf7b59dc559a6c75a3285e6c1a">SdioCard::sectorCount</a></div><div class="ttdeci">uint32_t sectorCount()</div></div>
+<div class="ttc" id="aclassSdioCard_a4f82669694ef9622043ac99a87902a8d_xhtml_a4f82669694ef9622043ac99a87902a8d"><div class="ttname"><a href="../../dc/d09/classSdioCard_a4f82669694ef9622043ac99a87902a8d.xhtml#a4f82669694ef9622043ac99a87902a8d">SdioCard::readSCR</a></div><div class="ttdeci">bool readSCR(scr_t *scr)</div></div>
+<div class="ttc" id="aclassSdioCard_a51253c0f05e7e760beea0af7e0a16cd0_xhtml_a51253c0f05e7e760beea0af7e0a16cd0"><div class="ttname"><a href="../../dc/d09/classSdioCard_a51253c0f05e7e760beea0af7e0a16cd0.xhtml#a51253c0f05e7e760beea0af7e0a16cd0">SdioCard::readSDS</a></div><div class="ttdeci">bool readSDS(sds_t *sds)</div></div>
+<div class="ttc" id="aclassSdioCard_a54732c9d38998ddd42b72b720e0ee54c_xhtml_a54732c9d38998ddd42b72b720e0ee54c"><div class="ttname"><a href="../../dc/d09/classSdioCard_a54732c9d38998ddd42b72b720e0ee54c.xhtml#a54732c9d38998ddd42b72b720e0ee54c">SdioCard::readStart</a></div><div class="ttdeci">bool readStart(uint32_t sector, uint32_t count)</div></div>
+<div class="ttc" id="aclassSdioCard_a55e2fc82ef9ecf7272a94b565c50303b_xhtml_a55e2fc82ef9ecf7272a94b565c50303b"><div class="ttname"><a href="../../dc/d09/classSdioCard_a55e2fc82ef9ecf7272a94b565c50303b.xhtml#a55e2fc82ef9ecf7272a94b565c50303b">SdioCard::writeSectors</a></div><div class="ttdeci">bool writeSectors(uint32_t sector, const uint8_t *src, size_t ns)</div></div>
+<div class="ttc" id="aclassSdioCard_a560bdfc96932d073c2b0610600560f78_xhtml_a560bdfc96932d073c2b0610600560f78"><div class="ttname"><a href="../../dc/d09/classSdioCard_a560bdfc96932d073c2b0610600560f78.xhtml#a560bdfc96932d073c2b0610600560f78">SdioCard::isBusy</a></div><div class="ttdeci">bool isBusy()</div></div>
+<div class="ttc" id="aclassSdioCard_a58880a055e58410f8b22658b88622f63_xhtml_a58880a055e58410f8b22658b88622f63"><div class="ttname"><a href="../../dc/d09/classSdioCard_a58880a055e58410f8b22658b88622f63.xhtml#a58880a055e58410f8b22658b88622f63">SdioCard::status</a></div><div class="ttdeci">uint32_t status()</div></div>
+<div class="ttc" id="aclassSdioCard_a5bd3f206d790149340783135d08eb701_xhtml_a5bd3f206d790149340783135d08eb701"><div class="ttname"><a href="../../dc/d09/classSdioCard_a5bd3f206d790149340783135d08eb701.xhtml#a5bd3f206d790149340783135d08eb701">SdioCard::readStop</a></div><div class="ttdeci">bool readStop()</div></div>
+<div class="ttc" id="aclassSdioCard_a7170ee90fbbea5e34e42ed1f8d64177e_xhtml_a7170ee90fbbea5e34e42ed1f8d64177e"><div class="ttname"><a href="../../dc/d09/classSdioCard_a7170ee90fbbea5e34e42ed1f8d64177e.xhtml#a7170ee90fbbea5e34e42ed1f8d64177e">SdioCard::stopTransmission</a></div><div class="ttdeci">bool stopTransmission(bool blocking)</div></div>
+<div class="ttc" id="aclassSdioCard_a72bbb4fda29fb6313981a63ea2f43d5f_xhtml_a72bbb4fda29fb6313981a63ea2f43d5f"><div class="ttname"><a href="../../dc/d09/classSdioCard_a72bbb4fda29fb6313981a63ea2f43d5f.xhtml#a72bbb4fda29fb6313981a63ea2f43d5f">SdioCard::readCSD</a></div><div class="ttdeci">bool readCSD(csd_t *csd)</div></div>
+<div class="ttc" id="aclassSdioCard_a74919a168bac68028ce62222500cf238_xhtml_a74919a168bac68028ce62222500cf238"><div class="ttname"><a href="../../dc/d09/classSdioCard_a74919a168bac68028ce62222500cf238.xhtml#a74919a168bac68028ce62222500cf238">SdioCard::writeSector</a></div><div class="ttdeci">bool writeSector(uint32_t sector, const uint8_t *src)</div></div>
+<div class="ttc" id="aclassSdioCard_a7714f26fac45af8537a5d1486f42dad1_xhtml_a7714f26fac45af8537a5d1486f42dad1"><div class="ttname"><a href="../../dc/d09/classSdioCard_a7714f26fac45af8537a5d1486f42dad1.xhtml#a7714f26fac45af8537a5d1486f42dad1">SdioCard::__attribute__</a></div><div class="ttdeci">uint32_t __attribute__((error(&quot;use sectorCount()&quot;))) cardSize()</div></div>
+<div class="ttc" id="aclassSdioCard_a77ae4fbe24bb04b74af5d388d4139dde_xhtml_a77ae4fbe24bb04b74af5d388d4139dde"><div class="ttname"><a href="../../dc/d09/classSdioCard_a77ae4fbe24bb04b74af5d388d4139dde.xhtml#a77ae4fbe24bb04b74af5d388d4139dde">SdioCard::readSector</a></div><div class="ttdeci">bool readSector(uint32_t sector, uint8_t *dst)</div></div>
+<div class="ttc" id="aclassSdioCard_a82fe097fdbae26b3c8f92f215499cdf3_xhtml_a82fe097fdbae26b3c8f92f215499cdf3"><div class="ttname"><a href="../../dc/d09/classSdioCard_a82fe097fdbae26b3c8f92f215499cdf3.xhtml#a82fe097fdbae26b3c8f92f215499cdf3">SdioCard::writeStart</a></div><div class="ttdeci">bool writeStart(uint32_t sector, uint32_t count)</div></div>
+<div class="ttc" id="aclassSdioCard_a8467e7ffafa45ff930b38a6f18e9547a_xhtml_a8467e7ffafa45ff930b38a6f18e9547a"><div class="ttname"><a href="../../dc/d09/classSdioCard_a8467e7ffafa45ff930b38a6f18e9547a.xhtml#a8467e7ffafa45ff930b38a6f18e9547a">SdioCard::writeData</a></div><div class="ttdeci">bool writeData(const uint8_t *src)</div></div>
+<div class="ttc" id="aclassSdioCard_a852e59d4209f97aabac634c05df3dcb9_xhtml_a852e59d4209f97aabac634c05df3dcb9"><div class="ttname"><a href="../../dc/d09/classSdioCard_a852e59d4209f97aabac634c05df3dcb9.xhtml#a852e59d4209f97aabac634c05df3dcb9">SdioCard::end</a></div><div class="ttdeci">void end()</div><div class="ttdef"><b>Definition</b> SdioCard.h:79</div></div>
+<div class="ttc" id="aclassSdioCard_a9c2da202da95162d2eb694363fbe8654_xhtml_a9c2da202da95162d2eb694363fbe8654"><div class="ttname"><a href="../../dc/d09/classSdioCard_a9c2da202da95162d2eb694363fbe8654.xhtml#a9c2da202da95162d2eb694363fbe8654">SdioCard::errorData</a></div><div class="ttdeci">uint32_t errorData() const</div></div>
+<div class="ttc" id="aclassSdioCard_a9dc1cd99d0136e514faaecf56a6318d2_xhtml_a9dc1cd99d0136e514faaecf56a6318d2"><div class="ttname"><a href="../../dc/d09/classSdioCard_a9dc1cd99d0136e514faaecf56a6318d2.xhtml#a9dc1cd99d0136e514faaecf56a6318d2">SdioCard::readData</a></div><div class="ttdeci">bool readData(uint8_t *dst)</div></div>
+<div class="ttc" id="aclassSdioCard_a9fde1fb0e6603e7140cac16395815df0_xhtml_a9fde1fb0e6603e7140cac16395815df0"><div class="ttname"><a href="../../dc/d09/classSdioCard_a9fde1fb0e6603e7140cac16395815df0.xhtml#a9fde1fb0e6603e7140cac16395815df0">SdioCard::readStart</a></div><div class="ttdeci">bool readStart(uint32_t sector)</div></div>
+<div class="ttc" id="aclassSdioCard_aa2d642df5c63212474278523f159e5de_xhtml_aa2d642df5c63212474278523f159e5de"><div class="ttname"><a href="../../dc/d09/classSdioCard_aa2d642df5c63212474278523f159e5de.xhtml#aa2d642df5c63212474278523f159e5de">SdioCard::m_sdioConfig</a></div><div class="ttdeci">SdioConfig m_sdioConfig</div><div class="ttdef"><b>Definition</b> SdioCard.h:276</div></div>
+<div class="ttc" id="aclassSdioCard_ac139e1b1823341e24e1ddb8c880af501_xhtml_ac139e1b1823341e24e1ddb8c880af501"><div class="ttname"><a href="../../dc/d09/classSdioCard_ac139e1b1823341e24e1ddb8c880af501.xhtml#ac139e1b1823341e24e1ddb8c880af501">SdioCard::WRITE_STATE</a></div><div class="ttdeci">static const uint8_t WRITE_STATE</div><div class="ttdef"><b>Definition</b> SdioCard.h:274</div></div>
+<div class="ttc" id="aclassSdioCard_acb560c2ea1f30c646b96f02e728b0fe1_xhtml_acb560c2ea1f30c646b96f02e728b0fe1"><div class="ttname"><a href="../../dc/d09/classSdioCard_acb560c2ea1f30c646b96f02e728b0fe1.xhtml#acb560c2ea1f30c646b96f02e728b0fe1">SdioCard::writeStop</a></div><div class="ttdeci">bool writeStop()</div></div>
+<div class="ttc" id="aclassSdioCard_adc583f7a27f57ce55ce474b1379b9303_xhtml_adc583f7a27f57ce55ce474b1379b9303"><div class="ttname"><a href="../../dc/d09/classSdioCard_adc583f7a27f57ce55ce474b1379b9303.xhtml#adc583f7a27f57ce55ce474b1379b9303">SdioCard::readOCR</a></div><div class="ttdeci">bool readOCR(uint32_t *ocr)</div></div>
+<div class="ttc" id="aclassSdioCard_afb7c7e59bb70fe774a4a604fdc4556fa_xhtml_afb7c7e59bb70fe774a4a604fdc4556fa"><div class="ttname"><a href="../../dc/d09/classSdioCard_afb7c7e59bb70fe774a4a604fdc4556fa.xhtml#afb7c7e59bb70fe774a4a604fdc4556fa">SdioCard::cardCMD6</a></div><div class="ttdeci">bool cardCMD6(uint32_t arg, uint8_t *status)</div></div>
+<div class="ttc" id="aclassSdioCard_afbb5ab075dfd16ceebfcba5a20e70434_xhtml_afbb5ab075dfd16ceebfcba5a20e70434"><div class="ttname"><a href="../../dc/d09/classSdioCard_afbb5ab075dfd16ceebfcba5a20e70434.xhtml#afbb5ab075dfd16ceebfcba5a20e70434">SdioCard::begin</a></div><div class="ttdeci">bool begin(SdioConfig sdioConfig)</div></div>
+<div class="ttc" id="aclassSdioCard_xhtml"><div class="ttname"><a href="../../dc/d09/classSdioCard.xhtml">SdioCard</a></div><div class="ttdoc">Raw SDIO access to SD and SDHC flash memory cards.</div><div class="ttdef"><b>Definition</b> SdioCard.h:62</div></div>
+<div class="ttc" id="aclassSdioConfig_a07ddb8b18bf24fa61fdd289a112e79a8_xhtml_a07ddb8b18bf24fa61fdd289a112e79a8"><div class="ttname"><a href="../../d0/d30/classSdioConfig_a07ddb8b18bf24fa61fdd289a112e79a8.xhtml#a07ddb8b18bf24fa61fdd289a112e79a8">SdioConfig::useDma</a></div><div class="ttdeci">bool useDma()</div><div class="ttdef"><b>Definition</b> SdioCard.h:52</div></div>
+<div class="ttc" id="aclassSdioConfig_a1eaa863465cec6f67210b4888532b3dd_xhtml_a1eaa863465cec6f67210b4888532b3dd"><div class="ttname"><a href="../../d0/d30/classSdioConfig_a1eaa863465cec6f67210b4888532b3dd.xhtml#a1eaa863465cec6f67210b4888532b3dd">SdioConfig::SdioConfig</a></div><div class="ttdeci">SdioConfig(uint8_t opt)</div><div class="ttdef"><b>Definition</b> SdioCard.h:48</div></div>
+<div class="ttc" id="aclassSdioConfig_a8217be5851e87bf4e9138e4c20588583_xhtml_a8217be5851e87bf4e9138e4c20588583"><div class="ttname"><a href="../../d0/d30/classSdioConfig_a8217be5851e87bf4e9138e4c20588583.xhtml#a8217be5851e87bf4e9138e4c20588583">SdioConfig::SdioConfig</a></div><div class="ttdeci">SdioConfig()</div><div class="ttdef"><b>Definition</b> SdioCard.h:43</div></div>
+<div class="ttc" id="aclassSdioConfig_a905aeb5dc774c63af6e72b3be51fc845_xhtml_a905aeb5dc774c63af6e72b3be51fc845"><div class="ttname"><a href="../../d0/d30/classSdioConfig_a905aeb5dc774c63af6e72b3be51fc845.xhtml#a905aeb5dc774c63af6e72b3be51fc845">SdioConfig::options</a></div><div class="ttdeci">uint8_t options()</div><div class="ttdef"><b>Definition</b> SdioCard.h:50</div></div>
+<div class="ttc" id="aclassSdioConfig_ab27e024bb4cb4064a16d5ac5dd25930d_xhtml_ab27e024bb4cb4064a16d5ac5dd25930d"><div class="ttname"><a href="../../d0/d30/classSdioConfig_ab27e024bb4cb4064a16d5ac5dd25930d.xhtml#ab27e024bb4cb4064a16d5ac5dd25930d">SdioConfig::m_options</a></div><div class="ttdeci">uint8_t m_options</div><div class="ttdef"><b>Definition</b> SdioCard.h:55</div></div>
+<div class="ttc" id="aclassSdioConfig_xhtml"><div class="ttname"><a href="../../d0/d30/classSdioConfig.xhtml">SdioConfig</a></div><div class="ttdoc">SDIO card configuration.</div><div class="ttdef"><b>Definition</b> SdioCard.h:41</div></div>
+<div class="ttc" id="astructcid__t_xhtml"><div class="ttname"><a href="../../d7/d9b/structcid__t.xhtml">cid_t</a></div><div class="ttdoc">Card Identification (CID) register.</div><div class="ttdef"><b>Definition</b> SdCardInfo.h:279</div></div>
+<div class="ttc" id="astructcsd__t_xhtml"><div class="ttname"><a href="../../d8/ded/structcsd__t.xhtml">csd_t</a></div><div class="ttdoc">Union of old and new style CSD register.</div><div class="ttdef"><b>Definition</b> SdCardInfo.h:321</div></div>
+<div class="ttc" id="astructscr__t_xhtml"><div class="ttname"><a href="../../df/dac/structscr__t.xhtml">scr_t</a></div><div class="ttdoc">SCR register.</div><div class="ttdef"><b>Definition</b> SdCardInfo.h:360</div></div>
+<div class="ttc" id="astructsds__t_xhtml"><div class="ttname"><a href="../../d2/db0/structsds__t.xhtml">sds_t</a></div><div class="ttdoc">SD Status.</div><div class="ttdef"><b>Definition</b> SdCardInfo.h:402</div></div>
+</div><!-- fragment --></div><!-- contents -->
+</div><!-- doc-content -->
+<!-- start footer part -->
+<div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
+  <ul>
+    <li class="navelem"><a class="el" href="../../dir_6719ab1f1f7655efc2fa43f7eb574fd1.xhtml">libs</a></li><li class="navelem"><a class="el" href="../../dir_42eee409255dea5a142129cbb92a8b55.xhtml">SdFat</a></li><li class="navelem"><a class="el" href="../../dir_2f4080adc233fc166a1397b7e1f61311.xhtml">src</a></li><li class="navelem"><a class="el" href="../../dir_1cfb0ee26cdab68f8c41cad56231c94d.xhtml">SdCard</a></li><li class="navelem"><a class="el" href="../../d9/d0a/SdioCard_8h.xhtml">SdioCard.h</a></li>
+    <li class="footer">Généré par <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.10.0 </li>
+  </ul>
+</div>
+</body>
+</html>

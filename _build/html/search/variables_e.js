@@ -1,13 +1,18 @@
 var searchData=
 [
-  ['name_0',['name',['../dc/d23/structSetting.html#a192a67d2c4de59c7ca5bdf3adc176483',1,'Setting::name'],['../db/dd8/structsensor__t.html#a4383b68d36f9dc4096d83583c3b009bf',1,'sensor_t::name'],['../dc/d0b/structDirFat__t.html#a740ae873176b47c1306084a7db8b9439',1,'DirFat_t::name'],['../de/d5a/structSensor.html#a69eda08903e47cdd7b2f8d8d53f20303',1,'Sensor::name']]],
-  ['namehash_1',['namehash',['../d1/d7d/structDirStream__t.html#aa09d5a9846198b239916732cff5343c1',1,'DirStream_t::nameHash'],['../d9/dc5/classExName__t.html#a02a3ce62816d600a9c223dc921ebe547',1,'ExName_t::nameHash']]],
-  ['namelength_2',['namelength',['../d1/d7d/structDirStream__t.html#a269e1e94b8c649d4206ca4dd0f1619fa',1,'DirStream_t::nameLength'],['../d9/dc5/classExName__t.html#a600e76eddbf29c11fd66d58b07386055',1,'ExName_t::nameLength']]],
-  ['next_3',['next',['../d7/dc0/classFsName.html#a31739a04cd70895da1bec1a533b5d058',1,'FsName']]],
-  ['nextfree_4',['nextFree',['../dd/d1c/structFsInfoSector.html#a0291dfd70c4d170d069110d952e8e675',1,'FsInfoSector']]],
-  ['none_5',['none',['../d6/dd8/structTiny__BME280_1_1config.html#a121ea69ffb447b0b14f5cd1e69ce96a0',1,'Tiny_BME280::config::none'],['../d6/d11/structTiny__BME280_1_1ctrl__hum.html#ae3a5b0f7c1b7a22ef5502d489e2010ad',1,'Tiny_BME280::ctrl_hum::none']]],
-  ['nop_6',['nop',['../d6/dbf/classSoftSPI.html#a2a8036676a59cf9d4882f442ab565149',1,'SoftSPI']]],
-  ['nox_5findex_7',['nox_index',['../d4/d2a/structsensors__event__t.html#a62a19b2dbd9cad0f9dc746749741eb59',1,'sensors_event_t']]],
-  ['numberoferrors_8',['numberoferrors',['../d6/d30/acquisition_8cpp.html#aabf5fb545987de59138fea59a7eb0332',1,'numberOfErrors:&#160;acquisition.cpp'],['../db/d0c/acquisition_8hpp.html#aabf5fb545987de59138fea59a7eb0332',1,'numberOfErrors:&#160;acquisition.cpp']]],
-  ['numberoffats_9',['numberOfFats',['../d0/da5/structbiosParameterBlockExFat.html#a0b89745a4d7cabd727ad09212a3cfcf1',1,'biosParameterBlockExFat']]]
+  ['name_0',['name',['../dc/d23/structSetting_a192a67d2c4de59c7ca5bdf3adc176483.xhtml#a192a67d2c4de59c7ca5bdf3adc176483',1,'Setting::name'],['../db/dd8/structsensor__t_a4383b68d36f9dc4096d83583c3b009bf.xhtml#a4383b68d36f9dc4096d83583c3b009bf',1,'sensor_t::name'],['../d8/d09/classcpplint_1_1__ClassInfo_a3de5f207d3449d735d15ebca779fe336.xhtml#a3de5f207d3449d735d15ebca779fe336',1,'cpplint._ClassInfo.name'],['../dc/d64/classcpplint_1_1__NamespaceInfo_a6b518dae822e4e440405654e83dc86a1.xhtml#a6b518dae822e4e440405654e83dc86a1',1,'cpplint._NamespaceInfo.name'],['../dc/d0b/structDirFat__t_a740ae873176b47c1306084a7db8b9439.xhtml#a740ae873176b47c1306084a7db8b9439',1,'DirFat_t::name'],['../de/d5a/structSensor_a69eda08903e47cdd7b2f8d8d53f20303.xhtml#a69eda08903e47cdd7b2f8d8d53f20303',1,'Sensor::name']]],
+  ['namehash_1',['namehash',['../d1/d7d/structDirStream__t_aa09d5a9846198b239916732cff5343c1.xhtml#aa09d5a9846198b239916732cff5343c1',1,'DirStream_t::nameHash'],['../d9/dc5/classExName__t_a02a3ce62816d600a9c223dc921ebe547.xhtml#a02a3ce62816d600a9c223dc921ebe547',1,'ExName_t::nameHash']]],
+  ['namelength_2',['namelength',['../d1/d7d/structDirStream__t_a269e1e94b8c649d4206ca4dd0f1619fa.xhtml#a269e1e94b8c649d4206ca4dd0f1619fa',1,'DirStream_t::nameLength'],['../d9/dc5/classExName__t_a600e76eddbf29c11fd66d58b07386055.xhtml#a600e76eddbf29c11fd66d58b07386055',1,'ExName_t::nameLength']]],
+  ['next_3',['next',['../d7/dc0/classFsName_a31739a04cd70895da1bec1a533b5d058.xhtml#a31739a04cd70895da1bec1a533b5d058',1,'FsName']]],
+  ['nextfree_4',['nextFree',['../dd/d1c/structFsInfoSector_a0291dfd70c4d170d069110d952e8e675.xhtml#a0291dfd70c4d170d069110d952e8e675',1,'FsInfoSector']]],
+  ['none_5',['none',['../d6/dd8/structTiny__BME280_1_1config_a121ea69ffb447b0b14f5cd1e69ce96a0.xhtml#a121ea69ffb447b0b14f5cd1e69ce96a0',1,'Tiny_BME280::config::none'],['../d6/d11/structTiny__BME280_1_1ctrl__hum_ae3a5b0f7c1b7a22ef5502d489e2010ad.xhtml#ae3a5b0f7c1b7a22ef5502d489e2010ad',1,'Tiny_BME280::ctrl_hum::none']]],
+  ['nop_6',['nop',['../d6/dbf/classSoftSPI_a2a8036676a59cf9d4882f442ab565149.xhtml#a2a8036676a59cf9d4882f442ab565149',1,'SoftSPI']]],
+  ['nothrow_7',['nothrow',['../d8/dcc/namespacestd_ae4b7b14b5246bacb54f2a4ae366ccd44.xhtml#ae4b7b14b5246bacb54f2a4ae366ccd44',1,'std']]],
+  ['nox_5findex_8',['nox_index',['../d4/d2a/structsensors__event__t_a62a19b2dbd9cad0f9dc746749741eb59.xhtml#a62a19b2dbd9cad0f9dc746749741eb59',1,'sensors_event_t']]],
+  ['num_5flines_9',['num_lines',['../da/d53/classcpplint_1_1CleansedLines_a4b42ab48659954fb6e0a4e4eb483a45a.xhtml#a4b42ab48659954fb6e0a4e4eb483a45a',1,'cpplint::CleansedLines']]],
+  ['number_10',['number',['../db/da1/structInterfaceDescriptor_a5a8c9c810eab8a56dd9d6f961d3795a9.xhtml#a5a8c9c810eab8a56dd9d6f961d3795a9',1,'InterfaceDescriptor']]],
+  ['numberoferrors_11',['numberoferrors',['../d6/d30/acquisition_8cpp_aabf5fb545987de59138fea59a7eb0332.xhtml#aabf5fb545987de59138fea59a7eb0332',1,'numberOfErrors:&#160;acquisition.cpp'],['../db/d0c/acquisition_8hpp_aabf5fb545987de59138fea59a7eb0332.xhtml#aabf5fb545987de59138fea59a7eb0332',1,'numberOfErrors:&#160;acquisition.cpp']]],
+  ['numberoffats_12',['numberOfFats',['../d0/da5/structbiosParameterBlockExFat_a0b89745a4d7cabd727ad09212a3cfcf1.xhtml#a0b89745a4d7cabd727ad09212a3cfcf1',1,'biosParameterBlockExFat']]],
+  ['numendpoints_13',['numEndpoints',['../db/da1/structInterfaceDescriptor_a84292543c62d73f079110c4317df5047.xhtml#a84292543c62d73f079110c4317df5047',1,'InterfaceDescriptor']]],
+  ['numinterfaces_14',['numInterfaces',['../d4/d7a/structConfigDescriptor_ab133b834940700d3f2d17400c5712135.xhtml#ab133b834940700d3f2d17400c5712135',1,'ConfigDescriptor']]]
 ];

@@ -1,0 +1,245 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "https://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="fr">
+<head>
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=11"/>
+<meta name="generator" content="Doxygen 1.10.0"/>
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+<title>Station_Méteo_Groupe_1:  Fichier source de /mnt/d/Cours/10. CESI A2/Blocs/01 - Systeme embarque/Livrables/Station_Meteo_Groupe_1 - Copy/libs/SdFat/src/common/FsCache.h</title>
+<link href="../../tabs.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="../../jquery.js"></script>
+<script type="text/javascript" src="../../dynsections.js"></script>
+<script type="text/javascript" src="../../clipboard.js"></script>
+<link href="../../navtree.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="../../resize.js"></script>
+<script type="text/javascript" src="../../navtreedata.js"></script>
+<script type="text/javascript" src="../../navtree.js"></script>
+<link href="../../search/search.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="../../search/searchdata.js"></script>
+<script type="text/javascript" src="../../search/search.js"></script>
+<link href="../../doxygen.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+<div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+<div id="titlearea">
+<table cellspacing="0" cellpadding="0">
+ <tbody>
+ <tr id="projectrow">
+  <td id="projectalign">
+   <div id="projectname">Station_Méteo_Groupe_1<span id="projectnumber">&#160;v0.0.1</span>
+   </div>
+  </td>
+ </tr>
+ </tbody>
+</table>
+</div>
+<!-- end header part -->
+<!-- Généré par Doxygen 1.10.0 -->
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+var searchBox = new SearchBox("searchBox", "../../search/",'.xhtml');
+/* @license-end */
+</script>
+<script type="text/javascript" src="../../menudata.js"></script>
+<script type="text/javascript" src="../../menu.js"></script>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+$(function() {
+  initMenu('../../',true,false,'search.php','Recherche');
+  $(document).ready(function() { init_search(); });
+});
+/* @license-end */
+</script>
+<div id="main-nav"></div>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+$(document).ready(function() { init_codefold(1); });
+/* @license-end */
+</script>
+</div><!-- top -->
+<div id="side-nav" class="ui-resizable side-nav-resizable">
+  <div id="nav-tree">
+    <div id="nav-tree-contents">
+      <div id="nav-sync" class="sync"></div>
+    </div>
+  </div>
+  <div id="splitbar" style="-moz-user-select:none;" 
+       class="ui-resizable-handle">
+  </div>
+</div>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+$(document).ready(function(){initNavTree('d2/df7/FsCache_8h_source.xhtml','../../'); initResizable(); });
+/* @license-end */
+</script>
+<div id="doc-content">
+<!-- window showing the filter options -->
+<div id="MSearchSelectWindow"
+     onmouseover="return searchBox.OnSearchSelectShow()"
+     onmouseout="return searchBox.OnSearchSelectHide()"
+     onkeydown="return searchBox.OnSearchSelectKey(event)">
+</div>
+
+<!-- iframe showing the search results (closed by default) -->
+<div id="MSearchResultsWindow">
+<div id="MSearchResults">
+<div class="SRPage">
+<div id="SRIndex">
+<div id="SRResults"></div>
+<div class="SRStatus" id="Loading">Chargement...</div>
+<div class="SRStatus" id="Searching">Recherche...</div>
+<div class="SRStatus" id="NoMatches">Aucune correspondance</div>
+</div>
+</div>
+</div>
+</div>
+
+<div class="header">
+  <div class="headertitle"><div class="title">FsCache.h</div></div>
+</div><!--header-->
+<div class="contents">
+<a href="../../d2/df7/FsCache_8h.xhtml">Aller à la documentation de ce fichier.</a><div class="fragment"><div class="line"><a id="l00001" name="l00001"></a><span class="lineno">    1</span> </div>
+<div class="line"><a id="l00025" name="l00025"></a><span class="lineno">   25</span><span class="preprocessor">#ifndef FsCache_h</span></div>
+<div class="line"><a id="l00026" name="l00026"></a><span class="lineno">   26</span><span class="preprocessor">#define FsCache_h</span></div>
+<div class="line"><a id="l00031" name="l00031"></a><span class="lineno">   31</span><span class="preprocessor">#include &quot;<a class="code" href="../../d8/d4c/FsBlockDevice_8h.xhtml">FsBlockDevice.h</a>&quot;</span></div>
+<div class="line"><a id="l00032" name="l00032"></a><span class="lineno">   32</span><span class="preprocessor">#include &quot;<a class="code" href="../../d0/d1b/SysCall_8h.xhtml">SysCall.h</a>&quot;</span></div>
+<div class="foldopen" id="foldopen00037" data-start="{" data-end="};">
+<div class="line"><a id="l00037" name="l00037"></a><span class="lineno"><a class="line" href="../../dd/db1/classFsCache.xhtml">   37</a></span><span class="keyword">class </span><a class="code hl_class" href="../../dd/db1/classFsCache.xhtml">FsCache</a> {</div>
+<div class="line"><a id="l00038" name="l00038"></a><span class="lineno">   38</span> <span class="keyword">public</span>:</div>
+<div class="line"><a id="l00040" name="l00040"></a><span class="lineno"><a class="line" href="../../dd/db1/classFsCache_a9d83a0401f452c0572c4c4f869b698ab.xhtml#a9d83a0401f452c0572c4c4f869b698ab">   40</a></span>  <span class="keyword">static</span> <span class="keyword">const</span> uint8_t <a class="code hl_variable" href="../../dd/db1/classFsCache_a9d83a0401f452c0572c4c4f869b698ab.xhtml#a9d83a0401f452c0572c4c4f869b698ab">CACHE_STATUS_DIRTY</a> = 1;</div>
+<div class="line"><a id="l00042" name="l00042"></a><span class="lineno"><a class="line" href="../../dd/db1/classFsCache_a9aee9d706e0f6abca522ee893e7a6049.xhtml#a9aee9d706e0f6abca522ee893e7a6049">   42</a></span>  <span class="keyword">static</span> <span class="keyword">const</span> uint8_t <a class="code hl_variable" href="../../dd/db1/classFsCache_a9aee9d706e0f6abca522ee893e7a6049.xhtml#a9aee9d706e0f6abca522ee893e7a6049">CACHE_STATUS_MIRROR_FAT</a> = 2;</div>
+<div class="line"><a id="l00044" name="l00044"></a><span class="lineno"><a class="line" href="../../dd/db1/classFsCache_abb6b6426373bb591f027ac29eca4bacb.xhtml#abb6b6426373bb591f027ac29eca4bacb">   44</a></span>  <span class="keyword">static</span> <span class="keyword">const</span> uint8_t <a class="code hl_variable" href="../../dd/db1/classFsCache_abb6b6426373bb591f027ac29eca4bacb.xhtml#abb6b6426373bb591f027ac29eca4bacb">CACHE_STATUS_MASK</a> =</div>
+<div class="line"><a id="l00045" name="l00045"></a><span class="lineno">   45</span>      <a class="code hl_variable" href="../../dd/db1/classFsCache_a9d83a0401f452c0572c4c4f869b698ab.xhtml#a9d83a0401f452c0572c4c4f869b698ab">CACHE_STATUS_DIRTY</a> | <a class="code hl_variable" href="../../dd/db1/classFsCache_a9aee9d706e0f6abca522ee893e7a6049.xhtml#a9aee9d706e0f6abca522ee893e7a6049">CACHE_STATUS_MIRROR_FAT</a>;</div>
+<div class="line"><a id="l00047" name="l00047"></a><span class="lineno"><a class="line" href="../../dd/db1/classFsCache_ab694436995afb87d6e31693b47811243.xhtml#ab694436995afb87d6e31693b47811243">   47</a></span>  <span class="keyword">static</span> <span class="keyword">const</span> uint8_t <a class="code hl_variable" href="../../dd/db1/classFsCache_ab694436995afb87d6e31693b47811243.xhtml#ab694436995afb87d6e31693b47811243">CACHE_OPTION_NO_READ</a> = 4;</div>
+<div class="line"><a id="l00049" name="l00049"></a><span class="lineno"><a class="line" href="../../dd/db1/classFsCache_a1df1d63f86fcf36e1ae08a48a05ead8b.xhtml#a1df1d63f86fcf36e1ae08a48a05ead8b">   49</a></span>  <span class="keyword">static</span> <span class="keyword">const</span> uint8_t <a class="code hl_variable" href="../../dd/db1/classFsCache_a1df1d63f86fcf36e1ae08a48a05ead8b.xhtml#a1df1d63f86fcf36e1ae08a48a05ead8b">CACHE_FOR_READ</a> = 0;</div>
+<div class="line"><a id="l00051" name="l00051"></a><span class="lineno"><a class="line" href="../../dd/db1/classFsCache_ade321e6538ffc77c7f36ea200decaa6f.xhtml#ade321e6538ffc77c7f36ea200decaa6f">   51</a></span>  <span class="keyword">static</span> <span class="keyword">const</span> uint8_t <a class="code hl_variable" href="../../dd/db1/classFsCache_ade321e6538ffc77c7f36ea200decaa6f.xhtml#ade321e6538ffc77c7f36ea200decaa6f">CACHE_FOR_WRITE</a> = <a class="code hl_variable" href="../../dd/db1/classFsCache_a9d83a0401f452c0572c4c4f869b698ab.xhtml#a9d83a0401f452c0572c4c4f869b698ab">CACHE_STATUS_DIRTY</a>;</div>
+<div class="line"><a id="l00053" name="l00053"></a><span class="lineno"><a class="line" href="../../dd/db1/classFsCache_ae960459db6fda0de3d67768d3b59331d.xhtml#ae960459db6fda0de3d67768d3b59331d">   53</a></span>  <span class="keyword">static</span> <span class="keyword">const</span> uint8_t <a class="code hl_variable" href="../../dd/db1/classFsCache_ae960459db6fda0de3d67768d3b59331d.xhtml#ae960459db6fda0de3d67768d3b59331d">CACHE_RESERVE_FOR_WRITE</a> =</div>
+<div class="line"><a id="l00054" name="l00054"></a><span class="lineno">   54</span>      <a class="code hl_variable" href="../../dd/db1/classFsCache_a9d83a0401f452c0572c4c4f869b698ab.xhtml#a9d83a0401f452c0572c4c4f869b698ab">CACHE_STATUS_DIRTY</a> | <a class="code hl_variable" href="../../dd/db1/classFsCache_ab694436995afb87d6e31693b47811243.xhtml#ab694436995afb87d6e31693b47811243">CACHE_OPTION_NO_READ</a>;</div>
+<div class="line"><a id="l00055" name="l00055"></a><span class="lineno">   55</span>  <span class="comment">//----------------------------------------------------------------------------</span></div>
+<div class="line"><a id="l00057" name="l00057"></a><span class="lineno"><a class="line" href="../../dd/db1/classFsCache_ac1ba5f5bcb9fb9e017a5355cb0acb216.xhtml#ac1ba5f5bcb9fb9e017a5355cb0acb216">   57</a></span>  <a class="code hl_function" href="../../dd/db1/classFsCache_ac1ba5f5bcb9fb9e017a5355cb0acb216.xhtml#ac1ba5f5bcb9fb9e017a5355cb0acb216">FsCache</a>() { <a class="code hl_function" href="../../de/df0/Arduino_8h_a2858154e2009b0e6e616f313177762bc.xhtml#a2858154e2009b0e6e616f313177762bc">init</a>(<span class="keyword">nullptr</span>); }</div>
+<div class="line"><a id="l00059" name="l00059"></a><span class="lineno"><a class="line" href="../../dd/db1/classFsCache_aed103e18beeae07a930ccce69490cfcc.xhtml#aed103e18beeae07a930ccce69490cfcc">   59</a></span>  uint8_t* <a class="code hl_function" href="../../dd/db1/classFsCache_aed103e18beeae07a930ccce69490cfcc.xhtml#aed103e18beeae07a930ccce69490cfcc">cacheBuffer</a>() { <span class="keywordflow">return</span> <a class="code hl_variable" href="../../dd/db1/classFsCache_a915e90145cf2b709c2093e571341efc7.xhtml#a915e90145cf2b709c2093e571341efc7">m_buffer</a>; }</div>
+<div class="foldopen" id="foldopen00067" data-start="{" data-end="}">
+<div class="line"><a id="l00067" name="l00067"></a><span class="lineno"><a class="line" href="../../dd/db1/classFsCache_abdfa349477d43542829c4d58b355efa6.xhtml#abdfa349477d43542829c4d58b355efa6">   67</a></span>  <span class="keywordtype">bool</span> <a class="code hl_function" href="../../dd/db1/classFsCache_abdfa349477d43542829c4d58b355efa6.xhtml#abdfa349477d43542829c4d58b355efa6">cacheSafeRead</a>(uint32_t <a class="code hl_function" href="../../dd/db1/classFsCache_a5b90e145400de8687d9f34536b134130.xhtml#a5b90e145400de8687d9f34536b134130">sector</a>, uint8_t* dst) {</div>
+<div class="line"><a id="l00068" name="l00068"></a><span class="lineno">   68</span>    <span class="keywordflow">if</span> (<a class="code hl_function" href="../../dd/db1/classFsCache_a9d9880fe717b35c3dd46a2faf5172371.xhtml#a9d9880fe717b35c3dd46a2faf5172371">isCached</a>(<a class="code hl_function" href="../../dd/db1/classFsCache_a5b90e145400de8687d9f34536b134130.xhtml#a5b90e145400de8687d9f34536b134130">sector</a>)) {</div>
+<div class="line"><a id="l00069" name="l00069"></a><span class="lineno">   69</span>      memcpy(dst, <a class="code hl_variable" href="../../dd/db1/classFsCache_a915e90145cf2b709c2093e571341efc7.xhtml#a915e90145cf2b709c2093e571341efc7">m_buffer</a>, 512);</div>
+<div class="line"><a id="l00070" name="l00070"></a><span class="lineno">   70</span>      <span class="keywordflow">return</span> <span class="keyword">true</span>;</div>
+<div class="line"><a id="l00071" name="l00071"></a><span class="lineno">   71</span>    }</div>
+<div class="line"><a id="l00072" name="l00072"></a><span class="lineno">   72</span>    <span class="keywordflow">return</span> <a class="code hl_variable" href="../../dd/db1/classFsCache_a8ba998759665306f7c8745f52c4f8015.xhtml#a8ba998759665306f7c8745f52c4f8015">m_blockDev</a>-&gt;<a class="code hl_function" href="../../d8/d7f/classSharedSpiCard_a61d86f4092f8ddbc7339d7cbcf6f70c0.xhtml#a61d86f4092f8ddbc7339d7cbcf6f70c0">readSector</a>(<a class="code hl_function" href="../../dd/db1/classFsCache_a5b90e145400de8687d9f34536b134130.xhtml#a5b90e145400de8687d9f34536b134130">sector</a>, dst);</div>
+<div class="line"><a id="l00073" name="l00073"></a><span class="lineno">   73</span>  }</div>
+</div>
+<div class="foldopen" id="foldopen00082" data-start="{" data-end="}">
+<div class="line"><a id="l00082" name="l00082"></a><span class="lineno"><a class="line" href="../../dd/db1/classFsCache_aa0e4acbeaa5a438f0f51ae415db7bc89.xhtml#aa0e4acbeaa5a438f0f51ae415db7bc89">   82</a></span>  <span class="keywordtype">bool</span> <a class="code hl_function" href="../../dd/db1/classFsCache_aa0e4acbeaa5a438f0f51ae415db7bc89.xhtml#aa0e4acbeaa5a438f0f51ae415db7bc89">cacheSafeRead</a>(uint32_t <a class="code hl_function" href="../../dd/db1/classFsCache_a5b90e145400de8687d9f34536b134130.xhtml#a5b90e145400de8687d9f34536b134130">sector</a>, uint8_t* dst, <span class="keywordtype">size_t</span> count) {</div>
+<div class="line"><a id="l00083" name="l00083"></a><span class="lineno">   83</span>    <span class="keywordflow">if</span> (<a class="code hl_function" href="../../dd/db1/classFsCache_a9d9880fe717b35c3dd46a2faf5172371.xhtml#a9d9880fe717b35c3dd46a2faf5172371">isCached</a>(<a class="code hl_function" href="../../dd/db1/classFsCache_a5b90e145400de8687d9f34536b134130.xhtml#a5b90e145400de8687d9f34536b134130">sector</a>, count) &amp;&amp; !<a class="code hl_function" href="../../dd/db1/classFsCache_a5a2c8fb432d7b7590ebb43200ca21893.xhtml#a5a2c8fb432d7b7590ebb43200ca21893">sync</a>()) {</div>
+<div class="line"><a id="l00084" name="l00084"></a><span class="lineno">   84</span>      <span class="keywordflow">return</span> <span class="keyword">false</span>;</div>
+<div class="line"><a id="l00085" name="l00085"></a><span class="lineno">   85</span>    }</div>
+<div class="line"><a id="l00086" name="l00086"></a><span class="lineno">   86</span>    <span class="keywordflow">return</span> <a class="code hl_variable" href="../../dd/db1/classFsCache_a8ba998759665306f7c8745f52c4f8015.xhtml#a8ba998759665306f7c8745f52c4f8015">m_blockDev</a>-&gt;<a class="code hl_function" href="../../d8/d7f/classSharedSpiCard_a6145b8d16484f5b4a495bcbb54d3616e.xhtml#a6145b8d16484f5b4a495bcbb54d3616e">readSectors</a>(<a class="code hl_function" href="../../dd/db1/classFsCache_a5b90e145400de8687d9f34536b134130.xhtml#a5b90e145400de8687d9f34536b134130">sector</a>, dst, count);</div>
+<div class="line"><a id="l00087" name="l00087"></a><span class="lineno">   87</span>  }</div>
+</div>
+<div class="foldopen" id="foldopen00095" data-start="{" data-end="}">
+<div class="line"><a id="l00095" name="l00095"></a><span class="lineno"><a class="line" href="../../dd/db1/classFsCache_a9f4dbc38bec3bb67e8a00ebcb6fd1c81.xhtml#a9f4dbc38bec3bb67e8a00ebcb6fd1c81">   95</a></span>  <span class="keywordtype">bool</span> <a class="code hl_function" href="../../dd/db1/classFsCache_a9f4dbc38bec3bb67e8a00ebcb6fd1c81.xhtml#a9f4dbc38bec3bb67e8a00ebcb6fd1c81">cacheSafeWrite</a>(uint32_t <a class="code hl_function" href="../../dd/db1/classFsCache_a5b90e145400de8687d9f34536b134130.xhtml#a5b90e145400de8687d9f34536b134130">sector</a>, <span class="keyword">const</span> uint8_t* src) {</div>
+<div class="line"><a id="l00096" name="l00096"></a><span class="lineno">   96</span>    <span class="keywordflow">if</span> (<a class="code hl_function" href="../../dd/db1/classFsCache_a9d9880fe717b35c3dd46a2faf5172371.xhtml#a9d9880fe717b35c3dd46a2faf5172371">isCached</a>(<a class="code hl_function" href="../../dd/db1/classFsCache_a5b90e145400de8687d9f34536b134130.xhtml#a5b90e145400de8687d9f34536b134130">sector</a>)) {</div>
+<div class="line"><a id="l00097" name="l00097"></a><span class="lineno">   97</span>      <a class="code hl_function" href="../../dd/db1/classFsCache_a963ea866ca2a9c4f63afd57cf287733d.xhtml#a963ea866ca2a9c4f63afd57cf287733d">invalidate</a>();</div>
+<div class="line"><a id="l00098" name="l00098"></a><span class="lineno">   98</span>    }</div>
+<div class="line"><a id="l00099" name="l00099"></a><span class="lineno">   99</span>    <span class="keywordflow">return</span> <a class="code hl_variable" href="../../dd/db1/classFsCache_a8ba998759665306f7c8745f52c4f8015.xhtml#a8ba998759665306f7c8745f52c4f8015">m_blockDev</a>-&gt;<a class="code hl_function" href="../../d8/d7f/classSharedSpiCard_adf2ce56ca0a56fe841fbdf75f7f3faee.xhtml#adf2ce56ca0a56fe841fbdf75f7f3faee">writeSector</a>(<a class="code hl_function" href="../../dd/db1/classFsCache_a5b90e145400de8687d9f34536b134130.xhtml#a5b90e145400de8687d9f34536b134130">sector</a>, src);</div>
+<div class="line"><a id="l00100" name="l00100"></a><span class="lineno">  100</span>  }</div>
+</div>
+<div class="foldopen" id="foldopen00109" data-start="{" data-end="}">
+<div class="line"><a id="l00109" name="l00109"></a><span class="lineno"><a class="line" href="../../dd/db1/classFsCache_ab98f8564c715a9b081587c4ae8d343cc.xhtml#ab98f8564c715a9b081587c4ae8d343cc">  109</a></span>  <span class="keywordtype">bool</span> <a class="code hl_function" href="../../dd/db1/classFsCache_ab98f8564c715a9b081587c4ae8d343cc.xhtml#ab98f8564c715a9b081587c4ae8d343cc">cacheSafeWrite</a>(uint32_t <a class="code hl_function" href="../../dd/db1/classFsCache_a5b90e145400de8687d9f34536b134130.xhtml#a5b90e145400de8687d9f34536b134130">sector</a>, <span class="keyword">const</span> uint8_t* src, <span class="keywordtype">size_t</span> count) {</div>
+<div class="line"><a id="l00110" name="l00110"></a><span class="lineno">  110</span>    <span class="keywordflow">if</span> (<a class="code hl_function" href="../../dd/db1/classFsCache_a9d9880fe717b35c3dd46a2faf5172371.xhtml#a9d9880fe717b35c3dd46a2faf5172371">isCached</a>(<a class="code hl_function" href="../../dd/db1/classFsCache_a5b90e145400de8687d9f34536b134130.xhtml#a5b90e145400de8687d9f34536b134130">sector</a>, count)) {</div>
+<div class="line"><a id="l00111" name="l00111"></a><span class="lineno">  111</span>      <a class="code hl_function" href="../../dd/db1/classFsCache_a963ea866ca2a9c4f63afd57cf287733d.xhtml#a963ea866ca2a9c4f63afd57cf287733d">invalidate</a>();</div>
+<div class="line"><a id="l00112" name="l00112"></a><span class="lineno">  112</span>    }</div>
+<div class="line"><a id="l00113" name="l00113"></a><span class="lineno">  113</span>    <span class="keywordflow">return</span> <a class="code hl_variable" href="../../dd/db1/classFsCache_a8ba998759665306f7c8745f52c4f8015.xhtml#a8ba998759665306f7c8745f52c4f8015">m_blockDev</a>-&gt;<a class="code hl_function" href="../../d8/d7f/classSharedSpiCard_a9b734ef77cc5db4f1ecc9e0dc5809403.xhtml#a9b734ef77cc5db4f1ecc9e0dc5809403">writeSectors</a>(<a class="code hl_function" href="../../dd/db1/classFsCache_a5b90e145400de8687d9f34536b134130.xhtml#a5b90e145400de8687d9f34536b134130">sector</a>, src, count);</div>
+<div class="line"><a id="l00114" name="l00114"></a><span class="lineno">  114</span>  }</div>
+</div>
+<div class="foldopen" id="foldopen00116" data-start="{" data-end="}">
+<div class="line"><a id="l00116" name="l00116"></a><span class="lineno"><a class="line" href="../../dd/db1/classFsCache_a1f06585b0a7d2646b6e375e618591d49.xhtml#a1f06585b0a7d2646b6e375e618591d49">  116</a></span>  uint8_t* <a class="code hl_function" href="../../dd/db1/classFsCache_a1f06585b0a7d2646b6e375e618591d49.xhtml#a1f06585b0a7d2646b6e375e618591d49">clear</a>() {</div>
+<div class="line"><a id="l00117" name="l00117"></a><span class="lineno">  117</span>    <span class="keywordflow">if</span> (<a class="code hl_function" href="../../dd/db1/classFsCache_a22f4284aefd18f569d962d37f4a5db70.xhtml#a22f4284aefd18f569d962d37f4a5db70">isDirty</a>() &amp;&amp; !<a class="code hl_function" href="../../dd/db1/classFsCache_a5a2c8fb432d7b7590ebb43200ca21893.xhtml#a5a2c8fb432d7b7590ebb43200ca21893">sync</a>()) {</div>
+<div class="line"><a id="l00118" name="l00118"></a><span class="lineno">  118</span>      <span class="keywordflow">return</span> <span class="keyword">nullptr</span>;</div>
+<div class="line"><a id="l00119" name="l00119"></a><span class="lineno">  119</span>    }</div>
+<div class="line"><a id="l00120" name="l00120"></a><span class="lineno">  120</span>    <a class="code hl_function" href="../../dd/db1/classFsCache_a963ea866ca2a9c4f63afd57cf287733d.xhtml#a963ea866ca2a9c4f63afd57cf287733d">invalidate</a>();</div>
+<div class="line"><a id="l00121" name="l00121"></a><span class="lineno">  121</span>    <span class="keywordflow">return</span> <a class="code hl_variable" href="../../dd/db1/classFsCache_a915e90145cf2b709c2093e571341efc7.xhtml#a915e90145cf2b709c2093e571341efc7">m_buffer</a>;</div>
+<div class="line"><a id="l00122" name="l00122"></a><span class="lineno">  122</span>  }</div>
+</div>
+<div class="line"><a id="l00124" name="l00124"></a><span class="lineno"><a class="line" href="../../dd/db1/classFsCache_af50f564561a2db190280769d4641147b.xhtml#af50f564561a2db190280769d4641147b">  124</a></span>  <span class="keywordtype">void</span> <a class="code hl_function" href="../../dd/db1/classFsCache_af50f564561a2db190280769d4641147b.xhtml#af50f564561a2db190280769d4641147b">dirty</a>() { <a class="code hl_variable" href="../../dd/db1/classFsCache_a0638a314a5456e3535ec57c25c35cb49.xhtml#a0638a314a5456e3535ec57c25c35cb49">m_status</a> |= <a class="code hl_variable" href="../../dd/db1/classFsCache_a9d83a0401f452c0572c4c4f869b698ab.xhtml#a9d83a0401f452c0572c4c4f869b698ab">CACHE_STATUS_DIRTY</a>; }</div>
+<div class="foldopen" id="foldopen00128" data-start="{" data-end="}">
+<div class="line"><a id="l00128" name="l00128"></a><span class="lineno"><a class="line" href="../../dd/db1/classFsCache_a56724bd91ce82c962b7b6002185d01d3.xhtml#a56724bd91ce82c962b7b6002185d01d3">  128</a></span>  <span class="keywordtype">void</span> <a class="code hl_function" href="../../dd/db1/classFsCache_a56724bd91ce82c962b7b6002185d01d3.xhtml#a56724bd91ce82c962b7b6002185d01d3">init</a>(<a class="code hl_class" href="../../d8/d7f/classSharedSpiCard.xhtml">FsBlockDevice</a>* blockDev) {</div>
+<div class="line"><a id="l00129" name="l00129"></a><span class="lineno">  129</span>    <a class="code hl_variable" href="../../dd/db1/classFsCache_a8ba998759665306f7c8745f52c4f8015.xhtml#a8ba998759665306f7c8745f52c4f8015">m_blockDev</a> = blockDev;</div>
+<div class="line"><a id="l00130" name="l00130"></a><span class="lineno">  130</span>    <a class="code hl_function" href="../../dd/db1/classFsCache_a963ea866ca2a9c4f63afd57cf287733d.xhtml#a963ea866ca2a9c4f63afd57cf287733d">invalidate</a>();</div>
+<div class="line"><a id="l00131" name="l00131"></a><span class="lineno">  131</span>  }</div>
+</div>
+<div class="foldopen" id="foldopen00133" data-start="{" data-end="}">
+<div class="line"><a id="l00133" name="l00133"></a><span class="lineno"><a class="line" href="../../dd/db1/classFsCache_a963ea866ca2a9c4f63afd57cf287733d.xhtml#a963ea866ca2a9c4f63afd57cf287733d">  133</a></span>  <span class="keywordtype">void</span> <a class="code hl_function" href="../../dd/db1/classFsCache_a963ea866ca2a9c4f63afd57cf287733d.xhtml#a963ea866ca2a9c4f63afd57cf287733d">invalidate</a>() {</div>
+<div class="line"><a id="l00134" name="l00134"></a><span class="lineno">  134</span>    <a class="code hl_variable" href="../../dd/db1/classFsCache_a0638a314a5456e3535ec57c25c35cb49.xhtml#a0638a314a5456e3535ec57c25c35cb49">m_status</a> = 0;</div>
+<div class="line"><a id="l00135" name="l00135"></a><span class="lineno">  135</span>    <a class="code hl_variable" href="../../dd/db1/classFsCache_a435caa2a11bf798ea873e4baa93cfdbb.xhtml#a435caa2a11bf798ea873e4baa93cfdbb">m_sector</a> = 0XFFFFFFFF;</div>
+<div class="line"><a id="l00136" name="l00136"></a><span class="lineno">  136</span>  }</div>
+</div>
+<div class="line"><a id="l00141" name="l00141"></a><span class="lineno"><a class="line" href="../../dd/db1/classFsCache_a9d9880fe717b35c3dd46a2faf5172371.xhtml#a9d9880fe717b35c3dd46a2faf5172371">  141</a></span>  <span class="keywordtype">bool</span> <a class="code hl_function" href="../../dd/db1/classFsCache_a9d9880fe717b35c3dd46a2faf5172371.xhtml#a9d9880fe717b35c3dd46a2faf5172371">isCached</a>(uint32_t <a class="code hl_function" href="../../dd/db1/classFsCache_a5b90e145400de8687d9f34536b134130.xhtml#a5b90e145400de8687d9f34536b134130">sector</a>)<span class="keyword"> const </span>{ <span class="keywordflow">return</span> <a class="code hl_function" href="../../dd/db1/classFsCache_a5b90e145400de8687d9f34536b134130.xhtml#a5b90e145400de8687d9f34536b134130">sector</a> == <a class="code hl_variable" href="../../dd/db1/classFsCache_a435caa2a11bf798ea873e4baa93cfdbb.xhtml#a435caa2a11bf798ea873e4baa93cfdbb">m_sector</a>; }</div>
+<div class="foldopen" id="foldopen00147" data-start="{" data-end="}">
+<div class="line"><a id="l00147" name="l00147"></a><span class="lineno"><a class="line" href="../../dd/db1/classFsCache_a65201542fbb006396a42ccfd90814c60.xhtml#a65201542fbb006396a42ccfd90814c60">  147</a></span>  <span class="keywordtype">bool</span> <a class="code hl_function" href="../../dd/db1/classFsCache_a65201542fbb006396a42ccfd90814c60.xhtml#a65201542fbb006396a42ccfd90814c60">isCached</a>(uint32_t <a class="code hl_function" href="../../dd/db1/classFsCache_a5b90e145400de8687d9f34536b134130.xhtml#a5b90e145400de8687d9f34536b134130">sector</a>, <span class="keywordtype">size_t</span> count) {</div>
+<div class="line"><a id="l00148" name="l00148"></a><span class="lineno">  148</span>    <span class="keywordflow">return</span> <a class="code hl_function" href="../../dd/db1/classFsCache_a5b90e145400de8687d9f34536b134130.xhtml#a5b90e145400de8687d9f34536b134130">sector</a> &lt;= <a class="code hl_variable" href="../../dd/db1/classFsCache_a435caa2a11bf798ea873e4baa93cfdbb.xhtml#a435caa2a11bf798ea873e4baa93cfdbb">m_sector</a> &amp;&amp; <a class="code hl_variable" href="../../dd/db1/classFsCache_a435caa2a11bf798ea873e4baa93cfdbb.xhtml#a435caa2a11bf798ea873e4baa93cfdbb">m_sector</a> &lt; (<a class="code hl_function" href="../../dd/db1/classFsCache_a5b90e145400de8687d9f34536b134130.xhtml#a5b90e145400de8687d9f34536b134130">sector</a> + count);</div>
+<div class="line"><a id="l00149" name="l00149"></a><span class="lineno">  149</span>  }</div>
+</div>
+<div class="line"><a id="l00151" name="l00151"></a><span class="lineno"><a class="line" href="../../dd/db1/classFsCache_a22f4284aefd18f569d962d37f4a5db70.xhtml#a22f4284aefd18f569d962d37f4a5db70">  151</a></span>  <span class="keywordtype">bool</span> <a class="code hl_function" href="../../dd/db1/classFsCache_a22f4284aefd18f569d962d37f4a5db70.xhtml#a22f4284aefd18f569d962d37f4a5db70">isDirty</a>() { <span class="keywordflow">return</span> <a class="code hl_variable" href="../../dd/db1/classFsCache_a0638a314a5456e3535ec57c25c35cb49.xhtml#a0638a314a5456e3535ec57c25c35cb49">m_status</a> &amp; <a class="code hl_variable" href="../../dd/db1/classFsCache_a9d83a0401f452c0572c4c4f869b698ab.xhtml#a9d83a0401f452c0572c4c4f869b698ab">CACHE_STATUS_DIRTY</a>; }</div>
+<div class="line"><a id="l00157" name="l00157"></a><span class="lineno">  157</span>  uint8_t* <a class="code hl_function" href="../../dd/db1/classFsCache_a8c11f064a2ce0a380f522392f09d63cb.xhtml#a8c11f064a2ce0a380f522392f09d63cb">prepare</a>(uint32_t <a class="code hl_function" href="../../dd/db1/classFsCache_a5b90e145400de8687d9f34536b134130.xhtml#a5b90e145400de8687d9f34536b134130">sector</a>, uint8_t option);</div>
+<div class="line"><a id="l00159" name="l00159"></a><span class="lineno"><a class="line" href="../../dd/db1/classFsCache_a5b90e145400de8687d9f34536b134130.xhtml#a5b90e145400de8687d9f34536b134130">  159</a></span>  uint32_t <a class="code hl_function" href="../../dd/db1/classFsCache_a5b90e145400de8687d9f34536b134130.xhtml#a5b90e145400de8687d9f34536b134130">sector</a>() { <span class="keywordflow">return</span> <a class="code hl_variable" href="../../dd/db1/classFsCache_a435caa2a11bf798ea873e4baa93cfdbb.xhtml#a435caa2a11bf798ea873e4baa93cfdbb">m_sector</a>; }</div>
+<div class="line"><a id="l00163" name="l00163"></a><span class="lineno"><a class="line" href="../../dd/db1/classFsCache_a84e91f8d006b8ba521805bb3bc6e83e6.xhtml#a84e91f8d006b8ba521805bb3bc6e83e6">  163</a></span>  <span class="keywordtype">void</span> <a class="code hl_function" href="../../dd/db1/classFsCache_a84e91f8d006b8ba521805bb3bc6e83e6.xhtml#a84e91f8d006b8ba521805bb3bc6e83e6">setMirrorOffset</a>(uint32_t offset) { <a class="code hl_variable" href="../../dd/db1/classFsCache_aec4f4c6f83426487e159e7ba3f1758bd.xhtml#aec4f4c6f83426487e159e7ba3f1758bd">m_mirrorOffset</a> = offset; }</div>
+<div class="line"><a id="l00167" name="l00167"></a><span class="lineno">  167</span>  <span class="keywordtype">bool</span> <a class="code hl_function" href="../../dd/db1/classFsCache_a5a2c8fb432d7b7590ebb43200ca21893.xhtml#a5a2c8fb432d7b7590ebb43200ca21893">sync</a>();</div>
+<div class="line"><a id="l00168" name="l00168"></a><span class="lineno">  168</span> </div>
+<div class="line"><a id="l00169" name="l00169"></a><span class="lineno">  169</span> <span class="keyword">private</span>:</div>
+<div class="line"><a id="l00170" name="l00170"></a><span class="lineno"><a class="line" href="../../dd/db1/classFsCache_a0638a314a5456e3535ec57c25c35cb49.xhtml#a0638a314a5456e3535ec57c25c35cb49">  170</a></span>  uint8_t <a class="code hl_variable" href="../../dd/db1/classFsCache_a0638a314a5456e3535ec57c25c35cb49.xhtml#a0638a314a5456e3535ec57c25c35cb49">m_status</a>;</div>
+<div class="line"><a id="l00171" name="l00171"></a><span class="lineno"><a class="line" href="../../dd/db1/classFsCache_a8ba998759665306f7c8745f52c4f8015.xhtml#a8ba998759665306f7c8745f52c4f8015">  171</a></span>  <a class="code hl_class" href="../../d8/d7f/classSharedSpiCard.xhtml">FsBlockDevice</a>* <a class="code hl_variable" href="../../dd/db1/classFsCache_a8ba998759665306f7c8745f52c4f8015.xhtml#a8ba998759665306f7c8745f52c4f8015">m_blockDev</a>;</div>
+<div class="line"><a id="l00172" name="l00172"></a><span class="lineno"><a class="line" href="../../dd/db1/classFsCache_a435caa2a11bf798ea873e4baa93cfdbb.xhtml#a435caa2a11bf798ea873e4baa93cfdbb">  172</a></span>  uint32_t <a class="code hl_variable" href="../../dd/db1/classFsCache_a435caa2a11bf798ea873e4baa93cfdbb.xhtml#a435caa2a11bf798ea873e4baa93cfdbb">m_sector</a>;</div>
+<div class="line"><a id="l00173" name="l00173"></a><span class="lineno"><a class="line" href="../../dd/db1/classFsCache_aec4f4c6f83426487e159e7ba3f1758bd.xhtml#aec4f4c6f83426487e159e7ba3f1758bd">  173</a></span>  uint32_t <a class="code hl_variable" href="../../dd/db1/classFsCache_aec4f4c6f83426487e159e7ba3f1758bd.xhtml#aec4f4c6f83426487e159e7ba3f1758bd">m_mirrorOffset</a>;</div>
+<div class="line"><a id="l00174" name="l00174"></a><span class="lineno"><a class="line" href="../../dd/db1/classFsCache_a915e90145cf2b709c2093e571341efc7.xhtml#a915e90145cf2b709c2093e571341efc7">  174</a></span>  uint8_t <a class="code hl_variable" href="../../dd/db1/classFsCache_a915e90145cf2b709c2093e571341efc7.xhtml#a915e90145cf2b709c2093e571341efc7">m_buffer</a>[512];</div>
+<div class="line"><a id="l00175" name="l00175"></a><span class="lineno">  175</span>};</div>
+</div>
+<div class="line"><a id="l00176" name="l00176"></a><span class="lineno">  176</span><span class="preprocessor">#endif  </span><span class="comment">// FsCache_h</span></div>
+<div class="ttc" id="aArduino_8h_a2858154e2009b0e6e616f313177762bc_xhtml_a2858154e2009b0e6e616f313177762bc"><div class="ttname"><a href="../../de/df0/Arduino_8h_a2858154e2009b0e6e616f313177762bc.xhtml#a2858154e2009b0e6e616f313177762bc">init</a></div><div class="ttdeci">void init(void)</div><div class="ttdef"><b>Definition</b> wiring.c:241</div></div>
+<div class="ttc" id="aFsBlockDevice_8h_xhtml"><div class="ttname"><a href="../../d8/d4c/FsBlockDevice_8h.xhtml">FsBlockDevice.h</a></div></div>
+<div class="ttc" id="aSysCall_8h_xhtml"><div class="ttname"><a href="../../d0/d1b/SysCall_8h.xhtml">SysCall.h</a></div><div class="ttdoc">SysCall class.</div></div>
+<div class="ttc" id="aclassFsCache_a0638a314a5456e3535ec57c25c35cb49_xhtml_a0638a314a5456e3535ec57c25c35cb49"><div class="ttname"><a href="../../dd/db1/classFsCache_a0638a314a5456e3535ec57c25c35cb49.xhtml#a0638a314a5456e3535ec57c25c35cb49">FsCache::m_status</a></div><div class="ttdeci">uint8_t m_status</div><div class="ttdef"><b>Definition</b> FsCache.h:170</div></div>
+<div class="ttc" id="aclassFsCache_a1df1d63f86fcf36e1ae08a48a05ead8b_xhtml_a1df1d63f86fcf36e1ae08a48a05ead8b"><div class="ttname"><a href="../../dd/db1/classFsCache_a1df1d63f86fcf36e1ae08a48a05ead8b.xhtml#a1df1d63f86fcf36e1ae08a48a05ead8b">FsCache::CACHE_FOR_READ</a></div><div class="ttdeci">static const uint8_t CACHE_FOR_READ</div><div class="ttdef"><b>Definition</b> FsCache.h:49</div></div>
+<div class="ttc" id="aclassFsCache_a1f06585b0a7d2646b6e375e618591d49_xhtml_a1f06585b0a7d2646b6e375e618591d49"><div class="ttname"><a href="../../dd/db1/classFsCache_a1f06585b0a7d2646b6e375e618591d49.xhtml#a1f06585b0a7d2646b6e375e618591d49">FsCache::clear</a></div><div class="ttdeci">uint8_t * clear()</div><div class="ttdef"><b>Definition</b> FsCache.h:116</div></div>
+<div class="ttc" id="aclassFsCache_a22f4284aefd18f569d962d37f4a5db70_xhtml_a22f4284aefd18f569d962d37f4a5db70"><div class="ttname"><a href="../../dd/db1/classFsCache_a22f4284aefd18f569d962d37f4a5db70.xhtml#a22f4284aefd18f569d962d37f4a5db70">FsCache::isDirty</a></div><div class="ttdeci">bool isDirty()</div><div class="ttdef"><b>Definition</b> FsCache.h:151</div></div>
+<div class="ttc" id="aclassFsCache_a435caa2a11bf798ea873e4baa93cfdbb_xhtml_a435caa2a11bf798ea873e4baa93cfdbb"><div class="ttname"><a href="../../dd/db1/classFsCache_a435caa2a11bf798ea873e4baa93cfdbb.xhtml#a435caa2a11bf798ea873e4baa93cfdbb">FsCache::m_sector</a></div><div class="ttdeci">uint32_t m_sector</div><div class="ttdef"><b>Definition</b> FsCache.h:172</div></div>
+<div class="ttc" id="aclassFsCache_a56724bd91ce82c962b7b6002185d01d3_xhtml_a56724bd91ce82c962b7b6002185d01d3"><div class="ttname"><a href="../../dd/db1/classFsCache_a56724bd91ce82c962b7b6002185d01d3.xhtml#a56724bd91ce82c962b7b6002185d01d3">FsCache::init</a></div><div class="ttdeci">void init(FsBlockDevice *blockDev)</div><div class="ttdef"><b>Definition</b> FsCache.h:128</div></div>
+<div class="ttc" id="aclassFsCache_a5a2c8fb432d7b7590ebb43200ca21893_xhtml_a5a2c8fb432d7b7590ebb43200ca21893"><div class="ttname"><a href="../../dd/db1/classFsCache_a5a2c8fb432d7b7590ebb43200ca21893.xhtml#a5a2c8fb432d7b7590ebb43200ca21893">FsCache::sync</a></div><div class="ttdeci">bool sync()</div><div class="ttdef"><b>Definition</b> FsCache.cpp:56</div></div>
+<div class="ttc" id="aclassFsCache_a5b90e145400de8687d9f34536b134130_xhtml_a5b90e145400de8687d9f34536b134130"><div class="ttname"><a href="../../dd/db1/classFsCache_a5b90e145400de8687d9f34536b134130.xhtml#a5b90e145400de8687d9f34536b134130">FsCache::sector</a></div><div class="ttdeci">uint32_t sector()</div><div class="ttdef"><b>Definition</b> FsCache.h:159</div></div>
+<div class="ttc" id="aclassFsCache_a65201542fbb006396a42ccfd90814c60_xhtml_a65201542fbb006396a42ccfd90814c60"><div class="ttname"><a href="../../dd/db1/classFsCache_a65201542fbb006396a42ccfd90814c60.xhtml#a65201542fbb006396a42ccfd90814c60">FsCache::isCached</a></div><div class="ttdeci">bool isCached(uint32_t sector, size_t count)</div><div class="ttdef"><b>Definition</b> FsCache.h:147</div></div>
+<div class="ttc" id="aclassFsCache_a84e91f8d006b8ba521805bb3bc6e83e6_xhtml_a84e91f8d006b8ba521805bb3bc6e83e6"><div class="ttname"><a href="../../dd/db1/classFsCache_a84e91f8d006b8ba521805bb3bc6e83e6.xhtml#a84e91f8d006b8ba521805bb3bc6e83e6">FsCache::setMirrorOffset</a></div><div class="ttdeci">void setMirrorOffset(uint32_t offset)</div><div class="ttdef"><b>Definition</b> FsCache.h:163</div></div>
+<div class="ttc" id="aclassFsCache_a8ba998759665306f7c8745f52c4f8015_xhtml_a8ba998759665306f7c8745f52c4f8015"><div class="ttname"><a href="../../dd/db1/classFsCache_a8ba998759665306f7c8745f52c4f8015.xhtml#a8ba998759665306f7c8745f52c4f8015">FsCache::m_blockDev</a></div><div class="ttdeci">FsBlockDevice * m_blockDev</div><div class="ttdef"><b>Definition</b> FsCache.h:171</div></div>
+<div class="ttc" id="aclassFsCache_a8c11f064a2ce0a380f522392f09d63cb_xhtml_a8c11f064a2ce0a380f522392f09d63cb"><div class="ttname"><a href="../../dd/db1/classFsCache_a8c11f064a2ce0a380f522392f09d63cb.xhtml#a8c11f064a2ce0a380f522392f09d63cb">FsCache::prepare</a></div><div class="ttdeci">uint8_t * prepare(uint32_t sector, uint8_t option)</div><div class="ttdef"><b>Definition</b> FsCache.cpp:30</div></div>
+<div class="ttc" id="aclassFsCache_a915e90145cf2b709c2093e571341efc7_xhtml_a915e90145cf2b709c2093e571341efc7"><div class="ttname"><a href="../../dd/db1/classFsCache_a915e90145cf2b709c2093e571341efc7.xhtml#a915e90145cf2b709c2093e571341efc7">FsCache::m_buffer</a></div><div class="ttdeci">uint8_t m_buffer[512]</div><div class="ttdef"><b>Definition</b> FsCache.h:174</div></div>
+<div class="ttc" id="aclassFsCache_a963ea866ca2a9c4f63afd57cf287733d_xhtml_a963ea866ca2a9c4f63afd57cf287733d"><div class="ttname"><a href="../../dd/db1/classFsCache_a963ea866ca2a9c4f63afd57cf287733d.xhtml#a963ea866ca2a9c4f63afd57cf287733d">FsCache::invalidate</a></div><div class="ttdeci">void invalidate()</div><div class="ttdef"><b>Definition</b> FsCache.h:133</div></div>
+<div class="ttc" id="aclassFsCache_a9aee9d706e0f6abca522ee893e7a6049_xhtml_a9aee9d706e0f6abca522ee893e7a6049"><div class="ttname"><a href="../../dd/db1/classFsCache_a9aee9d706e0f6abca522ee893e7a6049.xhtml#a9aee9d706e0f6abca522ee893e7a6049">FsCache::CACHE_STATUS_MIRROR_FAT</a></div><div class="ttdeci">static const uint8_t CACHE_STATUS_MIRROR_FAT</div><div class="ttdef"><b>Definition</b> FsCache.h:42</div></div>
+<div class="ttc" id="aclassFsCache_a9d83a0401f452c0572c4c4f869b698ab_xhtml_a9d83a0401f452c0572c4c4f869b698ab"><div class="ttname"><a href="../../dd/db1/classFsCache_a9d83a0401f452c0572c4c4f869b698ab.xhtml#a9d83a0401f452c0572c4c4f869b698ab">FsCache::CACHE_STATUS_DIRTY</a></div><div class="ttdeci">static const uint8_t CACHE_STATUS_DIRTY</div><div class="ttdef"><b>Definition</b> FsCache.h:40</div></div>
+<div class="ttc" id="aclassFsCache_a9d9880fe717b35c3dd46a2faf5172371_xhtml_a9d9880fe717b35c3dd46a2faf5172371"><div class="ttname"><a href="../../dd/db1/classFsCache_a9d9880fe717b35c3dd46a2faf5172371.xhtml#a9d9880fe717b35c3dd46a2faf5172371">FsCache::isCached</a></div><div class="ttdeci">bool isCached(uint32_t sector) const</div><div class="ttdef"><b>Definition</b> FsCache.h:141</div></div>
+<div class="ttc" id="aclassFsCache_a9f4dbc38bec3bb67e8a00ebcb6fd1c81_xhtml_a9f4dbc38bec3bb67e8a00ebcb6fd1c81"><div class="ttname"><a href="../../dd/db1/classFsCache_a9f4dbc38bec3bb67e8a00ebcb6fd1c81.xhtml#a9f4dbc38bec3bb67e8a00ebcb6fd1c81">FsCache::cacheSafeWrite</a></div><div class="ttdeci">bool cacheSafeWrite(uint32_t sector, const uint8_t *src)</div><div class="ttdef"><b>Definition</b> FsCache.h:95</div></div>
+<div class="ttc" id="aclassFsCache_aa0e4acbeaa5a438f0f51ae415db7bc89_xhtml_aa0e4acbeaa5a438f0f51ae415db7bc89"><div class="ttname"><a href="../../dd/db1/classFsCache_aa0e4acbeaa5a438f0f51ae415db7bc89.xhtml#aa0e4acbeaa5a438f0f51ae415db7bc89">FsCache::cacheSafeRead</a></div><div class="ttdeci">bool cacheSafeRead(uint32_t sector, uint8_t *dst, size_t count)</div><div class="ttdef"><b>Definition</b> FsCache.h:82</div></div>
+<div class="ttc" id="aclassFsCache_ab694436995afb87d6e31693b47811243_xhtml_ab694436995afb87d6e31693b47811243"><div class="ttname"><a href="../../dd/db1/classFsCache_ab694436995afb87d6e31693b47811243.xhtml#ab694436995afb87d6e31693b47811243">FsCache::CACHE_OPTION_NO_READ</a></div><div class="ttdeci">static const uint8_t CACHE_OPTION_NO_READ</div><div class="ttdef"><b>Definition</b> FsCache.h:47</div></div>
+<div class="ttc" id="aclassFsCache_ab98f8564c715a9b081587c4ae8d343cc_xhtml_ab98f8564c715a9b081587c4ae8d343cc"><div class="ttname"><a href="../../dd/db1/classFsCache_ab98f8564c715a9b081587c4ae8d343cc.xhtml#ab98f8564c715a9b081587c4ae8d343cc">FsCache::cacheSafeWrite</a></div><div class="ttdeci">bool cacheSafeWrite(uint32_t sector, const uint8_t *src, size_t count)</div><div class="ttdef"><b>Definition</b> FsCache.h:109</div></div>
+<div class="ttc" id="aclassFsCache_abb6b6426373bb591f027ac29eca4bacb_xhtml_abb6b6426373bb591f027ac29eca4bacb"><div class="ttname"><a href="../../dd/db1/classFsCache_abb6b6426373bb591f027ac29eca4bacb.xhtml#abb6b6426373bb591f027ac29eca4bacb">FsCache::CACHE_STATUS_MASK</a></div><div class="ttdeci">static const uint8_t CACHE_STATUS_MASK</div><div class="ttdef"><b>Definition</b> FsCache.h:44</div></div>
+<div class="ttc" id="aclassFsCache_abdfa349477d43542829c4d58b355efa6_xhtml_abdfa349477d43542829c4d58b355efa6"><div class="ttname"><a href="../../dd/db1/classFsCache_abdfa349477d43542829c4d58b355efa6.xhtml#abdfa349477d43542829c4d58b355efa6">FsCache::cacheSafeRead</a></div><div class="ttdeci">bool cacheSafeRead(uint32_t sector, uint8_t *dst)</div><div class="ttdef"><b>Definition</b> FsCache.h:67</div></div>
+<div class="ttc" id="aclassFsCache_ac1ba5f5bcb9fb9e017a5355cb0acb216_xhtml_ac1ba5f5bcb9fb9e017a5355cb0acb216"><div class="ttname"><a href="../../dd/db1/classFsCache_ac1ba5f5bcb9fb9e017a5355cb0acb216.xhtml#ac1ba5f5bcb9fb9e017a5355cb0acb216">FsCache::FsCache</a></div><div class="ttdeci">FsCache()</div><div class="ttdef"><b>Definition</b> FsCache.h:57</div></div>
+<div class="ttc" id="aclassFsCache_ade321e6538ffc77c7f36ea200decaa6f_xhtml_ade321e6538ffc77c7f36ea200decaa6f"><div class="ttname"><a href="../../dd/db1/classFsCache_ade321e6538ffc77c7f36ea200decaa6f.xhtml#ade321e6538ffc77c7f36ea200decaa6f">FsCache::CACHE_FOR_WRITE</a></div><div class="ttdeci">static const uint8_t CACHE_FOR_WRITE</div><div class="ttdef"><b>Definition</b> FsCache.h:51</div></div>
+<div class="ttc" id="aclassFsCache_ae960459db6fda0de3d67768d3b59331d_xhtml_ae960459db6fda0de3d67768d3b59331d"><div class="ttname"><a href="../../dd/db1/classFsCache_ae960459db6fda0de3d67768d3b59331d.xhtml#ae960459db6fda0de3d67768d3b59331d">FsCache::CACHE_RESERVE_FOR_WRITE</a></div><div class="ttdeci">static const uint8_t CACHE_RESERVE_FOR_WRITE</div><div class="ttdef"><b>Definition</b> FsCache.h:53</div></div>
+<div class="ttc" id="aclassFsCache_aec4f4c6f83426487e159e7ba3f1758bd_xhtml_aec4f4c6f83426487e159e7ba3f1758bd"><div class="ttname"><a href="../../dd/db1/classFsCache_aec4f4c6f83426487e159e7ba3f1758bd.xhtml#aec4f4c6f83426487e159e7ba3f1758bd">FsCache::m_mirrorOffset</a></div><div class="ttdeci">uint32_t m_mirrorOffset</div><div class="ttdef"><b>Definition</b> FsCache.h:173</div></div>
+<div class="ttc" id="aclassFsCache_aed103e18beeae07a930ccce69490cfcc_xhtml_aed103e18beeae07a930ccce69490cfcc"><div class="ttname"><a href="../../dd/db1/classFsCache_aed103e18beeae07a930ccce69490cfcc.xhtml#aed103e18beeae07a930ccce69490cfcc">FsCache::cacheBuffer</a></div><div class="ttdeci">uint8_t * cacheBuffer()</div><div class="ttdef"><b>Definition</b> FsCache.h:59</div></div>
+<div class="ttc" id="aclassFsCache_af50f564561a2db190280769d4641147b_xhtml_af50f564561a2db190280769d4641147b"><div class="ttname"><a href="../../dd/db1/classFsCache_af50f564561a2db190280769d4641147b.xhtml#af50f564561a2db190280769d4641147b">FsCache::dirty</a></div><div class="ttdeci">void dirty()</div><div class="ttdef"><b>Definition</b> FsCache.h:124</div></div>
+<div class="ttc" id="aclassFsCache_xhtml"><div class="ttname"><a href="../../dd/db1/classFsCache.xhtml">FsCache</a></div><div class="ttdoc">Sector cache.</div><div class="ttdef"><b>Definition</b> FsCache.h:37</div></div>
+<div class="ttc" id="aclassSharedSpiCard_a6145b8d16484f5b4a495bcbb54d3616e_xhtml_a6145b8d16484f5b4a495bcbb54d3616e"><div class="ttname"><a href="../../d8/d7f/classSharedSpiCard_a6145b8d16484f5b4a495bcbb54d3616e.xhtml#a6145b8d16484f5b4a495bcbb54d3616e">SharedSpiCard::readSectors</a></div><div class="ttdeci">bool readSectors(uint32_t sector, uint8_t *dst, size_t ns)</div><div class="ttdef"><b>Definition</b> SdSpiCard.cpp:471</div></div>
+<div class="ttc" id="aclassSharedSpiCard_a61d86f4092f8ddbc7339d7cbcf6f70c0_xhtml_a61d86f4092f8ddbc7339d7cbcf6f70c0"><div class="ttname"><a href="../../d8/d7f/classSharedSpiCard_a61d86f4092f8ddbc7339d7cbcf6f70c0.xhtml#a61d86f4092f8ddbc7339d7cbcf6f70c0">SharedSpiCard::readSector</a></div><div class="ttdeci">bool readSector(uint32_t sector, uint8_t *dst)</div><div class="ttdef"><b>Definition</b> SdSpiCard.cpp:451</div></div>
+<div class="ttc" id="aclassSharedSpiCard_a9b734ef77cc5db4f1ecc9e0dc5809403_xhtml_a9b734ef77cc5db4f1ecc9e0dc5809403"><div class="ttname"><a href="../../d8/d7f/classSharedSpiCard_a9b734ef77cc5db4f1ecc9e0dc5809403.xhtml#a9b734ef77cc5db4f1ecc9e0dc5809403">SharedSpiCard::writeSectors</a></div><div class="ttdeci">bool writeSectors(uint32_t sector, const uint8_t *src, size_t ns)</div><div class="ttdef"><b>Definition</b> SdSpiCard.cpp:654</div></div>
+<div class="ttc" id="aclassSharedSpiCard_adf2ce56ca0a56fe841fbdf75f7f3faee_xhtml_adf2ce56ca0a56fe841fbdf75f7f3faee"><div class="ttname"><a href="../../d8/d7f/classSharedSpiCard_adf2ce56ca0a56fe841fbdf75f7f3faee.xhtml#adf2ce56ca0a56fe841fbdf75f7f3faee">SharedSpiCard::writeSector</a></div><div class="ttdeci">bool writeSector(uint32_t sector, const uint8_t *src)</div><div class="ttdef"><b>Definition</b> SdSpiCard.cpp:620</div></div>
+<div class="ttc" id="aclassSharedSpiCard_xhtml"><div class="ttname"><a href="../../d8/d7f/classSharedSpiCard.xhtml">SharedSpiCard</a></div><div class="ttdoc">Raw access to SD and SDHC flash memory cards via shared SPI port.</div><div class="ttdef"><b>Definition</b> SdSpiCard.h:75</div></div>
+</div><!-- fragment --></div><!-- contents -->
+</div><!-- doc-content -->
+<!-- start footer part -->
+<div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
+  <ul>
+    <li class="navelem"><a class="el" href="../../dir_6719ab1f1f7655efc2fa43f7eb574fd1.xhtml">libs</a></li><li class="navelem"><a class="el" href="../../dir_42eee409255dea5a142129cbb92a8b55.xhtml">SdFat</a></li><li class="navelem"><a class="el" href="../../dir_2f4080adc233fc166a1397b7e1f61311.xhtml">src</a></li><li class="navelem"><a class="el" href="../../dir_bf04813b926fec9b0b4704b415fbda5c.xhtml">common</a></li><li class="navelem"><a class="el" href="../../d2/df7/FsCache_8h.xhtml">FsCache.h</a></li>
+    <li class="footer">Généré par <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.10.0 </li>
+  </ul>
+</div>
+</body>
+</html>

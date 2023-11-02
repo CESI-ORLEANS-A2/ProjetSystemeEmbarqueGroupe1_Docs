@@ -1,17 +1,17 @@
 <map id="ostream" name="ostream">
-<area shape="rect" id="Node000001" title="Output Stream." alt="" coords="231,152,307,177"/>
-<area shape="rect" id="Node000004" href="$d2/dd4/classArduinoOutStream.html" title="Output stream for Arduino Print objects." alt="" coords="5,225,148,251"/>
-<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="226,185,109,228,107,223,224,180"/>
-<area shape="rect" id="Node000005" href="$d1/d31/classiostream.html" title="Input/Output stream." alt="" coords="173,225,253,251"/>
-<area shape="poly" id="edge4_Node000001_Node000005" title=" " alt="" coords="253,190,224,227,220,224,249,187"/>
-<area shape="rect" id="Node000007" href="$df/d20/classobufstream.html" title="format a char string" alt="" coords="277,225,375,251"/>
-<area shape="poly" id="edge6_Node000001_Node000007" title=" " alt="" coords="289,186,319,224,315,227,284,190"/>
-<area shape="rect" id="Node000008" href="$d9/d93/classofstream.html" title="file output stream." alt="" coords="399,225,480,251"/>
-<area shape="poly" id="edge7_Node000001_Node000008" title=" " alt="" coords="310,180,412,223,410,228,308,185"/>
-<area shape="rect" id="Node000002" href="$df/d02/classios.html" title="Error and state information for all streams." alt="" coords="248,79,289,104"/>
-<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="271,118,271,152,266,152,266,118"/>
-<area shape="rect" id="Node000003" href="$d4/dc1/classios__base.html" title="Base class for all streams." alt="" coords="229,5,308,31"/>
-<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="271,44,271,79,266,79,266,44"/>
-<area shape="rect" id="Node000006" href="$d7/df9/classfstream.html" title="file input/output stream." alt="" coords="176,299,249,324"/>
-<area shape="poly" id="edge5_Node000005_Node000006" title=" " alt="" coords="215,264,215,299,210,299,210,264"/>
+<area shape="rect" id="Node000001" title="Output Stream." alt="" coords="211,1113,434,1859"/>
+<area shape="rect" id="Node000004" href="$d2/dd4/classArduinoOutStream.xhtml" title="Output stream for Arduino Print objects." alt="" coords="5,1964,189,2064"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="208,1761,121,1965,116,1963,203,1759"/>
+<area shape="rect" id="Node000005" href="$d1/d31/classiostream.xhtml" title="Input/Output stream." alt="" coords="213,1981,285,2047"/>
+<area shape="poly" id="edge4_Node000001_Node000005" title=" " alt="" coords="272,1873,256,1981,251,1981,266,1872"/>
+<area shape="rect" id="Node000007" href="$df/d20/classobufstream.xhtml" title="format a char string" alt="" coords="309,1907,483,2121"/>
+<area shape="poly" id="edge6_Node000001_Node000007" title=" " alt="" coords="379,1872,384,1906,379,1907,374,1873"/>
+<area shape="rect" id="Node000008" href="$d9/d93/classofstream.xhtml" title="file output stream." alt="" coords="507,1909,731,2119"/>
+<area shape="poly" id="edge7_Node000001_Node000008" title=" " alt="" coords="443,1696,563,1908,558,1910,438,1698"/>
+<area shape="rect" id="Node000002" href="$df/d02/classios.xhtml" title="Error and state information for all streams." alt="" coords="236,756,409,1065"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="325,1079,325,1113,320,1113,320,1079"/>
+<area shape="rect" id="Node000003" href="$d4/dc1/classios__base.xhtml" title="Base class for all streams." alt="" coords="218,5,427,708"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="325,722,325,755,320,755,320,722"/>
+<area shape="rect" id="Node000006" href="$d7/df9/classfstream.xhtml" title="file input/output stream." alt="" coords="156,2169,343,2408"/>
+<area shape="poly" id="edge5_Node000005_Node000006" title=" " alt="" coords="252,2061,252,2169,247,2169,247,2061"/>
 </map>

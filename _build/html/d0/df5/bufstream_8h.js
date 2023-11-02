@@ -1,5 +1,5 @@
 var bufstream_8h =
 [
-    [ "ibufstream", "d0/d91/classibufstream.html", "d0/d91/classibufstream" ],
-    [ "obufstream", "df/d20/classobufstream.html", "df/d20/classobufstream" ]
+    [ "ibufstream", "d0/d91/classibufstream.xhtml", "d0/d91/classibufstream" ],
+    [ "obufstream", "df/d20/classobufstream.xhtml", "df/d20/classobufstream" ]
 ];

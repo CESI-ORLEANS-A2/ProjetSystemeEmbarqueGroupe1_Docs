@@ -1,3 +1,17 @@
 <map id="Graphe hiérarchique des classes" name="Graphe hiérarchique des classes">
-<area shape="rect" id="Node000000" href="$d4/d2a/structsensors__event__t.html" title=" " alt="" coords="5,5,133,31"/>
+<area shape="rect" id="Node000000" href="$d9/df9/classPrint.xhtml" title=" " alt="" coords="5,55,57,80"/>
+<area shape="rect" id="Node000001" href="$d1/d61/classRingBuf.xhtml" title="Ring buffer for data loggers and data transmitters." alt="" coords="105,5,252,31"/>
+<area shape="poly" id="edge63_Node000000_Node000001" title=" " alt="" coords="69,52,104,39,138,28,140,33,106,45,71,57"/>
+<area shape="rect" id="Node000002" href="$db/d00/classServer.xhtml" title=" " alt="" coords="147,55,211,80"/>
+<area shape="poly" id="edge64_Node000000_Node000002" title=" " alt="" coords="72,65,146,65,146,70,72,70"/>
+<area shape="rect" id="Node000003" href="$dc/de8/classStream.xhtml" title=" " alt="" coords="144,104,213,129"/>
+<area shape="poly" id="edge65_Node000000_Node000003" title=" " alt="" coords="72,78,145,103,143,108,70,83"/>
+<area shape="rect" id="Node000004" href="$d1/d37/classClient.xhtml" title=" " alt="" coords="331,29,391,55"/>
+<area shape="poly" id="edge66_Node000003_Node000004" title=" " alt="" coords="226,99,251,89,299,64,330,50,332,55,301,68,253,94,227,104"/>
+<area shape="rect" id="Node000005" href="$dd/d56/classHardwareSerial.xhtml" title=" " alt="" coords="300,79,423,104"/>
+<area shape="poly" id="edge67_Node000003_Node000005" title=" " alt="" coords="226,107,299,97,300,102,227,113"/>
+<area shape="rect" id="Node000006" href="$d2/de7/classSoftwareSerial.xhtml" title=" " alt="" coords="303,128,419,153"/>
+<area shape="poly" id="edge68_Node000003_Node000006" title=" " alt="" coords="228,120,303,130,303,136,227,126"/>
+<area shape="rect" id="Node000007" href="$dc/d5d/classUDP.xhtml" title=" " alt="" coords="336,177,387,203"/>
+<area shape="poly" id="edge69_Node000003_Node000007" title=" " alt="" coords="225,132,337,178,335,183,223,137"/>
 </map>

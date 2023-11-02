@@ -1,7 +1,0 @@
-<map id="ISR" name="ISR">
-<area shape="rect" id="Node000001" title="Fonction exécutée à chaque interruption du timer." alt="" coords="5,31,48,56"/>
-<area shape="rect" id="Node000002" href="$dc/de5/timer_8cpp.html#ad85c63e227195b85786618fe3c71fc78" title="Crée une nouvelle instance du timer." alt="" coords="96,5,197,31"/>
-<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="48,36,82,29,83,34,49,42"/>
-<area shape="rect" id="Node000003" href="$dc/de5/timer_8cpp.html#aa6f6bfef028c7b053444cbd48567d286" title="Arrête le timer." alt="" coords="103,55,191,80"/>
-<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="49,45,90,53,89,58,48,50"/>
-</map>

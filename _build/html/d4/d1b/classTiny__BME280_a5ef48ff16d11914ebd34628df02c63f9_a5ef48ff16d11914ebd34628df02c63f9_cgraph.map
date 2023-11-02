@@ -1,0 +1,11 @@
+<map id="Tiny_BME280::setSampling" name="Tiny_BME280::setSampling">
+<area shape="rect" id="Node000001" title="setup sensor with given parameters / settings" alt="" coords="5,80,204,105"/>
+<area shape="rect" id="Node000002" href="$d6/dd8/structTiny__BME280_1_1config_adef36b57c517713fcec45159134408d2.xhtml#adef36b57c517713fcec45159134408d2" title=" " alt="" coords="264,5,451,31"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="138,77,251,39,282,31,283,36,253,45,140,82"/>
+<area shape="rect" id="Node000003" href="$d6/d58/structTiny__BME280_1_1ctrl__meas_a696b8d72794d352a5b33b92dcc575200.xhtml#a696b8d72794d352a5b33b92dcc575200" title=" " alt="" coords="252,55,463,80"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="204,80,238,77,239,82,204,85"/>
+<area shape="rect" id="Node000004" href="$d6/d11/structTiny__BME280_1_1ctrl__hum_a53f85d87bdf492d40cb651a0674ce59a.xhtml#a53f85d87bdf492d40cb651a0674ce59a" title=" " alt="" coords="255,104,459,129"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="204,99,242,103,241,108,204,105"/>
+<area shape="rect" id="Node000005" href="$d4/d1b/classTiny__BME280_ad9a42aed9801eb95065745eabdf7e670.xhtml#ad9a42aed9801eb95065745eabdf7e670" title="Writes an 8 bit value over I2C." alt="" coords="278,153,437,179"/>
+<area shape="poly" id="edge4_Node000001_Node000005" title=" " alt="" coords="143,103,253,138,288,147,286,153,251,143,142,108"/>
+</map>

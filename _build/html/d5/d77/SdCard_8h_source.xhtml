@@ -1,0 +1,176 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "https://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="fr">
+<head>
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=11"/>
+<meta name="generator" content="Doxygen 1.10.0"/>
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+<title>Station_Méteo_Groupe_1:  Fichier source de /mnt/d/Cours/10. CESI A2/Blocs/01 - Systeme embarque/Livrables/Station_Meteo_Groupe_1 - Copy/libs/SdFat/src/SdCard/SdCard.h</title>
+<link href="../../tabs.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="../../jquery.js"></script>
+<script type="text/javascript" src="../../dynsections.js"></script>
+<script type="text/javascript" src="../../clipboard.js"></script>
+<link href="../../navtree.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="../../resize.js"></script>
+<script type="text/javascript" src="../../navtreedata.js"></script>
+<script type="text/javascript" src="../../navtree.js"></script>
+<link href="../../search/search.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="../../search/searchdata.js"></script>
+<script type="text/javascript" src="../../search/search.js"></script>
+<link href="../../doxygen.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+<div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+<div id="titlearea">
+<table cellspacing="0" cellpadding="0">
+ <tbody>
+ <tr id="projectrow">
+  <td id="projectalign">
+   <div id="projectname">Station_Méteo_Groupe_1<span id="projectnumber">&#160;v0.0.1</span>
+   </div>
+  </td>
+ </tr>
+ </tbody>
+</table>
+</div>
+<!-- end header part -->
+<!-- Généré par Doxygen 1.10.0 -->
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+var searchBox = new SearchBox("searchBox", "../../search/",'.xhtml');
+/* @license-end */
+</script>
+<script type="text/javascript" src="../../menudata.js"></script>
+<script type="text/javascript" src="../../menu.js"></script>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+$(function() {
+  initMenu('../../',true,false,'search.php','Recherche');
+  $(document).ready(function() { init_search(); });
+});
+/* @license-end */
+</script>
+<div id="main-nav"></div>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+$(document).ready(function() { init_codefold(1); });
+/* @license-end */
+</script>
+</div><!-- top -->
+<div id="side-nav" class="ui-resizable side-nav-resizable">
+  <div id="nav-tree">
+    <div id="nav-tree-contents">
+      <div id="nav-sync" class="sync"></div>
+    </div>
+  </div>
+  <div id="splitbar" style="-moz-user-select:none;" 
+       class="ui-resizable-handle">
+  </div>
+</div>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+$(document).ready(function(){initNavTree('d5/d77/SdCard_8h_source.xhtml','../../'); initResizable(); });
+/* @license-end */
+</script>
+<div id="doc-content">
+<!-- window showing the filter options -->
+<div id="MSearchSelectWindow"
+     onmouseover="return searchBox.OnSearchSelectShow()"
+     onmouseout="return searchBox.OnSearchSelectHide()"
+     onkeydown="return searchBox.OnSearchSelectKey(event)">
+</div>
+
+<!-- iframe showing the search results (closed by default) -->
+<div id="MSearchResultsWindow">
+<div id="MSearchResults">
+<div class="SRPage">
+<div id="SRIndex">
+<div id="SRResults"></div>
+<div class="SRStatus" id="Loading">Chargement...</div>
+<div class="SRStatus" id="Searching">Recherche...</div>
+<div class="SRStatus" id="NoMatches">Aucune correspondance</div>
+</div>
+</div>
+</div>
+</div>
+
+<div class="header">
+  <div class="headertitle"><div class="title">SdCard.h</div></div>
+</div><!--header-->
+<div class="contents">
+<a href="../../d5/d77/SdCard_8h.xhtml">Aller à la documentation de ce fichier.</a><div class="fragment"><div class="line"><a id="l00001" name="l00001"></a><span class="lineno">    1</span> </div>
+<div class="line"><a id="l00029" name="l00029"></a><span class="lineno">   29</span><span class="preprocessor">#ifndef SdCard_h</span></div>
+<div class="line"><a id="l00030" name="l00030"></a><span class="lineno">   30</span><span class="preprocessor">#define SdCard_h</span></div>
+<div class="line"><a id="l00031" name="l00031"></a><span class="lineno">   31</span><span class="preprocessor">#include &quot;<a class="code" href="../../d5/dc1/SdSpiCard_8h.xhtml">SdSpiCard.h</a>&quot;</span></div>
+<div class="line"><a id="l00032" name="l00032"></a><span class="lineno">   32</span><span class="preprocessor">#include &quot;<a class="code" href="../../d9/d0a/SdioCard_8h.xhtml">SdioCard.h</a>&quot;</span></div>
+<div class="line"><a id="l00033" name="l00033"></a><span class="lineno">   33</span><span class="preprocessor">#if HAS_SDIO_CLASS</span></div>
+<div class="line"><a id="l00035" name="l00035"></a><span class="lineno">   35</span><span class="keyword">typedef</span> <a class="code hl_class" href="../../d9/d18/classSdCardInterface.xhtml">SdCardInterface</a> <a class="code hl_typedef" href="../../d5/d77/SdCard_8h_a14fc08ce19cefbffd26dbbcea7744058.xhtml#a14fc08ce19cefbffd26dbbcea7744058">SdCard</a>;</div>
+<div class="line"><a id="l00036" name="l00036"></a><span class="lineno">   36</span><span class="preprocessor">#else   </span><span class="comment">// HAS_SDIO_CLASS</span></div>
+<div class="line"><a id="l00038" name="l00038"></a><span class="lineno"><a class="line" href="../../d5/d77/SdCard_8h_a14fc08ce19cefbffd26dbbcea7744058.xhtml#a14fc08ce19cefbffd26dbbcea7744058">   38</a></span>typedef SdSpiCard SdCard;</div>
+<div class="line"><a id="l00039" name="l00039"></a><span class="lineno">   39</span><span class="preprocessor">#endif  </span><span class="comment">// HAS_SDIO_CLASS</span></div>
+<div class="foldopen" id="foldopen00045" data-start="{" data-end="}">
+<div class="line"><a id="l00045" name="l00045"></a><span class="lineno"><a class="line" href="../../d5/d77/SdCard_8h_a1a52e8b56ee856308028764beb9aa0a8.xhtml#a1a52e8b56ee856308028764beb9aa0a8">   45</a></span>inline bool isSpi(SdSpiConfig cfg) {</div>
+<div class="line"><a id="l00046" name="l00046"></a><span class="lineno">   46</span>  (void)cfg;</div>
+<div class="line"><a id="l00047" name="l00047"></a><span class="lineno">   47</span>  <span class="keywordflow">return</span> <span class="keyword">true</span>;</div>
+<div class="line"><a id="l00048" name="l00048"></a><span class="lineno">   48</span>}</div>
+</div>
+<div class="foldopen" id="foldopen00054" data-start="{" data-end="}">
+<div class="line"><a id="l00054" name="l00054"></a><span class="lineno"><a class="line" href="../../d5/d77/SdCard_8h_a9cb07a02f5c21ea3d4493717f3db949d.xhtml#a9cb07a02f5c21ea3d4493717f3db949d">   54</a></span><span class="keyword">inline</span> <span class="keywordtype">bool</span> <a class="code hl_function" href="../../d5/d77/SdCard_8h_a1a52e8b56ee856308028764beb9aa0a8.xhtml#a1a52e8b56ee856308028764beb9aa0a8">isSpi</a>(<a class="code hl_class" href="../../d0/d30/classSdioConfig.xhtml">SdioConfig</a> cfg) {</div>
+<div class="line"><a id="l00055" name="l00055"></a><span class="lineno">   55</span>  (void)cfg;</div>
+<div class="line"><a id="l00056" name="l00056"></a><span class="lineno">   56</span>  <span class="keywordflow">return</span> <span class="keyword">false</span>;</div>
+<div class="line"><a id="l00057" name="l00057"></a><span class="lineno">   57</span>}</div>
+</div>
+<div class="foldopen" id="foldopen00062" data-start="{" data-end="};">
+<div class="line"><a id="l00062" name="l00062"></a><span class="lineno"><a class="line" href="../../dd/d6a/classSdCardFactory.xhtml">   62</a></span><span class="keyword">class </span><a class="code hl_class" href="../../dd/d6a/classSdCardFactory.xhtml">SdCardFactory</a> {</div>
+<div class="line"><a id="l00063" name="l00063"></a><span class="lineno">   63</span> <span class="keyword">public</span>:</div>
+<div class="foldopen" id="foldopen00069" data-start="{" data-end="}">
+<div class="line"><a id="l00069" name="l00069"></a><span class="lineno"><a class="line" href="../../dd/d6a/classSdCardFactory_a220930994a47cf45a8fe1563f0b300c2.xhtml#a220930994a47cf45a8fe1563f0b300c2">   69</a></span>  <a class="code hl_class" href="../../d8/d7f/classSharedSpiCard.xhtml">SdCard</a>* <a class="code hl_function" href="../../dd/d6a/classSdCardFactory_a220930994a47cf45a8fe1563f0b300c2.xhtml#a220930994a47cf45a8fe1563f0b300c2">newCard</a>(<a class="code hl_class" href="../../de/ddc/classSdSpiConfig.xhtml">SdSpiConfig</a> config) {</div>
+<div class="line"><a id="l00070" name="l00070"></a><span class="lineno">   70</span>    <a class="code hl_variable" href="../../dd/d6a/classSdCardFactory_a752d9e3390a4fa800b8ac0baf9d079b1.xhtml#a752d9e3390a4fa800b8ac0baf9d079b1">m_spiCard</a>.<a class="code hl_function" href="../../d8/d7f/classSharedSpiCard_a0255d8d48155bc14798edb8414f04030.xhtml#a0255d8d48155bc14798edb8414f04030">begin</a>(config);</div>
+<div class="line"><a id="l00071" name="l00071"></a><span class="lineno">   71</span>    <span class="keywordflow">return</span> &amp;<a class="code hl_variable" href="../../dd/d6a/classSdCardFactory_a752d9e3390a4fa800b8ac0baf9d079b1.xhtml#a752d9e3390a4fa800b8ac0baf9d079b1">m_spiCard</a>;</div>
+<div class="line"><a id="l00072" name="l00072"></a><span class="lineno">   72</span>  }</div>
+</div>
+<div class="foldopen" id="foldopen00078" data-start="{" data-end="}">
+<div class="line"><a id="l00078" name="l00078"></a><span class="lineno"><a class="line" href="../../dd/d6a/classSdCardFactory_ae8d857a9e9fa47115f3bc6e26b9ec95e.xhtml#ae8d857a9e9fa47115f3bc6e26b9ec95e">   78</a></span>  <a class="code hl_class" href="../../d8/d7f/classSharedSpiCard.xhtml">SdCard</a>* <a class="code hl_function" href="../../dd/d6a/classSdCardFactory_ae8d857a9e9fa47115f3bc6e26b9ec95e.xhtml#ae8d857a9e9fa47115f3bc6e26b9ec95e">newCard</a>(<a class="code hl_class" href="../../d0/d30/classSdioConfig.xhtml">SdioConfig</a> config) {</div>
+<div class="line"><a id="l00079" name="l00079"></a><span class="lineno">   79</span><span class="preprocessor">#if HAS_SDIO_CLASS</span></div>
+<div class="line"><a id="l00080" name="l00080"></a><span class="lineno">   80</span>    m_sdioCard.<a class="code hl_function" href="../../d8/d7f/classSharedSpiCard_a0255d8d48155bc14798edb8414f04030.xhtml#a0255d8d48155bc14798edb8414f04030">begin</a>(config);</div>
+<div class="line"><a id="l00081" name="l00081"></a><span class="lineno">   81</span>    <span class="keywordflow">return</span> &amp;m_sdioCard;</div>
+<div class="line"><a id="l00082" name="l00082"></a><span class="lineno">   82</span><span class="preprocessor">#else   </span><span class="comment">// HAS_SDIO_CLASS</span></div>
+<div class="line"><a id="l00083" name="l00083"></a><span class="lineno">   83</span>    (void)config;</div>
+<div class="line"><a id="l00084" name="l00084"></a><span class="lineno">   84</span>    <span class="keywordflow">return</span> <span class="keyword">nullptr</span>;</div>
+<div class="line"><a id="l00085" name="l00085"></a><span class="lineno">   85</span><span class="preprocessor">#endif  </span><span class="comment">// HAS_SDIO_CLASS</span></div>
+<div class="line"><a id="l00086" name="l00086"></a><span class="lineno">   86</span>  }</div>
+</div>
+<div class="line"><a id="l00087" name="l00087"></a><span class="lineno">   87</span> </div>
+<div class="line"><a id="l00088" name="l00088"></a><span class="lineno">   88</span> <span class="keyword">private</span>:</div>
+<div class="line"><a id="l00089" name="l00089"></a><span class="lineno">   89</span><span class="preprocessor">#if HAS_SDIO_CLASS</span></div>
+<div class="line"><a id="l00090" name="l00090"></a><span class="lineno">   90</span>  <a class="code hl_class" href="../../dc/d09/classSdioCard.xhtml">SdioCard</a> m_sdioCard;</div>
+<div class="line"><a id="l00091" name="l00091"></a><span class="lineno">   91</span><span class="preprocessor">#endif  </span><span class="comment">// HAS_SDIO_CLASS</span></div>
+<div class="line"><a id="l00092" name="l00092"></a><span class="lineno"><a class="line" href="../../dd/d6a/classSdCardFactory_a752d9e3390a4fa800b8ac0baf9d079b1.xhtml#a752d9e3390a4fa800b8ac0baf9d079b1">   92</a></span>  <a class="code hl_class" href="../../d8/d7f/classSharedSpiCard.xhtml">SdSpiCard</a> <a class="code hl_variable" href="../../dd/d6a/classSdCardFactory_a752d9e3390a4fa800b8ac0baf9d079b1.xhtml#a752d9e3390a4fa800b8ac0baf9d079b1">m_spiCard</a>;</div>
+<div class="line"><a id="l00093" name="l00093"></a><span class="lineno">   93</span>};</div>
+</div>
+<div class="line"><a id="l00094" name="l00094"></a><span class="lineno">   94</span><span class="preprocessor">#endif  </span><span class="comment">// SdCard_h</span></div>
+<div class="ttc" id="aSdCard_8h_a14fc08ce19cefbffd26dbbcea7744058_xhtml_a14fc08ce19cefbffd26dbbcea7744058"><div class="ttname"><a href="../../d5/d77/SdCard_8h_a14fc08ce19cefbffd26dbbcea7744058.xhtml#a14fc08ce19cefbffd26dbbcea7744058">SdCard</a></div><div class="ttdeci">SdSpiCard SdCard</div><div class="ttdef"><b>Definition</b> SdCard.h:38</div></div>
+<div class="ttc" id="aSdCard_8h_a1a52e8b56ee856308028764beb9aa0a8_xhtml_a1a52e8b56ee856308028764beb9aa0a8"><div class="ttname"><a href="../../d5/d77/SdCard_8h_a1a52e8b56ee856308028764beb9aa0a8.xhtml#a1a52e8b56ee856308028764beb9aa0a8">isSpi</a></div><div class="ttdeci">bool isSpi(SdSpiConfig cfg)</div><div class="ttdef"><b>Definition</b> SdCard.h:45</div></div>
+<div class="ttc" id="aSdSpiCard_8h_xhtml"><div class="ttname"><a href="../../d5/dc1/SdSpiCard_8h.xhtml">SdSpiCard.h</a></div><div class="ttdoc">Classes for SPI access to SD/SDHC cards.</div></div>
+<div class="ttc" id="aSdioCard_8h_xhtml"><div class="ttname"><a href="../../d9/d0a/SdioCard_8h.xhtml">SdioCard.h</a></div><div class="ttdoc">Classes for SDIO cards.</div></div>
+<div class="ttc" id="aclassSdCardFactory_a220930994a47cf45a8fe1563f0b300c2_xhtml_a220930994a47cf45a8fe1563f0b300c2"><div class="ttname"><a href="../../dd/d6a/classSdCardFactory_a220930994a47cf45a8fe1563f0b300c2.xhtml#a220930994a47cf45a8fe1563f0b300c2">SdCardFactory::newCard</a></div><div class="ttdeci">SdCard * newCard(SdSpiConfig config)</div><div class="ttdef"><b>Definition</b> SdCard.h:69</div></div>
+<div class="ttc" id="aclassSdCardFactory_a752d9e3390a4fa800b8ac0baf9d079b1_xhtml_a752d9e3390a4fa800b8ac0baf9d079b1"><div class="ttname"><a href="../../dd/d6a/classSdCardFactory_a752d9e3390a4fa800b8ac0baf9d079b1.xhtml#a752d9e3390a4fa800b8ac0baf9d079b1">SdCardFactory::m_spiCard</a></div><div class="ttdeci">SdSpiCard m_spiCard</div><div class="ttdef"><b>Definition</b> SdCard.h:92</div></div>
+<div class="ttc" id="aclassSdCardFactory_ae8d857a9e9fa47115f3bc6e26b9ec95e_xhtml_ae8d857a9e9fa47115f3bc6e26b9ec95e"><div class="ttname"><a href="../../dd/d6a/classSdCardFactory_ae8d857a9e9fa47115f3bc6e26b9ec95e.xhtml#ae8d857a9e9fa47115f3bc6e26b9ec95e">SdCardFactory::newCard</a></div><div class="ttdeci">SdCard * newCard(SdioConfig config)</div><div class="ttdef"><b>Definition</b> SdCard.h:78</div></div>
+<div class="ttc" id="aclassSdCardFactory_xhtml"><div class="ttname"><a href="../../dd/d6a/classSdCardFactory.xhtml">SdCardFactory</a></div><div class="ttdoc">Setup a SPI card or SDIO card.</div><div class="ttdef"><b>Definition</b> SdCard.h:62</div></div>
+<div class="ttc" id="aclassSdCardInterface_xhtml"><div class="ttname"><a href="../../d9/d18/classSdCardInterface.xhtml">SdCardInterface</a></div><div class="ttdoc">Abstract interface for an SD card.</div><div class="ttdef"><b>Definition</b> SdCardInterface.h:37</div></div>
+<div class="ttc" id="aclassSdSpiConfig_xhtml"><div class="ttname"><a href="../../de/ddc/classSdSpiConfig.xhtml">SdSpiConfig</a></div><div class="ttdoc">SPI card configuration.</div><div class="ttdef"><b>Definition</b> SdSpiDriver.h:109</div></div>
+<div class="ttc" id="aclassSdioCard_xhtml"><div class="ttname"><a href="../../dc/d09/classSdioCard.xhtml">SdioCard</a></div><div class="ttdoc">Raw SDIO access to SD and SDHC flash memory cards.</div><div class="ttdef"><b>Definition</b> SdioCard.h:62</div></div>
+<div class="ttc" id="aclassSdioConfig_xhtml"><div class="ttname"><a href="../../d0/d30/classSdioConfig.xhtml">SdioConfig</a></div><div class="ttdoc">SDIO card configuration.</div><div class="ttdef"><b>Definition</b> SdioCard.h:41</div></div>
+<div class="ttc" id="aclassSharedSpiCard_a0255d8d48155bc14798edb8414f04030_xhtml_a0255d8d48155bc14798edb8414f04030"><div class="ttname"><a href="../../d8/d7f/classSharedSpiCard_a0255d8d48155bc14798edb8414f04030.xhtml#a0255d8d48155bc14798edb8414f04030">SharedSpiCard::begin</a></div><div class="ttdeci">bool begin(SdSpiConfig spiConfig)</div><div class="ttdef"><b>Definition</b> SdSpiCard.cpp:125</div></div>
+<div class="ttc" id="aclassSharedSpiCard_xhtml"><div class="ttname"><a href="../../d8/d7f/classSharedSpiCard.xhtml">SharedSpiCard</a></div><div class="ttdoc">Raw access to SD and SDHC flash memory cards via shared SPI port.</div><div class="ttdef"><b>Definition</b> SdSpiCard.h:75</div></div>
+</div><!-- fragment --></div><!-- contents -->
+</div><!-- doc-content -->
+<!-- start footer part -->
+<div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
+  <ul>
+    <li class="navelem"><a class="el" href="../../dir_6719ab1f1f7655efc2fa43f7eb574fd1.xhtml">libs</a></li><li class="navelem"><a class="el" href="../../dir_42eee409255dea5a142129cbb92a8b55.xhtml">SdFat</a></li><li class="navelem"><a class="el" href="../../dir_2f4080adc233fc166a1397b7e1f61311.xhtml">src</a></li><li class="navelem"><a class="el" href="../../dir_1cfb0ee26cdab68f8c41cad56231c94d.xhtml">SdCard</a></li><li class="navelem"><a class="el" href="../../d5/d77/SdCard_8h.xhtml">SdCard.h</a></li>
+    <li class="footer">Généré par <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.10.0 </li>
+  </ul>
+</div>
+</body>
+</html>

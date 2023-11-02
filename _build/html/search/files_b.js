@@ -1,5 +1,5 @@
 var searchData=
 [
-  ['ostream_2ecpp_0',['ostream.cpp',['../dd/d66/ostream_8cpp.html',1,'']]],
-  ['ostream_2eh_1',['ostream.h',['../dc/d64/ostream_8h.html',1,'']]]
+  ['new_2ecpp_0',['new.cpp',['../da/dc8/new_8cpp.xhtml',1,'']]],
+  ['new_2eh_1',['new.h',['../d7/d58/new_8h.xhtml',1,'']]]
 ];

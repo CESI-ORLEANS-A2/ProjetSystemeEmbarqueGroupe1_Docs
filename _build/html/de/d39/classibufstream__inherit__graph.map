@@ -1,11 +1,11 @@
 <map id="ibufstream" name="ibufstream">
-<area shape="rect" id="Node000001" title="parse a char string" alt="" coords="24,225,117,251"/>
-<area shape="rect" id="Node000005" href="$d9/d5a/classArduinoInStream.html" title="Input stream for Arduino Stream objects." alt="" coords="5,299,136,324"/>
-<area shape="poly" id="edge4_Node000001_Node000005" title=" " alt="" coords="73,264,73,299,68,299,68,264"/>
-<area shape="rect" id="Node000002" href="$d4/d07/classistream.html" title="Input Stream." alt="" coords="35,152,107,177"/>
-<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="73,191,73,225,68,225,68,191"/>
-<area shape="rect" id="Node000003" href="$df/d02/classios.html" title="Error and state information for all streams." alt="" coords="50,79,91,104"/>
-<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="73,118,73,152,68,152,68,118"/>
-<area shape="rect" id="Node000004" href="$d4/dc1/classios__base.html" title="Base class for all streams." alt="" coords="31,5,110,31"/>
-<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="73,44,73,79,68,79,68,44"/>
+<area shape="rect" id="Node000001" title="parse a char string" alt="" coords="28,1772,200,1947"/>
+<area shape="rect" id="Node000005" href="$d9/d5a/classArduinoInStream.xhtml" title="Input stream for Arduino Stream objects." alt="" coords="9,1995,219,2204"/>
+<area shape="poly" id="edge4_Node000001_Node000005" title=" " alt="" coords="117,1960,117,1994,111,1994,111,1960"/>
+<area shape="rect" id="Node000002" href="$d4/d07/classistream.xhtml" title="Input Stream." alt="" coords="5,1113,223,1724"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="117,1738,117,1772,111,1772,111,1738"/>
+<area shape="rect" id="Node000003" href="$df/d02/classios.xhtml" title="Error and state information for all streams." alt="" coords="27,756,201,1065"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="117,1079,117,1113,111,1113,111,1079"/>
+<area shape="rect" id="Node000004" href="$d4/dc1/classios__base.xhtml" title="Base class for all streams." alt="" coords="9,5,219,708"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="117,722,117,755,111,755,111,722"/>
 </map>

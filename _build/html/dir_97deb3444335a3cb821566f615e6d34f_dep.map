@@ -1,7 +1,10 @@
-<map id="/mnt/d/Cours/10. CESI A2/Blocs/01 &#45; Systeme embarque/Livrables/Station_Meteo_Groupe_1/libs/Tiny_BME280_Library/src" name="/mnt/d/Cours/10. CESI A2/Blocs/01 &#45; Systeme embarque/Livrables/Station_Meteo_Groupe_1/libs/Tiny_BME280_Library/src">
-<area shape="rect" id="node1" href="dir_97deb3444335a3cb821566f615e6d34f.html" title="src" alt="" coords="77,52,118,77"/>
-<area shape="rect" id="node2" href="dir_bede7354c3a06d11f1ec2ef6b607ee0f.html" title="Adafruit_Sensor" alt="" coords="35,125,160,151"/>
-<area shape="poly" id="edge1" href="dir_000036_000000.html" alt="" coords="100,78,100,112,95,112,95,78"/>
-<area shape="rect" id="edge1-headlabel" href="dir_000036_000000.html" title="1" alt="" coords="101,100,110,114"/>
-<area shape="rect" id="clust1" href="dir_1aa562f5f4b771645c5f127df56ed3d9.html" title="Tiny_BME280_Library" alt="" coords="16,16,179,88"/>
+<map id="/mnt/d/Cours/10. CESI A2/Blocs/01 &#45; Systeme embarque/Livrables/Station_Meteo_Groupe_1 &#45; Copy/libs/Tiny_BME280_Library/src" name="/mnt/d/Cours/10. CESI A2/Blocs/01 &#45; Systeme embarque/Livrables/Station_Meteo_Groupe_1 &#45; Copy/libs/Tiny_BME280_Library/src">
+<area shape="rect" id="node1" href="dir_97deb3444335a3cb821566f615e6d34f.xhtml" title="src" alt="" coords="107,52,148,77"/>
+<area shape="rect" id="node2" href="dir_650b651c4fc0af5fb7ffad415ecb503f.xhtml" title="Arduino_AVR" alt="" coords="5,125,111,151"/>
+<area shape="poly" id="edge1" href="dir_000040_000002.xhtml" alt="" coords="118,80,81,117,77,114,114,76"/>
+<area shape="rect" id="edge1-headlabel" href="dir_000040_000002.xhtml" title="2" alt="" coords="83,111,93,126"/>
+<area shape="rect" id="node3" href="dir_bede7354c3a06d11f1ec2ef6b607ee0f.xhtml" title="Adafruit_Sensor" alt="" coords="135,125,261,151"/>
+<area shape="poly" id="edge2" href="dir_000040_000000.xhtml" alt="" coords="141,76,179,114,175,118,137,80"/>
+<area shape="rect" id="edge2-headlabel" href="dir_000040_000000.xhtml" title="1" alt="" coords="175,99,184,114"/>
+<area shape="rect" id="clust1" href="dir_1aa562f5f4b771645c5f127df56ed3d9.xhtml" title="Tiny_BME280_Library" alt="" coords="46,16,209,88"/>
 </map>

@@ -1,4 +1,4 @@
 var FsVolume_8h =
 [
-    [ "FsVolume", "d4/d27/classFsVolume.html", "d4/d27/classFsVolume" ]
+    [ "FsVolume", "d4/d27/classFsVolume.xhtml", "d4/d27/classFsVolume" ]
 ];

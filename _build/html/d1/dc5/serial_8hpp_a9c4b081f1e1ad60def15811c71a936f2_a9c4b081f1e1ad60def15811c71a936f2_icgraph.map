@@ -1,0 +1,16 @@
+<map id="printVersion" name="printVersion">
+<area shape="rect" id="Node000001" title="Affiche la version du logiciel sur le port série." alt="" coords="704,32,804,57"/>
+<area shape="rect" id="Node000002" href="$df/d22/configuration_8cpp_a109c8a943c63a9d6d5dbd7b5c423a11b.xhtml#a109c8a943c63a9d6d5dbd7b5c423a11b" title=" " alt="" coords="457,7,656,32"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="690,39,655,35,656,29,690,34"/>
+<area shape="rect" id="Node000006" href="$de/d25/serial_8cpp_a2531a428197475f184bd61c0b412396a.xhtml#a2531a428197475f184bd61c0b412396a" title="Initialise le port série." alt="" coords="517,56,597,81"/>
+<area shape="poly" id="edge5_Node000001_Node000006" title=" " alt="" coords="691,55,597,67,596,61,690,50"/>
+<area shape="rect" id="Node000003" href="$df/d22/configuration_8cpp_a007ee20d2ddf2c89e855b63e6e812b65.xhtml#a007ee20d2ddf2c89e855b63e6e812b65" title=" " alt="" coords="215,5,409,31"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="444,21,410,21,410,16,444,16"/>
+<area shape="rect" id="Node000004" href="$de/dfb/src_2main_8cpp_afe461d27b9c48d5921c00d521181f12f.xhtml#afe461d27b9c48d5921c00d521181f12f" title=" " alt="" coords="112,7,163,32"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="201,22,163,22,163,16,201,16"/>
+<area shape="rect" id="Node000005" href="$d2/d81/libs_2Arduino__AVR_2main_8cpp_a840291bc02cba5474a4cb46a9b9566fe.xhtml#a840291bc02cba5474a4cb46a9b9566fe" title=" " alt="" coords="5,32,60,57"/>
+<area shape="poly" id="edge4_Node000004_Node000005" title=" " alt="" coords="99,31,61,41,60,36,98,26"/>
+<area shape="rect" id="Node000007" href="$de/dfb/src_2main_8cpp_a4fc01d736fe50cf5b977f755b675f11d.xhtml#a4fc01d736fe50cf5b977f755b675f11d" title=" " alt="" coords="108,56,167,81"/>
+<area shape="poly" id="edge6_Node000006_Node000007" title=" " alt="" coords="503,71,167,71,167,66,503,66"/>
+<area shape="poly" id="edge7_Node000007_Node000005" title=" " alt="" coords="94,61,60,53,61,48,95,56"/>
+</map>

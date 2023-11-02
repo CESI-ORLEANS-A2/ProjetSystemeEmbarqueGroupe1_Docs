@@ -1,5 +1,5 @@
 var searchData=
 [
-  ['y_0',['y',['../df/d6c/structsensors__vec__t.html#a08088cd422b668c75ca0db77d0227ef8',1,'sensors_vec_t']]],
-  ['year_1',['year',['../d8/da8/classDS1307.html#ac6011003dad94f7a1ed1e888df96335c',1,'DS1307']]]
+  ['x_0',['x',['../df/d6c/structsensors__vec__t_a9fb71ba50079915da244b839969da7d9.xhtml#a9fb71ba50079915da244b839969da7d9',1,'sensors_vec_t']]],
+  ['xrange_1',['xrange',['../d3/d23/namespacecpplint_aa354ba81f1673ed31f2c0d7ce1f05f5e.xhtml#aa354ba81f1673ed31f2c0d7ce1f05f5e',1,'cpplint']]]
 ];

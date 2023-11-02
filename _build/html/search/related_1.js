@@ -1,6 +1,5 @@
 var searchData=
 [
-  ['fatfile_0',['FatFile',['../d8/d15/classFatPartition.html#a18fb15a715ea85037ab802286853103e',1,'FatPartition']]],
-  ['fatvolume_1',['FatVolume',['../d3/db4/classFatFile.html#a6ca3f436167f187097347a20ea221555',1,'FatFile']]],
-  ['fsbasefile_2',['FsBaseFile',['../d4/d27/classFsVolume.html#a1655636bca63e3ac7e7ab6a8d112a2f0',1,'FsVolume']]]
+  ['dhcpclass_0',['DhcpClass',['../d5/d65/classIPAddress_afef6ad9b691e32ea60d87db719e23e15.xhtml#afef6ad9b691e32ea60d87db719e23e15',1,'IPAddress']]],
+  ['dnsclient_1',['DNSClient',['../d5/d65/classIPAddress_a14acdf960f52e4a43740d57e81a27c40.xhtml#a14acdf960f52e4a43740d57e81a27c40',1,'IPAddress']]]
 ];

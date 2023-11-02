@@ -1,0 +1,12 @@
+<map id="userSetup" name="userSetup">
+<area shape="rect" id="Node000001" title=" " alt="" coords="5,26,92,51"/>
+<area shape="rect" id="Node000002" href="$d5/d45/wiring__digital_8c_a73b9b61feeaf7d790d107f2954a7fd93.xhtml#a73b9b61feeaf7d790d107f2954a7fd93" title=" " alt="" coords="356,26,455,51"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="86,23,140,10,224,3,308,10,353,19,352,24,308,15,224,8,140,15,87,28"/>
+<area shape="rect" id="Node000004" href="$d5/d45/wiring__digital_8c_abf453c1659ee9fafa5af689523ac71e7.xhtml#abf453c1659ee9fafa5af689523ac71e7" title=" " alt="" coords="185,26,263,51"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="92,36,171,36,171,41,92,41"/>
+<area shape="rect" id="Node000005" href="$de/dcc/LowLatencyLoggerADXL345_2UserFunctions_8cpp_a142cb27d282e1466f56098aac938d4d7.xhtml#a142cb27d282e1466f56098aac938d4d7" title=" " alt="" coords="140,75,308,100"/>
+<area shape="poly" id="edge4_Node000001_Node000005" title=" " alt="" coords="93,48,166,68,164,74,92,53"/>
+<area shape="rect" id="Node000003" href="$d5/d45/wiring__digital_8c_ae3d0bcbe4eb927ca8f5d5c21b7e4f224.xhtml#ae3d0bcbe4eb927ca8f5d5c21b7e4f224" title=" " alt="" coords="503,26,603,51"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="455,36,489,36,489,41,455,41"/>
+<area shape="poly" id="edge5_Node000005_Node000002" title=" " alt="" coords="271,72,344,52,345,57,272,77"/>
+</map>

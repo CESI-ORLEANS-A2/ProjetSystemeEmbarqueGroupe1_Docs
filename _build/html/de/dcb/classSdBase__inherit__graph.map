@@ -1,5 +1,17 @@
 <map id="SdBase&lt; Vol, Fmt &gt;" name="SdBase&lt; Vol, Fmt &gt;">
-<area shape="rect" id="Node000001" title="base SD file system template class." alt="" coords="5,79,160,104"/>
-<area shape="rect" id="Node000002" title=" " alt="" coords="61,5,104,31"/>
-<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="85,44,85,79,80,79,80,44"/>
+<area shape="rect" id="Node000001" title="base SD file system template class." alt="" coords="261,120,483,523"/>
+<area shape="rect" id="Node000003" href="$da/d81/classSdBase.xhtml" title=" " alt="" coords="5,585,227,1003"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="253,411,190,474,163,509,141,548,127,586,122,584,136,546,159,506,186,470,249,407"/>
+<area shape="rect" id="Node000005" href="$da/d81/classSdBase.xhtml" title=" " alt="" coords="256,585,477,1003"/>
+<area shape="poly" id="edge4_Node000001_Node000005" title=" " alt="" coords="372,536,372,585,366,585,367,536"/>
+<area shape="rect" id="Node000007" href="$da/d81/classSdBase.xhtml" title=" " alt="" coords="501,593,744,995"/>
+<area shape="poly" id="edge6_Node000001_Node000007" title=" " alt="" coords="494,436,535,488,570,545,590,591,585,593,566,548,531,491,490,439"/>
+<area shape="rect" id="Node000002" title=" " alt="" coords="355,5,389,71"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="375,84,375,119,369,119,369,84"/>
+<area shape="rect" id="Node000004" href="$d2/d3b/classSdExFat.xhtml" title="SD file system class for exFAT volumes." alt="" coords="83,1052,149,1117"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="119,1016,119,1052,113,1052,113,1016"/>
+<area shape="rect" id="Node000006" href="$d6/d4c/classSdFat32.xhtml" title="SD file system class for FAT volumes." alt="" coords="334,1052,399,1117"/>
+<area shape="poly" id="edge5_Node000005_Node000006" title=" " alt="" coords="369,1016,369,1052,364,1052,364,1016"/>
+<area shape="rect" id="Node000008" href="$d8/dd4/classSdFs.xhtml" title="SD file system class for FAT16, FAT32, and exFAT volumes." alt="" coords="600,1052,645,1117"/>
+<area shape="poly" id="edge7_Node000007_Node000008" title=" " alt="" coords="625,1009,625,1052,620,1052,620,1009"/>
 </map>

@@ -1,15 +1,15 @@
 <map id="StreamBaseClass" name="StreamBaseClass">
-<area shape="rect" id="Node000001" title="base type for FAT and exFAT streams" alt="" coords="74,152,210,177"/>
-<area shape="rect" id="Node000005" href="$d7/df9/classfstream.html" title="file input/output stream." alt="" coords="5,225,79,251"/>
-<area shape="poly" id="edge4_Node000001_Node000005" title=" " alt="" coords="116,187,60,227,57,223,113,183"/>
-<area shape="rect" id="Node000006" href="$d0/d68/classifstream.html" title="file input stream." alt="" coords="103,225,181,251"/>
-<area shape="poly" id="edge5_Node000001_Node000006" title=" " alt="" coords="145,191,145,225,139,225,139,191"/>
-<area shape="rect" id="Node000007" href="$d9/d93/classofstream.html" title="file output stream." alt="" coords="205,225,287,251"/>
-<area shape="poly" id="edge6_Node000001_Node000007" title=" " alt="" coords="172,183,230,223,227,227,169,187"/>
-<area shape="rect" id="Node000002" href="$d0/db5/classFsBaseFile.html" title="FsBaseFile class." alt="" coords="27,79,151,104"/>
-<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="108,113,135,150,131,153,103,117"/>
-<area shape="rect" id="Node000003" href="$df/d02/classios.html" title="Error and state information for all streams." alt="" coords="175,79,216,104"/>
-<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="181,117,153,153,149,150,176,113"/>
-<area shape="rect" id="Node000004" href="$d4/dc1/classios__base.html" title="Base class for all streams." alt="" coords="156,5,235,31"/>
-<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="198,44,198,79,193,79,193,44"/>
+<area shape="rect" id="Node000001" title="base type for FAT and exFAT streams" alt="" coords="215,2353,433,2712"/>
+<area shape="rect" id="Node000005" href="$d7/df9/classfstream.xhtml" title="file input/output stream." alt="" coords="5,2760,192,2999"/>
+<area shape="poly" id="edge4_Node000001_Node000005" title=" " alt="" coords="210,2714,178,2761,174,2758,205,2711"/>
+<area shape="rect" id="Node000006" href="$d0/d68/classifstream.xhtml" title="file input stream." alt="" coords="217,2782,431,2977"/>
+<area shape="poly" id="edge5_Node000001_Node000006" title=" " alt="" coords="327,2726,327,2782,321,2782,321,2726"/>
+<area shape="rect" id="Node000007" href="$d9/d93/classofstream.xhtml" title="file output stream." alt="" coords="456,2775,680,2984"/>
+<area shape="poly" id="edge6_Node000001_Node000007" title=" " alt="" coords="443,2698,497,2773,492,2776,439,2701"/>
+<area shape="rect" id="Node000002" href="$d3/db4/classFatFile.xhtml" title="Basic file class." alt="" coords="110,756,322,2305"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="304,2319,307,2353,302,2353,298,2319"/>
+<area shape="rect" id="Node000003" href="$df/d02/classios.xhtml" title="Error and state information for all streams." alt="" coords="347,1376,520,1685"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="418,1699,346,2353,341,2353,412,1699"/>
+<area shape="rect" id="Node000004" href="$d4/dc1/classios__base.xhtml" title="Base class for all streams." alt="" coords="329,5,538,708"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="436,722,436,1376,431,1376,431,722"/>
 </map>

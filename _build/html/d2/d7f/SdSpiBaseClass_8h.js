@@ -1,4 +1,4 @@
 var SdSpiBaseClass_8h =
 [
-    [ "SdSpiBaseClass", "d4/ded/classSdSpiBaseClass.html", "d4/ded/classSdSpiBaseClass" ]
+    [ "SdSpiBaseClass", "d4/ded/classSdSpiBaseClass.xhtml", "d4/ded/classSdSpiBaseClass" ]
 ];

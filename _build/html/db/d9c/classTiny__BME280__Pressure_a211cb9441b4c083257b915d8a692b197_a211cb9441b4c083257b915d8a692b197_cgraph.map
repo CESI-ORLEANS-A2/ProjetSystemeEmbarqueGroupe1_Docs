@@ -1,0 +1,12 @@
+<map id="Tiny_BME280_Pressure::getEvent" name="Tiny_BME280_Pressure::getEvent">
+<area shape="rect" id="Node000001" title="Gets the pressure as a standard sensor event." alt="" coords="5,23,179,63"/>
+<area shape="rect" id="Node000002" href="$d5/df3/wiring_8c_a6ff7f2532a22366f0013bc41397129fd.xhtml#a6ff7f2532a22366f0013bc41397129fd" title=" " alt="" coords="299,5,357,31"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="179,31,285,20,285,25,179,37"/>
+<area shape="rect" id="Node000003" href="$d4/d1b/classTiny__BME280_a6d9bd7e6e3ec84d4dbaaf4fd0292344f.xhtml#a6d9bd7e6e3ec84d4dbaaf4fd0292344f" title="Returns the pressure from the sensor." alt="" coords="227,55,429,80"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="179,49,213,53,213,58,179,55"/>
+<area shape="rect" id="Node000004" href="$d4/d1b/classTiny__BME280_ab2b70e2d8fb9580e63f5c4288e041a42.xhtml#ab2b70e2d8fb9580e63f5c4288e041a42" title="Reads a 24 bit value over I2C." alt="" coords="755,55,917,80"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="430,65,741,65,741,70,430,70"/>
+<area shape="rect" id="Node000005" href="$d4/d1b/classTiny__BME280_a106df67231caaea5cf96824d908efff0.xhtml#a106df67231caaea5cf96824d908efff0" title="Returns the temperature from the sensor." alt="" coords="477,80,707,105"/>
+<area shape="poly" id="edge4_Node000003_Node000005" title=" " alt="" coords="430,74,464,78,463,83,429,80"/>
+<area shape="poly" id="edge5_Node000005_Node000004" title=" " alt="" coords="707,78,741,75,741,80,707,83"/>
+</map>

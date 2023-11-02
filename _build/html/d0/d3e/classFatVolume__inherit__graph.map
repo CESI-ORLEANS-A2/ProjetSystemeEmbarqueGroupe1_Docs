@@ -1,9 +1,9 @@
 <map id="FatVolume" name="FatVolume">
-<area shape="rect" id="Node000001" title="Integration class for the FatLib library." alt="" coords="39,79,129,104"/>
-<area shape="rect" id="Node000003" href="$da/d81/classSdBase.html" title=" " alt="" coords="5,152,163,192"/>
-<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="87,118,87,152,81,152,81,118"/>
-<area shape="rect" id="Node000002" href="$d8/d15/classFatPartition.html" title="Access FAT16 and FAT32 partitions on raw file devices." alt="" coords="37,5,131,31"/>
-<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="87,44,87,79,81,79,81,44"/>
-<area shape="rect" id="Node000004" href="$d6/d4c/classSdFat32.html" title="SD file system class for FAT volumes." alt="" coords="47,240,121,265"/>
-<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="87,206,87,240,81,240,81,206"/>
+<area shape="rect" id="Node000001" title="Integration class for the FatLib library." alt="" coords="25,1220,222,1756"/>
+<area shape="rect" id="Node000003" href="$da/d81/classSdBase.xhtml" title=" " alt="" coords="13,1804,234,2221"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="126,1770,126,1804,121,1804,121,1770"/>
+<area shape="rect" id="Node000002" href="$d8/d15/classFatPartition.xhtml" title="Access FAT16 and FAT32 partitions on raw file devices." alt="" coords="5,5,241,1172"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="126,1186,126,1220,121,1220,121,1186"/>
+<area shape="rect" id="Node000004" href="$d6/d4c/classSdFat32.xhtml" title="SD file system class for FAT volumes." alt="" coords="91,2269,156,2335"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="126,2235,126,2269,121,2269,121,2235"/>
 </map>

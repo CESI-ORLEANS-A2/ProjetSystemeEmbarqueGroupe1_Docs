@@ -1,3 +1,5 @@
 <map id="Graphe hiérarchique des classes" name="Graphe hiérarchique des classes">
-<area shape="rect" id="Node000000" href="$d4/d1b/classTiny__BME280.html" title="Class that stores state and functions for interacting with BME280 IC." alt="" coords="5,5,116,31"/>
+<area shape="rect" id="Node000000" href="$d8/d18/classSdSpiSoftDriver.xhtml" title="Base class for external soft SPI." alt="" coords="5,13,128,38"/>
+<area shape="rect" id="Node000001" href="$de/d80/classSoftSpiDriver.xhtml" title="Class for external soft SPI." alt="" coords="176,5,353,45"/>
+<area shape="poly" id="edge72_Node000000_Node000001" title=" " alt="" coords="142,23,176,23,176,28,142,28"/>
 </map>

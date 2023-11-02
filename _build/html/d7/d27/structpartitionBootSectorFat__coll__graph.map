@@ -1,7 +1,7 @@
 <map id="partitionBootSectorFat" name="partitionBootSectorFat">
-<area shape="rect" id="Node000001" title=" " alt="" coords="121,93,287,119"/>
-<area shape="rect" id="Node000002" href="$d3/d54/structbiosParameterBlockFat16.html" title=" " alt="" coords="5,5,192,31"/>
-<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="125,37,191,91,188,95,122,41"/>
-<area shape="rect" id="Node000003" href="$d5/d85/structbiosParameterBlockFat32.html" title=" " alt="" coords="216,5,403,31"/>
-<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="286,41,220,95,217,91,283,37"/>
+<area shape="rect" id="Node000001" title=" " alt="" coords="133,333,328,513"/>
+<area shape="rect" id="Node000002" href="$d3/d54/structbiosParameterBlockFat16.xhtml" title=" " alt="" coords="5,5,219,271"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="170,270,190,317,185,319,165,272"/>
+<area shape="rect" id="Node000003" href="$d5/d85/structbiosParameterBlockFat32.xhtml" title=" " alt="" coords="243,5,456,271"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="297,272,277,319,272,317,292,270"/>
 </map>

@@ -1,0 +1,15 @@
+<map id="readGPS" name="readGPS">
+<area shape="rect" id="Node000001" title="Lit les données GPS." alt="" coords="5,31,83,56"/>
+<area shape="rect" id="Node000002" href="$d2/de7/classSoftwareSerial_a4cbf77a4e90e15ca576972d7952659c5.xhtml#a4cbf77a4e90e15ca576972d7952659c5" title=" " alt="" coords="131,5,315,31"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="83,35,119,30,120,35,83,41"/>
+<area shape="rect" id="Node000004" href="$dc/de8/classStream_af84672a4fb2620466958d3118d4fea00.xhtml#af84672a4fb2620466958d3118d4fea00" title=" " alt="" coords="135,55,310,80"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="83,46,122,51,122,56,83,51"/>
+<area shape="rect" id="Node000003" href="$d2/de7/classSoftwareSerial_a7b3fb4a8f57d2b5f2233f841d71ef80f.xhtml#a7b3fb4a8f57d2b5f2233f841d71ef80f" title=" " alt="" coords="363,5,557,31"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="315,15,349,15,349,21,315,21"/>
+<area shape="rect" id="Node000005" href="$dc/de8/classStream_a416a0ada5ed3c9d27f1e72c7d73f0aa1.xhtml#a416a0ada5ed3c9d27f1e72c7d73f0aa1" title=" " alt="" coords="386,55,534,80"/>
+<area shape="poly" id="edge4_Node000004_Node000005" title=" " alt="" coords="310,65,372,65,372,70,310,70"/>
+<area shape="rect" id="Node000006" href="$d5/df3/wiring_8c_a6ff7f2532a22366f0013bc41397129fd.xhtml#a6ff7f2532a22366f0013bc41397129fd" title=" " alt="" coords="629,29,688,55"/>
+<area shape="poly" id="edge5_Node000005_Node000006" title=" " alt="" coords="534,55,616,45,616,50,535,61"/>
+<area shape="rect" id="Node000007" href="$dc/de8/classStream_aea5dee9fcb038148515b7c9212d38dc0.xhtml#aea5dee9fcb038148515b7c9212d38dc0" title=" " alt="" coords="605,79,712,104"/>
+<area shape="poly" id="edge6_Node000005_Node000007" title=" " alt="" coords="535,74,592,81,591,86,534,79"/>
+</map>

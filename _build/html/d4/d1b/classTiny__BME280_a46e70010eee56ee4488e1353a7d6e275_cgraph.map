@@ -1,9 +1,0 @@
-<map id="Tiny_BME280::takeForcedMeasurement" name="Tiny_BME280::takeForcedMeasurement">
-<area shape="rect" id="Node000001" title="Take a new measurement (only possible in forced mode)" alt="" coords="5,55,284,80"/>
-<area shape="rect" id="Node000002" href="$d6/d58/structTiny__BME280_1_1ctrl__meas.html#a696b8d72794d352a5b33b92dcc575200" title=" " alt="" coords="332,5,543,31"/>
-<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="220,52,347,30,348,36,221,57"/>
-<area shape="rect" id="Node000003" href="$d4/d1b/classTiny__BME280.html#a631cc94459e8f0cdb46caacf6266eb57" title="Reads an 8 bit value over I2C." alt="" coords="360,55,515,80"/>
-<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="284,65,346,65,346,70,284,70"/>
-<area shape="rect" id="Node000004" href="$d4/d1b/classTiny__BME280.html#ad9a42aed9801eb95065745eabdf7e670" title="Writes an 8 bit value over I2C." alt="" coords="358,104,517,129"/>
-<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="221,77,348,99,347,104,220,83"/>
-</map>

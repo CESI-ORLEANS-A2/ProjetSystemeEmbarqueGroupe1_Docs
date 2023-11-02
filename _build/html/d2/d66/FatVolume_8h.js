@@ -1,4 +1,4 @@
 var FatVolume_8h =
 [
-    [ "FatVolume", "d3/dd5/classFatVolume.html", "d3/dd5/classFatVolume" ]
+    [ "FatVolume", "d3/dd5/classFatVolume.xhtml", "d3/dd5/classFatVolume" ]
 ];

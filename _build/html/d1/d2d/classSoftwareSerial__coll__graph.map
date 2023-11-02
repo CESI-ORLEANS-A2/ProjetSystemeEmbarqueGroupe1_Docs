@@ -1,6 +1,8 @@
 <map id="SoftwareSerial" name="SoftwareSerial">
-<area shape="rect" id="Node000001" title=" " alt="" coords="5,80,121,105"/>
-<area shape="poly" id="edge2_Node000001_Node000001" title=" " alt="" coords="136,85,148,93,140,100,122,102,121,97,138,95,143,93,134,90"/>
-<area shape="rect" id="Node000002" title=" " alt="" coords="29,5,98,31"/>
-<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="66,45,66,80,61,80,61,45"/>
+<area shape="rect" id="Node000001" title=" " alt="" coords="39,1143,247,2057"/>
+<area shape="poly" id="edge3_Node000001_Node000001" title=" " alt="" coords="250,1519,260,1531,267,1549,274,1600,270,1639,260,1668,255,1666,265,1638,269,1600,262,1551,255,1534,246,1522"/>
+<area shape="rect" id="Node000002" href="$dc/de8/classStream.xhtml" title=" " alt="" coords="5,556,281,1093"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="146,1107,146,1142,141,1142,141,1107"/>
+<area shape="rect" id="Node000003" href="$d9/df9/classPrint.xhtml" title=" " alt="" coords="50,5,237,507"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="146,520,146,556,141,556,141,520"/>
 </map>

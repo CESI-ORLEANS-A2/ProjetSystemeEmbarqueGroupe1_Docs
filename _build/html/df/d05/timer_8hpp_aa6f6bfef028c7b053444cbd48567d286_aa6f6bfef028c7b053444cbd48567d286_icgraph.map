@@ -1,0 +1,13 @@
+<map id="stopTimer" name="stopTimer">
+<area shape="rect" id="Node000001" title="Arrête le timer." alt="" coords="575,31,663,56"/>
+<area shape="rect" id="Node000002" href="$d9/d52/buttons_8cpp_a54d82e2e60914d150743dcfe6ddbbece.xhtml#a54d82e2e60914d150743dcfe6ddbbece" title="Fonction appelée lors de l&#39;appui sur le bouton vert ou rouge." alt="" coords="412,5,527,31"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="561,36,526,30,527,25,562,31"/>
+<area shape="rect" id="Node000006" href="$dc/de5/timer_8cpp_ad39420cdd896dd12c68e36313139d0a5.xhtml#ad39420cdd896dd12c68e36313139d0a5" title="Fonction exécutée à chaque interruption du timer." alt="" coords="448,55,491,80"/>
+<area shape="poly" id="edge5_Node000001_Node000006" title=" " alt="" coords="562,55,491,67,490,61,561,50"/>
+<area shape="rect" id="Node000003" href="$d9/d52/buttons_8cpp_a82677b3df6b653b673a4b1735af9d45d.xhtml#a82677b3df6b653b673a4b1735af9d45d" title="Initialise les interruptions sur les boutons." alt="" coords="215,5,364,31"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="399,21,365,21,365,15,399,15"/>
+<area shape="rect" id="Node000004" href="$de/dfb/src_2main_8cpp_a4fc01d736fe50cf5b977f755b675f11d.xhtml#a4fc01d736fe50cf5b977f755b675f11d" title=" " alt="" coords="108,5,167,31"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="201,21,167,21,167,15,201,15"/>
+<area shape="rect" id="Node000005" href="$d2/d81/libs_2Arduino__AVR_2main_8cpp_a840291bc02cba5474a4cb46a9b9566fe.xhtml#a840291bc02cba5474a4cb46a9b9566fe" title=" " alt="" coords="5,5,60,31"/>
+<area shape="poly" id="edge4_Node000004_Node000005" title=" " alt="" coords="94,21,60,21,60,15,94,15"/>
+</map>

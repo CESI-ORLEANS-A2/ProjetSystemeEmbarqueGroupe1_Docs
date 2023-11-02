@@ -1,7 +1,9 @@
 <map id="SoftSpiDriver&lt; MisoPin, MosiPin, SckPin &gt;" name="SoftSpiDriver&lt; MisoPin, MosiPin, SckPin &gt;">
-<area shape="rect" id="Node000001" title="Class for external soft SPI." alt="" coords="70,108,247,148"/>
-<area shape="rect" id="Node000002" href="$d8/d18/classSdSpiSoftDriver.html" title="Base class for external soft SPI." alt="" coords="5,13,128,38"/>
-<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="88,46,143,106,139,110,84,50"/>
-<area shape="rect" id="Node000003" href="$d6/dbf/classSoftSPI.html" title=" " alt="" coords="153,5,349,45"/>
-<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="226,57,178,110,174,106,222,54"/>
+<area shape="rect" id="Node000001" title="Class for external soft SPI." alt="" coords="37,1780,217,1900"/>
+<area shape="rect" id="Node000002" href="$d8/d18/classSdSpiSoftDriver.xhtml" title="Base class for external soft SPI." alt="" coords="5,1149,207,1468"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="116,1482,128,1780,122,1780,110,1482"/>
+<area shape="rect" id="Node000003" href="$d6/dbf/classSoftSPI.xhtml" title=" " alt="" coords="231,900,493,1717"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="234,1695,222,1719,190,1768,185,1765,217,1716,229,1693"/>
+<area shape="rect" id="Node000004" href="$d6/dbf/classSoftSPI.xhtml" title="Fast software SPI." alt="" coords="231,5,493,823"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="365,837,365,900,359,900,359,837"/>
 </map>

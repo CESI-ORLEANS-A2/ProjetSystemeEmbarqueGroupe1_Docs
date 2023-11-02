@@ -1,0 +1,9 @@
+<map id="Tiny_BME280::readHumidity" name="Tiny_BME280::readHumidity">
+<area shape="rect" id="Node000001" title="Returns the humidity from the sensor." alt="" coords="5,31,212,56"/>
+<area shape="rect" id="Node000002" href="$d4/d1b/classTiny__BME280_a336e34f6d83b30ea2fd7da60954cccb1.xhtml#a336e34f6d83b30ea2fd7da60954cccb1" title="Reads a 16 bit value over I2C." alt="" coords="293,5,456,31"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="212,31,280,24,280,30,212,36"/>
+<area shape="rect" id="Node000003" href="$d4/d1b/classTiny__BME280_a106df67231caaea5cf96824d908efff0.xhtml#a106df67231caaea5cf96824d908efff0" title="Returns the temperature from the sensor." alt="" coords="260,55,489,80"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="212,50,247,53,246,58,212,55"/>
+<area shape="rect" id="Node000004" href="$d4/d1b/classTiny__BME280_ab2b70e2d8fb9580e63f5c4288e041a42.xhtml#ab2b70e2d8fb9580e63f5c4288e041a42" title="Reads a 24 bit value over I2C." alt="" coords="537,55,700,80"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="490,65,524,65,524,70,490,70"/>
+</map>

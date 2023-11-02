@@ -1,9 +1,9 @@
 <map id="SdioCard" name="SdioCard">
-<area shape="rect" id="Node000001" title="Raw SDIO access to SD and SDHC flash memory cards." alt="" coords="120,168,200,193"/>
-<area shape="rect" id="Node000002" href="$d9/d18/classSdCardInterface.html" title="Abstract interface for an SD card." alt="" coords="30,80,157,105"/>
-<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="113,115,153,166,149,169,109,118"/>
-<area shape="rect" id="Node000003" href="$d8/d44/classFsBlockDeviceInterface.html" title="FsBlockDeviceInterface class." alt="" coords="5,5,181,31"/>
-<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="96,45,96,80,91,80,91,45"/>
-<area shape="rect" id="Node000004" href="$d0/d30/classSdioConfig.html" title="SDIO card configuration." alt="" coords="181,80,272,105"/>
-<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="211,118,171,169,167,166,207,115"/>
+<area shape="rect" id="Node000001" title="Raw SDIO access to SD and SDHC flash memory cards." alt="" coords="187,901,387,1423"/>
+<area shape="rect" id="Node000002" href="$d9/d18/classSdCardInterface.xhtml" title="Abstract interface for an SD card." alt="" coords="32,397,228,839"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="200,851,214,900,209,902,195,853"/>
+<area shape="rect" id="Node000003" href="$d8/d44/classFsBlockDeviceInterface.xhtml" title="FsBlockDeviceInterface class." alt="" coords="5,5,255,348"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="133,362,133,397,127,397,127,362"/>
+<area shape="rect" id="Node000004" href="$d0/d30/classSdioConfig.xhtml" title="SDIO card configuration." alt="" coords="252,555,429,681"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="337,681,317,885,312,885,332,681"/>
 </map>

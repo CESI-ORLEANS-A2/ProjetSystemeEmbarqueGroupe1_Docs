@@ -1,0 +1,16 @@
+<map id="switchToMode" name="switchToMode">
+<area shape="rect" id="Node000001" title="Change le mode actuel." alt="" coords="776,31,891,56"/>
+<area shape="rect" id="Node000002" href="$d9/d88/mode_8cpp_aebf1ca4bb83f667202b4a32cc7d3e2a9.xhtml#aebf1ca4bb83f667202b4a32cc7d3e2a9" title="Réalise le changement de mode lorsqu&#39;on appuie sur le bouton vert pendant BUTTON_DELAY." alt="" coords="575,5,728,31"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="762,36,728,31,729,26,763,31"/>
+<area shape="rect" id="Node000007" href="$d9/d88/mode_8cpp_abfb388c3517fd2ecbd1a89e7e15e43fd.xhtml#abfb388c3517fd2ecbd1a89e7e15e43fd" title="Réalise le changement de mode lorsqu&#39;on appuie sur le bouton rouge pendant BUTTON_DELAY." alt="" coords="583,55,720,80"/>
+<area shape="poly" id="edge6_Node000001_Node000007" title=" " alt="" coords="763,55,720,61,720,56,762,50"/>
+<area shape="rect" id="Node000003" href="$d9/d52/buttons_8cpp_a54d82e2e60914d150743dcfe6ddbbece.xhtml#a54d82e2e60914d150743dcfe6ddbbece" title="Fonction appelée lors de l&#39;appui sur le bouton vert ou rouge." alt="" coords="412,31,527,56"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="561,33,527,38,527,33,561,28"/>
+<area shape="rect" id="Node000004" href="$d9/d52/buttons_8cpp_a82677b3df6b653b673a4b1735af9d45d.xhtml#a82677b3df6b653b673a4b1735af9d45d" title="Initialise les interruptions sur les boutons." alt="" coords="215,31,364,56"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="399,46,365,46,365,41,399,41"/>
+<area shape="rect" id="Node000005" href="$de/dfb/src_2main_8cpp_a4fc01d736fe50cf5b977f755b675f11d.xhtml#a4fc01d736fe50cf5b977f755b675f11d" title=" " alt="" coords="108,31,167,56"/>
+<area shape="poly" id="edge4_Node000004_Node000005" title=" " alt="" coords="201,46,167,46,167,41,201,41"/>
+<area shape="rect" id="Node000006" href="$d2/d81/libs_2Arduino__AVR_2main_8cpp_a840291bc02cba5474a4cb46a9b9566fe.xhtml#a840291bc02cba5474a4cb46a9b9566fe" title=" " alt="" coords="5,31,60,56"/>
+<area shape="poly" id="edge5_Node000005_Node000006" title=" " alt="" coords="94,46,60,46,60,41,94,41"/>
+<area shape="poly" id="edge7_Node000007_Node000003" title=" " alt="" coords="568,59,527,53,527,48,569,54"/>
+</map>

@@ -24,98 +24,99 @@
 */
 var NAVTREE =
 [
-  [ "Station_Méteo_Groupe_1", "index.html", [
-    [ "Station Météo", "index.html", "index" ],
-    [ "Adafruit Unified Sensor Driver", "d3/d69/md__2mnt_2d_2Cours_210_8_01CESI_01A2_2Blocs_201_01-_01Systeme_01embarque_2Livrables_2Station__Mef5b7787abfbb1ce146eb1e5b49bdd10c.html", [
-      [ "Unified Sensor Drivers", "d3/d69/md__2mnt_2d_2Cours_210_8_01CESI_01A2_2Blocs_201_01-_01Systeme_01embarque_2Livrables_2Station__Mef5b7787abfbb1ce146eb1e5b49bdd10c.html#autotoc_md1", null ],
-      [ "How Does it Work?", "d3/d69/md__2mnt_2d_2Cours_210_8_01CESI_01A2_2Blocs_201_01-_01Systeme_01embarque_2Livrables_2Station__Mef5b7787abfbb1ce146eb1e5b49bdd10c.html#autotoc_md2", null ],
-      [ "Sensor Types (<tt>sensors_type_t</tt>)", "d3/d69/md__2mnt_2d_2Cours_210_8_01CESI_01A2_2Blocs_201_01-_01Systeme_01embarque_2Livrables_2Station__Mef5b7787abfbb1ce146eb1e5b49bdd10c.html#autotoc_md3", null ],
-      [ "Sensor Details (<tt>sensor_t</tt>)", "d3/d69/md__2mnt_2d_2Cours_210_8_01CESI_01A2_2Blocs_201_01-_01Systeme_01embarque_2Livrables_2Station__Mef5b7787abfbb1ce146eb1e5b49bdd10c.html#autotoc_md4", null ],
-      [ "Sensor Data/Events (<tt>sensors_event_t</tt>)", "d3/d69/md__2mnt_2d_2Cours_210_8_01CESI_01A2_2Blocs_201_01-_01Systeme_01embarque_2Livrables_2Station__Mef5b7787abfbb1ce146eb1e5b49bdd10c.html#autotoc_md5", null ],
-      [ "Required Functions", "d3/d69/md__2mnt_2d_2Cours_210_8_01CESI_01A2_2Blocs_201_01-_01Systeme_01embarque_2Livrables_2Station__Mef5b7787abfbb1ce146eb1e5b49bdd10c.html#autotoc_md6", null ],
-      [ "Standardised SI values for <tt>sensors_event_t</tt>", "d3/d69/md__2mnt_2d_2Cours_210_8_01CESI_01A2_2Blocs_201_01-_01Systeme_01embarque_2Livrables_2Station__Mef5b7787abfbb1ce146eb1e5b49bdd10c.html#autotoc_md7", null ],
-      [ "The Unified Driver Abstraction Layer in Practice", "d3/d69/md__2mnt_2d_2Cours_210_8_01CESI_01A2_2Blocs_201_01-_01Systeme_01embarque_2Livrables_2Station__Mef5b7787abfbb1ce146eb1e5b49bdd10c.html#autotoc_md8", null ]
+  [ "Station_Méteo_Groupe_1", "index.xhtml", [
+    [ "Station Météo", "index.xhtml", "index" ],
+    [ "Adafruit Unified Sensor Driver", "d4/db3/md__2mnt_2d_2Cours_210_8_01CESI_01A2_2Blocs_201_01-_01Systeme_01embarque_2Livrables_2Station__Mec845b59da63edcbfcd60023e4b5a13bd.xhtml", [
+      [ "Unified Sensor Drivers", "d4/db3/md__2mnt_2d_2Cours_210_8_01CESI_01A2_2Blocs_201_01-_01Systeme_01embarque_2Livrables_2Station__Mec845b59da63edcbfcd60023e4b5a13bd.xhtml#autotoc_md1", null ],
+      [ "How Does it Work?", "d4/db3/md__2mnt_2d_2Cours_210_8_01CESI_01A2_2Blocs_201_01-_01Systeme_01embarque_2Livrables_2Station__Mec845b59da63edcbfcd60023e4b5a13bd.xhtml#autotoc_md2", null ],
+      [ "Sensor Types (<tt>sensors_type_t</tt>)", "d4/db3/md__2mnt_2d_2Cours_210_8_01CESI_01A2_2Blocs_201_01-_01Systeme_01embarque_2Livrables_2Station__Mec845b59da63edcbfcd60023e4b5a13bd.xhtml#autotoc_md3", null ],
+      [ "Sensor Details (<tt>sensor_t</tt>)", "d4/db3/md__2mnt_2d_2Cours_210_8_01CESI_01A2_2Blocs_201_01-_01Systeme_01embarque_2Livrables_2Station__Mec845b59da63edcbfcd60023e4b5a13bd.xhtml#autotoc_md4", null ],
+      [ "Sensor Data/Events (<tt>sensors_event_t</tt>)", "d4/db3/md__2mnt_2d_2Cours_210_8_01CESI_01A2_2Blocs_201_01-_01Systeme_01embarque_2Livrables_2Station__Mec845b59da63edcbfcd60023e4b5a13bd.xhtml#autotoc_md5", null ],
+      [ "Required Functions", "d4/db3/md__2mnt_2d_2Cours_210_8_01CESI_01A2_2Blocs_201_01-_01Systeme_01embarque_2Livrables_2Station__Mec845b59da63edcbfcd60023e4b5a13bd.xhtml#autotoc_md6", null ],
+      [ "Standardised SI values for <tt>sensors_event_t</tt>", "d4/db3/md__2mnt_2d_2Cours_210_8_01CESI_01A2_2Blocs_201_01-_01Systeme_01embarque_2Livrables_2Station__Mec845b59da63edcbfcd60023e4b5a13bd.xhtml#autotoc_md7", null ],
+      [ "The Unified Driver Abstraction Layer in Practice", "d4/db3/md__2mnt_2d_2Cours_210_8_01CESI_01A2_2Blocs_201_01-_01Systeme_01embarque_2Livrables_2Station__Mec845b59da63edcbfcd60023e4b5a13bd.xhtml#autotoc_md8", null ]
     ] ],
-    [ "Atmel AVR Microcontroller", "d2/d97/md__2mnt_2d_2Cours_210_8_01CESI_01A2_2Blocs_201_01-_01Systeme_01embarque_2Livrables_2Station__Mef33c993429effa3a0b01f62685a212bb.html", [
-      [ "Unique Serial ID - Hidden Serial Number", "d2/d97/md__2mnt_2d_2Cours_210_8_01CESI_01A2_2Blocs_201_01-_01Systeme_01embarque_2Livrables_2Station__Mef33c993429effa3a0b01f62685a212bb.html#autotoc_md10", null ],
-      [ "Tested Microcontroller", "d2/d97/md__2mnt_2d_2Cours_210_8_01CESI_01A2_2Blocs_201_01-_01Systeme_01embarque_2Livrables_2Station__Mef33c993429effa3a0b01f62685a212bb.html#autotoc_md11", null ],
-      [ "Disclaimer", "d2/d97/md__2mnt_2d_2Cours_210_8_01CESI_01A2_2Blocs_201_01-_01Systeme_01embarque_2Livrables_2Station__Mef33c993429effa3a0b01f62685a212bb.html#autotoc_md12", null ],
-      [ "Atmel SAM ARM Microcontroller", "d2/d97/md__2mnt_2d_2Cours_210_8_01CESI_01A2_2Blocs_201_01-_01Systeme_01embarque_2Livrables_2Station__Mef33c993429effa3a0b01f62685a212bb.html#autotoc_md13", [
-        [ "Tested Microcontroller", "d2/d97/md__2mnt_2d_2Cours_210_8_01CESI_01A2_2Blocs_201_01-_01Systeme_01embarque_2Livrables_2Station__Mef33c993429effa3a0b01f62685a212bb.html#autotoc_md14", null ]
+    [ "Arduino AVR Boards", "dd/dc0/md__2mnt_2d_2Cours_210_8_01CESI_01A2_2Blocs_201_01-_01Systeme_01embarque_2Livrables_2Station__Me0bad9603b7112808ad0ffbbe343ce586.xhtml", null ],
+    [ "Atmel AVR Microcontroller", "d9/de4/md__2mnt_2d_2Cours_210_8_01CESI_01A2_2Blocs_201_01-_01Systeme_01embarque_2Livrables_2Station__Me3844eaf273fc5d7420986bf08e8f7306.xhtml", [
+      [ "Unique Serial ID - Hidden Serial Number", "d9/de4/md__2mnt_2d_2Cours_210_8_01CESI_01A2_2Blocs_201_01-_01Systeme_01embarque_2Livrables_2Station__Me3844eaf273fc5d7420986bf08e8f7306.xhtml#autotoc_md10", null ],
+      [ "Tested Microcontroller", "d9/de4/md__2mnt_2d_2Cours_210_8_01CESI_01A2_2Blocs_201_01-_01Systeme_01embarque_2Livrables_2Station__Me3844eaf273fc5d7420986bf08e8f7306.xhtml#autotoc_md11", null ],
+      [ "Disclaimer", "d9/de4/md__2mnt_2d_2Cours_210_8_01CESI_01A2_2Blocs_201_01-_01Systeme_01embarque_2Livrables_2Station__Me3844eaf273fc5d7420986bf08e8f7306.xhtml#autotoc_md12", null ],
+      [ "Atmel SAM ARM Microcontroller", "d9/de4/md__2mnt_2d_2Cours_210_8_01CESI_01A2_2Blocs_201_01-_01Systeme_01embarque_2Livrables_2Station__Me3844eaf273fc5d7420986bf08e8f7306.xhtml#autotoc_md13", [
+        [ "Tested Microcontroller", "d9/de4/md__2mnt_2d_2Cours_210_8_01CESI_01A2_2Blocs_201_01-_01Systeme_01embarque_2Livrables_2Station__Me3844eaf273fc5d7420986bf08e8f7306.xhtml#autotoc_md14", null ]
       ] ],
-      [ "Atmel SAMD ARM Microcontroller", "d2/d97/md__2mnt_2d_2Cours_210_8_01CESI_01A2_2Blocs_201_01-_01Systeme_01embarque_2Livrables_2Station__Mef33c993429effa3a0b01f62685a212bb.html#autotoc_md15", [
-        [ "Tested Microcontroller", "d2/d97/md__2mnt_2d_2Cours_210_8_01CESI_01A2_2Blocs_201_01-_01Systeme_01embarque_2Livrables_2Station__Mef33c993429effa3a0b01f62685a212bb.html#autotoc_md16", null ]
+      [ "Atmel SAMD ARM Microcontroller", "d9/de4/md__2mnt_2d_2Cours_210_8_01CESI_01A2_2Blocs_201_01-_01Systeme_01embarque_2Livrables_2Station__Me3844eaf273fc5d7420986bf08e8f7306.xhtml#autotoc_md15", [
+        [ "Tested Microcontroller", "d9/de4/md__2mnt_2d_2Cours_210_8_01CESI_01A2_2Blocs_201_01-_01Systeme_01embarque_2Livrables_2Station__Me3844eaf273fc5d7420986bf08e8f7306.xhtml#autotoc_md16", null ]
       ] ],
-      [ "STM32 Microcontroller", "d2/d97/md__2mnt_2d_2Cours_210_8_01CESI_01A2_2Blocs_201_01-_01Systeme_01embarque_2Livrables_2Station__Mef33c993429effa3a0b01f62685a212bb.html#autotoc_md17", [
-        [ "Tested Microcontroller", "d2/d97/md__2mnt_2d_2Cours_210_8_01CESI_01A2_2Blocs_201_01-_01Systeme_01embarque_2Livrables_2Station__Mef33c993429effa3a0b01f62685a212bb.html#autotoc_md18", null ]
+      [ "STM32 Microcontroller", "d9/de4/md__2mnt_2d_2Cours_210_8_01CESI_01A2_2Blocs_201_01-_01Systeme_01embarque_2Livrables_2Station__Me3844eaf273fc5d7420986bf08e8f7306.xhtml#autotoc_md17", [
+        [ "Tested Microcontroller", "d9/de4/md__2mnt_2d_2Cours_210_8_01CESI_01A2_2Blocs_201_01-_01Systeme_01embarque_2Livrables_2Station__Me3844eaf273fc5d7420986bf08e8f7306.xhtml#autotoc_md18", null ]
       ] ],
-      [ "Espressif ESP Microcontroller", "d2/d97/md__2mnt_2d_2Cours_210_8_01CESI_01A2_2Blocs_201_01-_01Systeme_01embarque_2Livrables_2Station__Mef33c993429effa3a0b01f62685a212bb.html#autotoc_md19", [
-        [ "Tested Microcontroller", "d2/d97/md__2mnt_2d_2Cours_210_8_01CESI_01A2_2Blocs_201_01-_01Systeme_01embarque_2Livrables_2Station__Mef33c993429effa3a0b01f62685a212bb.html#autotoc_md20", null ]
+      [ "Espressif ESP Microcontroller", "d9/de4/md__2mnt_2d_2Cours_210_8_01CESI_01A2_2Blocs_201_01-_01Systeme_01embarque_2Livrables_2Station__Me3844eaf273fc5d7420986bf08e8f7306.xhtml#autotoc_md19", [
+        [ "Tested Microcontroller", "d9/de4/md__2mnt_2d_2Cours_210_8_01CESI_01A2_2Blocs_201_01-_01Systeme_01embarque_2Livrables_2Station__Me3844eaf273fc5d7420986bf08e8f7306.xhtml#autotoc_md20", null ]
       ] ],
-      [ "Teensy", "d2/d97/md__2mnt_2d_2Cours_210_8_01CESI_01A2_2Blocs_201_01-_01Systeme_01embarque_2Livrables_2Station__Mef33c993429effa3a0b01f62685a212bb.html#autotoc_md21", null ],
-      [ "Raspberry Pi Pico - RP2040", "d2/d97/md__2mnt_2d_2Cours_210_8_01CESI_01A2_2Blocs_201_01-_01Systeme_01embarque_2Livrables_2Station__Mef33c993429effa3a0b01f62685a212bb.html#autotoc_md22", null ]
+      [ "Teensy", "d9/de4/md__2mnt_2d_2Cours_210_8_01CESI_01A2_2Blocs_201_01-_01Systeme_01embarque_2Livrables_2Station__Me3844eaf273fc5d7420986bf08e8f7306.xhtml#autotoc_md21", null ],
+      [ "Raspberry Pi Pico - RP2040", "d9/de4/md__2mnt_2d_2Cours_210_8_01CESI_01A2_2Blocs_201_01-_01Systeme_01embarque_2Livrables_2Station__Me3844eaf273fc5d7420986bf08e8f7306.xhtml#autotoc_md22", null ]
     ] ],
-    [ "ArduinoUniqueID", "d7/d5f/md__2mnt_2d_2Cours_210_8_01CESI_01A2_2Blocs_201_01-_01Systeme_01embarque_2Livrables_2Station__Me1ed7b3da44627e3637728d6a8059ec8e.html", [
-      [ "ArduinoUniqueID", "d7/d5f/md__2mnt_2d_2Cours_210_8_01CESI_01A2_2Blocs_201_01-_01Systeme_01embarque_2Livrables_2Station__Me1ed7b3da44627e3637728d6a8059ec8e.html#autotoc_md23", null ],
-      [ "Microcontrollers", "d7/d5f/md__2mnt_2d_2Cours_210_8_01CESI_01A2_2Blocs_201_01-_01Systeme_01embarque_2Livrables_2Station__Me1ed7b3da44627e3637728d6a8059ec8e.html#autotoc_md24", null ],
-      [ "Installation", "d7/d5f/md__2mnt_2d_2Cours_210_8_01CESI_01A2_2Blocs_201_01-_01Systeme_01embarque_2Livrables_2Station__Me1ed7b3da44627e3637728d6a8059ec8e.html#autotoc_md25", [
-        [ "Examples", "d7/d5f/md__2mnt_2d_2Cours_210_8_01CESI_01A2_2Blocs_201_01-_01Systeme_01embarque_2Livrables_2Station__Me1ed7b3da44627e3637728d6a8059ec8e.html#autotoc_md26", null ]
+    [ "ArduinoUniqueID", "d4/d7d/md__2mnt_2d_2Cours_210_8_01CESI_01A2_2Blocs_201_01-_01Systeme_01embarque_2Livrables_2Station__Me5182b53c28dc578eec2465f65473243f.xhtml", [
+      [ "ArduinoUniqueID", "d4/d7d/md__2mnt_2d_2Cours_210_8_01CESI_01A2_2Blocs_201_01-_01Systeme_01embarque_2Livrables_2Station__Me5182b53c28dc578eec2465f65473243f.xhtml#autotoc_md23", null ],
+      [ "Microcontrollers", "d4/d7d/md__2mnt_2d_2Cours_210_8_01CESI_01A2_2Blocs_201_01-_01Systeme_01embarque_2Livrables_2Station__Me5182b53c28dc578eec2465f65473243f.xhtml#autotoc_md24", null ],
+      [ "Installation", "d4/d7d/md__2mnt_2d_2Cours_210_8_01CESI_01A2_2Blocs_201_01-_01Systeme_01embarque_2Livrables_2Station__Me5182b53c28dc578eec2465f65473243f.xhtml#autotoc_md25", [
+        [ "Examples", "d4/d7d/md__2mnt_2d_2Cours_210_8_01CESI_01A2_2Blocs_201_01-_01Systeme_01embarque_2Livrables_2Station__Me5182b53c28dc578eec2465f65473243f.xhtml#autotoc_md26", null ]
       ] ],
-      [ "Reference", "d7/d5f/md__2mnt_2d_2Cours_210_8_01CESI_01A2_2Blocs_201_01-_01Systeme_01embarque_2Livrables_2Station__Me1ed7b3da44627e3637728d6a8059ec8e.html#autotoc_md28", [
-        [ "Include Library", "d7/d5f/md__2mnt_2d_2Cours_210_8_01CESI_01A2_2Blocs_201_01-_01Systeme_01embarque_2Livrables_2Station__Me1ed7b3da44627e3637728d6a8059ec8e.html#autotoc_md29", [
-          [ "Variable: UniqueID & UniqueIDsize", "d7/d5f/md__2mnt_2d_2Cours_210_8_01CESI_01A2_2Blocs_201_01-_01Systeme_01embarque_2Livrables_2Station__Me1ed7b3da44627e3637728d6a8059ec8e.html#autotoc_md30", null ],
-          [ "Method: UniqueIDdump", "d7/d5f/md__2mnt_2d_2Cours_210_8_01CESI_01A2_2Blocs_201_01-_01Systeme_01embarque_2Livrables_2Station__Me1ed7b3da44627e3637728d6a8059ec8e.html#autotoc_md31", null ],
-          [ "Variable: UniqueID8", "d7/d5f/md__2mnt_2d_2Cours_210_8_01CESI_01A2_2Blocs_201_01-_01Systeme_01embarque_2Livrables_2Station__Me1ed7b3da44627e3637728d6a8059ec8e.html#autotoc_md32", null ],
-          [ "Method: UniqueID8dump", "d7/d5f/md__2mnt_2d_2Cours_210_8_01CESI_01A2_2Blocs_201_01-_01Systeme_01embarque_2Livrables_2Station__Me1ed7b3da44627e3637728d6a8059ec8e.html#autotoc_md33", null ]
+      [ "Reference", "d4/d7d/md__2mnt_2d_2Cours_210_8_01CESI_01A2_2Blocs_201_01-_01Systeme_01embarque_2Livrables_2Station__Me5182b53c28dc578eec2465f65473243f.xhtml#autotoc_md28", [
+        [ "Include Library", "d4/d7d/md__2mnt_2d_2Cours_210_8_01CESI_01A2_2Blocs_201_01-_01Systeme_01embarque_2Livrables_2Station__Me5182b53c28dc578eec2465f65473243f.xhtml#autotoc_md29", [
+          [ "Variable: UniqueID & UniqueIDsize", "d4/d7d/md__2mnt_2d_2Cours_210_8_01CESI_01A2_2Blocs_201_01-_01Systeme_01embarque_2Livrables_2Station__Me5182b53c28dc578eec2465f65473243f.xhtml#autotoc_md30", null ],
+          [ "Method: UniqueIDdump", "d4/d7d/md__2mnt_2d_2Cours_210_8_01CESI_01A2_2Blocs_201_01-_01Systeme_01embarque_2Livrables_2Station__Me5182b53c28dc578eec2465f65473243f.xhtml#autotoc_md31", null ],
+          [ "Variable: UniqueID8", "d4/d7d/md__2mnt_2d_2Cours_210_8_01CESI_01A2_2Blocs_201_01-_01Systeme_01embarque_2Livrables_2Station__Me5182b53c28dc578eec2465f65473243f.xhtml#autotoc_md32", null ],
+          [ "Method: UniqueID8dump", "d4/d7d/md__2mnt_2d_2Cours_210_8_01CESI_01A2_2Blocs_201_01-_01Systeme_01embarque_2Livrables_2Station__Me5182b53c28dc578eec2465f65473243f.xhtml#autotoc_md33", null ]
         ] ]
       ] ]
     ] ],
-    [ "ChainableLED", "d3/df8/md__2mnt_2d_2Cours_210_8_01CESI_01A2_2Blocs_201_01-_01Systeme_01embarque_2Livrables_2Station__Me78ecd3f9736aeb3eac023d639936a212.html", [
-      [ "Installation", "d3/df8/md__2mnt_2d_2Cours_210_8_01CESI_01A2_2Blocs_201_01-_01Systeme_01embarque_2Livrables_2Station__Me78ecd3f9736aeb3eac023d639936a212.html#autotoc_md34", null ],
-      [ "Library Interface", "d3/df8/md__2mnt_2d_2Cours_210_8_01CESI_01A2_2Blocs_201_01-_01Systeme_01embarque_2Livrables_2Station__Me78ecd3f9736aeb3eac023d639936a212.html#autotoc_md35", null ]
+    [ "ChainableLED", "d2/d00/md__2mnt_2d_2Cours_210_8_01CESI_01A2_2Blocs_201_01-_01Systeme_01embarque_2Livrables_2Station__Mecc91f4eec421f6622cd4bc397a3ae2ac.xhtml", [
+      [ "Installation", "d2/d00/md__2mnt_2d_2Cours_210_8_01CESI_01A2_2Blocs_201_01-_01Systeme_01embarque_2Livrables_2Station__Mecc91f4eec421f6622cd4bc397a3ae2ac.xhtml#autotoc_md34", null ],
+      [ "Library Interface", "d2/d00/md__2mnt_2d_2Cours_210_8_01CESI_01A2_2Blocs_201_01-_01Systeme_01embarque_2Livrables_2Station__Mecc91f4eec421f6622cd4bc397a3ae2ac.xhtml#autotoc_md35", null ]
     ] ],
-    [ "RTC_DS1307", "d8/d93/md__2mnt_2d_2Cours_210_8_01CESI_01A2_2Blocs_201_01-_01Systeme_01embarque_2Livrables_2Station__Med6d877c669ba065ac1b295c32c871574.html", null ],
-    [ "Grove - Temp&Humi&Barometer Sensor (BME280)", "d2/d3f/md__2mnt_2d_2Cours_210_8_01CESI_01A2_2Blocs_201_01-_01Systeme_01embarque_2Livrables_2Station__Me14f7d412d6c16a964f7820767758101d.html", null ],
-    [ "LICENSE", "d0/de3/md__2mnt_2d_2Cours_210_8_01CESI_01A2_2Blocs_201_01-_01Systeme_01embarque_2Livrables_2Station__Mee01c9a08c4cf6393bbf386a06595f00f.html", null ],
-    [ "Warning: Major Reformat of Source in 2.2.2", "d4/d2e/md__2mnt_2d_2Cours_210_8_01CESI_01A2_2Blocs_201_01-_01Systeme_01embarque_2Livrables_2Station__Mec172b73fa0012f91ba835ff6a2b94ddd.html", null ],
-    [ "Tiny BME280 Library", "d8/de1/md__2mnt_2d_2Cours_210_8_01CESI_01A2_2Blocs_201_01-_01Systeme_01embarque_2Livrables_2Station__Me73b6079daf55b5e5443d2b7947b230fc.html", [
-      [ "Description", "d8/de1/md__2mnt_2d_2Cours_210_8_01CESI_01A2_2Blocs_201_01-_01Systeme_01embarque_2Livrables_2Station__Me73b6079daf55b5e5443d2b7947b230fc.html#autotoc_md42", null ],
-      [ "Setup", "d8/de1/md__2mnt_2d_2Cours_210_8_01CESI_01A2_2Blocs_201_01-_01Systeme_01embarque_2Livrables_2Station__Me73b6079daf55b5e5443d2b7947b230fc.html#autotoc_md43", null ],
-      [ "Example Usage", "d8/de1/md__2mnt_2d_2Cours_210_8_01CESI_01A2_2Blocs_201_01-_01Systeme_01embarque_2Livrables_2Station__Me73b6079daf55b5e5443d2b7947b230fc.html#autotoc_md44", null ]
+    [ "RTC_DS1307", "d9/d8f/md__2mnt_2d_2Cours_210_8_01CESI_01A2_2Blocs_201_01-_01Systeme_01embarque_2Livrables_2Station__Me1ce4e8679ecc67a3b38544e2786a3c6e.xhtml", [
+      [ "Description", "d9/d8f/md__2mnt_2d_2Cours_210_8_01CESI_01A2_2Blocs_201_01-_01Systeme_01embarque_2Livrables_2Station__Me1ce4e8679ecc67a3b38544e2786a3c6e.xhtml#autotoc_md37", null ]
     ] ],
-    [ "Topics", "topics.html", "topics" ],
-    [ "Espaces de nommage", "namespaces.html", [
-      [ "Liste des espaces de nommage", "namespaces.html", "namespaces_dup" ],
-      [ "Membres de l'espace de nommage", "namespacemembers.html", [
-        [ "Tout", "namespacemembers.html", null ],
-        [ "Fonctions", "namespacemembers_func.html", null ],
-        [ "Variables", "namespacemembers_vars.html", null ]
+    [ "Grove - Temp&Humi&Barometer Sensor (BME280)", "de/d8f/md__2mnt_2d_2Cours_210_8_01CESI_01A2_2Blocs_201_01-_01Systeme_01embarque_2Livrables_2Station__Mee12d345c7c9c2353584d262aa05a9cd1.xhtml", [
+      [ "Description", "de/d8f/md__2mnt_2d_2Cours_210_8_01CESI_01A2_2Blocs_201_01-_01Systeme_01embarque_2Livrables_2Station__Mee12d345c7c9c2353584d262aa05a9cd1.xhtml#autotoc_md40", null ]
+    ] ],
+    [ "SdFat", "df/da7/md__2mnt_2d_2Cours_210_8_01CESI_01A2_2Blocs_201_01-_01Systeme_01embarque_2Livrables_2Station__Meda5268a67611bb114456e0ecad14162d.xhtml", null ],
+    [ "Tiny BME280 Library", "d2/d96/md__2mnt_2d_2Cours_210_8_01CESI_01A2_2Blocs_201_01-_01Systeme_01embarque_2Livrables_2Station__Med2beca3b121611e54326357309b50836.xhtml", [
+      [ "Description", "d2/d96/md__2mnt_2d_2Cours_210_8_01CESI_01A2_2Blocs_201_01-_01Systeme_01embarque_2Livrables_2Station__Med2beca3b121611e54326357309b50836.xhtml#autotoc_md45", null ],
+      [ "Setup", "d2/d96/md__2mnt_2d_2Cours_210_8_01CESI_01A2_2Blocs_201_01-_01Systeme_01embarque_2Livrables_2Station__Med2beca3b121611e54326357309b50836.xhtml#autotoc_md46", null ],
+      [ "Example Usage", "d2/d96/md__2mnt_2d_2Cours_210_8_01CESI_01A2_2Blocs_201_01-_01Systeme_01embarque_2Livrables_2Station__Med2beca3b121611e54326357309b50836.xhtml#autotoc_md47", null ]
+    ] ],
+    [ "Topics", "topics.xhtml", "topics" ],
+    [ "Membres de l'espace de nommage", "namespacemembers.xhtml", [
+      [ "Tout", "namespacemembers.xhtml", null ],
+      [ "Fonctions", "namespacemembers_func.xhtml", null ],
+      [ "Variables", "namespacemembers_vars.xhtml", null ]
+    ] ],
+    [ "Classes", "annotated.xhtml", [
+      [ "Liste des classes", "annotated.xhtml", "annotated_dup" ],
+      [ "Index des classes", "classes.xhtml", null ],
+      [ "Hiérarchie des classes", "hierarchy.xhtml", "hierarchy" ],
+      [ "Membres de classe", "functions.xhtml", [
+        [ "Tout", "functions.xhtml", "functions_dup" ],
+        [ "Fonctions", "functions_func.xhtml", "functions_func" ],
+        [ "Variables", "functions_vars.xhtml", "functions_vars" ],
+        [ "Définitions de type", "functions_type.xhtml", null ],
+        [ "Énumérations", "functions_enum.xhtml", null ],
+        [ "Valeurs énumérées", "functions_eval.xhtml", null ],
+        [ "Fonctions associées", "functions_rela.xhtml", null ]
       ] ]
     ] ],
-    [ "Classes", "annotated.html", [
-      [ "Liste des classes", "annotated.html", "annotated_dup" ],
-      [ "Index des classes", "classes.html", null ],
-      [ "Hiérarchie des classes", "hierarchy.html", "hierarchy" ],
-      [ "Membres de classe", "functions.html", [
-        [ "Tout", "functions.html", "functions_dup" ],
-        [ "Fonctions", "functions_func.html", "functions_func" ],
-        [ "Variables", "functions_vars.html", "functions_vars" ],
-        [ "Définitions de type", "functions_type.html", null ],
-        [ "Énumérations", "functions_enum.html", null ],
-        [ "Valeurs énumérées", "functions_eval.html", null ],
-        [ "Fonctions associées", "functions_rela.html", null ]
-      ] ]
-    ] ],
-    [ "Fichiers", "files.html", [
-      [ "Liste des fichiers", "files.html", "files_dup" ],
-      [ "Membres de fichier", "globals.html", [
-        [ "Tout", "globals.html", "globals_dup" ],
-        [ "Fonctions", "globals_func.html", "globals_func" ],
-        [ "Variables", "globals_vars.html", "globals_vars" ],
-        [ "Définitions de type", "globals_type.html", null ],
-        [ "Énumérations", "globals_enum.html", null ],
-        [ "Valeurs énumérées", "globals_eval.html", null ],
-        [ "Macros", "globals_defs.html", "globals_defs" ]
+    [ "Fichiers", "files.xhtml", [
+      [ "Liste des fichiers", "files.xhtml", "files_dup" ],
+      [ "Membres de fichier", "globals.xhtml", [
+        [ "Tout", "globals.xhtml", "globals_dup" ],
+        [ "Fonctions", "globals_func.xhtml", "globals_func" ],
+        [ "Variables", "globals_vars.xhtml", "globals_vars" ],
+        [ "Définitions de type", "globals_type.xhtml", null ],
+        [ "Énumérations", "globals_enum.xhtml", null ],
+        [ "Valeurs énumérées", "globals_eval.xhtml", null ],
+        [ "Macros", "globals_defs.xhtml", "globals_defs" ]
       ] ]
     ] ]
   ] ]
@@ -123,21 +124,27 @@ var NAVTREE =
 
 var NAVTREEINDEX =
 [
-"annotated.html",
-"d0/db5/classFsBaseFile.html#a178a1cbe2bce19758a55bd00fa262732",
-"d1/dd3/SdSpiCard_8cpp.html",
-"d3/d69/md__2mnt_2d_2Cours_210_8_01CESI_01A2_2Blocs_201_01-_01Systeme_01embarque_2Livrables_2Station__Mef5b7787abfbb1ce146eb1e5b49bdd10c.html",
-"d4/d07/classistream.html#a8d66c960f75d5d53fdcf02515c63f660",
-"d4/d7f/FmtNumber_8cpp.html#a50a7eead509a2f9a10e506e46e50b857",
-"d5/d85/structbiosParameterBlockFat32.html#a18deed68924978fad173c7a68da1dd1e",
-"d6/d7f/classExFatFile.html#af601285f95db8398c140b3927cf9111c",
-"d8/d21/Adafruit__Sensor_8h.html#af0bc43b5dae696582a77176e6e4ff643ae19c28b874a4ef6706d44af6f373f743",
-"d9/d5f/FsDateTime_8h.html#a03dcde4088a9777bafb220b6970a5b76",
-"da/d81/classSdBase.html#a944f39156d399e73c7d64744a7c27329",
-"dc/d45/FsUtf_8h.html#ab19226a328a6cf5b54ae8c67ea69c17c",
-"de/d32/settings_8cpp.html#a0e9c3db9b01c9a667cbe93f8913b933a",
-"df/dd7/consts_8hpp.html#a43020279e4a300cb88e5f28307e07a7a",
-"globals_defs_a.html"
+"annotated.xhtml",
+"d0/db5/classFsBaseFile_a09a408e0ce91f045540b2a088177cec0.xhtml#a09a408e0ce91f045540b2a088177cec0",
+"d1/d9b/classStreamFile_a18a04d1e68a0c1e3e38e5712cd9bbc03.xhtml#a18a04d1e68a0c1e3e38e5712cd9bbc03",
+"d2/de7/classSoftwareSerial_a34c7afa7c783456b32be9e0c4172d5d4.xhtml#a34c7afa7c783456b32be9e0c4172d5d4",
+"d3/db4/classFatFile_abab5b9f72cc796388dd4eed01d13d90d.xhtml#abab5b9f72cc796388dd4eed01d13d90d",
+"d4/d27/classFsVolume_a811bcf71ecb023967ff8f78eeb850003.xhtml#a811bcf71ecb023967ff8f78eeb850003",
+"d4/da0/SdCardInfo_8h_af72deea43f5b98d874e5d07c432d6167.xhtml#af72deea43f5b98d874e5d07c432d6167",
+"d5/dda/classcpplint_1_1__CppLintState_a248f4d83ea98e4ab05c508ab34b1ae58.xhtml#a248f4d83ea98e4ab05c508ab34b1ae58",
+"d6/d71/cpplint_8py.xhtml#ad45b10ccccb163cbc0ccafa25329d459",
+"d7/d96/HardwareSerial_8h_a335e37d0726278844b068d565a4e66b7.xhtml#a335e37d0726278844b068d565a4e66b7",
+"d8/d2e/wiring__private_8h_source.xhtml",
+"d8/da4/binary_8h_a5208643e612d35644c192fb0face9667.xhtml#a5208643e612d35644c192fb0face9667",
+"d8/da4/binary_8h_acd0bd22d85953e255fe95f4bb742205f.xhtml#acd0bd22d85953e255fe95f4bb742205f",
+"d9/d33/FsApiConstants_8h_ad1d67e453fb3031f40f8cd3403773813.xhtml#ad1d67e453fb3031f40f8cd3403773813",
+"d9/df9/classPrint_aec9ecf84cc6d9087a650def3cefc459e.xhtml#aec9ecf84cc6d9087a650def3cefc459e",
+"db/d17/led_8cpp_ac69de171075f82d3c3f75385a54ce10a.xhtml#ac69de171075f82d3c3f75385a54ce10a",
+"dc/d87/FsStructs_8h_a3b3f9b76206e0f840e2620a4a6589d88.xhtml#a3b3f9b76206e0f840e2620a4a6589d88",
+"dd/d1c/structFsInfoSector_ac2e575524fc65ddaeb642431014832cf.xhtml#ac2e575524fc65ddaeb642431014832cf",
+"de/dcc/LowLatencyLoggerADXL345_2UserFunctions_8cpp_a7c71d7c8f2f59283d02828abed5906cb.xhtml#a7c71d7c8f2f59283d02828abed5906cb",
+"df/da6/structfspos__t_a162a7b282bd1bd31f07666889277b9f1.xhtml#a162a7b282bd1bd31f07666889277b9f1",
+"functions_f.xhtml"
 ];
 
 var SYNCONMSG = 'cliquez pour désactiver la synchronisation du panel';

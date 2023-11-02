@@ -1,0 +1,22 @@
+<map id="digitalRead" name="digitalRead">
+<area shape="rect" id="Node000001" title=" " alt="" coords="729,81,825,107"/>
+<area shape="rect" id="Node000002" href="$d9/d52/buttons_8cpp_a54d82e2e60914d150743dcfe6ddbbece.xhtml#a54d82e2e60914d150743dcfe6ddbbece" title="Fonction appelée lors de l&#39;appui sur le bouton vert ou rouge." alt="" coords="563,5,677,31"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="737,78,646,33,648,28,739,73"/>
+<area shape="rect" id="Node000004" href="$de/dfb/src_2main_8cpp_a4fc01d736fe50cf5b977f755b675f11d.xhtml#a4fc01d736fe50cf5b977f755b675f11d" title=" " alt="" coords="167,31,226,56"/>
+<area shape="poly" id="edge9_Node000001_Node000004" title=" " alt="" coords="715,91,226,48,226,43,716,86"/>
+<area shape="rect" id="Node000006" href="$d0/d46/group__digitalPin_ga6a3da3dff38bded7a09020a222ec9ec7.xhtml#ga6a3da3dff38bded7a09020a222ec9ec7" title=" " alt="" coords="559,107,681,132"/>
+<area shape="poly" id="edge5_Node000001_Node000006" title=" " alt="" coords="716,106,682,112,681,107,715,101"/>
+<area shape="rect" id="Node000010" href="$dd/deb/wiring__shift_8c_a1efecc975119046403adc60af645015d.xhtml#a1efecc975119046403adc60af645015d" title=" " alt="" coords="589,156,651,181"/>
+<area shape="poly" id="edge10_Node000001_Node000010" title=" " alt="" coords="743,116,682,147,653,160,650,155,680,142,740,111"/>
+<area shape="rect" id="Node000003" href="$d9/d52/buttons_8cpp_a82677b3df6b653b673a4b1735af9d45d.xhtml#a82677b3df6b653b673a4b1735af9d45d" title="Initialise les interruptions sur les boutons." alt="" coords="347,5,497,31"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="548,21,497,21,497,15,548,15"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="334,31,227,43,226,37,334,25"/>
+<area shape="rect" id="Node000005" href="$d2/d81/libs_2Arduino__AVR_2main_8cpp_a840291bc02cba5474a4cb46a9b9566fe.xhtml#a840291bc02cba5474a4cb46a9b9566fe" title=" " alt="" coords="5,31,60,56"/>
+<area shape="poly" id="edge4_Node000004_Node000005" title=" " alt="" coords="154,46,60,46,60,41,154,41"/>
+<area shape="rect" id="Node000007" href="$d8/d09/classDigitalPin_a8db3de077c6fdc128f2a755ef44a4580.xhtml#a8db3de077c6fdc128f2a755ef44a4580" title=" " alt="" coords="333,107,511,132"/>
+<area shape="poly" id="edge6_Node000006_Node000007" title=" " alt="" coords="545,122,511,122,511,117,545,117"/>
+<area shape="rect" id="Node000008" href="$d0/d46/group__digitalPin_gab94b2d5546c83bf3288ff5271406f07b.xhtml#gab94b2d5546c83bf3288ff5271406f07b" title=" " alt="" coords="356,156,488,181"/>
+<area shape="poly" id="edge7_Node000006_Node000008" title=" " alt="" coords="556,138,474,159,473,153,555,133"/>
+<area shape="rect" id="Node000009" href="$d8/d09/classDigitalPin_a2241ba366410e362e614e9e67c8c1c5a.xhtml#a2241ba366410e362e614e9e67c8c1c5a" title=" " alt="" coords="108,156,285,181"/>
+<area shape="poly" id="edge8_Node000008_Node000009" title=" " alt="" coords="342,171,285,171,285,166,342,166"/>
+</map>

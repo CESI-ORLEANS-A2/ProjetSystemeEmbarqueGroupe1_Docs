@@ -1,9 +1,9 @@
 <map id="ibufstream" name="ibufstream">
-<area shape="rect" id="Node000001" title="parse a char string" alt="" coords="5,225,99,251"/>
-<area shape="rect" id="Node000002" href="$d4/d07/classistream.html" title="Input Stream." alt="" coords="16,152,88,177"/>
-<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="55,191,55,225,49,225,49,191"/>
-<area shape="rect" id="Node000003" href="$df/d02/classios.html" title="Error and state information for all streams." alt="" coords="31,79,73,104"/>
-<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="55,118,55,152,49,152,49,118"/>
-<area shape="rect" id="Node000004" href="$d4/dc1/classios__base.html" title="Base class for all streams." alt="" coords="13,5,91,31"/>
-<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="55,44,55,79,49,79,49,44"/>
+<area shape="rect" id="Node000001" title="parse a char string" alt="" coords="28,1772,200,1947"/>
+<area shape="rect" id="Node000002" href="$d4/d07/classistream.xhtml" title="Input Stream." alt="" coords="5,1113,223,1724"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="117,1738,117,1772,111,1772,111,1738"/>
+<area shape="rect" id="Node000003" href="$df/d02/classios.xhtml" title="Error and state information for all streams." alt="" coords="27,756,201,1065"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="117,1079,117,1113,111,1113,111,1079"/>
+<area shape="rect" id="Node000004" href="$d4/dc1/classios__base.xhtml" title="Base class for all streams." alt="" coords="9,5,219,708"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="117,722,117,755,111,755,111,722"/>
 </map>

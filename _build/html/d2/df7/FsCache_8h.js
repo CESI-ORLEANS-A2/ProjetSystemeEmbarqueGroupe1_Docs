@@ -1,4 +1,4 @@
 var FsCache_8h =
 [
-    [ "FsCache", "dd/db1/classFsCache.html", "dd/db1/classFsCache" ]
+    [ "FsCache", "dd/db1/classFsCache.xhtml", "dd/db1/classFsCache" ]
 ];

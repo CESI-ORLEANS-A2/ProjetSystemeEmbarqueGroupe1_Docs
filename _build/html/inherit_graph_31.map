@@ -1,9 +1,3 @@
 <map id="Graphe hiérarchique des classes" name="Graphe hiérarchique des classes">
-<area shape="rect" id="Node000000" href="$d0/d63/classExFatPartition.html" title="Access exFat partitions on raw file devices." alt="" coords="5,13,116,38"/>
-<area shape="rect" id="Node000001" href="$d9/dce/classExFatVolume.html" title="exFAT volume." alt="" coords="164,13,271,38"/>
-<area shape="poly" id="edge39_Node000000_Node000001" title=" " alt="" coords="130,23,164,23,164,28,130,28"/>
-<area shape="rect" id="Node000002" href="$da/d81/classSdBase.html" title=" " alt="" coords="319,5,492,45"/>
-<area shape="poly" id="edge40_Node000001_Node000002" title=" " alt="" coords="284,23,319,23,319,28,284,28"/>
-<area shape="rect" id="Node000003" href="$d2/d3b/classSdExFat.html" title="SD file system class for exFAT volumes." alt="" coords="540,13,613,38"/>
-<area shape="poly" id="edge41_Node000002_Node000003" title=" " alt="" coords="506,23,540,23,540,28,506,28"/>
+<area shape="rect" id="Node000000" href="$d1/d4a/structDirName__t.xhtml" title=" " alt="" coords="5,5,97,31"/>
 </map>

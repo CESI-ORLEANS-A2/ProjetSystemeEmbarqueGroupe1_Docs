@@ -1,17 +1,19 @@
 var searchData=
 [
-  ['v_0',['v',['../df/d6c/structsensors__vec__t.html#a5114a743de9aab053acce7722f394bc4',1,'sensors_vec_t']]],
-  ['val_1',['val',['../d0/daf/structpair16.html#a878ff9fb8d30fa9a1f8e72c22cfae5be',1,'pair16']]],
-  ['validlength_2',['validLength',['../d1/d7d/structDirStream__t.html#a962aaf56000250e5ff8cf3a133b8a064',1,'DirStream_t']]],
-  ['value_3',['value',['../dc/d23/structSetting.html#a31ac06e15c29da7a71581af2a5f35228',1,'Setting']]],
-  ['version_4',['version',['../d4/d2a/structsensors__event__t.html#a2134d60fdb21e3495c595a2df2f5cece',1,'sensors_event_t::version'],['../db/dd8/structsensor__t.html#a274f12a47669fbd2b61935706339e1c2',1,'sensor_t::version']]],
-  ['videospeedclass_5',['videoSpeedClass',['../d2/db0/structsds__t.html#aedf27e7a1aca7e218053107da24345af',1,'sds_t']]],
-  ['voc_5findex_6',['voc_index',['../d4/d2a/structsensors__event__t.html#abdccaccd0ba8f82b04912d44d63e1e63',1,'sensors_event_t']]],
-  ['voltage_7',['voltage',['../d4/d2a/structsensors__event__t.html#ab01b52f6b83f390a6370d319ded97b28',1,'sensors_event_t']]],
-  ['volumeflags_8',['volumeFlags',['../d0/da5/structbiosParameterBlockExFat.html#a025ed9321ba3ef1b6380b7469369a594',1,'biosParameterBlockExFat']]],
-  ['volumelabel_9',['volumelabel',['../d3/d54/structbiosParameterBlockFat16.html#a5fe19b67b4fe62a7ed43ef87e10a2bc1',1,'biosParameterBlockFat16::volumeLabel'],['../d5/d85/structbiosParameterBlockFat32.html#ac91ab16cf6c4cde0d0817b456eede1ce',1,'biosParameterBlockFat32::volumeLabel']]],
-  ['volumelength_10',['volumeLength',['../d0/da5/structbiosParameterBlockExFat.html#abc157aca10ee0ed1abef3e46c9196261',1,'biosParameterBlockExFat']]],
-  ['volumeserialnumber_11',['volumeserialnumber',['../d3/d54/structbiosParameterBlockFat16.html#acd34c4698499cd5ee3097e61cc3a4462',1,'biosParameterBlockFat16::volumeSerialNumber'],['../d5/d85/structbiosParameterBlockFat32.html#a18deed68924978fad173c7a68da1dd1e',1,'biosParameterBlockFat32::volumeSerialNumber'],['../d0/da5/structbiosParameterBlockExFat.html#a66ecb975f6001e671921932e6c1683f3',1,'biosParameterBlockExFat::volumeSerialNumber']]],
-  ['volumetype_12',['volumetype',['../d3/d54/structbiosParameterBlockFat16.html#a7fd61561bf1ee5edafb676c0f80655e7',1,'biosParameterBlockFat16::volumeType'],['../d5/d85/structbiosParameterBlockFat32.html#a27d04c19f5fa49c0493690ec4ea1cb11',1,'biosParameterBlockFat32::volumeType']]],
-  ['vscausize_13',['vscAuSize',['../d2/db0/structsds__t.html#a51b493fbea37e3afc8f051b9ff738be8',1,'sds_t']]]
+  ['u16_0',['u16',['../d9/d43/structadcdata__t_a12b55a7908a4a8d051a38aeb8b02d7b1.xhtml#a12b55a7908a4a8d051a38aeb8b02d7b1',1,'adcdata_t']]],
+  ['u8_1',['u8',['../d9/d43/structadcdata__t_abf572ba7b88a49019ee4afe0d7844961.xhtml#abf572ba7b88a49019ee4afe0d7844961',1,'adcdata_t']]],
+  ['uhsclassausize_2',['uhsClassAuSize',['../d2/db0/structsds__t_a28c962853710aa8de755a1d5ba4ab828.xhtml#a28c962853710aa8de755a1d5ba4ab828',1,'sds_t']]],
+  ['uint32_5fmax_3',['uint32_max',['../d7/d52/istream_8cpp_af928af934dfd9121978ee16f57c8f960.xhtml#af928af934dfd9121978ee16f57c8f960',1,'istream.cpp']]],
+  ['underacquisition_4',['underacquisition',['../d6/d30/acquisition_8cpp_ad4abfb477f89f314bf0ccf282f899ebe.xhtml#ad4abfb477f89f314bf0ccf282f899ebe',1,'underAcquisition:&#160;acquisition.cpp'],['../db/d0c/acquisition_8hpp_ad4abfb477f89f314bf0ccf282f899ebe.xhtml#ad4abfb477f89f314bf0ccf282f899ebe',1,'underAcquisition:&#160;acquisition.cpp']]],
+  ['ungetc_5fbuf_5fsize_5',['UNGETC_BUF_SIZE',['../d9/dcd/StdioStream_8h_a785dd413c0d7b05f95df82d3453ecacd.xhtml#a785dd413c0d7b05f95df82d3453ecacd',1,'StdioStream.h']]],
+  ['unicode_6',['unicode',['../d4/d55/structDirLabel__t_a37658ef6eef527dce4eb3ee74f577f2b.xhtml#a37658ef6eef527dce4eb3ee74f577f2b',1,'DirLabel_t::unicode'],['../d1/d4a/structDirName__t_ae471bfd42e7b9ae8cb7ed1d2d89770ec.xhtml#ae471bfd42e7b9ae8cb7ed1d2d89770ec',1,'DirName_t::unicode']]],
+  ['unicode1_7',['unicode1',['../d8/dfa/structDirLfn__t_a88647f2b6e369129212686a9a1b6b50f.xhtml#a88647f2b6e369129212686a9a1b6b50f',1,'DirLfn_t']]],
+  ['unicode2_8',['unicode2',['../d8/dfa/structDirLfn__t_a0524fe45a11280a9d154c684892487a5.xhtml#a0524fe45a11280a9d154c684892487a5',1,'DirLfn_t']]],
+  ['unicode3_9',['unicode3',['../d8/dfa/structDirLfn__t_a36d3e8d0c72886ae0bba163a72053843.xhtml#a36d3e8d0c72886ae0bba163a72053843',1,'DirLfn_t']]],
+  ['unitless_5fpercent_10',['unitless_percent',['../d4/d2a/structsensors__event__t_a1f3d1603fa4fc755c13ee4ad0cdfb8df.xhtml#a1f3d1603fa4fc755c13ee4ad0cdfb8df',1,'sensors_event_t']]],
+  ['upcase_5fcluster_11',['UPCASE_CLUSTER',['../da/d58/ExFatFormatter_8cpp_ac5f741c3a18a07be804f1b13dae16130.xhtml#ac5f741c3a18a07be804f1b13dae16130',1,'ExFatFormatter.cpp']]],
+  ['uppercase_12',['uppercase',['../d4/dc1/classios__base_ade3db1fe3249e87f4c47a9a8916793d9.xhtml#ade3db1fe3249e87f4c47a9a8916793d9',1,'ios_base']]],
+  ['usbversion_13',['usbVersion',['../d2/d73/structDeviceDescriptor_a8f922d8b2a0d01aa88490ef96526d4a0.xhtml#a8f922d8b2a0d01aa88490ef96526d4a0',1,'DeviceDescriptor']]],
+  ['usec_5fprint_14',['usec_print',['../dd/da0/AvrPrintStimmer_8cpp_af4a7d51b49e72dea16dc87e823e85b15.xhtml#af4a7d51b49e72dea16dc87e823e85b15',1,'AvrPrintStimmer.cpp']]],
+  ['user_5fspi_5fbegin_15',['USER_SPI_BEGIN',['../df/d48/SdSpiDriver_8h_aa56a6deedd73b449dc10c22f5b4b0851.xhtml#aa56a6deedd73b449dc10c22f5b4b0851',1,'SdSpiDriver.h']]]
 ];

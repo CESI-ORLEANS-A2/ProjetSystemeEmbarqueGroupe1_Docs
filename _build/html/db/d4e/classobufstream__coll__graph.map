@@ -1,9 +1,9 @@
 <map id="obufstream" name="obufstream">
-<area shape="rect" id="Node000001" title="format a char string" alt="" coords="5,225,103,251"/>
-<area shape="rect" id="Node000002" href="$d0/d43/classostream.html" title="Output Stream." alt="" coords="16,152,92,177"/>
-<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="57,191,57,225,51,225,51,191"/>
-<area shape="rect" id="Node000003" href="$df/d02/classios.html" title="Error and state information for all streams." alt="" coords="33,79,75,104"/>
-<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="57,118,57,152,51,152,51,118"/>
-<area shape="rect" id="Node000004" href="$d4/dc1/classios__base.html" title="Base class for all streams." alt="" coords="15,5,93,31"/>
-<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="57,44,57,79,51,79,51,44"/>
+<area shape="rect" id="Node000001" title="format a char string" alt="" coords="30,1907,203,2121"/>
+<area shape="rect" id="Node000002" href="$d0/d43/classostream.xhtml" title="Output Stream." alt="" coords="5,1113,228,1859"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="119,1872,119,1907,114,1907,114,1872"/>
+<area shape="rect" id="Node000003" href="$df/d02/classios.xhtml" title="Error and state information for all streams." alt="" coords="30,756,203,1065"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="119,1079,119,1113,114,1113,114,1079"/>
+<area shape="rect" id="Node000004" href="$d4/dc1/classios__base.xhtml" title="Base class for all streams." alt="" coords="12,5,221,708"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="119,722,119,755,114,755,114,722"/>
 </map>

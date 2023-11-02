@@ -1,28 +1,32 @@
 <map id="SdExFat" name="SdExFat">
-<area shape="rect" id="Node000001" title="SD file system class for exFAT volumes." alt="" coords="319,620,392,645"/>
-<area shape="rect" id="Node000002" href="$da/d81/classSdBase.html" title=" " alt="" coords="269,531,442,571"/>
-<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="358,584,358,620,353,620,353,584"/>
-<area shape="rect" id="Node000003" href="$d9/dce/classExFatVolume.html" title="exFAT volume." alt="" coords="137,443,243,468"/>
-<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="223,472,323,528,320,533,221,477"/>
-<area shape="poly" id="edge9_Node000003_Node000003" title=" " alt="" coords="258,447,270,455,262,463,244,466,243,461,259,458,265,456,256,451"/>
-<area shape="rect" id="Node000009" href="$d6/d7f/classExFatFile.html" title="Basic file class." alt="" coords="99,538,179,563"/>
-<area shape="poly" id="edge11_Node000009_Node000003" title=" " alt="" coords="199,482,195,508,181,527,163,540,160,536,177,523,190,506,193,482"/>
-<area shape="rect" id="Node000004" href="$d0/d63/classExFatPartition.html" title="Access exFat partitions on raw file devices." alt="" coords="135,355,245,380"/>
-<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="193,394,193,442,187,442,187,394"/>
-<area shape="rect" id="Node000005" href="$dd/db1/classFsCache.html" title="Sector cache." alt="" coords="85,256,162,281"/>
-<area shape="poly" id="edge4_Node000004_Node000005" title=" " alt="" coords="119,295,118,313,123,329,135,343,152,352,149,357,132,347,118,332,113,314,113,295"/>
-<area shape="rect" id="Node000006" href="$d2/dec/classDedicatedSpiCard.html" title="Raw access to SD and SDHC flash memory cards via dedicate SPI port." alt="" coords="225,168,363,193"/>
-<area shape="poly" id="edge13_Node000002_Node000006" title=" " alt="" coords="322,201,346,230,355,248,358,267,358,457,358,531,353,531,353,457,353,268,350,249,342,233,318,204"/>
-<area shape="poly" id="edge8_Node000004_Node000006" title=" " alt="" coords="282,207,254,257,216,332,201,356,196,353,212,329,249,255,278,204"/>
-<area shape="poly" id="edge5_Node000005_Node000006" title=" " alt="" coords="211,193,162,204,143,211,131,219,123,237,124,256,118,256,118,236,127,216,140,206,160,199,210,188"/>
-<area shape="rect" id="Node000011" href="$dd/d6a/classSdCardFactory.html" title="Setup a SPI card or SDIO card." alt="" coords="382,305,497,331"/>
-<area shape="poly" id="edge15_Node000011_Node000006" title=" " alt="" coords="345,196,376,215,397,237,414,262,437,304,432,307,410,265,393,241,372,219,342,201"/>
-<area shape="rect" id="Node000007" href="$d8/d7f/classSharedSpiCard.html" title="Raw access to SD and SDHC flash memory cards via shared SPI port." alt="" coords="235,93,353,119"/>
-<area shape="poly" id="edge6_Node000006_Node000007" title=" " alt="" coords="297,133,297,168,291,168,291,133"/>
-<area shape="rect" id="Node000008" href="$d0/d25/classSdSpiArduinoDriver.html" title="Optimized SPI class for access to SD and SDHC flash memory cards." alt="" coords="220,5,368,31"/>
-<area shape="poly" id="edge7_Node000007_Node000008" title=" " alt="" coords="297,45,297,93,291,93,291,45"/>
-<area shape="poly" id="edge10_Node000003_Node000009" title=" " alt="" coords="132,524,133,507,138,491,150,476,164,466,167,470,153,480,143,493,138,508,138,524"/>
-<area shape="rect" id="Node000010" href="$d8/d06/structDirPos__t.html" title="Internal type for position in directory file." alt="" coords="5,443,81,468"/>
-<area shape="poly" id="edge12_Node000009_Node000010" title=" " alt="" coords="53,480,68,505,89,523,112,536,110,540,86,527,64,508,49,482"/>
-<area shape="poly" id="edge14_Node000002_Node000011" title=" " alt="" coords="434,345,376,508,366,531,362,529,372,506,429,343"/>
+<area shape="rect" id="Node000001" title="SD file system class for exFAT volumes." alt="" coords="523,5053,588,5119"/>
+<area shape="rect" id="Node000002" href="$da/d81/classSdBase.xhtml" title=" " alt="" coords="451,4189,659,4587"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="558,4600,558,5053,553,5053,553,4600"/>
+<area shape="rect" id="Node000003" href="$d9/dce/classExFatVolume.xhtml" title="exFAT volume." alt="" coords="19,3243,217,3709"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="227,3620,275,3694,319,3771,370,3875,417,3984,494,4188,489,4190,412,3986,365,3878,314,3773,270,3696,222,3623"/>
+<area shape="poly" id="edge8_Node000003_Node000003" title=" " alt="" coords="219,3430,237,3447,243,3476,240,3496,232,3512,227,3509,235,3495,238,3476,232,3449,215,3433"/>
+<area shape="rect" id="Node000008" href="$d6/d7f/classExFatFile.xhtml" title="Basic file class." alt="" coords="91,3772,305,5004"/>
+<area shape="poly" id="edge10_Node000008_Node000003" title=" " alt="" coords="117,3710,117,3733,117,3756,111,3756,111,3733,112,3710"/>
+<area shape="rect" id="Node000004" href="$d0/d63/classExFatPartition.xhtml" title="Access exFat partitions on raw file devices." alt="" coords="5,2132,231,3180"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="121,3194,121,3242,115,3242,115,3194"/>
+<area shape="rect" id="Node000005" href="$dd/db1/classFsCache.xhtml" title="Sector cache." alt="" coords="228,1369,467,2069"/>
+<area shape="poly" id="edge4_Node000004_Node000005" title=" " alt="" coords="264,2070,237,2180,232,2179,259,2069"/>
+<area shape="rect" id="Node000006" href="$d8/d7f/classSharedSpiCard.xhtml" title="Raw access to SD and SDHC flash memory cards via shared SPI port." alt="" coords="389,407,621,1307"/>
+<area shape="poly" id="edge12_Node000002_Node000006" title=" " alt="" coords="507,1307,507,1718,507,3477,510,3661,518,3845,539,4172,534,4173,513,3845,505,3661,502,3477,502,1718,502,1307"/>
+<area shape="poly" id="edge7_Node000004_Node000006" title=" " alt="" coords="390,971,318,1052,244,1148,177,1256,150,1312,127,1370,101,1460,80,1553,65,1648,54,1743,45,1933,49,2115,44,2116,40,1933,49,1743,59,1647,75,1552,96,1459,122,1368,145,1310,173,1253,240,1145,314,1049,386,968"/>
+<area shape="poly" id="edge5_Node000005_Node000006" title=" " alt="" coords="402,1307,398,1331,394,1353,389,1352,393,1330,397,1306"/>
+<area shape="rect" id="Node000010" href="$dd/d6a/classSdCardFactory.xhtml" title="Setup a SPI card or SDIO card." alt="" coords="542,1662,771,1777"/>
+<area shape="poly" id="edge14_Node000010_Node000006" title=" " alt="" coords="587,1306,646,1645,641,1646,581,1307"/>
+<area shape="rect" id="Node000011" href="$da/d81/classSdBase.xhtml" title="base SD file system template class." alt="" coords="690,2465,898,2847"/>
+<area shape="poly" id="edge17_Node000011_Node000006" title=" " alt="" coords="623,985,685,1066,747,1159,803,1261,826,1315,845,1369,863,1439,878,1510,898,1657,907,1804,905,1950,896,2091,882,2223,864,2344,844,2449,839,2448,858,2343,876,2222,891,2090,900,1950,901,1804,893,1657,873,1511,858,1440,839,1370,821,1316,798,1264,743,1162,681,1069,619,988"/>
+<area shape="rect" id="Node000007" href="$d0/d25/classSdSpiArduinoDriver.xhtml" title="Optimized SPI class for access to SD and SDHC flash memory cards." alt="" coords="406,5,603,344"/>
+<area shape="poly" id="edge6_Node000006_Node000007" title=" " alt="" coords="507,344,507,391,502,391,502,344"/>
+<area shape="poly" id="edge9_Node000003_Node000008" title=" " alt="" coords="170,3772,166,3734,165,3726,170,3725,171,3733,176,3771"/>
+<area shape="rect" id="Node000009" href="$d8/d06/structDirPos__t.xhtml" title="Internal type for position in directory file." alt="" coords="321,3423,467,3529"/>
+<area shape="poly" id="edge11_Node000008_Node000009" title=" " alt="" coords="386,3529,311,3873,306,3872,380,3528"/>
+<area shape="poly" id="edge13_Node000002_Node000010" title=" " alt="" coords="657,1777,566,4173,561,4173,652,1777"/>
+<area shape="poly" id="edge18_Node000011_Node000010" title=" " alt="" coords="664,1777,677,1927,698,2108,725,2282,755,2448,750,2449,720,2283,693,2108,672,1927,658,1778"/>
+<area shape="poly" id="edge15_Node000002_Node000011" title=" " alt="" coords="769,2862,719,3219,585,4190,580,4189,714,3218,763,2861"/>
+<area shape="rect" id="Node000012" title=" " alt="" coords="795,1687,830,1752"/>
+<area shape="poly" id="edge16_Node000011_Node000012" title=" " alt="" coords="814,1766,800,2464,795,2464,809,1766"/>
 </map>

@@ -1,0 +1,13 @@
+<map id="SharedSpiCard::waitReady" name="SharedSpiCard::waitReady">
+<area shape="rect" id="Node000001" title=" " alt="" coords="5,42,200,67"/>
+<area shape="rect" id="Node000002" href="$d8/d7f/classSharedSpiCard_a08363209d938db87521cca6a84146041.xhtml#a08363209d938db87521cca6a84146041" title=" " alt="" coords="248,15,444,41"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="200,41,234,38,235,43,200,47"/>
+<area shape="rect" id="Node000004" href="$db/df4/classTimeout_abbabe99f42e52472ddd3a7e9d22dce95.xhtml#abbabe99f42e52472ddd3a7e9d22dce95" title=" " alt="" coords="273,66,419,91"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="200,62,260,68,259,73,200,67"/>
+<area shape="rect" id="Node000003" href="$d0/d25/classSdSpiArduinoDriver_a8d6bc852a52e9d69c4b1e48ee062e8d1.xhtml#a8d6bc852a52e9d69c4b1e48ee062e8d1" title=" " alt="" coords="492,5,640,45"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="445,24,478,24,478,29,445,29"/>
+<area shape="rect" id="Node000005" href="$db/df4/classTimeout_a9a72ea0591f11452fb15bfaa1ae5108a.xhtml#a9a72ea0591f11452fb15bfaa1ae5108a" title=" " alt="" coords="498,70,634,95"/>
+<area shape="poly" id="edge4_Node000004_Node000005" title=" " alt="" coords="419,77,484,79,484,84,419,83"/>
+<area shape="rect" id="Node000006" href="$d5/df3/wiring_8c_a6ff7f2532a22366f0013bc41397129fd.xhtml#a6ff7f2532a22366f0013bc41397129fd" title=" " alt="" coords="688,70,747,95"/>
+<area shape="poly" id="edge5_Node000005_Node000006" title=" " alt="" coords="634,80,674,80,674,85,634,85"/>
+</map>

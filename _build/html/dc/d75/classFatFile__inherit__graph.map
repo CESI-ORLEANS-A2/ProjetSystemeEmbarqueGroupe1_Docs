@@ -1,7 +1,21 @@
 <map id="FatFile" name="FatFile">
-<area shape="rect" id="Node000001" title="Basic file class." alt="" coords="50,5,114,31"/>
-<area shape="rect" id="Node000002" href="$d1/d9b/classStreamFile.html" title=" " alt="" coords="5,79,159,119"/>
-<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="85,44,85,79,79,79,79,44"/>
-<area shape="rect" id="Node000003" href="$d6/d53/classFile32.html" title="FAT16/FAT32 file with Arduino Stream." alt="" coords="51,167,113,192"/>
-<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="85,132,85,166,79,166,79,132"/>
+<area shape="rect" id="Node000001" title="Basic file class." alt="" coords="345,5,557,1555"/>
+<area shape="rect" id="Node000002" href="$d8/d0b/classPrintFile.xhtml" title=" " alt="" coords="47,1901,217,1967"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="344,1178,143,1902,138,1900,338,1177"/>
+<area shape="rect" id="Node000004" href="$d1/d9b/classStreamFile.xhtml" title=" " alt="" coords="252,1745,433,2123"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="380,1568,363,1745,358,1744,374,1568"/>
+<area shape="rect" id="Node000006" href="$da/d64/classStdioStream.xhtml" title="StdioStream implements a minimal stdio stream." alt="" coords="457,1603,663,2265"/>
+<area shape="poly" id="edge5_Node000001_Node000006" title=" " alt="" coords="528,1568,531,1602,526,1603,523,1569"/>
+<area shape="rect" id="Node000007" href="$d0/d4a/classStreamBaseClass.xhtml" title="base type for FAT and exFAT streams" alt="" coords="687,1755,905,2113"/>
+<area shape="poly" id="edge6_Node000001_Node000007" title=" " alt="" coords="563,1148,745,1754,740,1755,558,1149"/>
+<area shape="rect" id="Node000003" href="$d0/dca/classSdFile.xhtml" title="FAT16/FAT32 file with Print." alt="" coords="5,2341,224,2525"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="133,1980,121,2340,115,2340,128,1980"/>
+<area shape="rect" id="Node000005" href="$d6/d53/classFile32.xhtml" title="FAT16/FAT32 file with Arduino Stream." alt="" coords="248,2393,448,2473"/>
+<area shape="poly" id="edge4_Node000004_Node000005" title=" " alt="" coords="348,2137,350,2393,345,2393,342,2137"/>
+<area shape="rect" id="Node000008" href="$d7/df9/classfstream.xhtml" title="file input/output stream." alt="" coords="477,2313,664,2552"/>
+<area shape="poly" id="edge7_Node000007_Node000008" title=" " alt="" coords="736,2128,708,2198,677,2267,651,2314,647,2312,672,2264,703,2196,731,2126"/>
+<area shape="rect" id="Node000009" href="$d0/d68/classifstream.xhtml" title="file input stream." alt="" coords="689,2335,903,2530"/>
+<area shape="poly" id="edge8_Node000007_Node000009" title=" " alt="" coords="799,2127,799,2335,793,2335,793,2127"/>
+<area shape="rect" id="Node000010" href="$d9/d93/classofstream.xhtml" title="file output stream." alt="" coords="928,2328,1152,2537"/>
+<area shape="poly" id="edge9_Node000007_Node000010" title=" " alt="" coords="892,2124,991,2327,987,2329,887,2127"/>
 </map>

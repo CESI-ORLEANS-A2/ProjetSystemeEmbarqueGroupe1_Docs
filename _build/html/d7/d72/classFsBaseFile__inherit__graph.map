@@ -1,21 +1,7 @@
 <map id="FsBaseFile" name="FsBaseFile">
-<area shape="rect" id="Node000001" title="FsBaseFile class." alt="" coords="5,92,97,117"/>
-<area shape="rect" id="Node000002" href="$d8/d0b/classPrintFile.html" title=" " alt="" coords="148,5,324,31"/>
-<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="78,81,109,60,144,41,178,28,180,33,146,46,112,65,81,86"/>
-<area shape="rect" id="Node000004" href="$d1/d9b/classStreamFile.html" title=" " alt="" coords="145,55,327,95"/>
-<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="111,93,145,87,145,92,111,98"/>
-<area shape="rect" id="Node000006" href="$da/d64/classStdioStream.html" title="StdioStream implements a minimal stdio stream." alt="" coords="185,120,287,145"/>
-<area shape="poly" id="edge5_Node000001_Node000006" title=" " alt="" coords="112,111,185,122,184,128,111,116"/>
-<area shape="rect" id="Node000007" href="$d0/d4a/classStreamBaseClass.html" title="base type for FAT and exFAT streams" alt="" coords="168,169,304,195"/>
-<area shape="poly" id="edge6_Node000001_Node000007" title=" " alt="" coords="84,122,146,156,179,167,177,172,144,160,81,127"/>
-<area shape="rect" id="Node000003" href="$d0/dca/classSdFile.html" title="FAT16/FAT32 file with Print." alt="" coords="385,5,446,31"/>
-<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="338,15,385,15,385,21,338,21"/>
-<area shape="rect" id="Node000005" href="$d5/d4f/classFsFile.html" title="FsBaseFile file with Arduino Stream." alt="" coords="385,63,445,88"/>
-<area shape="poly" id="edge4_Node000004_Node000005" title=" " alt="" coords="340,73,385,73,385,78,340,78"/>
-<area shape="rect" id="Node000008" href="$d7/df9/classfstream.html" title="file input/output stream." alt="" coords="379,120,452,145"/>
-<area shape="poly" id="edge7_Node000007_Node000008" title=" " alt="" coords="298,163,326,155,378,141,379,146,327,161,300,168"/>
-<area shape="rect" id="Node000009" href="$d0/d68/classifstream.html" title="file input stream." alt="" coords="377,169,454,195"/>
-<area shape="poly" id="edge8_Node000007_Node000009" title=" " alt="" coords="317,179,376,179,376,185,317,185"/>
-<area shape="rect" id="Node000010" href="$d9/d93/classofstream.html" title="file output stream." alt="" coords="375,219,456,244"/>
-<area shape="poly" id="edge9_Node000007_Node000010" title=" " alt="" coords="297,196,375,218,374,223,295,201"/>
+<area shape="rect" id="Node000001" title="FsBaseFile class." alt="" coords="5,5,209,384"/>
+<area shape="rect" id="Node000002" href="$d1/d9b/classStreamFile.xhtml" title=" " alt="" coords="17,432,198,811"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="110,398,110,432,105,432,105,398"/>
+<area shape="rect" id="Node000003" href="$d5/d4f/classFsFile.xhtml" title="FsBaseFile file with Arduino Stream." alt="" coords="7,859,207,939"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="110,824,110,858,105,858,105,824"/>
 </map>

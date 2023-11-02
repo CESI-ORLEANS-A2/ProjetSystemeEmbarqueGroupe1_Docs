@@ -1,10 +1,19 @@
 var searchData=
 [
-  ['new_5falign_5fdim_0',['NEW_ALIGN_DIM',['../db/d65/FsNew_8h.html#a9893a1ae924069d40e7185e471b4a5bb',1,'FsNew.h']]],
-  ['nop_1',['nop',['../d9/d1b/SdSpiAvr_8h.html#a51158539d4d6022c9a445e78b0abfa94',1,'nop:&#160;SdSpiAvr.h'],['../d9/d94/SdSpiBareUnoDriver_8h.html#a51158539d4d6022c9a445e78b0abfa94',1,'nop:&#160;SdSpiBareUnoDriver.h']]],
-  ['null_2',['NULL',['../d9/dcd/StdioStream_8h.html#a070d2ce7b6bb7e5c05602aa8c308d0c4',1,'StdioStream.h']]],
-  ['nullptr_3',['nullptr',['../d0/d1b/SysCall_8h.html#ab979d9d4b4923f7c54d6caa6e1a61936',1,'SysCall.h']]],
-  ['number_5fof_5fleds_4',['NUMBER_OF_LEDS',['../df/dd7/consts_8hpp.html#a3641b8d2bb3a9ab7cf0ec3763c3d9be7',1,'consts.hpp']]],
-  ['number_5fof_5fsensors_5',['NUMBER_OF_SENSORS',['../df/dd7/consts_8hpp.html#aa8f8564a6944121058f4c4278894ead1',1,'consts.hpp']]],
-  ['number_5fof_5fsettings_6',['NUMBER_OF_SETTINGS',['../df/dd7/consts_8hpp.html#a4b22ce614859e622108ad3476ca1cf43',1,'consts.hpp']]]
+  ['new_5falign_5fdim_0',['NEW_ALIGN_DIM',['../db/d65/FsNew_8h_a9893a1ae924069d40e7185e471b4a5bb.xhtml#a9893a1ae924069d40e7185e471b4a5bb',1,'FsNew.h']]],
+  ['new_5flufa_5fsignature_1',['NEW_LUFA_SIGNATURE',['../dd/d15/USBCore_8h_a5ee0c1b3d50f7398cdd3c49010eb7c9c.xhtml#a5ee0c1b3d50f7398cdd3c49010eb7c9c',1,'USBCore.h']]],
+  ['no_5fignore_5fchar_2',['NO_IGNORE_CHAR',['../de/dd1/Stream_8h_ab362c458819bb9ea1b99a764444c4921.xhtml#ab362c458819bb9ea1b99a764444c4921',1,'Stream.h']]],
+  ['nointerrupts_3',['noInterrupts',['../de/df0/Arduino_8h_a8dfd0b70aa3eb3c592d6de11711fce91.xhtml#a8dfd0b70aa3eb3c592d6de11711fce91',1,'Arduino.h']]],
+  ['nop_4',['nop',['../d9/d1b/SdSpiAvr_8h_a51158539d4d6022c9a445e78b0abfa94.xhtml#a51158539d4d6022c9a445e78b0abfa94',1,'nop:&#160;SdSpiAvr.h'],['../d9/d94/SdSpiBareUnoDriver_8h_a51158539d4d6022c9a445e78b0abfa94.xhtml#a51158539d4d6022c9a445e78b0abfa94',1,'nop:&#160;SdSpiBareUnoDriver.h']]],
+  ['not_5fa_5fpin_5',['NOT_A_PIN',['../de/df0/Arduino_8h_a62486102324ad2f7185279ce943e3152.xhtml#a62486102324ad2f7185279ce943e3152',1,'Arduino.h']]],
+  ['not_5fa_5fport_6',['NOT_A_PORT',['../de/df0/Arduino_8h_a831aab476b523619dbd3c9f0a7e49330.xhtml#a831aab476b523619dbd3c9f0a7e49330',1,'Arduino.h']]],
+  ['not_5fan_5finterrupt_7',['NOT_AN_INTERRUPT',['../de/df0/Arduino_8h_ace73be9d32b9ad15d9120c47304266dc.xhtml#ace73be9d32b9ad15d9120c47304266dc',1,'Arduino.h']]],
+  ['not_5fon_5ftimer_8',['NOT_ON_TIMER',['../de/df0/Arduino_8h_a77d75bdd0dd8486dc8a52e742f1dc8a0.xhtml#a77d75bdd0dd8486dc8a52e742f1dc8a0',1,'Arduino.h']]],
+  ['null_9',['NULL',['../d9/dcd/StdioStream_8h_a070d2ce7b6bb7e5c05602aa8c308d0c4.xhtml#a070d2ce7b6bb7e5c05602aa8c308d0c4',1,'StdioStream.h']]],
+  ['nullptr_10',['nullptr',['../d0/d1b/SysCall_8h_ab979d9d4b4923f7c54d6caa6e1a61936.xhtml#ab979d9d4b4923f7c54d6caa6e1a61936',1,'SysCall.h']]],
+  ['num_5fanalog_5finputs_11',['NUM_ANALOG_INPUTS',['../d1/dce/pins__arduino_8h_ae5fbabd52e1f2240307dfc9bfaefb5d6.xhtml#ae5fbabd52e1f2240307dfc9bfaefb5d6',1,'pins_arduino.h']]],
+  ['num_5fdigital_5fpins_12',['NUM_DIGITAL_PINS',['../d1/dce/pins__arduino_8h_a0ef783fbc452748b33c5a307d0565f7a.xhtml#a0ef783fbc452748b33c5a307d0565f7a',1,'pins_arduino.h']]],
+  ['number_5fof_5fleds_13',['NUMBER_OF_LEDS',['../df/dd7/consts_8hpp_a3641b8d2bb3a9ab7cf0ec3763c3d9be7.xhtml#a3641b8d2bb3a9ab7cf0ec3763c3d9be7',1,'consts.hpp']]],
+  ['number_5fof_5fsensors_14',['NUMBER_OF_SENSORS',['../df/dd7/consts_8hpp_aa8f8564a6944121058f4c4278894ead1.xhtml#aa8f8564a6944121058f4c4278894ead1',1,'consts.hpp']]],
+  ['number_5fof_5fsettings_15',['NUMBER_OF_SETTINGS',['../df/dd7/consts_8hpp_a4b22ce614859e622108ad3476ca1cf43.xhtml#a4b22ce614859e622108ad3476ca1cf43',1,'consts.hpp']]]
 ];

@@ -1,0 +1,12 @@
+<map id="Tiny_BME280::readCoefficients" name="Tiny_BME280::readCoefficients">
+<area shape="rect" id="Node000001" title="Reads the factory&#45;set coefficients." alt="" coords="5,24,229,49"/>
+<area shape="rect" id="Node000002" href="$d4/d1b/classTiny__BME280_a91c6dd90a0518655c27d12d0f7d462fe.xhtml#a91c6dd90a0518655c27d12d0f7d462fe" title="Reads a signed 16 bit little endian value over I2C." alt="" coords="519,24,704,49"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="183,21,277,8,374,3,471,8,540,18,540,24,470,14,374,8,278,14,184,26"/>
+<area shape="rect" id="Node000004" href="$d4/d1b/classTiny__BME280_a631cc94459e8f0cdb46caacf6266eb57.xhtml#a631cc94459e8f0cdb46caacf6266eb57" title="Reads an 8 bit value over I2C." alt="" coords="297,24,451,49"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="229,34,283,34,283,39,229,39"/>
+<area shape="rect" id="Node000005" href="$d4/d1b/classTiny__BME280_a91b268f8bf722d5f317e5d6029116d7a.xhtml#a91b268f8bf722d5f317e5d6029116d7a" title="Reads a signed little endian 16 bit value over I2C." alt="" coords="277,73,471,98"/>
+<area shape="poly" id="edge4_Node000001_Node000005" title=" " alt="" coords="185,46,294,68,293,73,184,52"/>
+<area shape="rect" id="Node000003" href="$d4/d1b/classTiny__BME280_a336e34f6d83b30ea2fd7da60954cccb1.xhtml#a336e34f6d83b30ea2fd7da60954cccb1" title="Reads a 16 bit value over I2C." alt="" coords="752,24,915,49"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="704,34,738,34,738,39,704,39"/>
+<area shape="poly" id="edge5_Node000005_Node000002" title=" " alt="" coords="435,70,536,49,537,54,436,75"/>
+</map>

@@ -1,5 +1,0 @@
-<map id="Tiny_BME280::isReadingCalibration" name="Tiny_BME280::isReadingCalibration">
-<area shape="rect" id="Node000001" title="return true if chip is busy reading cal data" alt="" coords="5,5,259,31"/>
-<area shape="rect" id="Node000002" href="$d4/d1b/classTiny__BME280.html#a631cc94459e8f0cdb46caacf6266eb57" title="Reads an 8 bit value over I2C." alt="" coords="307,5,461,31"/>
-<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="259,15,293,15,293,21,259,21"/>
-</map>

@@ -1,9 +1,14 @@
 <map id="ExFile" name="ExFile">
-<area shape="rect" id="Node000001" title="exFAT file with Arduino Stream." alt="" coords="67,167,128,192"/>
-<area shape="rect" id="Node000002" href="$d1/d9b/classStreamFile.html" title=" " alt="" coords="13,79,182,119"/>
-<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="100,132,100,166,95,166,95,132"/>
-<area shape="rect" id="Node000003" title=" " alt="" coords="5,5,85,31"/>
-<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="63,41,87,77,83,80,58,44"/>
-<area shape="rect" id="Node000004" href="$d6/d7f/classExFatFile.html" title="Basic file class." alt="" coords="109,5,189,31"/>
-<area shape="poly" id="edge3_Node000002_Node000004" title=" " alt="" coords="136,44,112,80,108,77,132,41"/>
+<area shape="rect" id="Node000001" title="exFAT file with Arduino Stream." alt="" coords="63,1883,263,1963"/>
+<area shape="rect" id="Node000002" href="$d1/d9b/classStreamFile.xhtml" title=" " alt="" coords="72,1455,254,1833"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="166,1847,166,1882,160,1882,160,1847"/>
+<area shape="rect" id="Node000003" title=" " alt="" coords="16,5,88,71"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="49,84,28,290,18,440,10,613,9,802,15,999,33,1198,46,1296,63,1391,80,1454,74,1455,58,1393,41,1296,27,1198,10,999,3,802,5,613,12,440,23,290,44,84"/>
+<area shape="rect" id="Node000005" href="$d1/d9b/classStreamFile.xhtml" title="StreamFile class." alt="" coords="72,567,254,945"/>
+<area shape="poly" id="edge5_Node000005_Node000003" title=" " alt="" coords="62,84,136,566,131,567,57,85"/>
+<area shape="rect" id="Node000004" href="$d6/d7f/classExFatFile.xhtml" title="Basic file class." alt="" coords="278,120,493,1392"/>
+<area shape="poly" id="edge3_Node000002_Node000004" title=" " alt="" coords="334,1406,324,1432,294,1491,256,1546,252,1543,290,1489,319,1430,329,1404"/>
+<area shape="poly" id="edge4_Node000002_Node000005" title=" " alt="" coords="166,959,166,1455,160,1455,160,959"/>
+<area shape="rect" id="Node000006" title=" " alt="" coords="128,5,198,71"/>
+<area shape="poly" id="edge6_Node000005_Node000006" title=" " alt="" coords="166,85,166,566,160,566,160,85"/>
 </map>

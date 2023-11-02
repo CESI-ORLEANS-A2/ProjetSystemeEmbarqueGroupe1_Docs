@@ -1,0 +1,19 @@
+<map id="switchToConfigurationMode" name="switchToConfigurationMode">
+<area shape="rect" id="Node000001" title=" " alt="" coords="939,18,1140,43"/>
+<area shape="rect" id="Node000002" href="$de/dfb/src_2main_8cpp_a4fc01d736fe50cf5b977f755b675f11d.xhtml#a4fc01d736fe50cf5b977f755b675f11d" title=" " alt="" coords="108,18,167,43"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="925,22,794,12,653,8,468,8,382,10,297,16,167,30,167,24,297,11,382,5,468,3,653,3,794,7,925,17"/>
+<area shape="rect" id="Node000004" href="$d9/d88/mode_8cpp_a5117cd9a1dd27db325ab6540d8d2c983.xhtml#a5117cd9a1dd27db325ab6540d8d2c983" title="Change le mode actuel." alt="" coords="776,43,891,69"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="925,47,891,52,890,46,924,42"/>
+<area shape="rect" id="Node000003" href="$d2/d81/libs_2Arduino__AVR_2main_8cpp_a840291bc02cba5474a4cb46a9b9566fe.xhtml#a840291bc02cba5474a4cb46a9b9566fe" title=" " alt="" coords="5,18,60,43"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="94,33,60,33,60,28,94,28"/>
+<area shape="rect" id="Node000005" href="$d9/d88/mode_8cpp_aebf1ca4bb83f667202b4a32cc7d3e2a9.xhtml#aebf1ca4bb83f667202b4a32cc7d3e2a9" title="Réalise le changement de mode lorsqu&#39;on appuie sur le bouton vert pendant BUTTON_DELAY." alt="" coords="575,43,728,69"/>
+<area shape="poly" id="edge4_Node000004_Node000005" title=" " alt="" coords="762,59,728,59,728,53,762,53"/>
+<area shape="rect" id="Node000008" href="$d9/d88/mode_8cpp_abfb388c3517fd2ecbd1a89e7e15e43fd.xhtml#abfb388c3517fd2ecbd1a89e7e15e43fd" title="Réalise le changement de mode lorsqu&#39;on appuie sur le bouton rouge pendant BUTTON_DELAY." alt="" coords="583,93,720,118"/>
+<area shape="poly" id="edge8_Node000004_Node000008" title=" " alt="" coords="774,75,700,95,699,90,772,70"/>
+<area shape="rect" id="Node000006" href="$d9/d52/buttons_8cpp_a54d82e2e60914d150743dcfe6ddbbece.xhtml#a54d82e2e60914d150743dcfe6ddbbece" title="Fonction appelée lors de l&#39;appui sur le bouton vert ou rouge." alt="" coords="412,43,527,69"/>
+<area shape="poly" id="edge5_Node000005_Node000006" title=" " alt="" coords="561,59,527,59,527,53,561,53"/>
+<area shape="rect" id="Node000007" href="$d9/d52/buttons_8cpp_a82677b3df6b653b673a4b1735af9d45d.xhtml#a82677b3df6b653b673a4b1735af9d45d" title="Initialise les interruptions sur les boutons." alt="" coords="215,43,364,69"/>
+<area shape="poly" id="edge6_Node000006_Node000007" title=" " alt="" coords="399,59,365,59,365,53,399,53"/>
+<area shape="poly" id="edge7_Node000007_Node000002" title=" " alt="" coords="201,44,167,38,167,33,202,39"/>
+<area shape="poly" id="edge9_Node000008_Node000006" title=" " alt="" coords="590,92,517,71,518,66,592,87"/>
+</map>
