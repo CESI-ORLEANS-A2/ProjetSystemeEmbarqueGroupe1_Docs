@@ -5,7 +5,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=11"/>
 <meta name="generator" content="Doxygen 1.10.0"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>Station_Méteo_Groupe_1: Référence du fichier /mnt/d/Cours/10. CESI A2/Blocs/01 - Systeme embarque/Livrables/Station_Meteo_Groupe_1 - Copy/libs/SdFat/src/ExFatLib/ExFatFormatter.cpp</title>
+<title>Station_Méteo_Groupe_1: Référence du fichier ExFatFormatter.cpp</title>
 <link href="../../tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="../../jquery.js"></script>
 <script type="text/javascript" src="../../dynsections.js"></script>
@@ -107,32 +107,207 @@ Graphe des dépendances par inclusion de ExFatFormatter.cpp:</div>
 </div><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="define-members" name="define-members"></a>
 Macros</h2></td></tr>
-<tr class="memitem:a247aabef4f899fd0d8d2a5564f527b9b" id="r_a247aabef4f899fd0d8d2a5564f527b9b"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../da/d58/ExFatFormatter_8cpp_a247aabef4f899fd0d8d2a5564f527b9b.xhtml#a247aabef4f899fd0d8d2a5564f527b9b">DBG_FILE</a>&#160;&#160;&#160;&quot;ExFatFormatter.cpp&quot;</td></tr>
+<tr class="memitem:a247aabef4f899fd0d8d2a5564f527b9b" id="r_a247aabef4f899fd0d8d2a5564f527b9b"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a247aabef4f899fd0d8d2a5564f527b9b">DBG_FILE</a>&#160;&#160;&#160;&quot;ExFatFormatter.cpp&quot;</td></tr>
 <tr class="separator:a247aabef4f899fd0d8d2a5564f527b9b"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a5aa382a92a8554c8f39cf96e1a729a48" id="r_a5aa382a92a8554c8f39cf96e1a729a48"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../da/d58/ExFatFormatter_8cpp_a5aa382a92a8554c8f39cf96e1a729a48.xhtml#a5aa382a92a8554c8f39cf96e1a729a48">PRINT_FORMAT_PROGRESS</a>&#160;&#160;&#160;1</td></tr>
+<tr class="memitem:a5aa382a92a8554c8f39cf96e1a729a48" id="r_a5aa382a92a8554c8f39cf96e1a729a48"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a5aa382a92a8554c8f39cf96e1a729a48">PRINT_FORMAT_PROGRESS</a>&#160;&#160;&#160;1</td></tr>
 <tr class="separator:a5aa382a92a8554c8f39cf96e1a729a48"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a745ee7cbf9f5b27218d4bfc8dfd8e1fb" id="r_a745ee7cbf9f5b27218d4bfc8dfd8e1fb"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../da/d58/ExFatFormatter_8cpp_a745ee7cbf9f5b27218d4bfc8dfd8e1fb.xhtml#a745ee7cbf9f5b27218d4bfc8dfd8e1fb">writeMsg</a>(pr,  str)&#160;&#160;&#160;  <a class="el" href="../../d5/df3/wiring_8c_a4b3aa3ca41aae80581b58e3db57c7eac.xhtml#a4b3aa3ca41aae80581b58e3db57c7eac">if</a> (pr) pr-&gt;write(str)</td></tr>
+<tr class="memitem:a745ee7cbf9f5b27218d4bfc8dfd8e1fb" id="r_a745ee7cbf9f5b27218d4bfc8dfd8e1fb"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a745ee7cbf9f5b27218d4bfc8dfd8e1fb">writeMsg</a>(pr,  str)&#160;&#160;&#160;  <a class="el" href="../../d5/df3/wiring_8c.xhtml#a4b3aa3ca41aae80581b58e3db57c7eac">if</a> (pr) pr-&gt;write(str)</td></tr>
 <tr class="separator:a745ee7cbf9f5b27218d4bfc8dfd8e1fb"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="var-members" name="var-members"></a>
 Variables</h2></td></tr>
-<tr class="memitem:a8f7d05e2de312685f53efa1a3a3b1f8a" id="r_a8f7d05e2de312685f53efa1a3a3b1f8a"><td class="memItemLeft" align="right" valign="top">const uint32_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../da/d58/ExFatFormatter_8cpp_a8f7d05e2de312685f53efa1a3a3b1f8a.xhtml#a8f7d05e2de312685f53efa1a3a3b1f8a">BOOT_BACKUP_OFFSET</a> = 12</td></tr>
+<tr class="memitem:a8f7d05e2de312685f53efa1a3a3b1f8a" id="r_a8f7d05e2de312685f53efa1a3a3b1f8a"><td class="memItemLeft" align="right" valign="top">const uint32_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a8f7d05e2de312685f53efa1a3a3b1f8a">BOOT_BACKUP_OFFSET</a> = 12</td></tr>
 <tr class="separator:a8f7d05e2de312685f53efa1a3a3b1f8a"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a532cc9055b0be27adb8c1b80fd705ec8" id="r_a532cc9055b0be27adb8c1b80fd705ec8"><td class="memItemLeft" align="right" valign="top">const uint16_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../da/d58/ExFatFormatter_8cpp_a532cc9055b0be27adb8c1b80fd705ec8.xhtml#a532cc9055b0be27adb8c1b80fd705ec8">BYTES_PER_SECTOR</a> = 512</td></tr>
+<tr class="memitem:a532cc9055b0be27adb8c1b80fd705ec8" id="r_a532cc9055b0be27adb8c1b80fd705ec8"><td class="memItemLeft" align="right" valign="top">const uint16_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a532cc9055b0be27adb8c1b80fd705ec8">BYTES_PER_SECTOR</a> = 512</td></tr>
 <tr class="separator:a532cc9055b0be27adb8c1b80fd705ec8"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a60927c222000186e5ccfcb7fe8620154" id="r_a60927c222000186e5ccfcb7fe8620154"><td class="memItemLeft" align="right" valign="top">const uint16_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../da/d58/ExFatFormatter_8cpp_a60927c222000186e5ccfcb7fe8620154.xhtml#a60927c222000186e5ccfcb7fe8620154">SECTOR_MASK</a> = <a class="el" href="../../da/d58/ExFatFormatter_8cpp_a532cc9055b0be27adb8c1b80fd705ec8.xhtml#a532cc9055b0be27adb8c1b80fd705ec8">BYTES_PER_SECTOR</a> - 1</td></tr>
+<tr class="memitem:a60927c222000186e5ccfcb7fe8620154" id="r_a60927c222000186e5ccfcb7fe8620154"><td class="memItemLeft" align="right" valign="top">const uint16_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a60927c222000186e5ccfcb7fe8620154">SECTOR_MASK</a> = <a class="el" href="#a532cc9055b0be27adb8c1b80fd705ec8">BYTES_PER_SECTOR</a> - 1</td></tr>
 <tr class="separator:a60927c222000186e5ccfcb7fe8620154"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a70bad5bef5a017c0cf18b10a7b872ef2" id="r_a70bad5bef5a017c0cf18b10a7b872ef2"><td class="memItemLeft" align="right" valign="top">const uint8_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../da/d58/ExFatFormatter_8cpp_a70bad5bef5a017c0cf18b10a7b872ef2.xhtml#a70bad5bef5a017c0cf18b10a7b872ef2">BYTES_PER_SECTOR_SHIFT</a> = 9</td></tr>
+<tr class="memitem:a70bad5bef5a017c0cf18b10a7b872ef2" id="r_a70bad5bef5a017c0cf18b10a7b872ef2"><td class="memItemLeft" align="right" valign="top">const uint8_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a70bad5bef5a017c0cf18b10a7b872ef2">BYTES_PER_SECTOR_SHIFT</a> = 9</td></tr>
 <tr class="separator:a70bad5bef5a017c0cf18b10a7b872ef2"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aefd570104b49d464219a0da97605bf76" id="r_aefd570104b49d464219a0da97605bf76"><td class="memItemLeft" align="right" valign="top">const uint16_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../da/d58/ExFatFormatter_8cpp_aefd570104b49d464219a0da97605bf76.xhtml#aefd570104b49d464219a0da97605bf76">MINIMUM_UPCASE_SKIP</a> = 512</td></tr>
+<tr class="memitem:aefd570104b49d464219a0da97605bf76" id="r_aefd570104b49d464219a0da97605bf76"><td class="memItemLeft" align="right" valign="top">const uint16_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aefd570104b49d464219a0da97605bf76">MINIMUM_UPCASE_SKIP</a> = 512</td></tr>
 <tr class="separator:aefd570104b49d464219a0da97605bf76"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a21398a539c0eeda959af4bec9676aeab" id="r_a21398a539c0eeda959af4bec9676aeab"><td class="memItemLeft" align="right" valign="top">const uint32_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../da/d58/ExFatFormatter_8cpp_a21398a539c0eeda959af4bec9676aeab.xhtml#a21398a539c0eeda959af4bec9676aeab">BITMAP_CLUSTER</a> = 2</td></tr>
+<tr class="memitem:a21398a539c0eeda959af4bec9676aeab" id="r_a21398a539c0eeda959af4bec9676aeab"><td class="memItemLeft" align="right" valign="top">const uint32_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a21398a539c0eeda959af4bec9676aeab">BITMAP_CLUSTER</a> = 2</td></tr>
 <tr class="separator:a21398a539c0eeda959af4bec9676aeab"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ac5f741c3a18a07be804f1b13dae16130" id="r_ac5f741c3a18a07be804f1b13dae16130"><td class="memItemLeft" align="right" valign="top">const uint32_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../da/d58/ExFatFormatter_8cpp_ac5f741c3a18a07be804f1b13dae16130.xhtml#ac5f741c3a18a07be804f1b13dae16130">UPCASE_CLUSTER</a> = 3</td></tr>
+<tr class="memitem:ac5f741c3a18a07be804f1b13dae16130" id="r_ac5f741c3a18a07be804f1b13dae16130"><td class="memItemLeft" align="right" valign="top">const uint32_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ac5f741c3a18a07be804f1b13dae16130">UPCASE_CLUSTER</a> = 3</td></tr>
 <tr class="separator:ac5f741c3a18a07be804f1b13dae16130"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a4acd0a9814d01eb3d8668e0aab7f6bf7" id="r_a4acd0a9814d01eb3d8668e0aab7f6bf7"><td class="memItemLeft" align="right" valign="top">const uint32_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../da/d58/ExFatFormatter_8cpp_a4acd0a9814d01eb3d8668e0aab7f6bf7.xhtml#a4acd0a9814d01eb3d8668e0aab7f6bf7">ROOT_CLUSTER</a> = 4</td></tr>
+<tr class="memitem:a4acd0a9814d01eb3d8668e0aab7f6bf7" id="r_a4acd0a9814d01eb3d8668e0aab7f6bf7"><td class="memItemLeft" align="right" valign="top">const uint32_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a4acd0a9814d01eb3d8668e0aab7f6bf7">ROOT_CLUSTER</a> = 4</td></tr>
 <tr class="separator:a4acd0a9814d01eb3d8668e0aab7f6bf7"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
+<h2 class="groupheader">Documentation des macros</h2>
+<a id="a247aabef4f899fd0d8d2a5564f527b9b" name="a247aabef4f899fd0d8d2a5564f527b9b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a247aabef4f899fd0d8d2a5564f527b9b">&#9670;&#160;</a></span>DBG_FILE</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define DBG_FILE&#160;&#160;&#160;&quot;ExFatFormatter.cpp&quot;</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Copyright (c) 2011-2022 Bill Greiman This file is part of the SdFat library for SD memory cards.</p>
+<p>MIT License</p>
+<p>Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:</p>
+<p>The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.</p>
+<p>THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE. </p>
+
+</div>
+</div>
+<a id="a5aa382a92a8554c8f39cf96e1a729a48" name="a5aa382a92a8554c8f39cf96e1a729a48"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a5aa382a92a8554c8f39cf96e1a729a48">&#9670;&#160;</a></span>PRINT_FORMAT_PROGRESS</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define PRINT_FORMAT_PROGRESS&#160;&#160;&#160;1</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a745ee7cbf9f5b27218d4bfc8dfd8e1fb" name="a745ee7cbf9f5b27218d4bfc8dfd8e1fb"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a745ee7cbf9f5b27218d4bfc8dfd8e1fb">&#9670;&#160;</a></span>writeMsg</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define writeMsg</td>
+          <td>(</td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname">pr, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname">str&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td>&#160;&#160;&#160;  <a class="el" href="../../d5/df3/wiring_8c.xhtml#a4b3aa3ca41aae80581b58e3db57c7eac">if</a> (pr) pr-&gt;write(str)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<h2 class="groupheader">Documentation des variables</h2>
+<a id="a21398a539c0eeda959af4bec9676aeab" name="a21398a539c0eeda959af4bec9676aeab"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a21398a539c0eeda959af4bec9676aeab">&#9670;&#160;</a></span>BITMAP_CLUSTER</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">const uint32_t BITMAP_CLUSTER = 2</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a8f7d05e2de312685f53efa1a3a3b1f8a" name="a8f7d05e2de312685f53efa1a3a3b1f8a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a8f7d05e2de312685f53efa1a3a3b1f8a">&#9670;&#160;</a></span>BOOT_BACKUP_OFFSET</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">const uint32_t BOOT_BACKUP_OFFSET = 12</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a532cc9055b0be27adb8c1b80fd705ec8" name="a532cc9055b0be27adb8c1b80fd705ec8"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a532cc9055b0be27adb8c1b80fd705ec8">&#9670;&#160;</a></span>BYTES_PER_SECTOR</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">const uint16_t BYTES_PER_SECTOR = 512</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a70bad5bef5a017c0cf18b10a7b872ef2" name="a70bad5bef5a017c0cf18b10a7b872ef2"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a70bad5bef5a017c0cf18b10a7b872ef2">&#9670;&#160;</a></span>BYTES_PER_SECTOR_SHIFT</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">const uint8_t BYTES_PER_SECTOR_SHIFT = 9</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="aefd570104b49d464219a0da97605bf76" name="aefd570104b49d464219a0da97605bf76"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aefd570104b49d464219a0da97605bf76">&#9670;&#160;</a></span>MINIMUM_UPCASE_SKIP</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">const uint16_t MINIMUM_UPCASE_SKIP = 512</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a4acd0a9814d01eb3d8668e0aab7f6bf7" name="a4acd0a9814d01eb3d8668e0aab7f6bf7"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a4acd0a9814d01eb3d8668e0aab7f6bf7">&#9670;&#160;</a></span>ROOT_CLUSTER</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">const uint32_t ROOT_CLUSTER = 4</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a60927c222000186e5ccfcb7fe8620154" name="a60927c222000186e5ccfcb7fe8620154"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a60927c222000186e5ccfcb7fe8620154">&#9670;&#160;</a></span>SECTOR_MASK</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">const uint16_t SECTOR_MASK = <a class="el" href="#a532cc9055b0be27adb8c1b80fd705ec8">BYTES_PER_SECTOR</a> - 1</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="ac5f741c3a18a07be804f1b13dae16130" name="ac5f741c3a18a07be804f1b13dae16130"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac5f741c3a18a07be804f1b13dae16130">&#9670;&#160;</a></span>UPCASE_CLUSTER</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">const uint32_t UPCASE_CLUSTER = 3</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
 </div><!-- contents -->
 </div><!-- doc-content -->
 <!-- start footer part -->

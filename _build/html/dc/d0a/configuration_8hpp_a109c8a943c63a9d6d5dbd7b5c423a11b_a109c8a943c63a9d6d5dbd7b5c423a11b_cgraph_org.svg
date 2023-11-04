@@ -11,7 +11,7 @@
 <!-- Node1 -->
 <g id="Node000001" class="node">
 <title>Node1</title>
-<g id="a_Node000001"><a xlink:title=" ">
+<g id="a_Node000001"><a xlink:title="Traite et exécute une commande entrée par l&#39;utilisateur.">
 <polygon fill="#999999" stroke="#666666" points="149,-204 0,-204 0,-185 149,-185 149,-204"/>
 <text text-anchor="middle" x="74.5" y="-192" font-family="Helvetica,sans-Serif" font-size="10.00">configurationRunCommand</text>
 </a>
@@ -20,7 +20,7 @@
 <!-- Node2 -->
 <g id="Node000002" class="node">
 <title>Node2</title>
-<g id="a_Node000002"><a xlink:href="../../df/d22/configuration_8cpp_a6bd13860527df89b0417875cfc381b28.xhtml#a6bd13860527df89b0417875cfc381b28" target="_top" xlink:title=" ">
+<g id="a_Node000002"><a xlink:href="../../df/d22/configuration_8cpp_a6bd13860527df89b0417875cfc381b28.xhtml#a6bd13860527df89b0417875cfc381b28" target="_top" xlink:title="Affiche dans le moniteur série &#39;Valeur invalide&#39;.">
 <polygon fill="white" stroke="#666666" points="284,-389 185,-389 185,-370 284,-370 284,-389"/>
 <text text-anchor="middle" x="234.5" y="-377" font-family="Helvetica,sans-Serif" font-size="10.00">printInvalidValue</text>
 </a>
@@ -74,7 +74,7 @@
 <!-- Node5 -->
 <g id="Node000005" class="node">
 <title>Node5</title>
-<g id="a_Node000005"><a xlink:href="../../da/d8a/clock_8cpp_ab234f32040a0417cf7e4052226570ea7.xhtml#ab234f32040a0417cf7e4052226570ea7" target="_top" xlink:title=" ">
+<g id="a_Node000005"><a xlink:href="../../da/d8a/clock_8cpp_ab234f32040a0417cf7e4052226570ea7.xhtml#ab234f32040a0417cf7e4052226570ea7" target="_top" xlink:title="Définit le jour actuel.">
 <polygon fill="white" stroke="#666666" points="260,-278 209,-278 209,-259 260,-259 260,-278"/>
 <text text-anchor="middle" x="234.5" y="-266" font-family="Helvetica,sans-Serif" font-size="10.00">setDay</text>
 </a>
@@ -92,7 +92,7 @@
 <!-- Node8 -->
 <g id="Node000008" class="node">
 <title>Node8</title>
-<g id="a_Node000008"><a xlink:href="../../da/d8a/clock_8cpp_a267604a5694bbeec1f8bb522c02e30ea.xhtml#a267604a5694bbeec1f8bb522c02e30ea" target="_top" xlink:title=" ">
+<g id="a_Node000008"><a xlink:href="../../da/d8a/clock_8cpp_a267604a5694bbeec1f8bb522c02e30ea.xhtml#a267604a5694bbeec1f8bb522c02e30ea" target="_top" xlink:title="Définit le jour de la semaine actuel.">
 <polygon fill="white" stroke="#666666" points="279,-241 190,-241 190,-222 279,-222 279,-241"/>
 <text text-anchor="middle" x="234.5" y="-229" font-family="Helvetica,sans-Serif" font-size="10.00">setDayOfWeek</text>
 </a>
@@ -110,7 +110,7 @@
 <!-- Node9 -->
 <g id="Node000009" class="node">
 <title>Node9</title>
-<g id="a_Node000009"><a xlink:href="../../da/d8a/clock_8cpp_ac6daa7051c56f2758c8f1a555b38b54f.xhtml#ac6daa7051c56f2758c8f1a555b38b54f" target="_top" xlink:title=" ">
+<g id="a_Node000009"><a xlink:href="../../da/d8a/clock_8cpp_ac6daa7051c56f2758c8f1a555b38b54f.xhtml#ac6daa7051c56f2758c8f1a555b38b54f" target="_top" xlink:title="Définit l&#39;heure actuelle.">
 <polygon fill="white" stroke="#666666" points="262,-204 207,-204 207,-185 262,-185 262,-204"/>
 <text text-anchor="middle" x="234.5" y="-192" font-family="Helvetica,sans-Serif" font-size="10.00">setHour</text>
 </a>
@@ -128,7 +128,7 @@
 <!-- Node10 -->
 <g id="Node000010" class="node">
 <title>Node10</title>
-<g id="a_Node000010"><a xlink:href="../../da/d8a/clock_8cpp_a046d520d9db3b46e7914380f53b9cbc4.xhtml#a046d520d9db3b46e7914380f53b9cbc4" target="_top" xlink:title=" ">
+<g id="a_Node000010"><a xlink:href="../../da/d8a/clock_8cpp_a046d520d9db3b46e7914380f53b9cbc4.xhtml#a046d520d9db3b46e7914380f53b9cbc4" target="_top" xlink:title="Définit les minutes actuelles.">
 <polygon fill="white" stroke="#666666" points="267,-167 202,-167 202,-148 267,-148 267,-167"/>
 <text text-anchor="middle" x="234.5" y="-155" font-family="Helvetica,sans-Serif" font-size="10.00">setMinute</text>
 </a>
@@ -146,7 +146,7 @@
 <!-- Node11 -->
 <g id="Node000011" class="node">
 <title>Node11</title>
-<g id="a_Node000011"><a xlink:href="../../da/d8a/clock_8cpp_a0819a812360d2bf138d207150a04c1f5.xhtml#a0819a812360d2bf138d207150a04c1f5" target="_top" xlink:title=" ">
+<g id="a_Node000011"><a xlink:href="../../da/d8a/clock_8cpp_a0819a812360d2bf138d207150a04c1f5.xhtml#a0819a812360d2bf138d207150a04c1f5" target="_top" xlink:title="Définit le mois actuel.">
 <polygon fill="white" stroke="#666666" points="265.5,-130 203.5,-130 203.5,-111 265.5,-111 265.5,-130"/>
 <text text-anchor="middle" x="234.5" y="-118" font-family="Helvetica,sans-Serif" font-size="10.00">setMonth</text>
 </a>
@@ -164,7 +164,7 @@
 <!-- Node12 -->
 <g id="Node000012" class="node">
 <title>Node12</title>
-<g id="a_Node000012"><a xlink:href="../../da/d8a/clock_8cpp_a0bc46f276c5d52a4adecb25609a98c8c.xhtml#a0bc46f276c5d52a4adecb25609a98c8c" target="_top" xlink:title=" ">
+<g id="a_Node000012"><a xlink:href="../../da/d8a/clock_8cpp_a0bc46f276c5d52a4adecb25609a98c8c.xhtml#a0bc46f276c5d52a4adecb25609a98c8c" target="_top" xlink:title="Définit les secondes actuelles.">
 <polygon fill="white" stroke="#666666" points="268,-93 201,-93 201,-74 268,-74 268,-93"/>
 <text text-anchor="middle" x="234.5" y="-81" font-family="Helvetica,sans-Serif" font-size="10.00">setSecond</text>
 </a>
@@ -200,7 +200,7 @@
 <!-- Node14 -->
 <g id="Node000014" class="node">
 <title>Node14</title>
-<g id="a_Node000014"><a xlink:href="../../da/d8a/clock_8cpp_a2268b24626953c1eac1d5b18db74cc4b.xhtml#a2268b24626953c1eac1d5b18db74cc4b" target="_top" xlink:title=" ">
+<g id="a_Node000014"><a xlink:href="../../da/d8a/clock_8cpp_a2268b24626953c1eac1d5b18db74cc4b.xhtml#a2268b24626953c1eac1d5b18db74cc4b" target="_top" xlink:title="Définit l&#39;année actuelle.">
 <polygon fill="white" stroke="#666666" points="260.5,-19 208.5,-19 208.5,0 260.5,0 260.5,-19"/>
 <text text-anchor="middle" x="234.5" y="-7" font-family="Helvetica,sans-Serif" font-size="10.00">setYear</text>
 </a>

@@ -1,0 +1,11 @@
+<map id="acquireData" name="acquireData">
+<area shape="rect" id="Node000001" title=" " alt="" coords="5,55,107,80"/>
+<area shape="rect" id="Node000002" href="$de/d8d/wiring__analog_8c.xhtml#a2eda513a6bb35bf13675a24711d4e864" title=" " alt="" coords="155,5,253,31"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="94,52,151,33,153,38,96,57"/>
+<area shape="rect" id="Node000003" href="$d5/d45/wiring__digital_8c.xhtml#a73b9b61feeaf7d790d107f2954a7fd93" title=" " alt="" coords="155,55,253,80"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="107,65,141,65,141,70,107,70"/>
+<area shape="rect" id="Node000005" href="$d5/df3/wiring_8c.xhtml#a8b24cbb7c3486e1bfa05c86db83ecb01" title=" " alt="" coords="171,104,237,129"/>
+<area shape="poly" id="edge4_Node000001_Node000005" title=" " alt="" coords="96,78,158,99,157,104,94,83"/>
+<area shape="rect" id="Node000004" href="$d5/d45/wiring__digital_8c.xhtml#ae3d0bcbe4eb927ca8f5d5c21b7e4f224" title=" " alt="" coords="301,55,401,80"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="254,65,287,65,287,70,254,70"/>
+</map>

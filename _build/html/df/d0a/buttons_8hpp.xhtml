@@ -5,7 +5,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=11"/>
 <meta name="generator" content="Doxygen 1.10.0"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>Station_Méteo_Groupe_1: Référence du fichier /mnt/d/Cours/10. CESI A2/Blocs/01 - Systeme embarque/Livrables/Station_Meteo_Groupe_1 - Copy/include/peripherals/buttons.hpp</title>
+<title>Station_Méteo_Groupe_1: Référence du fichier buttons.hpp</title>
 <link href="../../tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="../../jquery.js"></script>
 <script type="text/javascript" src="../../dynsections.js"></script>
@@ -113,16 +113,108 @@ Ce graphe montre quels fichiers incluent directement ou indirectement ce fichier
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="func-members" name="func-members"></a>
 Fonctions</h2></td></tr>
-<tr class="memitem:a27d3ba5afb772cc36c9a432c28975ace" id="r_a27d3ba5afb772cc36c9a432c28975ace"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../df/d0a/buttons_8hpp_a27d3ba5afb772cc36c9a432c28975ace.xhtml#a27d3ba5afb772cc36c9a432c28975ace">initButtons</a> ()</td></tr>
+<tr class="memitem:a27d3ba5afb772cc36c9a432c28975ace" id="r_a27d3ba5afb772cc36c9a432c28975ace"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a27d3ba5afb772cc36c9a432c28975ace">initButtons</a> ()</td></tr>
 <tr class="memdesc:a27d3ba5afb772cc36c9a432c28975ace"><td class="mdescLeft">&#160;</td><td class="mdescRight">Initialise les boutons (sans les interruptions).  <br /></td></tr>
 <tr class="separator:a27d3ba5afb772cc36c9a432c28975ace"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a82677b3df6b653b673a4b1735af9d45d" id="r_a82677b3df6b653b673a4b1735af9d45d"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../df/d0a/buttons_8hpp_a82677b3df6b653b673a4b1735af9d45d.xhtml#a82677b3df6b653b673a4b1735af9d45d">initButtonsInterrupt</a> ()</td></tr>
+<tr class="memitem:a82677b3df6b653b673a4b1735af9d45d" id="r_a82677b3df6b653b673a4b1735af9d45d"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a82677b3df6b653b673a4b1735af9d45d">initButtonsInterrupt</a> ()</td></tr>
 <tr class="memdesc:a82677b3df6b653b673a4b1735af9d45d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Initialise les interruptions sur les boutons.  <br /></td></tr>
 <tr class="separator:a82677b3df6b653b673a4b1735af9d45d"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a54d82e2e60914d150743dcfe6ddbbece" id="r_a54d82e2e60914d150743dcfe6ddbbece"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../df/d0a/buttons_8hpp_a54d82e2e60914d150743dcfe6ddbbece.xhtml#a54d82e2e60914d150743dcfe6ddbbece">buttonPressed</a> ()</td></tr>
+<tr class="memitem:a54d82e2e60914d150743dcfe6ddbbece" id="r_a54d82e2e60914d150743dcfe6ddbbece"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a54d82e2e60914d150743dcfe6ddbbece">buttonPressed</a> ()</td></tr>
 <tr class="memdesc:a54d82e2e60914d150743dcfe6ddbbece"><td class="mdescLeft">&#160;</td><td class="mdescRight">Fonction appelée lors de l'appui sur le bouton vert ou rouge.  <br /></td></tr>
 <tr class="separator:a54d82e2e60914d150743dcfe6ddbbece"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
+<h2 class="groupheader">Documentation des fonctions</h2>
+<a id="a54d82e2e60914d150743dcfe6ddbbece" name="a54d82e2e60914d150743dcfe6ddbbece"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a54d82e2e60914d150743dcfe6ddbbece">&#9670;&#160;</a></span>buttonPressed()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void buttonPressed </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Fonction appelée lors de l'appui sur le bouton vert ou rouge. </p>
+<p>Elle fait la distinction entre les deux boutons et créer un compteur avec la fonction correspondante.</p>
+<p>Références : <a class="el" href="../../df/dd7/consts_8hpp.xhtml#ae86b9e3c55843b4d92686392904d0280">BUTTON_DELAY</a> <a class="el" href="../../df/dd7/consts_8hpp.xhtml#aab2c11d54f1c98717c24b2084ad167b7">GREEN_BUTTON_PIN</a> <a class="el" href="../../df/dd7/consts_8hpp.xhtml#ad51b3e811eef60ec0ad38bad2304cb4d">RED_BUTTON_PIN</a> <a class="el" href="../../dc/de5/timer_8cpp.xhtml#a4c04079a1fe0cb011c57a3e213d51e65">createTimer1()</a> <a class="el" href="../../dc/de5/timer_8cpp.xhtml#a6ac5badfa7050f69053360ab718ea6ab">stopTimer1()</a> <a class="el" href="../../d9/d88/mode_8cpp.xhtml#abfb388c3517fd2ecbd1a89e7e15e43fd">redButtonPressed()</a> <a class="el" href="../../d9/d88/mode_8cpp.xhtml#aebf1ca4bb83f667202b4a32cc7d3e2a9">greenButtonPressed()</a> </p>
+<div class="dynheader">
+Voici le graphe d'appel pour cette fonction :</div>
+<div class="dyncontent">
+<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="../../df/d0a/buttons_8hpp_a54d82e2e60914d150743dcfe6ddbbece_cgraph.svg" width="100%" height="600"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
+</div>
+<div class="dynheader">
+Voici le graphe des appelants de cette fonction :</div>
+<div class="dyncontent">
+<div class="center"><iframe scrolling="no" frameborder="0" src="../../df/d0a/buttons_8hpp_a54d82e2e60914d150743dcfe6ddbbece_icgraph.svg" width="532" height="36"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+</div>
+
+</div>
+</div>
+<a id="a27d3ba5afb772cc36c9a432c28975ace" name="a27d3ba5afb772cc36c9a432c28975ace"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a27d3ba5afb772cc36c9a432c28975ace">&#9670;&#160;</a></span>initButtons()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void initButtons </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Initialise les boutons (sans les interruptions). </p>
+<p>Références : <a class="el" href="../../df/dd7/consts_8hpp.xhtml#ad51b3e811eef60ec0ad38bad2304cb4d">RED_BUTTON_PIN</a> <a class="el" href="../../df/dd7/consts_8hpp.xhtml#aab2c11d54f1c98717c24b2084ad167b7">GREEN_BUTTON_PIN</a> </p>
+<div class="dynheader">
+Voici le graphe d'appel pour cette fonction :</div>
+<div class="dyncontent">
+<div class="center"><iframe scrolling="no" frameborder="0" src="../../df/d0a/buttons_8hpp_a27d3ba5afb772cc36c9a432c28975ace_cgraph.svg" width="231" height="36"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+</div>
+<div class="dynheader">
+Voici le graphe des appelants de cette fonction :</div>
+<div class="dyncontent">
+<div class="center"><iframe scrolling="no" frameborder="0" src="../../df/d0a/buttons_8hpp_a27d3ba5afb772cc36c9a432c28975ace_icgraph.svg" width="314" height="36"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+</div>
+
+</div>
+</div>
+<a id="a82677b3df6b653b673a4b1735af9d45d" name="a82677b3df6b653b673a4b1735af9d45d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a82677b3df6b653b673a4b1735af9d45d">&#9670;&#160;</a></span>initButtonsInterrupt()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void initButtonsInterrupt </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Initialise les interruptions sur les boutons. </p>
+<p>Références : <a class="el" href="../../dc/de5/timer_8cpp.xhtml#a4c04079a1fe0cb011c57a3e213d51e65">createTimer1()</a> <a class="el" href="../../dc/de5/timer_8cpp.xhtml#a6ac5badfa7050f69053360ab718ea6ab">stopTimer1()</a> <a class="el" href="../../d9/d88/mode_8cpp.xhtml#abfb388c3517fd2ecbd1a89e7e15e43fd">redButtonPressed()</a> <a class="el" href="../../d9/d88/mode_8cpp.xhtml#aebf1ca4bb83f667202b4a32cc7d3e2a9">greenButtonPressed()</a> <a class="el" href="../../df/dd7/consts_8hpp.xhtml#ad51b3e811eef60ec0ad38bad2304cb4d">RED_BUTTON_PIN</a> <a class="el" href="../../df/dd7/consts_8hpp.xhtml#aab2c11d54f1c98717c24b2084ad167b7">GREEN_BUTTON_PIN</a> </p>
+<div class="dynheader">
+Voici le graphe d'appel pour cette fonction :</div>
+<div class="dyncontent">
+<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="../../df/d0a/buttons_8hpp_a82677b3df6b653b673a4b1735af9d45d_cgraph.svg" width="100%" height="600"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
+</div>
+<div class="dynheader">
+Voici le graphe des appelants de cette fonction :</div>
+<div class="dyncontent">
+<div class="center"><iframe scrolling="no" frameborder="0" src="../../df/d0a/buttons_8hpp_a82677b3df6b653b673a4b1735af9d45d_icgraph.svg" width="370" height="36"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+</div>
+
+</div>
+</div>
 </div><!-- contents -->
 </div><!-- doc-content -->
 <!-- start footer part -->

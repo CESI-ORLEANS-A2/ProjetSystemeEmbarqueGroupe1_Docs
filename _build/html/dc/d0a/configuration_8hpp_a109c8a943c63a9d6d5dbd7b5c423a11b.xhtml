@@ -105,6 +105,28 @@ $(document).ready(function(){initNavTree('dc/d0a/configuration_8hpp_a109c8a943c6
         </tr>
       </table>
 </div><div class="memdoc">
+
+<p>Traite et exécute une commande entrée par l'utilisateur. </p>
+<p>Elle se découpe en plusieurs étapes :</p><ul>
+<li>Calcul de la somme des caractères de la commande (pour des comparaisons plus rapides).</li>
+<li>Switch-Case avec les commandes simples ne nécéssitant pas d'arguments: RESET, VERSION</li>
+<li>Si la commande n'est pas reconnue, on continue.</li>
+<li>Itération dans la liste des paramètres pour vérifié si la commande n'est pas un paramètre sans valeur (ex: LOG_INTERVALL au lieu de LOG_INTERVALL=1000). Si c'est le cas, on revoie la valeur enrégistrée.</li>
+<li>Si la commande n'est pas reconnue, on continue.</li>
+<li>Séparation de la commande et de la valeur (ex: LOG_INTERVALL=1000 -&gt; LOG_INTERVALL et 1000).</li>
+<li>Recalcul de la somme, mais uniquement sur le nom de paramètre.</li>
+<li>Switch-Case avec les commandes nécéssitant des arguments complexes (nécéssitant un prétraitement): CLOCK, DATE, DAY</li>
+<li>Si la commande n'est pas reconnue, on continue.</li>
+<li>Itération dans la liste des paramètres pour vérifié si la commande n'est pas un paramètre. Si c'est le cas, la valeur est vérifiée et le paramètre est mis à jour.</li>
+<li>Si la commande n'est pas reconnue, on revoie "inconnu".</li>
+</ul>
+<dl class="params"><dt>Paramètres</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">command</td><td>La commande à exécuter.</td></tr>
+  </table>
+  </dd>
+</dl>
+<p>Références : <a class="el" href="../../df/dd7/consts_8hpp_a4b22ce614859e622108ad3476ca1cf43.xhtml#a4b22ce614859e622108ad3476ca1cf43">NUMBER_OF_SETTINGS</a> <a class="el" href="../../df/dd7/consts_8hpp_ab81b58332d5fc8a29dc60c268bd3742b.xhtml#ab81b58332d5fc8a29dc60c268bd3742bac82db3248a96794aaefb922ea5fb293c">MONDAY</a> <a class="el" href="../../df/dd7/consts_8hpp_ab81b58332d5fc8a29dc60c268bd3742b.xhtml#ab81b58332d5fc8a29dc60c268bd3742ba347c4455723bb1bc2709647607a2b282">TUESDAY</a> <a class="el" href="../../df/dd7/consts_8hpp_ab81b58332d5fc8a29dc60c268bd3742b.xhtml#ab81b58332d5fc8a29dc60c268bd3742ba68288a23958cd9e1705fd81f0ee729c7">WEDNESDAY</a> <a class="el" href="../../df/dd7/consts_8hpp_ab81b58332d5fc8a29dc60c268bd3742b.xhtml#ab81b58332d5fc8a29dc60c268bd3742bab4bfd6f883437c6cf31486dcf03ce0ff">THURSDAY</a> <a class="el" href="../../df/dd7/consts_8hpp_ab81b58332d5fc8a29dc60c268bd3742b.xhtml#ab81b58332d5fc8a29dc60c268bd3742ba8f589731fd90a9890c0df9a9c3f96131">FRIDAY</a> <a class="el" href="../../df/dd7/consts_8hpp_ab81b58332d5fc8a29dc60c268bd3742b.xhtml#ab81b58332d5fc8a29dc60c268bd3742ba31bbcd6fa6a28095ef8de658126aa5ec">SATURDAY</a> <a class="el" href="../../df/dd7/consts_8hpp_ab81b58332d5fc8a29dc60c268bd3742b.xhtml#ab81b58332d5fc8a29dc60c268bd3742bad86a75e0b97510de54435996ae45b8d2">SUNDAY</a> <a class="el" href="../../de/d32/settings_8cpp_a0e9c3db9b01c9a667cbe93f8913b933a.xhtml#a0e9c3db9b01c9a667cbe93f8913b933a">settings</a> <a class="el" href="../../df/d22/configuration_8cpp_a62558d4ef6307d0d4ce53b59c80a8d3f.xhtml#a62558d4ef6307d0d4ce53b59c80a8d3f">configurationInputBuffer</a> <a class="el" href="../../df/d22/configuration_8cpp_a1d41e0a73e15a7b1764dc42df1a189c3.xhtml#a1d41e0a73e15a7b1764dc42df1a189c3">configurationInputLength</a> <a class="el" href="../../de/d32/settings_8cpp_ac633daaf23d0cb452aaddd6c2a1c60d4.xhtml#ac633daaf23d0cb452aaddd6c2a1c60d4">resetSettings()</a> <a class="el" href="../../de/d25/serial_8cpp_a9c4b081f1e1ad60def15811c71a936f2.xhtml#a9c4b081f1e1ad60def15811c71a936f2">printVersion()</a> <a class="el" href="../../df/d22/configuration_8cpp_a6bd13860527df89b0417875cfc381b28.xhtml#a6bd13860527df89b0417875cfc381b28">printInvalidValue()</a> <a class="el" href="../../da/d8a/clock_8cpp_ac6daa7051c56f2758c8f1a555b38b54f.xhtml#ac6daa7051c56f2758c8f1a555b38b54f">setHour()</a> <a class="el" href="../../da/d8a/clock_8cpp_a046d520d9db3b46e7914380f53b9cbc4.xhtml#a046d520d9db3b46e7914380f53b9cbc4">setMinute()</a> <a class="el" href="../../da/d8a/clock_8cpp_a0bc46f276c5d52a4adecb25609a98c8c.xhtml#a0bc46f276c5d52a4adecb25609a98c8c">setSecond()</a> <a class="el" href="../../da/d8a/clock_8cpp_ab234f32040a0417cf7e4052226570ea7.xhtml#ab234f32040a0417cf7e4052226570ea7">setDay()</a> <a class="el" href="../../da/d8a/clock_8cpp_a0819a812360d2bf138d207150a04c1f5.xhtml#a0819a812360d2bf138d207150a04c1f5">setMonth()</a> <a class="el" href="../../da/d8a/clock_8cpp_a2268b24626953c1eac1d5b18db74cc4b.xhtml#a2268b24626953c1eac1d5b18db74cc4b">setYear()</a> <a class="el" href="../../da/d8a/clock_8cpp_a267604a5694bbeec1f8bb522c02e30ea.xhtml#a267604a5694bbeec1f8bb522c02e30ea">setDayOfWeek()</a> <a class="el" href="../../de/d32/settings_8cpp_a05d845e90afb51e493aa22ca56ae8204.xhtml#a05d845e90afb51e493aa22ca56ae8204">setSetting()</a> </p>
 <div class="dynheader">
 Voici le graphe d'appel pour cette fonction :</div>
 <div class="dyncontent">

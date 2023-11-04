@@ -1,7 +1,7 @@
-<map id="/mnt/d/Cours/10. CESI A2/Blocs/01 &#45; Systeme embarque/Livrables/Station_Meteo_Groupe_1 &#45; Copy/libs/SdFat/src/SpiDriver/SdSpiSoftDriver.h" name="/mnt/d/Cours/10. CESI A2/Blocs/01 &#45; Systeme embarque/Livrables/Station_Meteo_Groupe_1 &#45; Copy/libs/SdFat/src/SpiDriver/SdSpiSoftDriver.h">
-<area shape="rect" id="Node000001" title="Class for software SPI." alt="" coords="5,5,269,89"/>
-<area shape="rect" id="Node000002" href="$de/d0f/SoftSPI_8h.xhtml" title="Software SPI." alt="" coords="61,137,213,163"/>
-<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="140,89,140,124,135,124,135,89"/>
-<area shape="rect" id="Node000003" href="$d2/d3d/DigitalPin_8h.xhtml" title="Fast Digital Pin functions." alt="" coords="89,211,186,236"/>
-<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="140,163,140,197,135,197,135,163"/>
+<map id="SdSpiSoftDriver.h" name="SdSpiSoftDriver.h">
+<area shape="rect" id="Node000001" title="Class for software SPI." alt="" coords="14,5,149,31"/>
+<area shape="rect" id="Node000002" href="$de/d0f/SoftSPI_8h.xhtml" title="Software SPI." alt="" coords="5,79,157,104"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="84,31,84,65,79,65,79,31"/>
+<area shape="rect" id="Node000003" href="$d2/d3d/DigitalPin_8h.xhtml" title="Fast Digital Pin functions." alt="" coords="33,152,130,177"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="84,104,84,138,79,138,79,104"/>
 </map>

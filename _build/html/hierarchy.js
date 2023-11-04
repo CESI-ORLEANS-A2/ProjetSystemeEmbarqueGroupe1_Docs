@@ -177,6 +177,7 @@ var hierarchy =
     [ "PrintBasic", "d9/dd9/classPrintBasic.xhtml", [
       [ "StreamBasic", "dc/dd9/classStreamBasic.xhtml", null ]
     ] ],
+    [ "RawDegrees", "da/da6/structRawDegrees.xhtml", null ],
     [ "scr_t", "df/dac/structscr__t.xhtml", null ],
     [ "SdCardFactory", "dd/d6a/classSdCardFactory.xhtml", null ],
     [ "SdioConfig", "d0/d30/classSdioConfig.xhtml", null ],
@@ -210,6 +211,19 @@ var hierarchy =
     ] ],
     [ "Timeout", "db/df4/classTimeout.xhtml", null ],
     [ "Tiny_BME280", "d4/d1b/classTiny__BME280.xhtml", null ],
+    [ "TinyGPS", "df/d85/classTinyGPS.xhtml", null ],
+    [ "TinyGPSCustom", "dc/d9f/classTinyGPSCustom.xhtml", null ],
+    [ "TinyGPSDate", "d1/d67/structTinyGPSDate.xhtml", null ],
+    [ "TinyGPSDecimal", "d4/df7/structTinyGPSDecimal.xhtml", [
+      [ "TinyGPSAltitude", "d1/d54/structTinyGPSAltitude.xhtml", null ],
+      [ "TinyGPSCourse", "de/d12/structTinyGPSCourse.xhtml", null ],
+      [ "TinyGPSHDOP", "d3/d41/structTinyGPSHDOP.xhtml", null ],
+      [ "TinyGPSSpeed", "dc/dd0/structTinyGPSSpeed.xhtml", null ]
+    ] ],
+    [ "TinyGPSInteger", "d4/d0e/structTinyGPSInteger.xhtml", null ],
+    [ "TinyGPSLocation", "da/ddc/structTinyGPSLocation.xhtml", null ],
+    [ "TinyGPSPlus", "d3/d57/classTinyGPSPlus.xhtml", null ],
+    [ "TinyGPSTime", "db/de3/structTinyGPSTime.xhtml", null ],
     [ "Vol", null, [
       [ "SdBase< Vol, Fmt >", "da/d81/classSdBase.xhtml", null ]
     ] ]

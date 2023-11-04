@@ -5,7 +5,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=11"/>
 <meta name="generator" content="Doxygen 1.10.0"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>Station_Méteo_Groupe_1: Référence du fichier /mnt/d/Cours/10. CESI A2/Blocs/01 - Systeme embarque/Livrables/Station_Meteo_Groupe_1 - Copy/libs/SdFat/src/FsLib/FsNew.h</title>
+<title>Station_Méteo_Groupe_1: Référence du fichier FsNew.h</title>
 <link href="../../tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="../../jquery.js"></script>
 <script type="text/javascript" src="../../dynsections.js"></script>
@@ -102,7 +102,7 @@ $(document).ready(function(){initNavTree('db/d65/FsNew_8h.xhtml','../../'); init
 </div><div class="textblock"><div class="dynheader">
 Graphe des dépendances par inclusion de FsNew.h:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="../../d9/da4/FsNew_8h__incl.svg" width="223" height="168"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+<div class="center"><iframe scrolling="no" frameborder="0" src="../../d9/da4/FsNew_8h__incl.svg" width="182" height="110"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
 </div>
 </div><div class="textblock"><div class="dynheader">
 Ce graphe montre quels fichiers incluent directement ou indirectement ce fichier :</div>
@@ -114,23 +114,156 @@ Ce graphe montre quels fichiers incluent directement ou indirectement ce fichier
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="define-members" name="define-members"></a>
 Macros</h2></td></tr>
-<tr class="memitem:a4984977dd379b628087b79b8b88a20e7" id="r_a4984977dd379b628087b79b8b88a20e7"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../db/d65/FsNew_8h_a4984977dd379b628087b79b8b88a20e7.xhtml#a4984977dd379b628087b79b8b88a20e7">FS_SIZE</a>(etype,  ftype)&#160;&#160;&#160;  (sizeof(ftype) &lt; sizeof(etype) ? sizeof(etype) : sizeof(ftype))</td></tr>
+<tr class="memitem:a4984977dd379b628087b79b8b88a20e7" id="r_a4984977dd379b628087b79b8b88a20e7"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a4984977dd379b628087b79b8b88a20e7">FS_SIZE</a>(etype,  ftype)&#160;&#160;&#160;  (sizeof(ftype) &lt; sizeof(etype) ? sizeof(etype) : sizeof(ftype))</td></tr>
 <tr class="separator:a4984977dd379b628087b79b8b88a20e7"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a9893a1ae924069d40e7185e471b4a5bb" id="r_a9893a1ae924069d40e7185e471b4a5bb"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../db/d65/FsNew_8h_a9893a1ae924069d40e7185e471b4a5bb.xhtml#a9893a1ae924069d40e7185e471b4a5bb">NEW_ALIGN_DIM</a>(n)&#160;&#160;&#160;  (((size_t)(n) + sizeof(<a class="el" href="../../db/d65/FsNew_8h_aa858eeb82c4fc91593a63ad62474c1d7.xhtml#aa858eeb82c4fc91593a63ad62474c1d7">newalign_t</a>) - 1U) / sizeof(<a class="el" href="../../db/d65/FsNew_8h_aa858eeb82c4fc91593a63ad62474c1d7.xhtml#aa858eeb82c4fc91593a63ad62474c1d7">newalign_t</a>))</td></tr>
+<tr class="memitem:a9893a1ae924069d40e7185e471b4a5bb" id="r_a9893a1ae924069d40e7185e471b4a5bb"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a9893a1ae924069d40e7185e471b4a5bb">NEW_ALIGN_DIM</a>(n)&#160;&#160;&#160;  (((size_t)(n) + sizeof(<a class="el" href="#aa858eeb82c4fc91593a63ad62474c1d7">newalign_t</a>) - 1U) / sizeof(<a class="el" href="#aa858eeb82c4fc91593a63ad62474c1d7">newalign_t</a>))</td></tr>
 <tr class="separator:a9893a1ae924069d40e7185e471b4a5bb"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:af1020c14733d4f2bb83497caba4ab010" id="r_af1020c14733d4f2bb83497caba4ab010"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../db/d65/FsNew_8h_af1020c14733d4f2bb83497caba4ab010.xhtml#af1020c14733d4f2bb83497caba4ab010">FS_ALIGN_DIM</a>(etype,  ftype)&#160;&#160;&#160;<a class="el" href="../../db/d65/FsNew_8h_a9893a1ae924069d40e7185e471b4a5bb.xhtml#a9893a1ae924069d40e7185e471b4a5bb">NEW_ALIGN_DIM</a>(<a class="el" href="../../db/d65/FsNew_8h_a4984977dd379b628087b79b8b88a20e7.xhtml#a4984977dd379b628087b79b8b88a20e7">FS_SIZE</a>(etype, ftype))</td></tr>
+<tr class="memitem:af1020c14733d4f2bb83497caba4ab010" id="r_af1020c14733d4f2bb83497caba4ab010"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#af1020c14733d4f2bb83497caba4ab010">FS_ALIGN_DIM</a>(etype,  ftype)&#160;&#160;&#160;<a class="el" href="#a9893a1ae924069d40e7185e471b4a5bb">NEW_ALIGN_DIM</a>(<a class="el" href="#a4984977dd379b628087b79b8b88a20e7">FS_SIZE</a>(etype, ftype))</td></tr>
 <tr class="separator:af1020c14733d4f2bb83497caba4ab010"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="typedef-members" name="typedef-members"></a>
 Définitions de type</h2></td></tr>
-<tr class="memitem:aa858eeb82c4fc91593a63ad62474c1d7" id="r_aa858eeb82c4fc91593a63ad62474c1d7"><td class="memItemLeft" align="right" valign="top">typedef uint32_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../db/d65/FsNew_8h_aa858eeb82c4fc91593a63ad62474c1d7.xhtml#aa858eeb82c4fc91593a63ad62474c1d7">newalign_t</a></td></tr>
+<tr class="memitem:aa858eeb82c4fc91593a63ad62474c1d7" id="r_aa858eeb82c4fc91593a63ad62474c1d7"><td class="memItemLeft" align="right" valign="top">typedef uint32_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aa858eeb82c4fc91593a63ad62474c1d7">newalign_t</a></td></tr>
 <tr class="separator:aa858eeb82c4fc91593a63ad62474c1d7"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="func-members" name="func-members"></a>
 Fonctions</h2></td></tr>
-<tr class="memitem:a80c00334980e37b593f722b6d43821e2" id="r_a80c00334980e37b593f722b6d43821e2"><td class="memItemLeft" align="right" valign="top">void *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../db/d65/FsNew_8h_a80c00334980e37b593f722b6d43821e2.xhtml#a80c00334980e37b593f722b6d43821e2">operator new</a> (size_t size, <a class="el" href="../../db/d65/FsNew_8h_aa858eeb82c4fc91593a63ad62474c1d7.xhtml#aa858eeb82c4fc91593a63ad62474c1d7">newalign_t</a> *ptr)</td></tr>
+<tr class="memitem:a80c00334980e37b593f722b6d43821e2" id="r_a80c00334980e37b593f722b6d43821e2"><td class="memItemLeft" align="right" valign="top">void *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a80c00334980e37b593f722b6d43821e2">operator new</a> (size_t size, <a class="el" href="#aa858eeb82c4fc91593a63ad62474c1d7">newalign_t</a> *ptr)</td></tr>
 <tr class="separator:a80c00334980e37b593f722b6d43821e2"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
+<h2 class="groupheader">Documentation des macros</h2>
+<a id="af1020c14733d4f2bb83497caba4ab010" name="af1020c14733d4f2bb83497caba4ab010"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af1020c14733d4f2bb83497caba4ab010">&#9670;&#160;</a></span>FS_ALIGN_DIM</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define FS_ALIGN_DIM</td>
+          <td>(</td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname">etype, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname">ftype&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td>&#160;&#160;&#160;<a class="el" href="#a9893a1ae924069d40e7185e471b4a5bb">NEW_ALIGN_DIM</a>(<a class="el" href="#a4984977dd379b628087b79b8b88a20e7">FS_SIZE</a>(etype, ftype))</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Dimension of aligned area for etype or ftype class. </p>
+
+</div>
+</div>
+<a id="a4984977dd379b628087b79b8b88a20e7" name="a4984977dd379b628087b79b8b88a20e7"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a4984977dd379b628087b79b8b88a20e7">&#9670;&#160;</a></span>FS_SIZE</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define FS_SIZE</td>
+          <td>(</td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname">etype, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname">ftype&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td>&#160;&#160;&#160;  (sizeof(ftype) &lt; sizeof(etype) ? sizeof(etype) : sizeof(ftype))</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Size required for exFAT or FAT class. </p>
+
+</div>
+</div>
+<a id="a9893a1ae924069d40e7185e471b4a5bb" name="a9893a1ae924069d40e7185e471b4a5bb"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a9893a1ae924069d40e7185e471b4a5bb">&#9670;&#160;</a></span>NEW_ALIGN_DIM</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define NEW_ALIGN_DIM</td>
+          <td>(</td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname">n</td><td>)</td>
+          <td>&#160;&#160;&#160;  (((size_t)(n) + sizeof(<a class="el" href="#aa858eeb82c4fc91593a63ad62474c1d7">newalign_t</a>) - 1U) / sizeof(<a class="el" href="#aa858eeb82c4fc91593a63ad62474c1d7">newalign_t</a>))</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Dimension of aligned area. </p>
+
+</div>
+</div>
+<h2 class="groupheader">Documentation des définitions de type</h2>
+<a id="aa858eeb82c4fc91593a63ad62474c1d7" name="aa858eeb82c4fc91593a63ad62474c1d7"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa858eeb82c4fc91593a63ad62474c1d7">&#9670;&#160;</a></span>newalign_t</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">typedef uint32_t <a class="el" href="#aa858eeb82c4fc91593a63ad62474c1d7">newalign_t</a></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Copyright (c) 2011-2022 Bill Greiman This file is part of the SdFat library for SD memory cards.</p>
+<p>MIT License</p>
+<p>Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:</p>
+<p>The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.</p>
+<p>THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE. 32-bit alignment </p>
+
+</div>
+</div>
+<h2 class="groupheader">Documentation des fonctions</h2>
+<a id="a80c00334980e37b593f722b6d43821e2" name="a80c00334980e37b593f722b6d43821e2"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a80c00334980e37b593f722b6d43821e2">&#9670;&#160;</a></span>operator new()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void * operator new </td>
+          <td>(</td>
+          <td class="paramtype">size_t&#160;</td>
+          <td class="paramname"><em>size</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="#aa858eeb82c4fc91593a63ad62474c1d7">newalign_t</a> *&#160;</td>
+          <td class="paramname"><em>ptr</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Custom new placement operator</p>
+<p>Copyright (c) 2011-2022 Bill Greiman This file is part of the SdFat library for SD memory cards.</p>
+<p>MIT License</p>
+<p>Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:</p>
+<p>The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.</p>
+<p>THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE. </p>
+
+</div>
+</div>
 </div><!-- contents -->
 </div><!-- doc-content -->
 <!-- start footer part -->

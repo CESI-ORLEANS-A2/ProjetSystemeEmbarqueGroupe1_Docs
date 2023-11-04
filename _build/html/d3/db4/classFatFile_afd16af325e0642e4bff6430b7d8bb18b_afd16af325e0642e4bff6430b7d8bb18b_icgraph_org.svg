@@ -803,7 +803,7 @@
 <!-- Node44 -->
 <g id="Node000044" class="node">
 <title>Node44</title>
-<g id="a_Node000044"><a xlink:href="../../d9/ddd/economy_8cpp_a35740c7a73b48d918cb4e6d891d46bed.xhtml#a35740c7a73b48d918cb4e6d891d46bed" target="_top" xlink:title=" ">
+<g id="a_Node000044"><a xlink:href="../../d9/ddd/economy_8cpp_a35740c7a73b48d918cb4e6d891d46bed.xhtml#a35740c7a73b48d918cb4e6d891d46bed" target="_top" xlink:title="Exécute une étape de la boucle principale du mode économique.">
 <polygon fill="white" stroke="#666666" points="426,-56 300,-56 300,-37 426,-37 426,-56"/>
 <text text-anchor="middle" x="363" y="-44" font-family="Helvetica,sans-Serif" font-size="10.00">runEconomyModeStep</text>
 </a>
@@ -821,7 +821,7 @@
 <!-- Node47 -->
 <g id="Node000047" class="node">
 <title>Node47</title>
-<g id="a_Node000047"><a xlink:href="../../df/d92/standard_8cpp_ad0b3e86793f7441084351fc2de4d4c45.xhtml#ad0b3e86793f7441084351fc2de4d4c45" target="_top" xlink:title=" ">
+<g id="a_Node000047"><a xlink:href="../../df/d92/standard_8cpp_ad0b3e86793f7441084351fc2de4d4c45.xhtml#ad0b3e86793f7441084351fc2de4d4c45" target="_top" xlink:title="Exécute une étape de la boucle principale du mode standard.">
 <polygon fill="white" stroke="#666666" points="425.5,-19 300.5,-19 300.5,0 425.5,0 425.5,-19"/>
 <text text-anchor="middle" x="363" y="-7" font-family="Helvetica,sans-Serif" font-size="10.00">runStandardModeStep</text>
 </a>

@@ -48,7 +48,7 @@
 <script type="application/ecmascript">
 var viewWidth = 899;
 var viewHeight = 102;
-var sectionId = 'dynsection-1';
+var sectionId = 'dynsection-0';
 </script>
 <script type="application/ecmascript" xlink:href="../../svg.min.js"/>
 <svg id="graph" class="graph">
@@ -57,7 +57,7 @@ var sectionId = 'dynsection-1';
 <!-- Node1 -->
 <g id="Node000001" class="node">
 <title>Node1</title>
-<g id="a_Node000001"><a xlink:title=" ">
+<g id="a_Node000001"><a xlink:title="Passe en mode économique.">
 <polygon fill="#999999" stroke="#666666" points="891,-74 760,-74 760,-55 891,-55 891,-74"/>
 <text text-anchor="middle" x="825.5" y="-62" font-family="Helvetica,sans-Serif" font-size="10.00">switchToEconomyMode</text>
 </a>
@@ -66,7 +66,7 @@ var sectionId = 'dynsection-1';
 <!-- Node2 -->
 <g id="Node000002" class="node">
 <title>Node2</title>
-<g id="a_Node000002"><a xlink:href="../../df/d22/configuration_8cpp_a007ee20d2ddf2c89e855b63e6e812b65.xhtml#a007ee20d2ddf2c89e855b63e6e812b65" target="_top" xlink:title=" ">
+<g id="a_Node000002"><a xlink:href="../../df/d22/configuration_8cpp_a007ee20d2ddf2c89e855b63e6e812b65.xhtml#a007ee20d2ddf2c89e855b63e6e812b65" target="_top" xlink:title="Exécute une étape de la boucle principale du mode de configuration.">
 <polygon fill="white" stroke="#666666" points="724,-93 578,-93 578,-74 724,-74 724,-93"/>
 <text text-anchor="middle" x="651" y="-81" font-family="Helvetica,sans-Serif" font-size="10.00">runConfigurationModeStep</text>
 </a>

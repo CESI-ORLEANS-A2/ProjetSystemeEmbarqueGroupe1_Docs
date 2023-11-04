@@ -8,6 +8,6 @@ var Tiny__BME280_8h =
     [ "Tiny_BME280::config", "d6/dd8/structTiny__BME280_1_1config.xhtml", "d6/dd8/structTiny__BME280_1_1config" ],
     [ "Tiny_BME280::ctrl_meas", "d6/d58/structTiny__BME280_1_1ctrl__meas.xhtml", "d6/d58/structTiny__BME280_1_1ctrl__meas" ],
     [ "Tiny_BME280::ctrl_hum", "d6/d11/structTiny__BME280_1_1ctrl__hum.xhtml", "d6/d11/structTiny__BME280_1_1ctrl__hum" ],
-    [ "BME280_ADDRESS", "d8/d24/Tiny__BME280_8h_a632fe389011b56233474fad5bc075e4b.xhtml#a632fe389011b56233474fad5bc075e4b", null ],
-    [ "BME280_ADDRESS_ALTERNATE", "d8/d24/Tiny__BME280_8h_abe75d276a7fcf8ff7c0c7dc6fb20d5e9.xhtml#abe75d276a7fcf8ff7c0c7dc6fb20d5e9", null ]
+    [ "BME280_ADDRESS", "d8/d24/Tiny__BME280_8h.xhtml#a632fe389011b56233474fad5bc075e4b", null ],
+    [ "BME280_ADDRESS_ALTERNATE", "d8/d24/Tiny__BME280_8h.xhtml#abe75d276a7fcf8ff7c0c7dc6fb20d5e9", null ]
 ];

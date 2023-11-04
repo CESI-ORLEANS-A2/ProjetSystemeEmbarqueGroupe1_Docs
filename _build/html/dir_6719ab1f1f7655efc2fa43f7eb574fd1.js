@@ -8,5 +8,7 @@ var dir_6719ab1f1f7655efc2fa43f7eb574fd1 =
     [ "Grove_BME280", "dir_eba7eda11e1d736ff13ff6f2e02af844.xhtml", "dir_eba7eda11e1d736ff13ff6f2e02af844" ],
     [ "SdFat", "dir_42eee409255dea5a142129cbb92a8b55.xhtml", "dir_42eee409255dea5a142129cbb92a8b55" ],
     [ "SoftwareSerial", "dir_cdcaece38cf46c24553bd000c8a32081.xhtml", "dir_cdcaece38cf46c24553bd000c8a32081" ],
-    [ "Tiny_BME280_Library", "dir_1aa562f5f4b771645c5f127df56ed3d9.xhtml", "dir_1aa562f5f4b771645c5f127df56ed3d9" ]
+    [ "Tiny_BME280_Library", "dir_1aa562f5f4b771645c5f127df56ed3d9.xhtml", "dir_1aa562f5f4b771645c5f127df56ed3d9" ],
+    [ "TinyGPS", "dir_0877cff3823d58d9b9803655ef6b252b.xhtml", "dir_0877cff3823d58d9b9803655ef6b252b" ],
+    [ "TinyGPSPlus", "dir_8c88ed296c7c4db6508ff6b3bfa795a0.xhtml", "dir_8c88ed296c7c4db6508ff6b3bfa795a0" ]
 ];

@@ -20,7 +20,7 @@
 <!-- Node2 -->
 <g id="Node000002" class="node">
 <title>Node2</title>
-<g id="a_Node000002"><a xlink:href="../../da/d8a/clock_8cpp_ab234f32040a0417cf7e4052226570ea7.xhtml#ab234f32040a0417cf7e4052226570ea7" target="_top" xlink:title=" ">
+<g id="a_Node000002"><a xlink:href="../../da/d8a/clock_8cpp_ab234f32040a0417cf7e4052226570ea7.xhtml#ab234f32040a0417cf7e4052226570ea7" target="_top" xlink:title="Définit le jour actuel.">
 <polygon fill="white" stroke="#666666" points="588,-278 537,-278 537,-259 588,-259 588,-278"/>
 <text text-anchor="middle" x="562.5" y="-266" font-family="Helvetica,sans-Serif" font-size="10.00">setDay</text>
 </a>
@@ -38,7 +38,7 @@
 <!-- Node7 -->
 <g id="Node000007" class="node">
 <title>Node7</title>
-<g id="a_Node000007"><a xlink:href="../../da/d8a/clock_8cpp_a267604a5694bbeec1f8bb522c02e30ea.xhtml#a267604a5694bbeec1f8bb522c02e30ea" target="_top" xlink:title=" ">
+<g id="a_Node000007"><a xlink:href="../../da/d8a/clock_8cpp_a267604a5694bbeec1f8bb522c02e30ea.xhtml#a267604a5694bbeec1f8bb522c02e30ea" target="_top" xlink:title="Définit le jour de la semaine actuel.">
 <polygon fill="white" stroke="#666666" points="607,-241 518,-241 518,-222 607,-222 607,-241"/>
 <text text-anchor="middle" x="562.5" y="-229" font-family="Helvetica,sans-Serif" font-size="10.00">setDayOfWeek</text>
 </a>
@@ -56,7 +56,7 @@
 <!-- Node8 -->
 <g id="Node000008" class="node">
 <title>Node8</title>
-<g id="a_Node000008"><a xlink:href="../../da/d8a/clock_8cpp_ac6daa7051c56f2758c8f1a555b38b54f.xhtml#ac6daa7051c56f2758c8f1a555b38b54f" target="_top" xlink:title=" ">
+<g id="a_Node000008"><a xlink:href="../../da/d8a/clock_8cpp_ac6daa7051c56f2758c8f1a555b38b54f.xhtml#ac6daa7051c56f2758c8f1a555b38b54f" target="_top" xlink:title="Définit l&#39;heure actuelle.">
 <polygon fill="white" stroke="#666666" points="590,-204 535,-204 535,-185 590,-185 590,-204"/>
 <text text-anchor="middle" x="562.5" y="-192" font-family="Helvetica,sans-Serif" font-size="10.00">setHour</text>
 </a>
@@ -74,7 +74,7 @@
 <!-- Node9 -->
 <g id="Node000009" class="node">
 <title>Node9</title>
-<g id="a_Node000009"><a xlink:href="../../da/d8a/clock_8cpp_a046d520d9db3b46e7914380f53b9cbc4.xhtml#a046d520d9db3b46e7914380f53b9cbc4" target="_top" xlink:title=" ">
+<g id="a_Node000009"><a xlink:href="../../da/d8a/clock_8cpp_a046d520d9db3b46e7914380f53b9cbc4.xhtml#a046d520d9db3b46e7914380f53b9cbc4" target="_top" xlink:title="Définit les minutes actuelles.">
 <polygon fill="white" stroke="#666666" points="595,-167 530,-167 530,-148 595,-148 595,-167"/>
 <text text-anchor="middle" x="562.5" y="-155" font-family="Helvetica,sans-Serif" font-size="10.00">setMinute</text>
 </a>
@@ -92,7 +92,7 @@
 <!-- Node10 -->
 <g id="Node000010" class="node">
 <title>Node10</title>
-<g id="a_Node000010"><a xlink:href="../../da/d8a/clock_8cpp_a0819a812360d2bf138d207150a04c1f5.xhtml#a0819a812360d2bf138d207150a04c1f5" target="_top" xlink:title=" ">
+<g id="a_Node000010"><a xlink:href="../../da/d8a/clock_8cpp_a0819a812360d2bf138d207150a04c1f5.xhtml#a0819a812360d2bf138d207150a04c1f5" target="_top" xlink:title="Définit le mois actuel.">
 <polygon fill="white" stroke="#666666" points="593.5,-130 531.5,-130 531.5,-111 593.5,-111 593.5,-130"/>
 <text text-anchor="middle" x="562.5" y="-118" font-family="Helvetica,sans-Serif" font-size="10.00">setMonth</text>
 </a>
@@ -110,7 +110,7 @@
 <!-- Node11 -->
 <g id="Node000011" class="node">
 <title>Node11</title>
-<g id="a_Node000011"><a xlink:href="../../da/d8a/clock_8cpp_a0bc46f276c5d52a4adecb25609a98c8c.xhtml#a0bc46f276c5d52a4adecb25609a98c8c" target="_top" xlink:title=" ">
+<g id="a_Node000011"><a xlink:href="../../da/d8a/clock_8cpp_a0bc46f276c5d52a4adecb25609a98c8c.xhtml#a0bc46f276c5d52a4adecb25609a98c8c" target="_top" xlink:title="Définit les secondes actuelles.">
 <polygon fill="white" stroke="#666666" points="596,-93 529,-93 529,-74 596,-74 596,-93"/>
 <text text-anchor="middle" x="562.5" y="-81" font-family="Helvetica,sans-Serif" font-size="10.00">setSecond</text>
 </a>
@@ -128,7 +128,7 @@
 <!-- Node12 -->
 <g id="Node000012" class="node">
 <title>Node12</title>
-<g id="a_Node000012"><a xlink:href="../../da/d8a/clock_8cpp_a2268b24626953c1eac1d5b18db74cc4b.xhtml#a2268b24626953c1eac1d5b18db74cc4b" target="_top" xlink:title=" ">
+<g id="a_Node000012"><a xlink:href="../../da/d8a/clock_8cpp_a2268b24626953c1eac1d5b18db74cc4b.xhtml#a2268b24626953c1eac1d5b18db74cc4b" target="_top" xlink:title="Définit l&#39;année actuelle.">
 <polygon fill="white" stroke="#666666" points="588.5,-56 536.5,-56 536.5,-37 588.5,-37 588.5,-56"/>
 <text text-anchor="middle" x="562.5" y="-44" font-family="Helvetica,sans-Serif" font-size="10.00">setYear</text>
 </a>
@@ -146,7 +146,7 @@
 <!-- Node13 -->
 <g id="Node000013" class="node">
 <title>Node13</title>
-<g id="a_Node000013"><a xlink:href="../../da/d8a/clock_8cpp_af6cbeb88490e4d37173075da9a7b077b.xhtml#af6cbeb88490e4d37173075da9a7b077b" target="_top" xlink:title=" ">
+<g id="a_Node000013"><a xlink:href="../../da/d8a/clock_8cpp_af6cbeb88490e4d37173075da9a7b077b.xhtml#af6cbeb88490e4d37173075da9a7b077b" target="_top" xlink:title="Définit l&#39;année actuelle (format complet : 2020 au lieu de 20)">
 <polygon fill="white" stroke="#666666" points="597,-19 528,-19 528,0 597,0 597,-19"/>
 <text text-anchor="middle" x="562.5" y="-7" font-family="Helvetica,sans-Serif" font-size="10.00">setYearFull</text>
 </a>
@@ -164,7 +164,7 @@
 <!-- Node3 -->
 <g id="Node000003" class="node">
 <title>Node3</title>
-<g id="a_Node000003"><a xlink:href="../../df/d22/configuration_8cpp_a109c8a943c63a9d6d5dbd7b5c423a11b.xhtml#a109c8a943c63a9d6d5dbd7b5c423a11b" target="_top" xlink:title=" ">
+<g id="a_Node000003"><a xlink:href="../../df/d22/configuration_8cpp_a109c8a943c63a9d6d5dbd7b5c423a11b.xhtml#a109c8a943c63a9d6d5dbd7b5c423a11b" target="_top" xlink:title="Traite et exécute une commande entrée par l&#39;utilisateur.">
 <polygon fill="white" stroke="#666666" points="482,-167 333,-167 333,-148 482,-148 482,-167"/>
 <text text-anchor="middle" x="407.5" y="-155" font-family="Helvetica,sans-Serif" font-size="10.00">configurationRunCommand</text>
 </a>
@@ -182,7 +182,7 @@
 <!-- Node4 -->
 <g id="Node000004" class="node">
 <title>Node4</title>
-<g id="a_Node000004"><a xlink:href="../../df/d22/configuration_8cpp_a007ee20d2ddf2c89e855b63e6e812b65.xhtml#a007ee20d2ddf2c89e855b63e6e812b65" target="_top" xlink:title=" ">
+<g id="a_Node000004"><a xlink:href="../../df/d22/configuration_8cpp_a007ee20d2ddf2c89e855b63e6e812b65.xhtml#a007ee20d2ddf2c89e855b63e6e812b65" target="_top" xlink:title="Exécute une étape de la boucle principale du mode de configuration.">
 <polygon fill="white" stroke="#666666" points="297,-167 151,-167 151,-148 297,-148 297,-167"/>
 <text text-anchor="middle" x="224" y="-155" font-family="Helvetica,sans-Serif" font-size="10.00">runConfigurationModeStep</text>
 </a>

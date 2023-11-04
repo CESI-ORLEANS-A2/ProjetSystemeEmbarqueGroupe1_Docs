@@ -5,7 +5,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=11"/>
 <meta name="generator" content="Doxygen 1.10.0"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>Station_Méteo_Groupe_1: Référence du fichier /mnt/d/Cours/10. CESI A2/Blocs/01 - Systeme embarque/Livrables/Station_Meteo_Groupe_1 - Copy/include/peripherals/clock.hpp</title>
+<title>Station_Méteo_Groupe_1: Référence du fichier clock.hpp</title>
 <link href="../../tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="../../jquery.js"></script>
 <script type="text/javascript" src="../../dynsections.js"></script>
@@ -101,7 +101,7 @@ $(document).ready(function(){initNavTree('db/d21/clock_8hpp.xhtml','../../'); in
 </div><div class="textblock"><div class="dynheader">
 Graphe des dépendances par inclusion de clock.hpp:</div>
 <div class="dyncontent">
-<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="../../d5/d9b/clock_8hpp__incl.svg" width="100%" height="591"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
+<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="../../d5/d9b/clock_8hpp__incl.svg" width="100%" height="547"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
 </div>
 </div><div class="textblock"><div class="dynheader">
 Ce graphe montre quels fichiers incluent directement ou indirectement ce fichier :</div>
@@ -113,51 +113,524 @@ Ce graphe montre quels fichiers incluent directement ou indirectement ce fichier
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="define-members" name="define-members"></a>
 Macros</h2></td></tr>
-<tr class="memitem:ac716d5d3c9825936a9ea49f56ef5d8fe" id="r_ac716d5d3c9825936a9ea49f56ef5d8fe"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../db/d21/clock_8hpp_ac716d5d3c9825936a9ea49f56ef5d8fe.xhtml#ac716d5d3c9825936a9ea49f56ef5d8fe">initClock</a>()&#160;&#160;&#160;clock.begin()</td></tr>
+<tr class="memitem:ac716d5d3c9825936a9ea49f56ef5d8fe" id="r_ac716d5d3c9825936a9ea49f56ef5d8fe"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ac716d5d3c9825936a9ea49f56ef5d8fe">initClock</a>()&#160;&#160;&#160;clock.begin()</td></tr>
+<tr class="memdesc:ac716d5d3c9825936a9ea49f56ef5d8fe"><td class="mdescLeft">&#160;</td><td class="mdescRight">Initialise l'horloge.  <br /></td></tr>
 <tr class="separator:ac716d5d3c9825936a9ea49f56ef5d8fe"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aa459590f98e9f42f17f9d26d622fb582" id="r_aa459590f98e9f42f17f9d26d622fb582"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../db/d21/clock_8hpp_aa459590f98e9f42f17f9d26d622fb582.xhtml#aa459590f98e9f42f17f9d26d622fb582">readClock</a>()&#160;&#160;&#160;clock.getTime()</td></tr>
+<tr class="memitem:aa459590f98e9f42f17f9d26d622fb582" id="r_aa459590f98e9f42f17f9d26d622fb582"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aa459590f98e9f42f17f9d26d622fb582">readClock</a>()&#160;&#160;&#160;clock.getTime()</td></tr>
+<tr class="memdesc:aa459590f98e9f42f17f9d26d622fb582"><td class="mdescLeft">&#160;</td><td class="mdescRight">Lit l'heure et la date actuelle de l'horloge.  <br /></td></tr>
 <tr class="separator:aa459590f98e9f42f17f9d26d622fb582"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a5292b81efdb376318570bf6385192b15" id="r_a5292b81efdb376318570bf6385192b15"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../db/d21/clock_8hpp_a5292b81efdb376318570bf6385192b15.xhtml#a5292b81efdb376318570bf6385192b15">getHour</a>()&#160;&#160;&#160;clock.hour</td></tr>
+<tr class="memitem:a5292b81efdb376318570bf6385192b15" id="r_a5292b81efdb376318570bf6385192b15"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a5292b81efdb376318570bf6385192b15">getHour</a>()&#160;&#160;&#160;clock.hour</td></tr>
+<tr class="memdesc:a5292b81efdb376318570bf6385192b15"><td class="mdescLeft">&#160;</td><td class="mdescRight">Récupère l'heure actuelle.  <br /></td></tr>
 <tr class="separator:a5292b81efdb376318570bf6385192b15"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a278f54b98fb4c3ee167410c1b85a618a" id="r_a278f54b98fb4c3ee167410c1b85a618a"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../db/d21/clock_8hpp_a278f54b98fb4c3ee167410c1b85a618a.xhtml#a278f54b98fb4c3ee167410c1b85a618a">getMinute</a>()&#160;&#160;&#160;clock.minute</td></tr>
+<tr class="memitem:a278f54b98fb4c3ee167410c1b85a618a" id="r_a278f54b98fb4c3ee167410c1b85a618a"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a278f54b98fb4c3ee167410c1b85a618a">getMinute</a>()&#160;&#160;&#160;clock.minute</td></tr>
+<tr class="memdesc:a278f54b98fb4c3ee167410c1b85a618a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Récupère les minutes actuelles.  <br /></td></tr>
 <tr class="separator:a278f54b98fb4c3ee167410c1b85a618a"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ae4c931d4e47b8e09372e29bf939c871e" id="r_ae4c931d4e47b8e09372e29bf939c871e"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../db/d21/clock_8hpp_ae4c931d4e47b8e09372e29bf939c871e.xhtml#ae4c931d4e47b8e09372e29bf939c871e">getSecond</a>()&#160;&#160;&#160;clock.second</td></tr>
+<tr class="memitem:ae4c931d4e47b8e09372e29bf939c871e" id="r_ae4c931d4e47b8e09372e29bf939c871e"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ae4c931d4e47b8e09372e29bf939c871e">getSecond</a>()&#160;&#160;&#160;clock.second</td></tr>
+<tr class="memdesc:ae4c931d4e47b8e09372e29bf939c871e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Récupère les secondes actuelles.  <br /></td></tr>
 <tr class="separator:ae4c931d4e47b8e09372e29bf939c871e"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a7918bf8a7003d8381dd03e95a37d2795" id="r_a7918bf8a7003d8381dd03e95a37d2795"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../db/d21/clock_8hpp_a7918bf8a7003d8381dd03e95a37d2795.xhtml#a7918bf8a7003d8381dd03e95a37d2795">getDay</a>()&#160;&#160;&#160;clock.dayOfMonth</td></tr>
+<tr class="memitem:a7918bf8a7003d8381dd03e95a37d2795" id="r_a7918bf8a7003d8381dd03e95a37d2795"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a7918bf8a7003d8381dd03e95a37d2795">getDay</a>()&#160;&#160;&#160;clock.dayOfMonth</td></tr>
+<tr class="memdesc:a7918bf8a7003d8381dd03e95a37d2795"><td class="mdescLeft">&#160;</td><td class="mdescRight">Récupère le jour actuel.  <br /></td></tr>
 <tr class="separator:a7918bf8a7003d8381dd03e95a37d2795"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a054558e36977d14f915ef34c6d37fdbd" id="r_a054558e36977d14f915ef34c6d37fdbd"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../db/d21/clock_8hpp_a054558e36977d14f915ef34c6d37fdbd.xhtml#a054558e36977d14f915ef34c6d37fdbd">getMonth</a>()&#160;&#160;&#160;clock.month</td></tr>
+<tr class="memitem:a054558e36977d14f915ef34c6d37fdbd" id="r_a054558e36977d14f915ef34c6d37fdbd"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a054558e36977d14f915ef34c6d37fdbd">getMonth</a>()&#160;&#160;&#160;clock.month</td></tr>
+<tr class="memdesc:a054558e36977d14f915ef34c6d37fdbd"><td class="mdescLeft">&#160;</td><td class="mdescRight">Récupère le mois actuel.  <br /></td></tr>
 <tr class="separator:a054558e36977d14f915ef34c6d37fdbd"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:abf8b8694d3c755590d90d328cae2fa8d" id="r_abf8b8694d3c755590d90d328cae2fa8d"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../db/d21/clock_8hpp_abf8b8694d3c755590d90d328cae2fa8d.xhtml#abf8b8694d3c755590d90d328cae2fa8d">getYear</a>()&#160;&#160;&#160;clock.year</td></tr>
+<tr class="memitem:abf8b8694d3c755590d90d328cae2fa8d" id="r_abf8b8694d3c755590d90d328cae2fa8d"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#abf8b8694d3c755590d90d328cae2fa8d">getYear</a>()&#160;&#160;&#160;clock.year</td></tr>
+<tr class="memdesc:abf8b8694d3c755590d90d328cae2fa8d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Récupère l'année actuelle.  <br /></td></tr>
 <tr class="separator:abf8b8694d3c755590d90d328cae2fa8d"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ae01bf3ff31a16bc8ba1aa3374e20afae" id="r_ae01bf3ff31a16bc8ba1aa3374e20afae"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../db/d21/clock_8hpp_ae01bf3ff31a16bc8ba1aa3374e20afae.xhtml#ae01bf3ff31a16bc8ba1aa3374e20afae">getYearFull</a>()&#160;&#160;&#160;clock.year + 2000</td></tr>
+<tr class="memitem:ae01bf3ff31a16bc8ba1aa3374e20afae" id="r_ae01bf3ff31a16bc8ba1aa3374e20afae"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ae01bf3ff31a16bc8ba1aa3374e20afae">getYearFull</a>()&#160;&#160;&#160;clock.year + 2000</td></tr>
+<tr class="memdesc:ae01bf3ff31a16bc8ba1aa3374e20afae"><td class="mdescLeft">&#160;</td><td class="mdescRight">Récupère l'année actuelle (format complet : 2020 au lieu de 20)  <br /></td></tr>
 <tr class="separator:ae01bf3ff31a16bc8ba1aa3374e20afae"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a3dd13ee5b598fb34bf42c764835e1748" id="r_a3dd13ee5b598fb34bf42c764835e1748"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../db/d21/clock_8hpp_a3dd13ee5b598fb34bf42c764835e1748.xhtml#a3dd13ee5b598fb34bf42c764835e1748">getDayOfWeek</a>()&#160;&#160;&#160;clock.dayOfWeek</td></tr>
+<tr class="memitem:a3dd13ee5b598fb34bf42c764835e1748" id="r_a3dd13ee5b598fb34bf42c764835e1748"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a3dd13ee5b598fb34bf42c764835e1748">getDayOfWeek</a>()&#160;&#160;&#160;clock.dayOfWeek</td></tr>
+<tr class="memdesc:a3dd13ee5b598fb34bf42c764835e1748"><td class="mdescLeft">&#160;</td><td class="mdescRight">Récupère le jour de la semaine actuel.  <br /></td></tr>
 <tr class="separator:a3dd13ee5b598fb34bf42c764835e1748"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="func-members" name="func-members"></a>
 Fonctions</h2></td></tr>
-<tr class="memitem:ac6daa7051c56f2758c8f1a555b38b54f" id="r_ac6daa7051c56f2758c8f1a555b38b54f"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../db/d21/clock_8hpp_ac6daa7051c56f2758c8f1a555b38b54f.xhtml#ac6daa7051c56f2758c8f1a555b38b54f">setHour</a> (int hour)</td></tr>
+<tr class="memitem:ac6daa7051c56f2758c8f1a555b38b54f" id="r_ac6daa7051c56f2758c8f1a555b38b54f"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ac6daa7051c56f2758c8f1a555b38b54f">setHour</a> (int hour)</td></tr>
+<tr class="memdesc:ac6daa7051c56f2758c8f1a555b38b54f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Définit l'heure actuelle.  <br /></td></tr>
 <tr class="separator:ac6daa7051c56f2758c8f1a555b38b54f"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a046d520d9db3b46e7914380f53b9cbc4" id="r_a046d520d9db3b46e7914380f53b9cbc4"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../db/d21/clock_8hpp_a046d520d9db3b46e7914380f53b9cbc4.xhtml#a046d520d9db3b46e7914380f53b9cbc4">setMinute</a> (int minute)</td></tr>
+<tr class="memitem:a046d520d9db3b46e7914380f53b9cbc4" id="r_a046d520d9db3b46e7914380f53b9cbc4"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a046d520d9db3b46e7914380f53b9cbc4">setMinute</a> (int minute)</td></tr>
+<tr class="memdesc:a046d520d9db3b46e7914380f53b9cbc4"><td class="mdescLeft">&#160;</td><td class="mdescRight">Définit les minutes actuelles.  <br /></td></tr>
 <tr class="separator:a046d520d9db3b46e7914380f53b9cbc4"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a0bc46f276c5d52a4adecb25609a98c8c" id="r_a0bc46f276c5d52a4adecb25609a98c8c"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../db/d21/clock_8hpp_a0bc46f276c5d52a4adecb25609a98c8c.xhtml#a0bc46f276c5d52a4adecb25609a98c8c">setSecond</a> (int second)</td></tr>
+<tr class="memitem:a0bc46f276c5d52a4adecb25609a98c8c" id="r_a0bc46f276c5d52a4adecb25609a98c8c"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a0bc46f276c5d52a4adecb25609a98c8c">setSecond</a> (int second)</td></tr>
+<tr class="memdesc:a0bc46f276c5d52a4adecb25609a98c8c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Définit les secondes actuelles.  <br /></td></tr>
 <tr class="separator:a0bc46f276c5d52a4adecb25609a98c8c"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ab234f32040a0417cf7e4052226570ea7" id="r_ab234f32040a0417cf7e4052226570ea7"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../db/d21/clock_8hpp_ab234f32040a0417cf7e4052226570ea7.xhtml#ab234f32040a0417cf7e4052226570ea7">setDay</a> (int day)</td></tr>
+<tr class="memitem:ab234f32040a0417cf7e4052226570ea7" id="r_ab234f32040a0417cf7e4052226570ea7"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ab234f32040a0417cf7e4052226570ea7">setDay</a> (int day)</td></tr>
+<tr class="memdesc:ab234f32040a0417cf7e4052226570ea7"><td class="mdescLeft">&#160;</td><td class="mdescRight">Définit le jour actuel.  <br /></td></tr>
 <tr class="separator:ab234f32040a0417cf7e4052226570ea7"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a0819a812360d2bf138d207150a04c1f5" id="r_a0819a812360d2bf138d207150a04c1f5"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../db/d21/clock_8hpp_a0819a812360d2bf138d207150a04c1f5.xhtml#a0819a812360d2bf138d207150a04c1f5">setMonth</a> (int month)</td></tr>
+<tr class="memitem:a0819a812360d2bf138d207150a04c1f5" id="r_a0819a812360d2bf138d207150a04c1f5"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a0819a812360d2bf138d207150a04c1f5">setMonth</a> (int month)</td></tr>
+<tr class="memdesc:a0819a812360d2bf138d207150a04c1f5"><td class="mdescLeft">&#160;</td><td class="mdescRight">Définit le mois actuel.  <br /></td></tr>
 <tr class="separator:a0819a812360d2bf138d207150a04c1f5"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a2268b24626953c1eac1d5b18db74cc4b" id="r_a2268b24626953c1eac1d5b18db74cc4b"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../db/d21/clock_8hpp_a2268b24626953c1eac1d5b18db74cc4b.xhtml#a2268b24626953c1eac1d5b18db74cc4b">setYear</a> (int year)</td></tr>
+<tr class="memitem:a2268b24626953c1eac1d5b18db74cc4b" id="r_a2268b24626953c1eac1d5b18db74cc4b"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a2268b24626953c1eac1d5b18db74cc4b">setYear</a> (int year)</td></tr>
+<tr class="memdesc:a2268b24626953c1eac1d5b18db74cc4b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Définit l'année actuelle.  <br /></td></tr>
 <tr class="separator:a2268b24626953c1eac1d5b18db74cc4b"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:af6cbeb88490e4d37173075da9a7b077b" id="r_af6cbeb88490e4d37173075da9a7b077b"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../db/d21/clock_8hpp_af6cbeb88490e4d37173075da9a7b077b.xhtml#af6cbeb88490e4d37173075da9a7b077b">setYearFull</a> (int year)</td></tr>
+<tr class="memitem:af6cbeb88490e4d37173075da9a7b077b" id="r_af6cbeb88490e4d37173075da9a7b077b"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#af6cbeb88490e4d37173075da9a7b077b">setYearFull</a> (int year)</td></tr>
+<tr class="memdesc:af6cbeb88490e4d37173075da9a7b077b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Définit l'année actuelle (format complet : 2020 au lieu de 20)  <br /></td></tr>
 <tr class="separator:af6cbeb88490e4d37173075da9a7b077b"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a267604a5694bbeec1f8bb522c02e30ea" id="r_a267604a5694bbeec1f8bb522c02e30ea"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../db/d21/clock_8hpp_a267604a5694bbeec1f8bb522c02e30ea.xhtml#a267604a5694bbeec1f8bb522c02e30ea">setDayOfWeek</a> (int dayOfWeek)</td></tr>
+<tr class="memitem:a267604a5694bbeec1f8bb522c02e30ea" id="r_a267604a5694bbeec1f8bb522c02e30ea"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a267604a5694bbeec1f8bb522c02e30ea">setDayOfWeek</a> (int dayOfWeek)</td></tr>
+<tr class="memdesc:a267604a5694bbeec1f8bb522c02e30ea"><td class="mdescLeft">&#160;</td><td class="mdescRight">Définit le jour de la semaine actuel.  <br /></td></tr>
 <tr class="separator:a267604a5694bbeec1f8bb522c02e30ea"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="var-members" name="var-members"></a>
 Variables</h2></td></tr>
-<tr class="memitem:ae36a6148b9a02b71b1a4447b8621ac78" id="r_ae36a6148b9a02b71b1a4447b8621ac78"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d8/da8/classDS1307.xhtml">DS1307</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../db/d21/clock_8hpp_ae36a6148b9a02b71b1a4447b8621ac78.xhtml#ae36a6148b9a02b71b1a4447b8621ac78">clock</a></td></tr>
+<tr class="memitem:ae36a6148b9a02b71b1a4447b8621ac78" id="r_ae36a6148b9a02b71b1a4447b8621ac78"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d8/da8/classDS1307.xhtml">DS1307</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ae36a6148b9a02b71b1a4447b8621ac78">clock</a></td></tr>
+<tr class="memdesc:ae36a6148b9a02b71b1a4447b8621ac78"><td class="mdescLeft">&#160;</td><td class="mdescRight">Instance de la classe <a class="el" href="../../d8/da8/classDS1307.xhtml">DS1307</a> représentant l'horloge.  <br /></td></tr>
 <tr class="separator:ae36a6148b9a02b71b1a4447b8621ac78"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
+<h2 class="groupheader">Documentation des macros</h2>
+<a id="a7918bf8a7003d8381dd03e95a37d2795" name="a7918bf8a7003d8381dd03e95a37d2795"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a7918bf8a7003d8381dd03e95a37d2795">&#9670;&#160;</a></span>getDay</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define getDay</td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td>&#160;&#160;&#160;clock.dayOfMonth</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Récupère le jour actuel. </p>
+
+</div>
+</div>
+<a id="a3dd13ee5b598fb34bf42c764835e1748" name="a3dd13ee5b598fb34bf42c764835e1748"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a3dd13ee5b598fb34bf42c764835e1748">&#9670;&#160;</a></span>getDayOfWeek</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define getDayOfWeek</td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td>&#160;&#160;&#160;clock.dayOfWeek</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Récupère le jour de la semaine actuel. </p>
+<p>1 = Lundi, 2 = Mardi, ..., 7 = Dimanche </p>
+
+</div>
+</div>
+<a id="a5292b81efdb376318570bf6385192b15" name="a5292b81efdb376318570bf6385192b15"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a5292b81efdb376318570bf6385192b15">&#9670;&#160;</a></span>getHour</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define getHour</td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td>&#160;&#160;&#160;clock.hour</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Récupère l'heure actuelle. </p>
+
+</div>
+</div>
+<a id="a278f54b98fb4c3ee167410c1b85a618a" name="a278f54b98fb4c3ee167410c1b85a618a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a278f54b98fb4c3ee167410c1b85a618a">&#9670;&#160;</a></span>getMinute</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define getMinute</td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td>&#160;&#160;&#160;clock.minute</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Récupère les minutes actuelles. </p>
+
+</div>
+</div>
+<a id="a054558e36977d14f915ef34c6d37fdbd" name="a054558e36977d14f915ef34c6d37fdbd"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a054558e36977d14f915ef34c6d37fdbd">&#9670;&#160;</a></span>getMonth</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define getMonth</td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td>&#160;&#160;&#160;clock.month</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Récupère le mois actuel. </p>
+
+</div>
+</div>
+<a id="ae4c931d4e47b8e09372e29bf939c871e" name="ae4c931d4e47b8e09372e29bf939c871e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae4c931d4e47b8e09372e29bf939c871e">&#9670;&#160;</a></span>getSecond</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define getSecond</td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td>&#160;&#160;&#160;clock.second</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Récupère les secondes actuelles. </p>
+
+</div>
+</div>
+<a id="abf8b8694d3c755590d90d328cae2fa8d" name="abf8b8694d3c755590d90d328cae2fa8d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#abf8b8694d3c755590d90d328cae2fa8d">&#9670;&#160;</a></span>getYear</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define getYear</td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td>&#160;&#160;&#160;clock.year</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Récupère l'année actuelle. </p>
+
+</div>
+</div>
+<a id="ae01bf3ff31a16bc8ba1aa3374e20afae" name="ae01bf3ff31a16bc8ba1aa3374e20afae"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae01bf3ff31a16bc8ba1aa3374e20afae">&#9670;&#160;</a></span>getYearFull</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define getYearFull</td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td>&#160;&#160;&#160;clock.year + 2000</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Récupère l'année actuelle (format complet : 2020 au lieu de 20) </p>
+
+</div>
+</div>
+<a id="ac716d5d3c9825936a9ea49f56ef5d8fe" name="ac716d5d3c9825936a9ea49f56ef5d8fe"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac716d5d3c9825936a9ea49f56ef5d8fe">&#9670;&#160;</a></span>initClock</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define initClock</td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td>&#160;&#160;&#160;clock.begin()</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Initialise l'horloge. </p>
+
+</div>
+</div>
+<a id="aa459590f98e9f42f17f9d26d622fb582" name="aa459590f98e9f42f17f9d26d622fb582"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa459590f98e9f42f17f9d26d622fb582">&#9670;&#160;</a></span>readClock</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define readClock</td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td>&#160;&#160;&#160;clock.getTime()</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Lit l'heure et la date actuelle de l'horloge. </p>
+
+</div>
+</div>
+<h2 class="groupheader">Documentation des fonctions</h2>
+<a id="ab234f32040a0417cf7e4052226570ea7" name="ab234f32040a0417cf7e4052226570ea7"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab234f32040a0417cf7e4052226570ea7">&#9670;&#160;</a></span>setDay()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void setDay </td>
+          <td>(</td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>day</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Définit le jour actuel. </p>
+<div class="dynheader">
+Voici le graphe d'appel pour cette fonction :</div>
+<div class="dyncontent">
+<div class="center"><iframe scrolling="no" frameborder="0" src="../../db/d21/clock_8hpp_ab234f32040a0417cf7e4052226570ea7_cgraph.svg" width="450" height="36"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+</div>
+<div class="dynheader">
+Voici le graphe des appelants de cette fonction :</div>
+<div class="dyncontent">
+<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="../../db/d21/clock_8hpp_ab234f32040a0417cf7e4052226570ea7_icgraph.svg" width="100%" height="300"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
+</div>
+
+</div>
+</div>
+<a id="a267604a5694bbeec1f8bb522c02e30ea" name="a267604a5694bbeec1f8bb522c02e30ea"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a267604a5694bbeec1f8bb522c02e30ea">&#9670;&#160;</a></span>setDayOfWeek()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void setDayOfWeek </td>
+          <td>(</td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>dayOfWeek</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Définit le jour de la semaine actuel. </p>
+<p>1 = Lundi, 2 = Mardi, ..., 7 = Dimanche </p>
+<div class="dynheader">
+Voici le graphe d'appel pour cette fonction :</div>
+<div class="dyncontent">
+<div class="center"><iframe scrolling="no" frameborder="0" src="../../db/d21/clock_8hpp_a267604a5694bbeec1f8bb522c02e30ea_cgraph.svg" width="500" height="36"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+</div>
+<div class="dynheader">
+Voici le graphe des appelants de cette fonction :</div>
+<div class="dyncontent">
+<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="../../db/d21/clock_8hpp_a267604a5694bbeec1f8bb522c02e30ea_icgraph.svg" width="100%" height="300"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
+</div>
+
+</div>
+</div>
+<a id="ac6daa7051c56f2758c8f1a555b38b54f" name="ac6daa7051c56f2758c8f1a555b38b54f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac6daa7051c56f2758c8f1a555b38b54f">&#9670;&#160;</a></span>setHour()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void setHour </td>
+          <td>(</td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>hour</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Définit l'heure actuelle. </p>
+<div class="dynheader">
+Voici le graphe d'appel pour cette fonction :</div>
+<div class="dyncontent">
+<div class="center"><iframe scrolling="no" frameborder="0" src="../../db/d21/clock_8hpp_ac6daa7051c56f2758c8f1a555b38b54f_cgraph.svg" width="455" height="36"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+</div>
+<div class="dynheader">
+Voici le graphe des appelants de cette fonction :</div>
+<div class="dyncontent">
+<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="../../db/d21/clock_8hpp_ac6daa7051c56f2758c8f1a555b38b54f_icgraph.svg" width="100%" height="300"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
+</div>
+
+</div>
+</div>
+<a id="a046d520d9db3b46e7914380f53b9cbc4" name="a046d520d9db3b46e7914380f53b9cbc4"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a046d520d9db3b46e7914380f53b9cbc4">&#9670;&#160;</a></span>setMinute()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void setMinute </td>
+          <td>(</td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>minute</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Définit les minutes actuelles. </p>
+<div class="dynheader">
+Voici le graphe d'appel pour cette fonction :</div>
+<div class="dyncontent">
+<div class="center"><iframe scrolling="no" frameborder="0" src="../../db/d21/clock_8hpp_a046d520d9db3b46e7914380f53b9cbc4_cgraph.svg" width="468" height="36"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+</div>
+<div class="dynheader">
+Voici le graphe des appelants de cette fonction :</div>
+<div class="dyncontent">
+<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="../../db/d21/clock_8hpp_a046d520d9db3b46e7914380f53b9cbc4_icgraph.svg" width="100%" height="300"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
+</div>
+
+</div>
+</div>
+<a id="a0819a812360d2bf138d207150a04c1f5" name="a0819a812360d2bf138d207150a04c1f5"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a0819a812360d2bf138d207150a04c1f5">&#9670;&#160;</a></span>setMonth()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void setMonth </td>
+          <td>(</td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>month</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Définit le mois actuel. </p>
+<div class="dynheader">
+Voici le graphe d'appel pour cette fonction :</div>
+<div class="dyncontent">
+<div class="center"><iframe scrolling="no" frameborder="0" src="../../db/d21/clock_8hpp_a0819a812360d2bf138d207150a04c1f5_cgraph.svg" width="464" height="36"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+</div>
+<div class="dynheader">
+Voici le graphe des appelants de cette fonction :</div>
+<div class="dyncontent">
+<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="../../db/d21/clock_8hpp_a0819a812360d2bf138d207150a04c1f5_icgraph.svg" width="100%" height="300"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
+</div>
+
+</div>
+</div>
+<a id="a0bc46f276c5d52a4adecb25609a98c8c" name="a0bc46f276c5d52a4adecb25609a98c8c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a0bc46f276c5d52a4adecb25609a98c8c">&#9670;&#160;</a></span>setSecond()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void setSecond </td>
+          <td>(</td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>second</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Définit les secondes actuelles. </p>
+<div class="dynheader">
+Voici le graphe d'appel pour cette fonction :</div>
+<div class="dyncontent">
+<div class="center"><iframe scrolling="no" frameborder="0" src="../../db/d21/clock_8hpp_a0bc46f276c5d52a4adecb25609a98c8c_cgraph.svg" width="471" height="36"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+</div>
+<div class="dynheader">
+Voici le graphe des appelants de cette fonction :</div>
+<div class="dyncontent">
+<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="../../db/d21/clock_8hpp_a0bc46f276c5d52a4adecb25609a98c8c_icgraph.svg" width="100%" height="300"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
+</div>
+
+</div>
+</div>
+<a id="a2268b24626953c1eac1d5b18db74cc4b" name="a2268b24626953c1eac1d5b18db74cc4b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a2268b24626953c1eac1d5b18db74cc4b">&#9670;&#160;</a></span>setYear()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void setYear </td>
+          <td>(</td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>year</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Définit l'année actuelle. </p>
+<div class="dynheader">
+Voici le graphe d'appel pour cette fonction :</div>
+<div class="dyncontent">
+<div class="center"><iframe scrolling="no" frameborder="0" src="../../db/d21/clock_8hpp_a2268b24626953c1eac1d5b18db74cc4b_cgraph.svg" width="451" height="36"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+</div>
+<div class="dynheader">
+Voici le graphe des appelants de cette fonction :</div>
+<div class="dyncontent">
+<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="../../db/d21/clock_8hpp_a2268b24626953c1eac1d5b18db74cc4b_icgraph.svg" width="100%" height="300"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
+</div>
+
+</div>
+</div>
+<a id="af6cbeb88490e4d37173075da9a7b077b" name="af6cbeb88490e4d37173075da9a7b077b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af6cbeb88490e4d37173075da9a7b077b">&#9670;&#160;</a></span>setYearFull()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void setYearFull </td>
+          <td>(</td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>year</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Définit l'année actuelle (format complet : 2020 au lieu de 20) </p>
+<div class="dynheader">
+Voici le graphe d'appel pour cette fonction :</div>
+<div class="dyncontent">
+<div class="center"><iframe scrolling="no" frameborder="0" src="../../db/d21/clock_8hpp_af6cbeb88490e4d37173075da9a7b077b_cgraph.svg" width="474" height="36"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+</div>
+
+</div>
+</div>
+<h2 class="groupheader">Documentation des variables</h2>
+<a id="ae36a6148b9a02b71b1a4447b8621ac78" name="ae36a6148b9a02b71b1a4447b8621ac78"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae36a6148b9a02b71b1a4447b8621ac78">&#9670;&#160;</a></span>clock</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="../../d8/da8/classDS1307.xhtml">DS1307</a> clock</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">extern</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Instance de la classe <a class="el" href="../../d8/da8/classDS1307.xhtml">DS1307</a> représentant l'horloge. </p>
+
+</div>
+</div>
 </div><!-- contents -->
 </div><!-- doc-content -->
 <!-- start footer part -->

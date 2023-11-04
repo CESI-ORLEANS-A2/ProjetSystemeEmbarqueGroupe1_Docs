@@ -5,7 +5,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=11"/>
 <meta name="generator" content="Doxygen 1.10.0"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>Station_Méteo_Groupe_1: Référence du fichier /mnt/d/Cours/10. CESI A2/Blocs/01 - Systeme embarque/Livrables/Station_Meteo_Groupe_1 - Copy/src/timer.cpp</title>
+<title>Station_Méteo_Groupe_1: Référence du fichier timer.cpp</title>
 <link href="../../tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="../../jquery.js"></script>
 <script type="text/javascript" src="../../dynsections.js"></script>
@@ -105,31 +105,399 @@ Graphe des dépendances par inclusion de timer.cpp:</div>
 </div><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="func-members" name="func-members"></a>
 Fonctions</h2></td></tr>
-<tr class="memitem:ad39420cdd896dd12c68e36313139d0a5" id="r_ad39420cdd896dd12c68e36313139d0a5"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dc/de5/timer_8cpp_ad39420cdd896dd12c68e36313139d0a5.xhtml#ad39420cdd896dd12c68e36313139d0a5">ISR</a> (TIMER1_COMPA_vect)</td></tr>
+<tr class="memitem:ad39420cdd896dd12c68e36313139d0a5" id="r_ad39420cdd896dd12c68e36313139d0a5"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ad39420cdd896dd12c68e36313139d0a5">ISR</a> (TIMER1_COMPA_vect)</td></tr>
 <tr class="memdesc:ad39420cdd896dd12c68e36313139d0a5"><td class="mdescLeft">&#160;</td><td class="mdescRight">Fonction exécutée à chaque interruption du timer.  <br /></td></tr>
 <tr class="separator:ad39420cdd896dd12c68e36313139d0a5"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a5a7931957f8a5298b3982cab604da1ee" id="r_a5a7931957f8a5298b3982cab604da1ee"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dc/de5/timer_8cpp_a5a7931957f8a5298b3982cab604da1ee.xhtml#a5a7931957f8a5298b3982cab604da1ee">initTimer</a> ()</td></tr>
-<tr class="memdesc:a5a7931957f8a5298b3982cab604da1ee"><td class="mdescLeft">&#160;</td><td class="mdescRight">Initialise le timer.  <br /></td></tr>
-<tr class="separator:a5a7931957f8a5298b3982cab604da1ee"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ad85c63e227195b85786618fe3c71fc78" id="r_ad85c63e227195b85786618fe3c71fc78"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dc/de5/timer_8cpp_ad85c63e227195b85786618fe3c71fc78.xhtml#ad85c63e227195b85786618fe3c71fc78">createTimer</a> (long <a class="el" href="../../de/df0/Arduino_8h_a6bc5f943544a887f8b23cadfb26a5e30.xhtml#a6bc5f943544a887f8b23cadfb26a5e30">delay</a>, void(*handler)())</td></tr>
-<tr class="memdesc:ad85c63e227195b85786618fe3c71fc78"><td class="mdescLeft">&#160;</td><td class="mdescRight">Crée une nouvelle instance du timer.  <br /></td></tr>
-<tr class="separator:ad85c63e227195b85786618fe3c71fc78"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aa6f6bfef028c7b053444cbd48567d286" id="r_aa6f6bfef028c7b053444cbd48567d286"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dc/de5/timer_8cpp_aa6f6bfef028c7b053444cbd48567d286.xhtml#aa6f6bfef028c7b053444cbd48567d286">stopTimer</a> ()</td></tr>
-<tr class="memdesc:aa6f6bfef028c7b053444cbd48567d286"><td class="mdescLeft">&#160;</td><td class="mdescRight">Arrête le timer.  <br /></td></tr>
-<tr class="separator:aa6f6bfef028c7b053444cbd48567d286"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aeb10e95e8ade0a53d0aeac6f7751c631" id="r_aeb10e95e8ade0a53d0aeac6f7751c631"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aeb10e95e8ade0a53d0aeac6f7751c631">initTimer1</a> ()</td></tr>
+<tr class="memdesc:aeb10e95e8ade0a53d0aeac6f7751c631"><td class="mdescLeft">&#160;</td><td class="mdescRight">Initialise le timer.  <br /></td></tr>
+<tr class="separator:aeb10e95e8ade0a53d0aeac6f7751c631"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4c04079a1fe0cb011c57a3e213d51e65" id="r_a4c04079a1fe0cb011c57a3e213d51e65"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a4c04079a1fe0cb011c57a3e213d51e65">createTimer1</a> (long <a class="el" href="../../de/df0/Arduino_8h.xhtml#a6bc5f943544a887f8b23cadfb26a5e30">delay</a>, void(*handler)())</td></tr>
+<tr class="memdesc:a4c04079a1fe0cb011c57a3e213d51e65"><td class="mdescLeft">&#160;</td><td class="mdescRight">Crée une nouvelle instance du timer.  <br /></td></tr>
+<tr class="separator:a4c04079a1fe0cb011c57a3e213d51e65"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6ac5badfa7050f69053360ab718ea6ab" id="r_a6ac5badfa7050f69053360ab718ea6ab"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a6ac5badfa7050f69053360ab718ea6ab">stopTimer1</a> ()</td></tr>
+<tr class="memdesc:a6ac5badfa7050f69053360ab718ea6ab"><td class="mdescLeft">&#160;</td><td class="mdescRight">Arrête le timer.  <br /></td></tr>
+<tr class="separator:a6ac5badfa7050f69053360ab718ea6ab"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5686c229bdef50123688ab6cb1404230" id="r_a5686c229bdef50123688ab6cb1404230"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a5686c229bdef50123688ab6cb1404230">ISR</a> (TIMER2_COMPA_vect)</td></tr>
+<tr class="memdesc:a5686c229bdef50123688ab6cb1404230"><td class="mdescLeft">&#160;</td><td class="mdescRight">Fonction exécutée à chaque interruption du timer.  <br /></td></tr>
+<tr class="separator:a5686c229bdef50123688ab6cb1404230"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8be64269dd28974300e07f148f3e92c4" id="r_a8be64269dd28974300e07f148f3e92c4"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a8be64269dd28974300e07f148f3e92c4">initTimer2</a> ()</td></tr>
+<tr class="memdesc:a8be64269dd28974300e07f148f3e92c4"><td class="mdescLeft">&#160;</td><td class="mdescRight">Initialise le timer.  <br /></td></tr>
+<tr class="separator:a8be64269dd28974300e07f148f3e92c4"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a75f67483e2c676b6e8ea29bca518e6c7" id="r_a75f67483e2c676b6e8ea29bca518e6c7"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a75f67483e2c676b6e8ea29bca518e6c7">createTimer2</a> (long <a class="el" href="../../de/df0/Arduino_8h.xhtml#a6bc5f943544a887f8b23cadfb26a5e30">delay</a>, void(*handler)())</td></tr>
+<tr class="memdesc:a75f67483e2c676b6e8ea29bca518e6c7"><td class="mdescLeft">&#160;</td><td class="mdescRight">Crée une nouvelle instance du timer.  <br /></td></tr>
+<tr class="separator:a75f67483e2c676b6e8ea29bca518e6c7"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:acf94c4a2b4e9e1390da758b6da43d5f0" id="r_acf94c4a2b4e9e1390da758b6da43d5f0"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#acf94c4a2b4e9e1390da758b6da43d5f0">stopTimer2</a> ()</td></tr>
+<tr class="memdesc:acf94c4a2b4e9e1390da758b6da43d5f0"><td class="mdescLeft">&#160;</td><td class="mdescRight">Arrête le timer.  <br /></td></tr>
+<tr class="separator:acf94c4a2b4e9e1390da758b6da43d5f0"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="var-members" name="var-members"></a>
 Variables</h2></td></tr>
-<tr class="memitem:a617a47c70795bcff659815ad0efd2266" id="r_a617a47c70795bcff659815ad0efd2266"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dc/de5/timer_8cpp_a617a47c70795bcff659815ad0efd2266.xhtml#a617a47c70795bcff659815ad0efd2266">counter</a> = 0</td></tr>
-<tr class="memdesc:a617a47c70795bcff659815ad0efd2266"><td class="mdescLeft">&#160;</td><td class="mdescRight">Représente le nombre de fois que l'interruption du timer doit être déclenchée.  <br /></td></tr>
-<tr class="separator:a617a47c70795bcff659815ad0efd2266"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a0dd3eda581df650a6e765bb5720a54c2" id="r_a0dd3eda581df650a6e765bb5720a54c2"><td class="memItemLeft" align="right" valign="top">void(*&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dc/de5/timer_8cpp_a0dd3eda581df650a6e765bb5720a54c2.xhtml#a0dd3eda581df650a6e765bb5720a54c2">callback</a> )() = <a class="el" href="../../d9/dcd/StdioStream_8h_a070d2ce7b6bb7e5c05602aa8c308d0c4.xhtml#a070d2ce7b6bb7e5c05602aa8c308d0c4">NULL</a></td></tr>
-<tr class="memdesc:a0dd3eda581df650a6e765bb5720a54c2"><td class="mdescLeft">&#160;</td><td class="mdescRight">Fonction exécutée à la fin du délais.  <br /></td></tr>
-<tr class="separator:a0dd3eda581df650a6e765bb5720a54c2"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a5f2eb3a2a20c6383f5eebed251cb0f39" id="r_a5f2eb3a2a20c6383f5eebed251cb0f39"><td class="memItemLeft" align="right" valign="top">unsigned long&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dc/de5/timer_8cpp_a5f2eb3a2a20c6383f5eebed251cb0f39.xhtml#a5f2eb3a2a20c6383f5eebed251cb0f39">remains</a> = 0</td></tr>
-<tr class="memdesc:a5f2eb3a2a20c6383f5eebed251cb0f39"><td class="mdescLeft">&#160;</td><td class="mdescRight">Représente le nombre de microsecondes restantes après les counter premières interruptions.  <br /></td></tr>
-<tr class="separator:a5f2eb3a2a20c6383f5eebed251cb0f39"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a22d4ec3074b5dbbbc8a2225b7b23eead" id="r_a22d4ec3074b5dbbbc8a2225b7b23eead"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a22d4ec3074b5dbbbc8a2225b7b23eead">counter1</a> = 0</td></tr>
+<tr class="memdesc:a22d4ec3074b5dbbbc8a2225b7b23eead"><td class="mdescLeft">&#160;</td><td class="mdescRight">Représente le nombre de fois que l'interruption du timer doit être déclenchée.  <br /></td></tr>
+<tr class="separator:a22d4ec3074b5dbbbc8a2225b7b23eead"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5fd80ff2225c82ebca14bf45ba7dad5f" id="r_a5fd80ff2225c82ebca14bf45ba7dad5f"><td class="memItemLeft" align="right" valign="top">void(*&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a5fd80ff2225c82ebca14bf45ba7dad5f">callback1</a> )() = <a class="el" href="../../d9/dcd/StdioStream_8h.xhtml#a070d2ce7b6bb7e5c05602aa8c308d0c4">NULL</a></td></tr>
+<tr class="memdesc:a5fd80ff2225c82ebca14bf45ba7dad5f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Fonction exécutée à la fin du délais.  <br /></td></tr>
+<tr class="separator:a5fd80ff2225c82ebca14bf45ba7dad5f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2f5e05c853b67f3715ac91ede1bf5e07" id="r_a2f5e05c853b67f3715ac91ede1bf5e07"><td class="memItemLeft" align="right" valign="top">unsigned long&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a2f5e05c853b67f3715ac91ede1bf5e07">remains1</a> = 0</td></tr>
+<tr class="memdesc:a2f5e05c853b67f3715ac91ede1bf5e07"><td class="mdescLeft">&#160;</td><td class="mdescRight">Représente le nombre de microsecondes restantes après les counter1 premières interruptions.  <br /></td></tr>
+<tr class="separator:a2f5e05c853b67f3715ac91ede1bf5e07"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4a83c833d1791f6e48fd7b0537ca23ec" id="r_a4a83c833d1791f6e48fd7b0537ca23ec"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a4a83c833d1791f6e48fd7b0537ca23ec">counter2</a> = 0</td></tr>
+<tr class="memdesc:a4a83c833d1791f6e48fd7b0537ca23ec"><td class="mdescLeft">&#160;</td><td class="mdescRight">Représente le nombre de fois que l'interruption du timer doit être déclenchée.  <br /></td></tr>
+<tr class="separator:a4a83c833d1791f6e48fd7b0537ca23ec"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6c0717a642ea382fe684f100941c3327" id="r_a6c0717a642ea382fe684f100941c3327"><td class="memItemLeft" align="right" valign="top">void(*&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a6c0717a642ea382fe684f100941c3327">callback2</a> )() = <a class="el" href="../../d9/dcd/StdioStream_8h.xhtml#a070d2ce7b6bb7e5c05602aa8c308d0c4">NULL</a></td></tr>
+<tr class="memdesc:a6c0717a642ea382fe684f100941c3327"><td class="mdescLeft">&#160;</td><td class="mdescRight">Fonction exécutée à la fin du délais.  <br /></td></tr>
+<tr class="separator:a6c0717a642ea382fe684f100941c3327"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a16c5bfe7d7271d25273a596df764e90d" id="r_a16c5bfe7d7271d25273a596df764e90d"><td class="memItemLeft" align="right" valign="top">unsigned long&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a16c5bfe7d7271d25273a596df764e90d">remains2</a> = 0</td></tr>
+<tr class="memdesc:a16c5bfe7d7271d25273a596df764e90d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Représente le nombre de microsecondes restantes après les counter1 premières interruptions.  <br /></td></tr>
+<tr class="separator:a16c5bfe7d7271d25273a596df764e90d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
+<h2 class="groupheader">Documentation des fonctions</h2>
+<a id="a4c04079a1fe0cb011c57a3e213d51e65" name="a4c04079a1fe0cb011c57a3e213d51e65"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a4c04079a1fe0cb011c57a3e213d51e65">&#9670;&#160;</a></span>createTimer1()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void createTimer1 </td>
+          <td>(</td>
+          <td class="paramtype">long&#160;</td>
+          <td class="paramname"><em>delay</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">void(*)()&#160;</td>
+          <td class="paramname"><em>handler</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Crée une nouvelle instance du timer. </p>
+<dl class="params"><dt>Paramètres</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">delay</td><td>Le délais en microsecondes </td></tr>
+    <tr><td class="paramname">handler</td><td>La fonction à exécuter à la fin du délais</td></tr>
+  </table>
+  </dd>
+</dl>
+<p>Références : <a class="el" href="#a5fd80ff2225c82ebca14bf45ba7dad5f">callback1</a> <a class="el" href="#a22d4ec3074b5dbbbc8a2225b7b23eead">counter1</a> <a class="el" href="#a2f5e05c853b67f3715ac91ede1bf5e07">remains1</a> </p>
+<div class="dynheader">
+Voici le graphe d'appel pour cette fonction :</div>
+<div class="dyncontent">
+<div class="center"><iframe scrolling="no" frameborder="0" src="../../dc/de5/timer_8cpp_a4c04079a1fe0cb011c57a3e213d51e65_cgraph.svg" width="342" height="86"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+</div>
+<div class="dynheader">
+Voici le graphe des appelants de cette fonction :</div>
+<div class="dyncontent">
+<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="../../dc/de5/timer_8cpp_a4c04079a1fe0cb011c57a3e213d51e65_icgraph.svg" width="100%" height="364"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
+</div>
+
+</div>
+</div>
+<a id="a75f67483e2c676b6e8ea29bca518e6c7" name="a75f67483e2c676b6e8ea29bca518e6c7"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a75f67483e2c676b6e8ea29bca518e6c7">&#9670;&#160;</a></span>createTimer2()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void createTimer2 </td>
+          <td>(</td>
+          <td class="paramtype">long&#160;</td>
+          <td class="paramname"><em>delay</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">void(*)()&#160;</td>
+          <td class="paramname"><em>handler</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Crée une nouvelle instance du timer. </p>
+<dl class="params"><dt>Paramètres</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">delay</td><td>Le délais en microsecondes </td></tr>
+    <tr><td class="paramname">handler</td><td>La fonction à exécuter à la fin du délais</td></tr>
+  </table>
+  </dd>
+</dl>
+<p>Références : <a class="el" href="#a5fd80ff2225c82ebca14bf45ba7dad5f">callback1</a> <a class="el" href="#a22d4ec3074b5dbbbc8a2225b7b23eead">counter1</a> <a class="el" href="#a2f5e05c853b67f3715ac91ede1bf5e07">remains1</a> </p>
+<div class="dynheader">
+Voici le graphe d'appel pour cette fonction :</div>
+<div class="dyncontent">
+<div class="center"><iframe scrolling="no" frameborder="0" src="../../dc/de5/timer_8cpp_a75f67483e2c676b6e8ea29bca518e6c7_cgraph.svg" width="342" height="86"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+</div>
+<div class="dynheader">
+Voici le graphe des appelants de cette fonction :</div>
+<div class="dyncontent">
+<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="../../dc/de5/timer_8cpp_a75f67483e2c676b6e8ea29bca518e6c7_icgraph.svg" width="100%" height="600"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
+</div>
+
+</div>
+</div>
+<a id="aeb10e95e8ade0a53d0aeac6f7751c631" name="aeb10e95e8ade0a53d0aeac6f7751c631"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aeb10e95e8ade0a53d0aeac6f7751c631">&#9670;&#160;</a></span>initTimer1()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void initTimer1 </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Initialise le timer. </p>
+<div class="dynheader">
+Voici le graphe des appelants de cette fonction :</div>
+<div class="dyncontent">
+<div class="center"><iframe scrolling="no" frameborder="0" src="../../dc/de5/timer_8cpp_aeb10e95e8ade0a53d0aeac6f7751c631_icgraph.svg" width="310" height="36"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+</div>
+
+</div>
+</div>
+<a id="a8be64269dd28974300e07f148f3e92c4" name="a8be64269dd28974300e07f148f3e92c4"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a8be64269dd28974300e07f148f3e92c4">&#9670;&#160;</a></span>initTimer2()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void initTimer2 </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Initialise le timer. </p>
+
+</div>
+</div>
+<a id="ad39420cdd896dd12c68e36313139d0a5" name="ad39420cdd896dd12c68e36313139d0a5"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad39420cdd896dd12c68e36313139d0a5">&#9670;&#160;</a></span>ISR() <span class="overload">[1/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">ISR </td>
+          <td>(</td>
+          <td class="paramtype">TIMER1_COMPA_vect&#160;</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Fonction exécutée à chaque interruption du timer. </p>
+<p>Références : <a class="el" href="#a4c04079a1fe0cb011c57a3e213d51e65">createTimer1()</a> <a class="el" href="#a6ac5badfa7050f69053360ab718ea6ab">stopTimer1()</a> <a class="el" href="#a22d4ec3074b5dbbbc8a2225b7b23eead">counter1</a> <a class="el" href="#a5fd80ff2225c82ebca14bf45ba7dad5f">callback1</a> <a class="el" href="#a2f5e05c853b67f3715ac91ede1bf5e07">remains1</a> </p>
+<div class="dynheader">
+Voici le graphe d'appel pour cette fonction :</div>
+<div class="dyncontent">
+<div class="center"><iframe scrolling="no" frameborder="0" src="../../dc/de5/timer_8cpp_ad39420cdd896dd12c68e36313139d0a5_cgraph.svg" width="432" height="111"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+</div>
+
+</div>
+</div>
+<a id="a5686c229bdef50123688ab6cb1404230" name="a5686c229bdef50123688ab6cb1404230"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a5686c229bdef50123688ab6cb1404230">&#9670;&#160;</a></span>ISR() <span class="overload">[2/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">ISR </td>
+          <td>(</td>
+          <td class="paramtype">TIMER2_COMPA_vect&#160;</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Fonction exécutée à chaque interruption du timer. </p>
+<p>Références : <a class="el" href="#a4c04079a1fe0cb011c57a3e213d51e65">createTimer1()</a> <a class="el" href="#a6ac5badfa7050f69053360ab718ea6ab">stopTimer1()</a> <a class="el" href="#a22d4ec3074b5dbbbc8a2225b7b23eead">counter1</a> <a class="el" href="#a5fd80ff2225c82ebca14bf45ba7dad5f">callback1</a> <a class="el" href="#a2f5e05c853b67f3715ac91ede1bf5e07">remains1</a> </p>
+<div class="dynheader">
+Voici le graphe d'appel pour cette fonction :</div>
+<div class="dyncontent">
+<div class="center"><iframe scrolling="no" frameborder="0" src="../../dc/de5/timer_8cpp_a5686c229bdef50123688ab6cb1404230_cgraph.svg" width="432" height="111"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+</div>
+
+</div>
+</div>
+<a id="a6ac5badfa7050f69053360ab718ea6ab" name="a6ac5badfa7050f69053360ab718ea6ab"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a6ac5badfa7050f69053360ab718ea6ab">&#9670;&#160;</a></span>stopTimer1()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void stopTimer1 </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Arrête le timer. </p>
+<div class="dynheader">
+Voici le graphe des appelants de cette fonction :</div>
+<div class="dyncontent">
+<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="../../dc/de5/timer_8cpp_a6ac5badfa7050f69053360ab718ea6ab_icgraph.svg" width="100%" height="364"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
+</div>
+
+</div>
+</div>
+<a id="acf94c4a2b4e9e1390da758b6da43d5f0" name="acf94c4a2b4e9e1390da758b6da43d5f0"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#acf94c4a2b4e9e1390da758b6da43d5f0">&#9670;&#160;</a></span>stopTimer2()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void stopTimer2 </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Arrête le timer. </p>
+<div class="dynheader">
+Voici le graphe des appelants de cette fonction :</div>
+<div class="dyncontent">
+<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="../../dc/de5/timer_8cpp_acf94c4a2b4e9e1390da758b6da43d5f0_icgraph.svg" width="100%" height="401"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
+</div>
+
+</div>
+</div>
+<h2 class="groupheader">Documentation des variables</h2>
+<a id="a5fd80ff2225c82ebca14bf45ba7dad5f" name="a5fd80ff2225c82ebca14bf45ba7dad5f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a5fd80ff2225c82ebca14bf45ba7dad5f">&#9670;&#160;</a></span>callback1</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void(* callback1) () </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> = <a class="el" href="../../d9/dcd/StdioStream_8h.xhtml#a070d2ce7b6bb7e5c05602aa8c308d0c4">NULL</a></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Fonction exécutée à la fin du délais. </p>
+
+</div>
+</div>
+<a id="a6c0717a642ea382fe684f100941c3327" name="a6c0717a642ea382fe684f100941c3327"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a6c0717a642ea382fe684f100941c3327">&#9670;&#160;</a></span>callback2</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void(* callback2) () </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> = <a class="el" href="../../d9/dcd/StdioStream_8h.xhtml#a070d2ce7b6bb7e5c05602aa8c308d0c4">NULL</a></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Fonction exécutée à la fin du délais. </p>
+
+</div>
+</div>
+<a id="a22d4ec3074b5dbbbc8a2225b7b23eead" name="a22d4ec3074b5dbbbc8a2225b7b23eead"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a22d4ec3074b5dbbbc8a2225b7b23eead">&#9670;&#160;</a></span>counter1</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">int counter1 = 0</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Représente le nombre de fois que l'interruption du timer doit être déclenchée. </p>
+<p>Cette variable est définie à une valeur calculée à partir de la fréquence d'horloge, du prédiviseur et du délais attendu? Elle est décrémentée à chaque interruption du timer. Lorsqu'elle atteint 0, le timer est arrêté. </p>
+
+</div>
+</div>
+<a id="a4a83c833d1791f6e48fd7b0537ca23ec" name="a4a83c833d1791f6e48fd7b0537ca23ec"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a4a83c833d1791f6e48fd7b0537ca23ec">&#9670;&#160;</a></span>counter2</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">int counter2 = 0</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Représente le nombre de fois que l'interruption du timer doit être déclenchée. </p>
+<p>Cette variable est définie à une valeur calculée à partir de la fréquence d'horloge, du prédiviseur et du délais attendu? Elle est décrémentée à chaque interruption du timer. Lorsqu'elle atteint 0, le timer est arrêté. </p>
+
+</div>
+</div>
+<a id="a2f5e05c853b67f3715ac91ede1bf5e07" name="a2f5e05c853b67f3715ac91ede1bf5e07"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a2f5e05c853b67f3715ac91ede1bf5e07">&#9670;&#160;</a></span>remains1</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">unsigned long remains1 = 0</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Représente le nombre de microsecondes restantes après les counter1 premières interruptions. </p>
+<p>Cette variable déterminée à partir de la fréquence d'horloge, du prédiviseur, du délais attend et des counter1 interruptions. Elle permet de créer une nouvelle instance du timer avec le délais restant. </p>
+
+</div>
+</div>
+<a id="a16c5bfe7d7271d25273a596df764e90d" name="a16c5bfe7d7271d25273a596df764e90d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a16c5bfe7d7271d25273a596df764e90d">&#9670;&#160;</a></span>remains2</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">unsigned long remains2 = 0</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Représente le nombre de microsecondes restantes après les counter1 premières interruptions. </p>
+<p>Cette variable déterminée à partir de la fréquence d'horloge, du prédiviseur, du délais attend et des counter1 interruptions. Elle permet de créer une nouvelle instance du timer avec le délais restant. </p>
+
+</div>
+</div>
 </div><!-- contents -->
 </div><!-- doc-content -->
 <!-- start footer part -->

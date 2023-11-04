@@ -109,19 +109,77 @@ Graphe de collaboration de Sensor:</div>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-attribs" name="pub-attribs"></a>
 Attributs publics</h2></td></tr>
-<tr class="memitem:a69eda08903e47cdd7b2f8d8d53f20303" id="r_a69eda08903e47cdd7b2f8d8d53f20303"><td class="memItemLeft" align="right" valign="top">char *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/d5a/structSensor_a69eda08903e47cdd7b2f8d8d53f20303.xhtml#a69eda08903e47cdd7b2f8d8d53f20303">name</a></td></tr>
+<tr class="memitem:a69eda08903e47cdd7b2f8d8d53f20303" id="r_a69eda08903e47cdd7b2f8d8d53f20303"><td class="memItemLeft" align="right" valign="top">char *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a69eda08903e47cdd7b2f8d8d53f20303">name</a></td></tr>
+<tr class="memdesc:a69eda08903e47cdd7b2f8d8d53f20303"><td class="mdescLeft">&#160;</td><td class="mdescRight">Adresse mémoire Flash du nom du capteur.  <br /></td></tr>
 <tr class="separator:a69eda08903e47cdd7b2f8d8d53f20303"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aa210ffec1e1194174d78e4e53a213831" id="r_aa210ffec1e1194174d78e4e53a213831"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/d5a/structSensor_aa210ffec1e1194174d78e4e53a213831.xhtml#aa210ffec1e1194174d78e4e53a213831">enabled</a></td></tr>
+<tr class="memitem:aa210ffec1e1194174d78e4e53a213831" id="r_aa210ffec1e1194174d78e4e53a213831"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aa210ffec1e1194174d78e4e53a213831">enabled</a></td></tr>
+<tr class="memdesc:aa210ffec1e1194174d78e4e53a213831"><td class="mdescLeft">&#160;</td><td class="mdescRight">Identifiant associé au paramètre réprésentant l'état du capteur.  <br /></td></tr>
 <tr class="separator:aa210ffec1e1194174d78e4e53a213831"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ac3265949e037ea092d617f26e1bc430a" id="r_ac3265949e037ea092d617f26e1bc430a"><td class="memItemLeft" align="right" valign="top">float(*&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/d5a/structSensor_ac3265949e037ea092d617f26e1bc430a.xhtml#ac3265949e037ea092d617f26e1bc430a">measure</a> )()</td></tr>
+<tr class="memitem:ac3265949e037ea092d617f26e1bc430a" id="r_ac3265949e037ea092d617f26e1bc430a"><td class="memItemLeft" align="right" valign="top">float(*&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ac3265949e037ea092d617f26e1bc430a">measure</a> )()</td></tr>
+<tr class="memdesc:ac3265949e037ea092d617f26e1bc430a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Pointeur vers la fonction de mesure du capteur.  <br /></td></tr>
 <tr class="separator:ac3265949e037ea092d617f26e1bc430a"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Description détaillée</h2>
 <div class="textblock"><p>Structure représentant un capteur. </p>
 <p>Cette classe contient les informations relatives à un capteur.</p>
-<p>Elle permet de faciliter la récupération des données des capteurs en fournissant une interface commune pour tous les capteurs. Elle fourni notamment une méthode d'initialisation et une méthode de mesure. </p>
-</div><hr/>La documentation de cette structure a été générée à partir du fichier suivant :<ul>
-<li>/mnt/d/Cours/10. CESI A2/Blocs/01 - Systeme embarque/Livrables/Station_Meteo_Groupe_1 - Copy/include/<a class="el" href="../../d9/de4/sensor_8hpp_source.xhtml">sensor.hpp</a></li>
+<p>Elle permet de faciliter la récupération des données des capteurs en fournissant une interface commune pour tous les capteurs. Elle fourni notamment une méthode d'initialisation et une méthode de mesure.</p>
+<p>Cette structure contient :</p><ul>
+<li>L'adresse mémoire Flash du nom du capteur</li>
+<li>L'identifiant associé au paramètre réprésentant l'état du capteur</li>
+<li>L'identifiant associé au paramètre réprésentant l'état du capteur en mode économie</li>
+<li>Un pointeur vers la fonction de mesure du capteur </li>
+</ul>
+</div><h2 class="groupheader">Documentation des données membres</h2>
+<a id="aa210ffec1e1194174d78e4e53a213831" name="aa210ffec1e1194174d78e4e53a213831"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa210ffec1e1194174d78e4e53a213831">&#9670;&#160;</a></span>enabled</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">int Sensor::enabled</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Identifiant associé au paramètre réprésentant l'état du capteur. </p>
+
+</div>
+</div>
+<a id="ac3265949e037ea092d617f26e1bc430a" name="ac3265949e037ea092d617f26e1bc430a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac3265949e037ea092d617f26e1bc430a">&#9670;&#160;</a></span>measure</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">float(* Sensor::measure) ()</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Pointeur vers la fonction de mesure du capteur. </p>
+
+</div>
+</div>
+<a id="a69eda08903e47cdd7b2f8d8d53f20303" name="a69eda08903e47cdd7b2f8d8d53f20303"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a69eda08903e47cdd7b2f8d8d53f20303">&#9670;&#160;</a></span>name</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">char* Sensor::name</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Adresse mémoire Flash du nom du capteur. </p>
+
+</div>
+</div>
+<hr/>La documentation de cette structure a été générée à partir du fichier suivant :<ul>
+<li><a class="el" href="../../d9/de4/sensor_8hpp_source.xhtml">sensor.hpp</a></li>
 </ul>
 </div><!-- contents -->
 </div><!-- doc-content -->

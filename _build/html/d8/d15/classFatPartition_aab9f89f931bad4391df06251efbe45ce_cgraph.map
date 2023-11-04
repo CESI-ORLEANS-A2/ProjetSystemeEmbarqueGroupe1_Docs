@@ -1,0 +1,82 @@
+<map id="FatPartition::cacheClear" name="FatPartition::cacheClear">
+<area shape="rect" id="Node000001" title=" " alt="" coords="5,297,180,323"/>
+<area shape="rect" id="Node000002" href="$dd/db1/classFsCache.xhtml#a1f06585b0a7d2646b6e375e618591d49" title=" " alt="" coords="228,297,345,323"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="180,307,214,307,214,313,180,313"/>
+<area shape="rect" id="Node000003" href="$dd/db1/classFsCache.xhtml#a963ea866ca2a9c4f63afd57cf287733d" title=" " alt="" coords="393,248,544,273"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="333,295,407,274,408,280,335,300"/>
+<area shape="rect" id="Node000004" href="$dd/db1/classFsCache.xhtml#a22f4284aefd18f569d962d37f4a5db70" title=" " alt="" coords="405,297,533,323"/>
+<area shape="poly" id="edge3_Node000002_Node000004" title=" " alt="" coords="346,307,391,307,391,313,346,313"/>
+<area shape="rect" id="Node000005" href="$dd/db1/classFsCache.xhtml#a5a2c8fb432d7b7590ebb43200ca21893" title=" " alt="" coords="411,347,526,372"/>
+<area shape="poly" id="edge4_Node000002_Node000005" title=" " alt="" coords="335,320,408,340,407,345,333,325"/>
+<area shape="rect" id="Node000006" href="$d8/d7f/classSharedSpiCard.xhtml#adf2ce56ca0a56fe841fbdf75f7f3faee" title=" " alt="" coords="592,347,791,372"/>
+<area shape="poly" id="edge5_Node000005_Node000006" title=" " alt="" coords="526,357,578,357,578,362,526,362"/>
+<area shape="rect" id="Node000007" href="$d8/d7f/classSharedSpiCard.xhtml#adda33199753fc2aec74fe317cbaabc06" title=" " alt="" coords="839,347,1059,372"/>
+<area shape="poly" id="edge6_Node000006_Node000007" title=" " alt="" coords="791,357,825,357,825,362,791,362"/>
+<area shape="rect" id="Node000008" href="$d8/d7f/classSharedSpiCard.xhtml#a08363209d938db87521cca6a84146041" title=" " alt="" coords="1844,524,2040,549"/>
+<area shape="poly" id="edge40_Node000006_Node000008" title=" " alt="" coords="700,371,717,410,746,463,787,517,812,540,840,560,890,583,934,597,975,602,1014,602,1099,592,1148,587,1205,585,1451,585,1559,581,1667,572,1851,549,1852,554,1667,578,1559,586,1451,590,1205,590,1149,592,1099,597,1014,607,974,607,933,602,888,588,837,564,809,545,783,521,741,466,712,413,695,373"/>
+<area shape="rect" id="Node000021" href="$d8/d7f/classSharedSpiCard.xhtml#a747c3f0b962098cf0c097f3c4c2b4fd4" title=" " alt="" coords="1611,145,1767,171"/>
+<area shape="poly" id="edge39_Node000006_Node000021" title=" " alt="" coords="693,345,708,300,736,235,755,201,779,168,806,138,837,113,931,59,1016,25,1097,7,1176,4,1257,12,1343,29,1545,79,1577,90,1609,104,1661,135,1658,140,1606,109,1575,95,1543,84,1342,34,1256,17,1176,9,1098,12,1018,30,933,64,840,117,809,142,783,171,760,204,741,238,713,302,699,347"/>
+<area shape="rect" id="Node000022" href="$d8/d7f/classSharedSpiCard.xhtml#a0f511c39c50055a4fc97e720933aee3a" title=" " alt="" coords="1603,220,1776,245"/>
+<area shape="poly" id="edge41_Node000006_Node000022" title=" " alt="" coords="722,344,884,283,993,249,1106,222,1175,211,1230,207,1355,205,1449,201,1544,205,1617,215,1616,220,1544,210,1449,206,1355,210,1230,212,1176,216,1107,227,995,254,886,288,724,349"/>
+<area shape="rect" id="Node000027" href="$d8/d7f/classSharedSpiCard.xhtml#ab3468397bb3b12d29dd2f31e45b3dcaf" title=" " alt="" coords="1592,424,1787,449"/>
+<area shape="poly" id="edge43_Node000006_Node000027" title=" " alt="" coords="763,369,839,381,1096,409,1355,426,1578,433,1578,438,1355,431,1096,415,838,386,763,375"/>
+<area shape="rect" id="Node000031" href="$d8/d7f/classSharedSpiCard.xhtml#a7dac2190763d7b4b72163ed7131e8a87" title=" " alt="" coords="871,524,1026,549"/>
+<area shape="poly" id="edge42_Node000006_Node000031" title=" " alt="" coords="704,371,757,434,796,471,840,502,873,517,871,522,837,507,793,475,753,437,700,374"/>
+<area shape="rect" id="Node000032" href="$d8/d7f/classSharedSpiCard.xhtml#a5b6d7ad34f56d0d6a6c5059d920499ba" title=" " alt="" coords="1355,119,1544,144"/>
+<area shape="poly" id="edge44_Node000006_Node000032" title=" " alt="" coords="695,345,713,307,742,255,784,202,809,179,837,161,906,131,978,111,1053,99,1127,94,1198,95,1265,99,1375,114,1375,119,1265,104,1198,100,1127,100,1053,105,979,116,908,136,840,166,812,184,788,206,747,258,717,309,700,347"/>
+<area shape="poly" id="edge7_Node000007_Node000008" title=" " alt="" coords="990,369,1107,402,1306,442,1505,475,1830,521,1830,526,1504,481,1305,447,1106,407,988,375"/>
+<area shape="rect" id="Node000010" href="$d8/d7f/classSharedSpiCard.xhtml#ab311b9ad8a250f06afbe091f7abb118b" title=" " alt="" coords="1854,272,2030,297"/>
+<area shape="poly" id="edge9_Node000007_Node000010" title=" " alt="" coords="1059,348,1840,289,1841,295,1059,354"/>
+<area shape="rect" id="Node000012" href="$d8/d7f/classSharedSpiCard.xhtml#aef2dfa72e8d5643c90720f9f8c6a4254" title=" " alt="" coords="1602,372,1777,397"/>
+<area shape="poly" id="edge11_Node000007_Node000012" title=" " alt="" coords="1059,360,1588,378,1588,384,1059,366"/>
+<area shape="rect" id="Node000019" href="$d8/d7f/classSharedSpiCard.xhtml#a2f181b3d6f27413a0f5ee883dfd94d87" title=" " alt="" coords="1107,271,1307,296"/>
+<area shape="poly" id="edge19_Node000007_Node000019" title=" " alt="" coords="992,344,1148,297,1150,303,993,349"/>
+<area shape="poly" id="edge38_Node000007_Node000027" title=" " alt="" coords="1055,369,1107,375,1579,423,1578,429,1106,381,1054,375"/>
+<area shape="rect" id="Node000009" href="$d0/d25/classSdSpiArduinoDriver.xhtml#a8d6bc852a52e9d69c4b1e48ee062e8d1" title=" " alt="" coords="2097,517,2245,557"/>
+<area shape="poly" id="edge8_Node000008_Node000009" title=" " alt="" coords="2040,534,2084,534,2084,539,2040,539"/>
+<area shape="rect" id="Node000011" href="$d0/d25/classSdSpiArduinoDriver.xhtml#a3c4842e47f98fe5d3799cd6028778ab5" title=" " alt="" coords="2097,250,2245,290"/>
+<area shape="poly" id="edge10_Node000010_Node000011" title=" " alt="" coords="2030,276,2083,273,2084,278,2030,282"/>
+<area shape="poly" id="edge18_Node000012_Node000010" title=" " alt="" coords="1741,369,1785,350,1799,339,1808,328,1818,317,1833,306,1848,299,1851,304,1836,311,1822,321,1812,332,1803,343,1788,355,1743,374"/>
+<area shape="rect" id="Node000013" href="$d8/d7f/classSharedSpiCard.xhtml#a69ee2fe49dfaeea2347d8a265806d2b6" title=" " alt="" coords="1843,372,2041,397"/>
+<area shape="poly" id="edge12_Node000012_Node000013" title=" " alt="" coords="1777,382,1829,382,1829,387,1777,387"/>
+<area shape="rect" id="Node000015" href="$d8/d7f/classSharedSpiCard.xhtml#a8c3088599862ff6e84ae79bfdf32aea8" title=" " alt="" coords="1850,321,2034,347"/>
+<area shape="poly" id="edge14_Node000012_Node000015" title=" " alt="" coords="1753,369,1864,347,1865,352,1754,374"/>
+<area shape="rect" id="Node000014" href="$d0/d25/classSdSpiArduinoDriver.xhtml#abb6b88c5c8b87fc344a69f23f6eab3d9" title=" " alt="" coords="2097,365,2245,405"/>
+<area shape="poly" id="edge13_Node000013_Node000014" title=" " alt="" coords="2041,382,2084,382,2084,387,2041,387"/>
+<area shape="rect" id="Node000016" href="$d2/df0/SdSpiChipSelect_8cpp.xhtml#ac469bbe2d31ffde9b00ffc68258d7428" title=" " alt="" coords="2127,315,2215,340"/>
+<area shape="poly" id="edge15_Node000015_Node000016" title=" " alt="" coords="2034,329,2113,326,2114,332,2034,334"/>
+<area shape="rect" id="Node000017" href="$d5/d45/wiring__digital_8c.xhtml#a73b9b61feeaf7d790d107f2954a7fd93" title=" " alt="" coords="2293,315,2392,340"/>
+<area shape="poly" id="edge16_Node000016_Node000017" title=" " alt="" coords="2216,325,2279,325,2279,330,2216,330"/>
+<area shape="rect" id="Node000018" href="$d5/d45/wiring__digital_8c.xhtml#ae3d0bcbe4eb927ca8f5d5c21b7e4f224" title=" " alt="" coords="2440,315,2540,340"/>
+<area shape="poly" id="edge17_Node000017_Node000018" title=" " alt="" coords="2392,325,2426,325,2426,330,2392,330"/>
+<area shape="rect" id="Node000020" href="$d8/d7f/classSharedSpiCard.xhtml#ab33ad2aefbb9cff905cad0879dffc78b" title=" " alt="" coords="1358,220,1541,245"/>
+<area shape="poly" id="edge20_Node000019_Node000020" title=" " alt="" coords="1268,268,1374,245,1375,251,1269,273"/>
+<area shape="rect" id="Node000026" href="$d8/d7f/classSharedSpiCard.xhtml#ae9a34a573077e43e7c6028a16ae77fb3" title=" " alt="" coords="1356,271,1543,296"/>
+<area shape="poly" id="edge29_Node000019_Node000026" title=" " alt="" coords="1307,281,1342,281,1342,286,1307,286"/>
+<area shape="poly" id="edge21_Node000020_Node000007" title=" " alt="" coords="1358,230,1301,230,1237,234,1171,244,1108,260,1070,277,1034,297,976,340,973,335,1031,293,1067,272,1106,255,1170,239,1236,229,1300,225,1358,225"/>
+<area shape="poly" id="edge22_Node000020_Node000021" title=" " alt="" coords="1491,217,1634,172,1636,177,1492,222"/>
+<area shape="poly" id="edge23_Node000020_Node000022" title=" " alt="" coords="1541,230,1589,230,1589,235,1541,235"/>
+<area shape="poly" id="edge26_Node000022_Node000010" title=" " alt="" coords="1752,243,1867,267,1866,272,1751,248"/>
+<area shape="rect" id="Node000023" href="$d8/d7f/classSharedSpiCard.xhtml#ac6acfca5a23337977d2e4436ab8ab39a" title=" " alt="" coords="1835,173,2049,199"/>
+<area shape="poly" id="edge24_Node000022_Node000023" title=" " alt="" coords="1758,217,1859,198,1860,204,1759,222"/>
+<area shape="rect" id="Node000025" href="$d8/d7f/classSharedSpiCard.xhtml#ad06a3278372300987b97876cf598c114" title=" " alt="" coords="1841,223,2043,248"/>
+<area shape="poly" id="edge27_Node000022_Node000025" title=" " alt="" coords="1776,231,1827,231,1827,237,1776,236"/>
+<area shape="rect" id="Node000024" href="$d0/d25/classSdSpiArduinoDriver.xhtml#ae88a255f533e3acb41d1221025a69b55" title=" " alt="" coords="2097,166,2245,206"/>
+<area shape="poly" id="edge25_Node000023_Node000024" title=" " alt="" coords="2049,183,2084,183,2084,189,2049,189"/>
+<area shape="poly" id="edge28_Node000025_Node000016" title=" " alt="" coords="2022,245,2051,257,2066,267,2076,278,2085,289,2099,300,2116,308,2114,313,2096,304,2081,293,2072,282,2062,271,2048,262,2020,250"/>
+<area shape="poly" id="edge31_Node000026_Node000010" title=" " alt="" coords="1543,281,1840,282,1840,287,1543,286"/>
+<area shape="poly" id="edge30_Node000026_Node000021" title=" " alt="" coords="1511,268,1543,254,1557,243,1567,231,1576,219,1590,205,1643,174,1646,179,1594,209,1580,222,1571,234,1561,247,1545,259,1513,273"/>
+<area shape="poly" id="edge32_Node000026_Node000022" title=" " alt="" coords="1510,268,1615,245,1616,251,1511,273"/>
+<area shape="poly" id="edge33_Node000026_Node000027" title=" " alt="" coords="1463,294,1516,348,1553,379,1593,406,1617,417,1615,422,1591,411,1549,384,1512,352,1459,298"/>
+<area shape="poly" id="edge34_Node000027_Node000008" title=" " alt="" coords="1724,447,1897,516,1895,521,1722,452"/>
+<area shape="rect" id="Node000028" href="$db/df4/classTimeout.xhtml#abbabe99f42e52472ddd3a7e9d22dce95" title=" " alt="" coords="1869,427,2015,452"/>
+<area shape="poly" id="edge35_Node000027_Node000028" title=" " alt="" coords="1787,435,1856,436,1856,441,1787,440"/>
+<area shape="rect" id="Node000029" href="$db/df4/classTimeout.xhtml#a9a72ea0591f11452fb15bfaa1ae5108a" title=" " alt="" coords="2103,429,2239,455"/>
+<area shape="poly" id="edge36_Node000028_Node000029" title=" " alt="" coords="2015,437,2089,438,2089,444,2015,443"/>
+<area shape="rect" id="Node000030" href="$d5/df3/wiring_8c.xhtml#a6ff7f2532a22366f0013bc41397129fd" title=" " alt="" coords="2313,429,2372,455"/>
+<area shape="poly" id="edge37_Node000029_Node000030" title=" " alt="" coords="2240,439,2299,439,2299,445,2240,445"/>
+<area shape="poly" id="edge45_Node000032_Node000021" title=" " alt="" coords="1544,139,1598,145,1597,150,1544,144"/>
+<area shape="poly" id="edge46_Node000032_Node000022" title=" " alt="" coords="1492,141,1545,161,1653,211,1651,216,1543,166,1490,146"/>
+<area shape="poly" id="edge47_Node000032_Node000027" title=" " alt="" coords="1475,142,1512,168,1531,186,1546,206,1560,235,1566,262,1565,312,1565,336,1567,359,1576,383,1594,407,1604,415,1600,419,1590,410,1571,385,1562,361,1559,336,1560,312,1561,262,1555,236,1542,209,1527,189,1509,172,1472,146"/>
+<area shape="poly" id="edge48_Node000032_Node000032" title=" " alt="" coords="1410,120,1402,110,1406,100,1422,94,1449,92,1483,96,1496,105,1493,109,1481,101,1449,97,1424,99,1410,104,1407,109,1414,117"/>
+</map>

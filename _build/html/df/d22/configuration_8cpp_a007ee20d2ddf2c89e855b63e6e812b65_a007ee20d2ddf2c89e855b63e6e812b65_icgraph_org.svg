@@ -11,7 +11,7 @@
 <!-- Node1 -->
 <g id="Node000001" class="node">
 <title>Node1</title>
-<g id="a_Node000001"><a xlink:title=" ">
+<g id="a_Node000001"><a xlink:title="Exécute une étape de la boucle principale du mode de configuration.">
 <polygon fill="#999999" stroke="#666666" points="297,-19 151,-19 151,0 297,0 297,-19"/>
 <text text-anchor="middle" x="224" y="-7" font-family="Helvetica,sans-Serif" font-size="10.00">runConfigurationModeStep</text>
 </a>

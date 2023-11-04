@@ -4,5 +4,17 @@ var searchData=
   ['tiny_5fbme280_1',['Tiny_BME280',['../d4/d1b/classTiny__BME280.xhtml',1,'']]],
   ['tiny_5fbme280_5fhumidity_2',['Tiny_BME280_Humidity',['../d7/dd5/classTiny__BME280__Humidity.xhtml',1,'']]],
   ['tiny_5fbme280_5fpressure_3',['Tiny_BME280_Pressure',['../db/d9c/classTiny__BME280__Pressure.xhtml',1,'']]],
-  ['tiny_5fbme280_5ftemp_4',['Tiny_BME280_Temp',['../d6/dd1/classTiny__BME280__Temp.xhtml',1,'']]]
+  ['tiny_5fbme280_5ftemp_4',['Tiny_BME280_Temp',['../d6/dd1/classTiny__BME280__Temp.xhtml',1,'']]],
+  ['tinygps_5',['TinyGPS',['../df/d85/classTinyGPS.xhtml',1,'']]],
+  ['tinygpsaltitude_6',['TinyGPSAltitude',['../d1/d54/structTinyGPSAltitude.xhtml',1,'']]],
+  ['tinygpscourse_7',['TinyGPSCourse',['../de/d12/structTinyGPSCourse.xhtml',1,'']]],
+  ['tinygpscustom_8',['TinyGPSCustom',['../dc/d9f/classTinyGPSCustom.xhtml',1,'']]],
+  ['tinygpsdate_9',['TinyGPSDate',['../d1/d67/structTinyGPSDate.xhtml',1,'']]],
+  ['tinygpsdecimal_10',['TinyGPSDecimal',['../d4/df7/structTinyGPSDecimal.xhtml',1,'']]],
+  ['tinygpshdop_11',['TinyGPSHDOP',['../d3/d41/structTinyGPSHDOP.xhtml',1,'']]],
+  ['tinygpsinteger_12',['TinyGPSInteger',['../d4/d0e/structTinyGPSInteger.xhtml',1,'']]],
+  ['tinygpslocation_13',['TinyGPSLocation',['../da/ddc/structTinyGPSLocation.xhtml',1,'']]],
+  ['tinygpsplus_14',['TinyGPSPlus',['../d3/d57/classTinyGPSPlus.xhtml',1,'']]],
+  ['tinygpsspeed_15',['TinyGPSSpeed',['../dc/dd0/structTinyGPSSpeed.xhtml',1,'']]],
+  ['tinygpstime_16',['TinyGPSTime',['../db/de3/structTinyGPSTime.xhtml',1,'']]]
 ];

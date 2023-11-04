@@ -194,7 +194,7 @@ var sectionId = 'dynsection-0';
 <!-- Node284 -->
 <g id="Node000284" class="node">
 <title>Node284</title>
-<g id="a_Node000284"><a xlink:href="../../df/d22/configuration_8cpp_a007ee20d2ddf2c89e855b63e6e812b65.xhtml#a007ee20d2ddf2c89e855b63e6e812b65" target="_top" xlink:title=" ">
+<g id="a_Node000284"><a xlink:href="../../df/d22/configuration_8cpp_a007ee20d2ddf2c89e855b63e6e812b65.xhtml#a007ee20d2ddf2c89e855b63e6e812b65" target="_top" xlink:title="Exécute une étape de la boucle principale du mode de configuration.">
 <polygon fill="white" stroke="#666666" points="813.5,-452 667.5,-452 667.5,-433 813.5,-433 813.5,-452"/>
 <text text-anchor="middle" x="740.5" y="-440" font-family="Helvetica,sans-Serif" font-size="10.00">runConfigurationModeStep</text>
 </a>
@@ -212,7 +212,7 @@ var sectionId = 'dynsection-0';
 <!-- Node276 -->
 <g id="Node000276" class="node">
 <title>Node276</title>
-<g id="a_Node000276"><a xlink:href="../../df/d22/configuration_8cpp_a6813bea1572c147d3885f0791eafd4b5.xhtml#a6813bea1572c147d3885f0791eafd4b5" target="_top" xlink:title=" ">
+<g id="a_Node000276"><a xlink:href="../../df/d22/configuration_8cpp_a6813bea1572c147d3885f0791eafd4b5.xhtml#a6813bea1572c147d3885f0791eafd4b5" target="_top" xlink:title="Passe le programme en mode de configuration.">
 <polygon fill="white" stroke="#666666" points="1365.5,-658 1214.5,-658 1214.5,-639 1365.5,-639 1365.5,-658"/>
 <text text-anchor="middle" x="1290" y="-646" font-family="Helvetica,sans-Serif" font-size="10.00">switchToConfigurationMode</text>
 </a>
@@ -266,7 +266,7 @@ var sectionId = 'dynsection-0';
 <!-- Node3 -->
 <g id="Node000003" class="node">
 <title>Node3</title>
-<g id="a_Node000003"><a xlink:href="../../d9/ddd/economy_8cpp_a35740c7a73b48d918cb4e6d891d46bed.xhtml#a35740c7a73b48d918cb4e6d891d46bed" target="_top" xlink:title=" ">
+<g id="a_Node000003"><a xlink:href="../../d9/ddd/economy_8cpp_a35740c7a73b48d918cb4e6d891d46bed.xhtml#a35740c7a73b48d918cb4e6d891d46bed" target="_top" xlink:title="Exécute une étape de la boucle principale du mode économique.">
 <polygon fill="white" stroke="#666666" points="610.5,-620 484.5,-620 484.5,-601 610.5,-601 610.5,-620"/>
 <text text-anchor="middle" x="547.5" y="-608" font-family="Helvetica,sans-Serif" font-size="10.00">runEconomyModeStep</text>
 </a>
@@ -284,7 +284,7 @@ var sectionId = 'dynsection-0';
 <!-- Node6 -->
 <g id="Node000006" class="node">
 <title>Node6</title>
-<g id="a_Node000006"><a xlink:href="../../d6/d46/maintenance_8cpp_ae80c7faecffa585182b14e2ee396009e.xhtml#ae80c7faecffa585182b14e2ee396009e" target="_top" xlink:title=" ">
+<g id="a_Node000006"><a xlink:href="../../d6/d46/maintenance_8cpp_ae80c7faecffa585182b14e2ee396009e.xhtml#ae80c7faecffa585182b14e2ee396009e" target="_top" xlink:title="Exécute une étape de la boucle principale du mode maintenance.">
 <polygon fill="white" stroke="#666666" points="619.5,-583 475.5,-583 475.5,-564 619.5,-564 619.5,-583"/>
 <text text-anchor="middle" x="547.5" y="-571" font-family="Helvetica,sans-Serif" font-size="10.00">runMaintenanceModeStep</text>
 </a>
@@ -302,7 +302,7 @@ var sectionId = 'dynsection-0';
 <!-- Node7 -->
 <g id="Node000007" class="node">
 <title>Node7</title>
-<g id="a_Node000007"><a xlink:href="../../df/d92/standard_8cpp_ad0b3e86793f7441084351fc2de4d4c45.xhtml#ad0b3e86793f7441084351fc2de4d4c45" target="_top" xlink:title=" ">
+<g id="a_Node000007"><a xlink:href="../../df/d92/standard_8cpp_ad0b3e86793f7441084351fc2de4d4c45.xhtml#ad0b3e86793f7441084351fc2de4d4c45" target="_top" xlink:title="Exécute une étape de la boucle principale du mode standard.">
 <polygon fill="white" stroke="#666666" points="610,-546 485,-546 485,-527 610,-527 610,-546"/>
 <text text-anchor="middle" x="547.5" y="-534" font-family="Helvetica,sans-Serif" font-size="10.00">runStandardModeStep</text>
 </a>

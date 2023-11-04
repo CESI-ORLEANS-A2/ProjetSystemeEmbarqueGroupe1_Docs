@@ -1,0 +1,9 @@
+<map id="createTimer2" name="createTimer2">
+<area shape="rect" id="Node000001" title="Crée une nouvelle instance du timer." alt="" coords="5,31,115,56"/>
+<area shape="rect" id="Node000002" href="$d5/df3/wiring_8c.xhtml#a6bc5f943544a887f8b23cadfb26a5e30" title=" " alt="" coords="163,31,221,56"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="115,41,149,41,149,46,115,46"/>
+<area shape="rect" id="Node000003" href="$d5/df3/wiring_8c.xhtml#a8b24cbb7c3486e1bfa05c86db83ecb01" title=" " alt="" coords="269,5,336,31"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="221,34,255,26,256,31,222,39"/>
+<area shape="rect" id="Node000004" href="$de/df0/Arduino_8h.xhtml#a7cb51f5c2b5cad3766f19eb69c92793b" title=" " alt="" coords="275,55,330,80"/>
+<area shape="poly" id="edge3_Node000002_Node000004" title=" " alt="" coords="222,47,262,56,261,61,221,52"/>
+</map>

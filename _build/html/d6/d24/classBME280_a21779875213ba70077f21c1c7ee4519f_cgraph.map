@@ -1,0 +1,11 @@
+<map id="BME280::getHumidity" name="BME280::getHumidity">
+<area shape="rect" id="Node000001" title=" " alt="" coords="5,31,169,56"/>
+<area shape="rect" id="Node000002" href="$d6/d24/classBME280.xhtml#aa4fe8af66d6cd1cb5699ee359c71e190" title=" " alt="" coords="218,5,403,31"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="169,31,204,27,205,33,170,37"/>
+<area shape="rect" id="Node000003" href="$d6/d24/classBME280.xhtml#a62105da311ce318edb1e251729736bf4" title=" " alt="" coords="217,55,404,80"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="170,49,204,53,204,59,169,55"/>
+<area shape="rect" id="Node000004" href="$d6/d24/classBME280.xhtml#aeb97e56f4ea669f88051c4d5c13cb13f" title=" " alt="" coords="452,55,637,80"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="404,65,439,65,439,70,404,70"/>
+<area shape="rect" id="Node000005" href="$d5/df3/wiring_8c.xhtml#a02fd73d861ef2e4aabb38c0c9ff82947" title=" " alt="" coords="685,55,728,80"/>
+<area shape="poly" id="edge4_Node000004_Node000005" title=" " alt="" coords="638,65,671,65,671,70,638,70"/>
+</map>

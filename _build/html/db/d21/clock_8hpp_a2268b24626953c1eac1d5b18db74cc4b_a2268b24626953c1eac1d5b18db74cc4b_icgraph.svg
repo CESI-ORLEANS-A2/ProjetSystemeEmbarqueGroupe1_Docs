@@ -57,7 +57,7 @@ var sectionId = 'dynsection-1';
 <!-- Node1 -->
 <g id="Node000001" class="node">
 <title>Node1</title>
-<g id="a_Node000001"><a xlink:title=" ">
+<g id="a_Node000001"><a xlink:title="Définit l&#39;année actuelle.">
 <polygon fill="#999999" stroke="#666666" points="570,-19 518,-19 518,0 570,0 570,-19"/>
 <text text-anchor="middle" x="544" y="-7" font-family="Helvetica,sans-Serif" font-size="10.00">setYear</text>
 </a>
@@ -66,7 +66,7 @@ var sectionId = 'dynsection-1';
 <!-- Node2 -->
 <g id="Node000002" class="node">
 <title>Node2</title>
-<g id="a_Node000002"><a xlink:href="../../df/d22/configuration_8cpp_a109c8a943c63a9d6d5dbd7b5c423a11b.xhtml#a109c8a943c63a9d6d5dbd7b5c423a11b" target="_top" xlink:title=" ">
+<g id="a_Node000002"><a xlink:href="../../df/d22/configuration_8cpp_a109c8a943c63a9d6d5dbd7b5c423a11b.xhtml#a109c8a943c63a9d6d5dbd7b5c423a11b" target="_top" xlink:title="Traite et exécute une commande entrée par l&#39;utilisateur.">
 <polygon fill="white" stroke="#666666" points="482,-19 333,-19 333,0 482,0 482,-19"/>
 <text text-anchor="middle" x="407.5" y="-7" font-family="Helvetica,sans-Serif" font-size="10.00">configurationRunCommand</text>
 </a>
@@ -84,7 +84,7 @@ var sectionId = 'dynsection-1';
 <!-- Node3 -->
 <g id="Node000003" class="node">
 <title>Node3</title>
-<g id="a_Node000003"><a xlink:href="../../df/d22/configuration_8cpp_a007ee20d2ddf2c89e855b63e6e812b65.xhtml#a007ee20d2ddf2c89e855b63e6e812b65" target="_top" xlink:title=" ">
+<g id="a_Node000003"><a xlink:href="../../df/d22/configuration_8cpp_a007ee20d2ddf2c89e855b63e6e812b65.xhtml#a007ee20d2ddf2c89e855b63e6e812b65" target="_top" xlink:title="Exécute une étape de la boucle principale du mode de configuration.">
 <polygon fill="white" stroke="#666666" points="297,-19 151,-19 151,0 297,0 297,-19"/>
 <text text-anchor="middle" x="224" y="-7" font-family="Helvetica,sans-Serif" font-size="10.00">runConfigurationModeStep</text>
 </a>

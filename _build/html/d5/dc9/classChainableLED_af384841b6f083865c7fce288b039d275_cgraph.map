@@ -1,0 +1,9 @@
+<map id="ChainableLED::clk" name="ChainableLED::clk">
+<area shape="rect" id="Node000001" title=" " alt="" coords="5,31,144,56"/>
+<area shape="rect" id="Node000002" href="$d5/df3/wiring_8c.xhtml#a62e0a53bc261f9de8700cc5a92307e85" title=" " alt="" coords="192,5,339,31"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="144,31,178,27,179,32,145,37"/>
+<area shape="rect" id="Node000003" href="$d5/d45/wiring__digital_8c.xhtml#a73b9b61feeaf7d790d107f2954a7fd93" title=" " alt="" coords="216,55,315,80"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="145,49,203,57,202,62,144,55"/>
+<area shape="rect" id="Node000004" href="$d5/d45/wiring__digital_8c.xhtml#ae3d0bcbe4eb927ca8f5d5c21b7e4f224" title=" " alt="" coords="387,55,487,80"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="315,65,373,65,373,70,315,70"/>
+</map>

@@ -1,0 +1,41 @@
+<map id="TinyGPSPlus::endOfTermHandler" name="TinyGPSPlus::endOfTermHandler">
+<area shape="rect" id="Node000001" title=" " alt="" coords="5,277,239,303"/>
+<area shape="rect" id="Node000002" href="$da/ddc/structTinyGPSLocation.xhtml#aa642f1dcad561199ec404129abbebbba" title=" " alt="" coords="303,104,493,129"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="131,275,191,209,235,171,285,138,301,131,303,136,288,143,239,175,195,213,135,279"/>
+<area shape="rect" id="Node000004" href="$d1/d67/structTinyGPSDate.xhtml#af5b0da173842da219e7c90d16e54c3e2" title=" " alt="" coords="315,153,481,179"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="138,275,201,232,242,208,286,188,308,180,310,185,288,192,245,213,204,237,141,279"/>
+<area shape="rect" id="Node000005" href="$db/de3/structTinyGPSTime.xhtml#a7d281752a3ce8360f02a782b938fee22" title=" " alt="" coords="315,203,481,228"/>
+<area shape="poly" id="edge5_Node000001_Node000005" title=" " alt="" coords="161,275,286,237,320,228,321,234,287,242,162,280"/>
+<area shape="rect" id="Node000006" href="$d4/df7/structTinyGPSDecimal.xhtml#a37516916786d5c66990d5a1797cc8f86" title=" " alt="" coords="304,5,492,31"/>
+<area shape="poly" id="edge7_Node000001_Node000006" title=" " alt="" coords="125,276,144,231,176,166,223,98,253,66,285,40,295,34,297,39,288,44,256,70,228,101,181,169,149,233,130,278"/>
+<area shape="rect" id="Node000007" href="$d4/d0e/structTinyGPSInteger.xhtml#a0b6f3cda527454e0fb0e59d9c75693ab" title=" " alt="" coords="308,55,488,80"/>
+<area shape="poly" id="edge9_Node000001_Node000007" title=" " alt="" coords="127,276,149,239,183,188,229,134,256,110,285,89,297,83,300,87,288,94,260,114,233,138,188,191,153,241,132,279"/>
+<area shape="rect" id="Node000008" href="$d3/d57/classTinyGPSPlus.xhtml#a9f8acf18530c3b4fd2d6b2f9947e315c" title=" " alt="" coords="314,252,482,277"/>
+<area shape="poly" id="edge11_Node000001_Node000008" title=" " alt="" coords="239,277,300,271,301,276,239,282"/>
+<area shape="rect" id="Node000009" href="$d4/df7/structTinyGPSDecimal.xhtml#a804fc590e73489e2f14b0daf7c8112b8" title=" " alt="" coords="319,301,477,327"/>
+<area shape="poly" id="edge12_Node000001_Node000009" title=" " alt="" coords="239,297,305,303,304,309,239,303"/>
+<area shape="rect" id="Node000011" href="$d4/d0e/structTinyGPSInteger.xhtml#aa02f807a5831c726e6eea6892257e35c" title=" " alt="" coords="323,351,473,376"/>
+<area shape="poly" id="edge14_Node000001_Node000011" title=" " alt="" coords="165,300,287,335,326,345,324,350,286,341,163,305"/>
+<area shape="rect" id="Node000012" href="$d1/d67/structTinyGPSDate.xhtml#a2ff2893de6b59fd4dcf828c6296e2e2e" title=" " alt="" coords="315,400,481,425"/>
+<area shape="poly" id="edge15_Node000001_Node000012" title=" " alt="" coords="142,300,204,342,245,365,288,385,314,394,312,399,286,390,243,370,202,346,139,305"/>
+<area shape="rect" id="Node000013" href="$da/ddc/structTinyGPSLocation.xhtml#abacba4b118a3351fed607874c85b747c" title=" " alt="" coords="292,499,504,524"/>
+<area shape="poly" id="edge16_Node000001_Node000013" title=" " alt="" coords="132,302,154,338,188,388,234,440,260,464,288,484,302,491,300,496,285,488,257,468,230,444,184,391,149,341,128,304"/>
+<area shape="rect" id="Node000015" href="$da/ddc/structTinyGPSLocation.xhtml#ac55555d5765570efadfe1846d60b32e1" title=" " alt="" coords="287,548,509,573"/>
+<area shape="poly" id="edge18_Node000001_Node000015" title=" " alt="" coords="130,302,149,347,182,410,228,477,257,507,288,533,300,540,297,545,285,538,253,511,224,480,177,413,144,349,126,304"/>
+<area shape="rect" id="Node000016" href="$db/de3/structTinyGPSTime.xhtml#a07646db66f928524a46b22030f3367c6" title=" " alt="" coords="313,449,483,475"/>
+<area shape="poly" id="edge20_Node000001_Node000016" title=" " alt="" coords="136,301,196,366,239,403,288,434,307,443,305,447,285,439,236,407,192,369,132,305"/>
+<area shape="rect" id="Node000003" href="$d5/df3/wiring_8c.xhtml#a6ff7f2532a22366f0013bc41397129fd" title=" " alt="" coords="629,104,687,129"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="493,114,615,114,615,119,493,119"/>
+<area shape="poly" id="edge4_Node000004_Node000003" title=" " alt="" coords="465,151,615,122,616,127,466,156"/>
+<area shape="poly" id="edge6_Node000005_Node000003" title=" " alt="" coords="466,200,508,187,569,161,622,134,624,139,572,166,510,193,467,205"/>
+<area shape="poly" id="edge8_Node000006_Node000003" title=" " alt="" coords="471,28,510,39,572,66,625,94,622,99,570,71,508,45,470,33"/>
+<area shape="poly" id="edge10_Node000007_Node000003" title=" " alt="" coords="466,77,616,106,615,111,465,83"/>
+<area shape="rect" id="Node000010" href="$d3/d57/classTinyGPSPlus.xhtml#a06d9bf0c1f0d0963511dc05e2f121121" title=" " alt="" coords="557,351,759,376"/>
+<area shape="poly" id="edge13_Node000009_Node000010" title=" " alt="" coords="466,324,577,345,576,351,465,329"/>
+<area shape="rect" id="Node000014" href="$d3/d57/classTinyGPSPlus.xhtml#a00627eaffc625bf366e4c984014fbf29" title=" " alt="" coords="557,523,759,548"/>
+<area shape="poly" id="edge17_Node000013_Node000014" title=" " alt="" coords="504,518,544,522,543,527,504,524"/>
+<area shape="poly" id="edge19_Node000015_Node000014" title=" " alt="" coords="509,547,544,544,544,549,510,552"/>
+<area shape="poly" id="edge22_Node000016_Node000010" title=" " alt="" coords="466,447,508,434,569,408,622,381,624,385,572,413,510,439,467,452"/>
+<area shape="rect" id="Node000017" href="$db/de3/structTinyGPSTime.xhtml#a37fdb629b6ed0e31134214c7d07df2b1" title=" " alt="" coords="585,449,731,475"/>
+<area shape="poly" id="edge21_Node000016_Node000017" title=" " alt="" coords="484,459,571,459,571,465,484,465"/>
+</map>

@@ -128,7 +128,7 @@
 <!-- Node5 -->
 <g id="Node000005" class="node">
 <title>Node5</title>
-<g id="a_Node000005"><a xlink:href="../../d9/ddd/economy_8cpp_a35740c7a73b48d918cb4e6d891d46bed.xhtml#a35740c7a73b48d918cb4e6d891d46bed" target="_top" xlink:title=" ">
+<g id="a_Node000005"><a xlink:href="../../d9/ddd/economy_8cpp_a35740c7a73b48d918cb4e6d891d46bed.xhtml#a35740c7a73b48d918cb4e6d891d46bed" target="_top" xlink:title="Exécute une étape de la boucle principale du mode économique.">
 <polygon fill="white" stroke="#666666" points="286,-167 160,-167 160,-148 286,-148 286,-167"/>
 <text text-anchor="middle" x="223" y="-155" font-family="Helvetica,sans-Serif" font-size="10.00">runEconomyModeStep</text>
 </a>
@@ -146,7 +146,7 @@
 <!-- Node8 -->
 <g id="Node000008" class="node">
 <title>Node8</title>
-<g id="a_Node000008"><a xlink:href="../../d6/d46/maintenance_8cpp_ae80c7faecffa585182b14e2ee396009e.xhtml#ae80c7faecffa585182b14e2ee396009e" target="_top" xlink:title=" ">
+<g id="a_Node000008"><a xlink:href="../../d6/d46/maintenance_8cpp_ae80c7faecffa585182b14e2ee396009e.xhtml#ae80c7faecffa585182b14e2ee396009e" target="_top" xlink:title="Exécute une étape de la boucle principale du mode maintenance.">
 <polygon fill="white" stroke="#666666" points="295,-130 151,-130 151,-111 295,-111 295,-130"/>
 <text text-anchor="middle" x="223" y="-118" font-family="Helvetica,sans-Serif" font-size="10.00">runMaintenanceModeStep</text>
 </a>
@@ -164,7 +164,7 @@
 <!-- Node9 -->
 <g id="Node000009" class="node">
 <title>Node9</title>
-<g id="a_Node000009"><a xlink:href="../../df/d92/standard_8cpp_ad0b3e86793f7441084351fc2de4d4c45.xhtml#ad0b3e86793f7441084351fc2de4d4c45" target="_top" xlink:title=" ">
+<g id="a_Node000009"><a xlink:href="../../df/d92/standard_8cpp_ad0b3e86793f7441084351fc2de4d4c45.xhtml#ad0b3e86793f7441084351fc2de4d4c45" target="_top" xlink:title="Exécute une étape de la boucle principale du mode standard.">
 <polygon fill="white" stroke="#666666" points="285.5,-93 160.5,-93 160.5,-74 285.5,-74 285.5,-93"/>
 <text text-anchor="middle" x="223" y="-81" font-family="Helvetica,sans-Serif" font-size="10.00">runStandardModeStep</text>
 </a>

@@ -38,7 +38,7 @@
 <!-- Node7 -->
 <g id="Node000007" class="node">
 <title>Node7</title>
-<g id="a_Node000007"><a xlink:href="../../d6/d46/maintenance_8cpp_ae80c7faecffa585182b14e2ee396009e.xhtml#ae80c7faecffa585182b14e2ee396009e" target="_top" xlink:title=" ">
+<g id="a_Node000007"><a xlink:href="../../d6/d46/maintenance_8cpp_ae80c7faecffa585182b14e2ee396009e.xhtml#ae80c7faecffa585182b14e2ee396009e" target="_top" xlink:title="Exécute une étape de la boucle principale du mode maintenance.">
 <polygon fill="white" stroke="#666666" points="722,-95 578,-95 578,-76 722,-76 722,-95"/>
 <text text-anchor="middle" x="650" y="-83" font-family="Helvetica,sans-Serif" font-size="10.00">runMaintenanceModeStep</text>
 </a>

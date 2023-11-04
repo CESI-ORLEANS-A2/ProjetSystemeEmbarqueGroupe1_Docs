@@ -20,7 +20,7 @@
 <!-- Node2 -->
 <g id="Node000002" class="node">
 <title>Node2</title>
-<g id="a_Node000002"><a xlink:href="../../df/d22/configuration_8cpp_a9e246d9996b76ad7b81266d6533a930e.xhtml#a9e246d9996b76ad7b81266d6533a930e" target="_top" xlink:title=" ">
+<g id="a_Node000002"><a xlink:href="../../df/d22/configuration_8cpp_a9e246d9996b76ad7b81266d6533a930e.xhtml#a9e246d9996b76ad7b81266d6533a930e" target="_top" xlink:title="Quitte le mode de configuration.">
 <polygon fill="white" stroke="#666666" points="205,-93 77,-93 77,-74 205,-74 205,-93"/>
 <text text-anchor="middle" x="141" y="-81" font-family="Helvetica,sans-Serif" font-size="10.00">quitConfigurationMode</text>
 </a>
@@ -38,7 +38,7 @@
 <!-- Node3 -->
 <g id="Node000003" class="node">
 <title>Node3</title>
-<g id="a_Node000003"><a xlink:href="../../d6/d46/maintenance_8cpp_ac99882e56a7b3976942cb3ffb6bebe98.xhtml#ac99882e56a7b3976942cb3ffb6bebe98" target="_top" xlink:title=" ">
+<g id="a_Node000003"><a xlink:href="../../d6/d46/maintenance_8cpp_ac99882e56a7b3976942cb3ffb6bebe98.xhtml#ac99882e56a7b3976942cb3ffb6bebe98" target="_top" xlink:title="Quitte le mode maintenance.">
 <polygon fill="white" stroke="#666666" points="203.5,-56 78.5,-56 78.5,-37 203.5,-37 203.5,-56"/>
 <text text-anchor="middle" x="141" y="-44" font-family="Helvetica,sans-Serif" font-size="10.00">quitMaintenanceMode</text>
 </a>

@@ -1,0 +1,11 @@
+<map id="Graphe hiérarchique des classes" name="Graphe hiérarchique des classes">
+<area shape="rect" id="Node000000" href="$d4/df7/structTinyGPSDecimal.xhtml" title=" " alt="" coords="5,80,136,105"/>
+<area shape="rect" id="Node000001" href="$d1/d54/structTinyGPSAltitude.xhtml" title=" " alt="" coords="184,5,312,31"/>
+<area shape="poly" id="edge74_Node000000_Node000001" title=" " alt="" coords="110,72,183,40,211,28,213,33,185,44,113,77"/>
+<area shape="rect" id="Node000002" href="$de/d12/structTinyGPSCourse.xhtml" title=" " alt="" coords="187,55,309,80"/>
+<area shape="poly" id="edge75_Node000000_Node000002" title=" " alt="" coords="149,79,187,73,188,79,150,84"/>
+<area shape="rect" id="Node000003" href="$d3/d41/structTinyGPSHDOP.xhtml" title=" " alt="" coords="191,104,305,129"/>
+<area shape="poly" id="edge76_Node000000_Node000003" title=" " alt="" coords="150,101,190,106,190,112,149,106"/>
+<area shape="rect" id="Node000004" href="$dc/dd0/structTinyGPSSpeed.xhtml" title=" " alt="" coords="190,153,306,179"/>
+<area shape="poly" id="edge77_Node000000_Node000004" title=" " alt="" coords="115,108,185,138,216,151,214,156,183,143,113,113"/>
+</map>

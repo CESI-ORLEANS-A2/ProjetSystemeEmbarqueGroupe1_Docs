@@ -5,7 +5,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=11"/>
 <meta name="generator" content="Doxygen 1.10.0"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>Station_Méteo_Groupe_1:  Fichier source de /mnt/d/Cours/10. CESI A2/Blocs/01 - Systeme embarque/Livrables/Station_Meteo_Groupe_1 - Copy/include/sensor.hpp</title>
+<title>Station_Méteo_Groupe_1:  Fichier source de sensor.hpp</title>
 <link href="../../tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="../../jquery.js"></script>
 <script type="text/javascript" src="../../dynsections.js"></script>
@@ -106,29 +106,30 @@ $(document).ready(function(){initNavTree('d9/de4/sensor_8hpp_source.xhtml','../.
 <div class="line"><a id="l00006" name="l00006"></a><span class="lineno">    6</span> </div>
 <div class="line"><a id="l00007" name="l00007"></a><span class="lineno">    7</span><span class="preprocessor">#include &quot;<a class="code" href="../../df/dd7/consts_8hpp.xhtml">consts.hpp</a>&quot;</span></div>
 <div class="line"><a id="l00008" name="l00008"></a><span class="lineno">    8</span><span class="preprocessor">#include &quot;<a class="code" href="../../d5/d0f/settings_8hpp.xhtml">settings.hpp</a>&quot;</span></div>
-<div class="foldopen" id="foldopen00018" data-start="{" data-end="};">
-<div class="line"><a id="l00018" name="l00018"></a><span class="lineno"><a class="line" href="../../de/d5a/structSensor.xhtml">   18</a></span><span class="keyword">struct </span><a class="code hl_struct" href="../../de/d5a/structSensor.xhtml">Sensor</a> {</div>
-<div class="line"><a id="l00019" name="l00019"></a><span class="lineno"><a class="line" href="../../de/d5a/structSensor_a69eda08903e47cdd7b2f8d8d53f20303.xhtml#a69eda08903e47cdd7b2f8d8d53f20303">   19</a></span>    <span class="keywordtype">char</span>* <a class="code hl_variable" href="../../de/d5a/structSensor_a69eda08903e47cdd7b2f8d8d53f20303.xhtml#a69eda08903e47cdd7b2f8d8d53f20303">name</a>;</div>
-<div class="line"><a id="l00020" name="l00020"></a><span class="lineno"><a class="line" href="../../de/d5a/structSensor_aa210ffec1e1194174d78e4e53a213831.xhtml#aa210ffec1e1194174d78e4e53a213831">   20</a></span>    <span class="keywordtype">int</span> <a class="code hl_variable" href="../../de/d5a/structSensor_aa210ffec1e1194174d78e4e53a213831.xhtml#aa210ffec1e1194174d78e4e53a213831">enabled</a>;</div>
-<div class="line"><a id="l00021" name="l00021"></a><span class="lineno">   21</span><span class="preprocessor">#if INTERPRETER</span></div>
-<div class="line"><a id="l00022" name="l00022"></a><span class="lineno">   22</span>    <span class="keywordtype">int</span> economy;</div>
-<div class="line"><a id="l00023" name="l00023"></a><span class="lineno">   23</span><span class="preprocessor">#endif</span></div>
-<div class="line"><a id="l00024" name="l00024"></a><span class="lineno"><a class="line" href="../../de/d5a/structSensor_ac3265949e037ea092d617f26e1bc430a.xhtml#ac3265949e037ea092d617f26e1bc430a">   24</a></span>    float (*<a class="code hl_variable" href="../../de/d5a/structSensor_ac3265949e037ea092d617f26e1bc430a.xhtml#ac3265949e037ea092d617f26e1bc430a">measure</a>)();</div>
-<div class="line"><a id="l00025" name="l00025"></a><span class="lineno">   25</span>};</div>
+<div class="line"><a id="l00009" name="l00009"></a><span class="lineno">    9</span> </div>
+<div class="foldopen" id="foldopen00025" data-start="{" data-end="};">
+<div class="line"><a id="l00025" name="l00025"></a><span class="lineno"><a class="line" href="../../de/d5a/structSensor.xhtml">   25</a></span><span class="keyword">struct </span><a class="code hl_struct" href="../../de/d5a/structSensor.xhtml">Sensor</a> {</div>
+<div class="line"><a id="l00029" name="l00029"></a><span class="lineno"><a class="line" href="../../de/d5a/structSensor.xhtml#a69eda08903e47cdd7b2f8d8d53f20303">   29</a></span>    <span class="keywordtype">char</span>* <a class="code hl_variable" href="../../de/d5a/structSensor.xhtml#a69eda08903e47cdd7b2f8d8d53f20303">name</a>;</div>
+<div class="line"><a id="l00033" name="l00033"></a><span class="lineno"><a class="line" href="../../de/d5a/structSensor.xhtml#aa210ffec1e1194174d78e4e53a213831">   33</a></span>    <span class="keywordtype">int</span> <a class="code hl_variable" href="../../de/d5a/structSensor.xhtml#aa210ffec1e1194174d78e4e53a213831">enabled</a>;</div>
+<div class="line"><a id="l00034" name="l00034"></a><span class="lineno">   34</span><span class="preprocessor">#if INTERPRETER</span></div>
+<div class="line"><a id="l00038" name="l00038"></a><span class="lineno">   38</span>    <span class="keywordtype">int</span> economy;</div>
+<div class="line"><a id="l00039" name="l00039"></a><span class="lineno">   39</span><span class="preprocessor">#endif</span></div>
+<div class="line"><a id="l00043" name="l00043"></a><span class="lineno"><a class="line" href="../../de/d5a/structSensor.xhtml#ac3265949e037ea092d617f26e1bc430a">   43</a></span>    float (*<a class="code hl_variable" href="../../de/d5a/structSensor.xhtml#ac3265949e037ea092d617f26e1bc430a">measure</a>)();</div>
+<div class="line"><a id="l00044" name="l00044"></a><span class="lineno">   44</span>};</div>
 </div>
-<div class="line"><a id="l00026" name="l00026"></a><span class="lineno">   26</span> </div>
-<div class="line"><a id="l00030" name="l00030"></a><span class="lineno">   30</span><span class="keyword">extern</span> <a class="code hl_struct" href="../../de/d5a/structSensor.xhtml">Sensor</a> <a class="code hl_variable" href="../../d9/de4/sensor_8hpp_a23b1d96f49b969e9e7711fa12f65f26c.xhtml#a23b1d96f49b969e9e7711fa12f65f26c">sensors</a>[<a class="code hl_define" href="../../df/dd7/consts_8hpp_aa8f8564a6944121058f4c4278894ead1.xhtml#aa8f8564a6944121058f4c4278894ead1">NUMBER_OF_SENSORS</a>];</div>
-<div class="line"><a id="l00031" name="l00031"></a><span class="lineno">   31</span> </div>
-<div class="line"><a id="l00032" name="l00032"></a><span class="lineno">   32</span><span class="preprocessor">#endif</span></div>
+<div class="line"><a id="l00045" name="l00045"></a><span class="lineno">   45</span> </div>
+<div class="line"><a id="l00049" name="l00049"></a><span class="lineno">   49</span><span class="keyword">extern</span> <a class="code hl_struct" href="../../de/d5a/structSensor.xhtml">Sensor</a> <a class="code hl_variable" href="../../d9/de4/sensor_8hpp.xhtml#a23b1d96f49b969e9e7711fa12f65f26c">sensors</a>[<a class="code hl_define" href="../../df/dd7/consts_8hpp.xhtml#aa8f8564a6944121058f4c4278894ead1">NUMBER_OF_SENSORS</a>];</div>
+<div class="line"><a id="l00050" name="l00050"></a><span class="lineno">   50</span> </div>
+<div class="line"><a id="l00051" name="l00051"></a><span class="lineno">   51</span><span class="preprocessor">#endif</span></div>
 <div class="ttc" id="aArduino_8h_xhtml"><div class="ttname"><a href="../../de/df0/Arduino_8h.xhtml">Arduino.h</a></div></div>
-<div class="ttc" id="aconsts_8hpp_aa8f8564a6944121058f4c4278894ead1_xhtml_aa8f8564a6944121058f4c4278894ead1"><div class="ttname"><a href="../../df/dd7/consts_8hpp_aa8f8564a6944121058f4c4278894ead1.xhtml#aa8f8564a6944121058f4c4278894ead1">NUMBER_OF_SENSORS</a></div><div class="ttdeci">#define NUMBER_OF_SENSORS</div><div class="ttdoc">Nombre de capteurs disponibles.</div><div class="ttdef"><b>Definition</b> consts.hpp:233</div></div>
 <div class="ttc" id="aconsts_8hpp_xhtml"><div class="ttname"><a href="../../df/dd7/consts_8hpp.xhtml">consts.hpp</a></div></div>
-<div class="ttc" id="asensor_8hpp_a23b1d96f49b969e9e7711fa12f65f26c_xhtml_a23b1d96f49b969e9e7711fa12f65f26c"><div class="ttname"><a href="../../d9/de4/sensor_8hpp_a23b1d96f49b969e9e7711fa12f65f26c.xhtml#a23b1d96f49b969e9e7711fa12f65f26c">sensors</a></div><div class="ttdeci">Sensor sensors[NUMBER_OF_SENSORS]</div><div class="ttdoc">Contient une représentation (structure) de chaque capteur.</div><div class="ttdef"><b>Definition</b> sensor.cpp:3</div></div>
+<div class="ttc" id="aconsts_8hpp_xhtml_aa8f8564a6944121058f4c4278894ead1"><div class="ttname"><a href="../../df/dd7/consts_8hpp.xhtml#aa8f8564a6944121058f4c4278894ead1">NUMBER_OF_SENSORS</a></div><div class="ttdeci">#define NUMBER_OF_SENSORS</div><div class="ttdoc">Nombre de capteurs disponibles.</div><div class="ttdef"><b>Definition</b> consts.hpp:243</div></div>
+<div class="ttc" id="asensor_8hpp_xhtml_a23b1d96f49b969e9e7711fa12f65f26c"><div class="ttname"><a href="../../d9/de4/sensor_8hpp.xhtml#a23b1d96f49b969e9e7711fa12f65f26c">sensors</a></div><div class="ttdeci">Sensor sensors[NUMBER_OF_SENSORS]</div><div class="ttdoc">Contient une représentation (structure) de chaque capteur.</div><div class="ttdef"><b>Definition</b> sensor.cpp:4</div></div>
 <div class="ttc" id="asettings_8hpp_xhtml"><div class="ttname"><a href="../../d5/d0f/settings_8hpp.xhtml">settings.hpp</a></div></div>
-<div class="ttc" id="astructSensor_a69eda08903e47cdd7b2f8d8d53f20303_xhtml_a69eda08903e47cdd7b2f8d8d53f20303"><div class="ttname"><a href="../../de/d5a/structSensor_a69eda08903e47cdd7b2f8d8d53f20303.xhtml#a69eda08903e47cdd7b2f8d8d53f20303">Sensor::name</a></div><div class="ttdeci">char * name</div><div class="ttdef"><b>Definition</b> sensor.hpp:19</div></div>
-<div class="ttc" id="astructSensor_aa210ffec1e1194174d78e4e53a213831_xhtml_aa210ffec1e1194174d78e4e53a213831"><div class="ttname"><a href="../../de/d5a/structSensor_aa210ffec1e1194174d78e4e53a213831.xhtml#aa210ffec1e1194174d78e4e53a213831">Sensor::enabled</a></div><div class="ttdeci">int enabled</div><div class="ttdef"><b>Definition</b> sensor.hpp:20</div></div>
-<div class="ttc" id="astructSensor_ac3265949e037ea092d617f26e1bc430a_xhtml_ac3265949e037ea092d617f26e1bc430a"><div class="ttname"><a href="../../de/d5a/structSensor_ac3265949e037ea092d617f26e1bc430a.xhtml#ac3265949e037ea092d617f26e1bc430a">Sensor::measure</a></div><div class="ttdeci">float(* measure)()</div><div class="ttdef"><b>Definition</b> sensor.hpp:24</div></div>
-<div class="ttc" id="astructSensor_xhtml"><div class="ttname"><a href="../../de/d5a/structSensor.xhtml">Sensor</a></div><div class="ttdoc">Structure représentant un capteur.</div><div class="ttdef"><b>Definition</b> sensor.hpp:18</div></div>
+<div class="ttc" id="astructSensor_xhtml"><div class="ttname"><a href="../../de/d5a/structSensor.xhtml">Sensor</a></div><div class="ttdoc">Structure représentant un capteur.</div><div class="ttdef"><b>Definition</b> sensor.hpp:25</div></div>
+<div class="ttc" id="astructSensor_xhtml_a69eda08903e47cdd7b2f8d8d53f20303"><div class="ttname"><a href="../../de/d5a/structSensor.xhtml#a69eda08903e47cdd7b2f8d8d53f20303">Sensor::name</a></div><div class="ttdeci">char * name</div><div class="ttdoc">Adresse mémoire Flash du nom du capteur.</div><div class="ttdef"><b>Definition</b> sensor.hpp:29</div></div>
+<div class="ttc" id="astructSensor_xhtml_aa210ffec1e1194174d78e4e53a213831"><div class="ttname"><a href="../../de/d5a/structSensor.xhtml#aa210ffec1e1194174d78e4e53a213831">Sensor::enabled</a></div><div class="ttdeci">int enabled</div><div class="ttdoc">Identifiant associé au paramètre réprésentant l'état du capteur.</div><div class="ttdef"><b>Definition</b> sensor.hpp:33</div></div>
+<div class="ttc" id="astructSensor_xhtml_ac3265949e037ea092d617f26e1bc430a"><div class="ttname"><a href="../../de/d5a/structSensor.xhtml#ac3265949e037ea092d617f26e1bc430a">Sensor::measure</a></div><div class="ttdeci">float(* measure)()</div><div class="ttdoc">Pointeur vers la fonction de mesure du capteur.</div><div class="ttdef"><b>Definition</b> sensor.hpp:43</div></div>
 </div><!-- fragment --></div><!-- contents -->
 </div><!-- doc-content -->
 <!-- start footer part -->

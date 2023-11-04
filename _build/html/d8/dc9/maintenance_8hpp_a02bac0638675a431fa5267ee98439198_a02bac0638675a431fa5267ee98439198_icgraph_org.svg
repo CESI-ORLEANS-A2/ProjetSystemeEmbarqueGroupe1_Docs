@@ -11,7 +11,7 @@
 <!-- Node1 -->
 <g id="Node000001" class="node">
 <title>Node1</title>
-<g id="a_Node000001"><a xlink:title=" ">
+<g id="a_Node000001"><a xlink:title="Passe en mode maintenance.">
 <polygon fill="#999999" stroke="#666666" points="909,-74 760,-74 760,-55 909,-55 909,-74"/>
 <text text-anchor="middle" x="834.5" y="-62" font-family="Helvetica,sans-Serif" font-size="10.00">switchToMaintenanceMode</text>
 </a>
@@ -20,7 +20,7 @@
 <!-- Node2 -->
 <g id="Node000002" class="node">
 <title>Node2</title>
-<g id="a_Node000002"><a xlink:href="../../df/d22/configuration_8cpp_a007ee20d2ddf2c89e855b63e6e812b65.xhtml#a007ee20d2ddf2c89e855b63e6e812b65" target="_top" xlink:title=" ">
+<g id="a_Node000002"><a xlink:href="../../df/d22/configuration_8cpp_a007ee20d2ddf2c89e855b63e6e812b65.xhtml#a007ee20d2ddf2c89e855b63e6e812b65" target="_top" xlink:title="Exécute une étape de la boucle principale du mode de configuration.">
 <polygon fill="white" stroke="#666666" points="724,-93 578,-93 578,-74 724,-74 724,-93"/>
 <text text-anchor="middle" x="651" y="-81" font-family="Helvetica,sans-Serif" font-size="10.00">runConfigurationModeStep</text>
 </a>

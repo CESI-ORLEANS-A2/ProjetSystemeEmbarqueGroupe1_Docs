@@ -1,0 +1,20 @@
+<map id="BME280::init" name="BME280::init">
+<area shape="rect" id="Node000001" title=" " alt="" coords="5,85,109,111"/>
+<area shape="rect" id="Node000002" href="$d6/d24/classBME280.xhtml#a6846cf01eac22e69dbf6516b1255d332" title=" " alt="" coords="413,35,613,60"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="69,83,105,50,130,33,156,21,196,11,237,5,319,5,396,15,458,29,457,34,395,20,319,10,237,10,197,16,158,26,132,38,108,54,72,87"/>
+<area shape="rect" id="Node000004" href="$d6/d24/classBME280.xhtml#a266f0487e91104454224b14f689b6e55" title=" " alt="" coords="173,36,350,61"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="107,83,157,70,191,62,192,67,158,75,108,88"/>
+<area shape="rect" id="Node000005" href="$d6/d24/classBME280.xhtml#aad9d880a35154d473937450bc87152b0" title=" " alt="" coords="157,85,365,111"/>
+<area shape="poly" id="edge4_Node000001_Node000005" title=" " alt="" coords="109,95,143,95,143,101,109,101"/>
+<area shape="rect" id="Node000006" href="$d5/df3/wiring_8c.xhtml#a6bc5f943544a887f8b23cadfb26a5e30" title=" " alt="" coords="232,135,291,160"/>
+<area shape="poly" id="edge6_Node000001_Node000006" title=" " alt="" coords="110,108,219,135,218,140,109,113"/>
+<area shape="rect" id="Node000009" href="$d6/d24/classBME280.xhtml#a8d378248d5baa2cd07d9fd4be1386ff9" title=" " alt="" coords="176,184,347,209"/>
+<area shape="poly" id="edge9_Node000001_Node000009" title=" " alt="" coords="74,109,110,139,159,169,180,177,178,182,156,174,107,144,71,113"/>
+<area shape="rect" id="Node000003" href="$d6/d24/classBME280.xhtml#aa4fe8af66d6cd1cb5699ee359c71e190" title=" " alt="" coords="661,35,847,60"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="614,45,647,45,647,50,614,50"/>
+<area shape="poly" id="edge5_Node000005_Node000002" title=" " alt="" coords="325,83,436,60,437,65,326,88"/>
+<area shape="rect" id="Node000007" href="$d5/df3/wiring_8c.xhtml#a8b24cbb7c3486e1bfa05c86db83ecb01" title=" " alt="" coords="480,109,547,135"/>
+<area shape="poly" id="edge7_Node000006_Node000007" title=" " alt="" coords="291,142,466,124,466,129,291,147"/>
+<area shape="rect" id="Node000008" href="$de/df0/Arduino_8h.xhtml#a7cb51f5c2b5cad3766f19eb69c92793b" title=" " alt="" coords="486,159,541,184"/>
+<area shape="poly" id="edge8_Node000006_Node000008" title=" " alt="" coords="291,148,472,165,472,170,291,153"/>
+</map>

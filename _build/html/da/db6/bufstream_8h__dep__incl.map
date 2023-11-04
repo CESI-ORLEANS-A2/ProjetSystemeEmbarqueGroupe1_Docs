@@ -1,7 +1,7 @@
-<map id="/mnt/d/Cours/10. CESI A2/Blocs/01 &#45; Systeme embarque/Livrables/Station_Meteo_Groupe_1 &#45; Copy/libs/SdFat/src/iostream/bufstream.h" name="/mnt/d/Cours/10. CESI A2/Blocs/01 &#45; Systeme embarque/Livrables/Station_Meteo_Groupe_1 &#45; Copy/libs/SdFat/src/iostream/bufstream.h">
-<area shape="rect" id="Node000001" title="ibufstream and obufstream classes" alt="" coords="20,5,249,89"/>
-<area shape="rect" id="Node000002" href="$d8/daa/ArduinoStream_8h.xhtml" title="ArduinoInStream and ArduinoOutStream classes." alt="" coords="5,137,264,221"/>
-<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="137,103,137,137,132,137,132,103"/>
-<area shape="rect" id="Node000003" href="$d8/d12/sdios_8h.xhtml" title="C++ IO Streams features." alt="" coords="29,269,241,353"/>
-<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="137,235,137,269,132,269,132,235"/>
+<map id="bufstream.h" name="bufstream.h">
+<area shape="rect" id="Node000001" title="ibufstream and obufstream classes" alt="" coords="20,5,121,31"/>
+<area shape="rect" id="Node000002" href="$d8/daa/ArduinoStream_8h.xhtml" title="ArduinoInStream and ArduinoOutStream classes." alt="" coords="5,79,136,104"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="73,44,73,79,68,79,68,44"/>
+<area shape="rect" id="Node000003" href="$d8/d12/sdios_8h.xhtml" title="C++ IO Streams features." alt="" coords="37,152,105,177"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="73,118,73,152,68,152,68,118"/>
 </map>

@@ -120,7 +120,7 @@ var sectionId = 'dynsection-1';
 <!-- Node5 -->
 <g id="Node000005" class="node">
 <title>Node5</title>
-<g id="a_Node000005"><a xlink:href="../../df/d22/configuration_8cpp_a6813bea1572c147d3885f0791eafd4b5.xhtml#a6813bea1572c147d3885f0791eafd4b5" target="_top" xlink:title=" ">
+<g id="a_Node000005"><a xlink:href="../../df/d22/configuration_8cpp_a6813bea1572c147d3885f0791eafd4b5.xhtml#a6813bea1572c147d3885f0791eafd4b5" target="_top" xlink:title="Passe le programme en mode de configuration.">
 <polygon fill="white" stroke="#666666" points="911,-75 760,-75 760,-56 911,-56 911,-75"/>
 <text text-anchor="middle" x="835.5" y="-63" font-family="Helvetica,sans-Serif" font-size="10.00">switchToConfigurationMode</text>
 </a>
@@ -138,7 +138,7 @@ var sectionId = 'dynsection-1';
 <!-- Node13 -->
 <g id="Node000013" class="node">
 <title>Node13</title>
-<g id="a_Node000013"><a xlink:href="../../d6/d46/maintenance_8cpp_a02bac0638675a431fa5267ee98439198.xhtml#a02bac0638675a431fa5267ee98439198" target="_top" xlink:title=" ">
+<g id="a_Node000013"><a xlink:href="../../d6/d46/maintenance_8cpp_a02bac0638675a431fa5267ee98439198.xhtml#a02bac0638675a431fa5267ee98439198" target="_top" xlink:title="Passe en mode maintenance.">
 <polygon fill="white" stroke="#666666" points="910,-38 761,-38 761,-19 910,-19 910,-38"/>
 <text text-anchor="middle" x="835.5" y="-26" font-family="Helvetica,sans-Serif" font-size="10.00">switchToMaintenanceMode</text>
 </a>
@@ -309,7 +309,7 @@ var sectionId = 'dynsection-1';
 <!-- Node14 -->
 <g id="Node000014" class="node">
 <title>Node14</title>
-<g id="a_Node000014"><a xlink:href="../../df/d22/configuration_8cpp_a007ee20d2ddf2c89e855b63e6e812b65.xhtml#a007ee20d2ddf2c89e855b63e6e812b65" target="_top" xlink:title=" ">
+<g id="a_Node000014"><a xlink:href="../../df/d22/configuration_8cpp_a007ee20d2ddf2c89e855b63e6e812b65.xhtml#a007ee20d2ddf2c89e855b63e6e812b65" target="_top" xlink:title="Exécute une étape de la boucle principale du mode de configuration.">
 <polygon fill="white" stroke="#666666" points="724,-20 578,-20 578,-1 724,-1 724,-20"/>
 <text text-anchor="middle" x="651" y="-8" font-family="Helvetica,sans-Serif" font-size="10.00">runConfigurationModeStep</text>
 </a>

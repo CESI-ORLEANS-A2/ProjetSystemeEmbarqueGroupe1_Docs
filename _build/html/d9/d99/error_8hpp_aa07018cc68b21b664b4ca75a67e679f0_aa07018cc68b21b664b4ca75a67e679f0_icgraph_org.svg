@@ -110,7 +110,7 @@
 <!-- Node3 -->
 <g id="Node000003" class="node">
 <title>Node3</title>
-<g id="a_Node000003"><a xlink:href="../../d9/ddd/economy_8cpp_a35740c7a73b48d918cb4e6d891d46bed.xhtml#a35740c7a73b48d918cb4e6d891d46bed" target="_top" xlink:title=" ">
+<g id="a_Node000003"><a xlink:href="../../d9/ddd/economy_8cpp_a35740c7a73b48d918cb4e6d891d46bed.xhtml#a35740c7a73b48d918cb4e6d891d46bed" target="_top" xlink:title="Exécute une étape de la boucle principale du mode économique.">
 <polygon fill="white" stroke="#666666" points="577,-317 451,-317 451,-298 577,-298 577,-317"/>
 <text text-anchor="middle" x="514" y="-305" font-family="Helvetica,sans-Serif" font-size="10.00">runEconomyModeStep</text>
 </a>
@@ -128,7 +128,7 @@
 <!-- Node6 -->
 <g id="Node000006" class="node">
 <title>Node6</title>
-<g id="a_Node000006"><a xlink:href="../../d6/d46/maintenance_8cpp_ae80c7faecffa585182b14e2ee396009e.xhtml#ae80c7faecffa585182b14e2ee396009e" target="_top" xlink:title=" ">
+<g id="a_Node000006"><a xlink:href="../../d6/d46/maintenance_8cpp_ae80c7faecffa585182b14e2ee396009e.xhtml#ae80c7faecffa585182b14e2ee396009e" target="_top" xlink:title="Exécute une étape de la boucle principale du mode maintenance.">
 <polygon fill="white" stroke="#666666" points="586,-391 442,-391 442,-372 586,-372 586,-391"/>
 <text text-anchor="middle" x="514" y="-379" font-family="Helvetica,sans-Serif" font-size="10.00">runMaintenanceModeStep</text>
 </a>
@@ -146,7 +146,7 @@
 <!-- Node7 -->
 <g id="Node000007" class="node">
 <title>Node7</title>
-<g id="a_Node000007"><a xlink:href="../../df/d92/standard_8cpp_ad0b3e86793f7441084351fc2de4d4c45.xhtml#ad0b3e86793f7441084351fc2de4d4c45" target="_top" xlink:title=" ">
+<g id="a_Node000007"><a xlink:href="../../df/d92/standard_8cpp_ad0b3e86793f7441084351fc2de4d4c45.xhtml#ad0b3e86793f7441084351fc2de4d4c45" target="_top" xlink:title="Exécute une étape de la boucle principale du mode standard.">
 <polygon fill="white" stroke="#666666" points="576.5,-354 451.5,-354 451.5,-335 576.5,-335 576.5,-354"/>
 <text text-anchor="middle" x="514" y="-342" font-family="Helvetica,sans-Serif" font-size="10.00">runStandardModeStep</text>
 </a>
@@ -326,7 +326,7 @@
 <!-- Node14 -->
 <g id="Node000014" class="node">
 <title>Node14</title>
-<g id="a_Node000014"><a xlink:href="../../df/d22/configuration_8cpp_a9e246d9996b76ad7b81266d6533a930e.xhtml#a9e246d9996b76ad7b81266d6533a930e" target="_top" xlink:title=" ">
+<g id="a_Node000014"><a xlink:href="../../df/d22/configuration_8cpp_a9e246d9996b76ad7b81266d6533a930e.xhtml#a9e246d9996b76ad7b81266d6533a930e" target="_top" xlink:title="Quitte le mode de configuration.">
 <polygon fill="white" stroke="#666666" points="578,-169 450,-169 450,-150 578,-150 578,-169"/>
 <text text-anchor="middle" x="514" y="-157" font-family="Helvetica,sans-Serif" font-size="10.00">quitConfigurationMode</text>
 </a>
@@ -344,7 +344,7 @@
 <!-- Node15 -->
 <g id="Node000015" class="node">
 <title>Node15</title>
-<g id="a_Node000015"><a xlink:href="../../d6/d46/maintenance_8cpp_ac99882e56a7b3976942cb3ffb6bebe98.xhtml#ac99882e56a7b3976942cb3ffb6bebe98" target="_top" xlink:title=" ">
+<g id="a_Node000015"><a xlink:href="../../d6/d46/maintenance_8cpp_ac99882e56a7b3976942cb3ffb6bebe98.xhtml#ac99882e56a7b3976942cb3ffb6bebe98" target="_top" xlink:title="Quitte le mode maintenance.">
 <polygon fill="white" stroke="#666666" points="576.5,-206 451.5,-206 451.5,-187 576.5,-187 576.5,-206"/>
 <text text-anchor="middle" x="514" y="-194" font-family="Helvetica,sans-Serif" font-size="10.00">quitMaintenanceMode</text>
 </a>

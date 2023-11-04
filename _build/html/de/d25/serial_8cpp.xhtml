@@ -5,7 +5,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=11"/>
 <meta name="generator" content="Doxygen 1.10.0"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>Station_Méteo_Groupe_1: Référence du fichier /mnt/d/Cours/10. CESI A2/Blocs/01 - Systeme embarque/Livrables/Station_Meteo_Groupe_1 - Copy/src/peripherals/serial.cpp</title>
+<title>Station_Méteo_Groupe_1: Référence du fichier serial.cpp</title>
 <link href="../../tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="../../jquery.js"></script>
 <script type="text/javascript" src="../../dynsections.js"></script>
@@ -104,13 +104,70 @@ Graphe des dépendances par inclusion de serial.cpp:</div>
 </div><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="func-members" name="func-members"></a>
 Fonctions</h2></td></tr>
-<tr class="memitem:a2531a428197475f184bd61c0b412396a" id="r_a2531a428197475f184bd61c0b412396a"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/d25/serial_8cpp_a2531a428197475f184bd61c0b412396a.xhtml#a2531a428197475f184bd61c0b412396a">initSerial</a> ()</td></tr>
-<tr class="memdesc:a2531a428197475f184bd61c0b412396a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Initialise le port série.  <br /></td></tr>
+<tr class="memitem:a2531a428197475f184bd61c0b412396a" id="r_a2531a428197475f184bd61c0b412396a"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a2531a428197475f184bd61c0b412396a">initSerial</a> ()</td></tr>
+<tr class="memdesc:a2531a428197475f184bd61c0b412396a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Initialise le port série et affiche la version du logiciel.  <br /></td></tr>
 <tr class="separator:a2531a428197475f184bd61c0b412396a"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a9c4b081f1e1ad60def15811c71a936f2" id="r_a9c4b081f1e1ad60def15811c71a936f2"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/d25/serial_8cpp_a9c4b081f1e1ad60def15811c71a936f2.xhtml#a9c4b081f1e1ad60def15811c71a936f2">printVersion</a> ()</td></tr>
+<tr class="memitem:a9c4b081f1e1ad60def15811c71a936f2" id="r_a9c4b081f1e1ad60def15811c71a936f2"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a9c4b081f1e1ad60def15811c71a936f2">printVersion</a> ()</td></tr>
 <tr class="memdesc:a9c4b081f1e1ad60def15811c71a936f2"><td class="mdescLeft">&#160;</td><td class="mdescRight">Affiche la version du logiciel sur le port série.  <br /></td></tr>
 <tr class="separator:a9c4b081f1e1ad60def15811c71a936f2"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
+<h2 class="groupheader">Documentation des fonctions</h2>
+<a id="a2531a428197475f184bd61c0b412396a" name="a2531a428197475f184bd61c0b412396a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a2531a428197475f184bd61c0b412396a">&#9670;&#160;</a></span>initSerial()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void initSerial </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Initialise le port série et affiche la version du logiciel. </p>
+<p>Références : <a class="el" href="../../df/dd7/consts_8hpp.xhtml#ad89976cc0b5340110179f6ce40df3028">SERIAL_BAUD_RATE</a> <a class="el" href="#a9c4b081f1e1ad60def15811c71a936f2">printVersion()</a> </p>
+<div class="dynheader">
+Voici le graphe d'appel pour cette fonction :</div>
+<div class="dyncontent">
+<div class="center"><iframe scrolling="no" frameborder="0" src="../../de/d25/serial_8cpp_a2531a428197475f184bd61c0b412396a_cgraph.svg" width="239" height="36"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+</div>
+<div class="dynheader">
+Voici le graphe des appelants de cette fonction :</div>
+<div class="dyncontent">
+<div class="center"><iframe scrolling="no" frameborder="0" src="../../de/d25/serial_8cpp_a2531a428197475f184bd61c0b412396a_icgraph.svg" width="300" height="36"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+</div>
+
+</div>
+</div>
+<a id="a9c4b081f1e1ad60def15811c71a936f2" name="a9c4b081f1e1ad60def15811c71a936f2"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a9c4b081f1e1ad60def15811c71a936f2">&#9670;&#160;</a></span>printVersion()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void printVersion </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Affiche la version du logiciel sur le port série. </p>
+<p>La version de la carte est récupérable grâce à une librairie : <a class="el" href="../../d2/d15/classArduinoUniqueID.xhtml">ArduinoUniqueID</a>.</p>
+<p>Références : <a class="el" href="../../df/dd7/consts_8hpp.xhtml#a1c6d5de492ac61ad29aec7aa9a436bbf">VERSION</a> </p>
+<div class="dynheader">
+Voici le graphe des appelants de cette fonction :</div>
+<div class="dyncontent">
+<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="../../de/d25/serial_8cpp_a9c4b081f1e1ad60def15811c71a936f2_icgraph.svg" width="100%" height="365"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
+</div>
+
+</div>
+</div>
 </div><!-- contents -->
 </div><!-- doc-content -->
 <!-- start footer part -->

@@ -1,8 +1,9 @@
 var searchData=
 [
-  ['maintenance_5fmode_0',['MAINTENANCE_MODE',['../d0/d00/main_8hpp_a46c8a310cf4c094f8c80e1cb8dc1f911.xhtml#a46c8a310cf4c094f8c80e1cb8dc1f911ae785940f3b4b828de6e4e24986db28e8',1,'main.hpp']]],
-  ['mode_5fforced_1',['MODE_FORCED',['../d4/d1b/classTiny__BME280_a8241882ad2581ee978da33746d4c6e2d.xhtml#a8241882ad2581ee978da33746d4c6e2dab294b6826124a84d443c6fd5591b2588',1,'Tiny_BME280']]],
-  ['mode_5fnormal_2',['MODE_NORMAL',['../d4/d1b/classTiny__BME280_a8241882ad2581ee978da33746d4c6e2d.xhtml#a8241882ad2581ee978da33746d4c6e2da25ae9cdf05e204b5911690e3e4748cf4',1,'Tiny_BME280']]],
-  ['mode_5fsleep_3',['MODE_SLEEP',['../d4/d1b/classTiny__BME280_a8241882ad2581ee978da33746d4c6e2d.xhtml#a8241882ad2581ee978da33746d4c6e2daf85f8e5d4eea1ef8dd563a96dac2400d',1,'Tiny_BME280']]],
-  ['monday_4',['MONDAY',['../df/dd7/consts_8hpp_ab81b58332d5fc8a29dc60c268bd3742b.xhtml#ab81b58332d5fc8a29dc60c268bd3742bac82db3248a96794aaefb922ea5fb293c',1,'consts.hpp']]]
+  ['filter_5foff_0',['FILTER_OFF',['../d4/d1b/classTiny__BME280.xhtml#a3f24240e5ffc3a447f989fc281efbcc5ac5f0311967099886ad08e72d1af68d33',1,'Tiny_BME280']]],
+  ['filter_5fx16_1',['FILTER_X16',['../d4/d1b/classTiny__BME280.xhtml#a3f24240e5ffc3a447f989fc281efbcc5ae82f46cd8c7130ca3d1a390a66314a5d',1,'Tiny_BME280']]],
+  ['filter_5fx2_2',['FILTER_X2',['../d4/d1b/classTiny__BME280.xhtml#a3f24240e5ffc3a447f989fc281efbcc5a32460b1da54d57c71a445503867dc928',1,'Tiny_BME280']]],
+  ['filter_5fx4_3',['FILTER_X4',['../d4/d1b/classTiny__BME280.xhtml#a3f24240e5ffc3a447f989fc281efbcc5a69c0d54e1d217f5d0e4fdee4cc57492a',1,'Tiny_BME280']]],
+  ['filter_5fx8_4',['FILTER_X8',['../d4/d1b/classTiny__BME280.xhtml#a3f24240e5ffc3a447f989fc281efbcc5a4d04692e0dcbb55ad172a5a5e7453110',1,'Tiny_BME280']]],
+  ['friday_5',['FRIDAY',['../df/dd7/consts_8hpp.xhtml#ab81b58332d5fc8a29dc60c268bd3742ba8f589731fd90a9890c0df9a9c3f96131',1,'consts.hpp']]]
 ];

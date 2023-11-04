@@ -1,0 +1,12 @@
+<map id="LEDInterrupt" name="LEDInterrupt">
+<area shape="rect" id="Node000001" title="Fonction exécutée à chaque interruption du timer 2." alt="" coords="5,31,108,56"/>
+<area shape="poly" id="edge5_Node000001_Node000001" title=" " alt="" coords="31,32,26,22,28,13,39,6,57,4,78,7,87,16,83,20,75,12,57,9,41,11,33,16,31,22,36,29"/>
+<area shape="rect" id="Node000002" href="$dc/de5/timer_8cpp.xhtml#a75f67483e2c676b6e8ea29bca518e6c7" title="Crée une nouvelle instance du timer." alt="" coords="156,31,265,56"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="108,41,142,41,142,46,108,46"/>
+<area shape="rect" id="Node000003" href="$d5/df3/wiring_8c.xhtml#a6bc5f943544a887f8b23cadfb26a5e30" title=" " alt="" coords="313,31,372,56"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="265,41,300,41,300,46,265,46"/>
+<area shape="rect" id="Node000004" href="$d5/df3/wiring_8c.xhtml#a8b24cbb7c3486e1bfa05c86db83ecb01" title=" " alt="" coords="420,5,487,31"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="372,34,406,26,407,31,373,39"/>
+<area shape="rect" id="Node000005" href="$de/df0/Arduino_8h.xhtml#a7cb51f5c2b5cad3766f19eb69c92793b" title=" " alt="" coords="426,55,481,80"/>
+<area shape="poly" id="edge4_Node000003_Node000005" title=" " alt="" coords="373,47,413,56,412,61,372,52"/>
+</map>

@@ -1,0 +1,54 @@
+<map id="pinMode" name="pinMode">
+<area shape="rect" id="Node000001" title=" " alt="" coords="1029,229,1108,255"/>
+<area shape="rect" id="Node000002" href="$de/d8d/wiring__analog_8c.xhtml#a62a628c40d93ea1823a1cdb8cae9e7be" title=" " alt="" coords="849,5,951,31"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="1061,216,1052,178,1037,132,1013,84,980,44,950,28,952,23,983,40,1017,81,1042,129,1057,177,1066,215"/>
+<area shape="rect" id="Node000003" href="$d2/de7/classSoftwareSerial.xhtml#af1b194359d70894b3a2f38236a68480e" title=" " alt="" coords="820,55,980,80"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="1057,217,1029,155,1007,122,980,93,961,82,963,78,983,89,1011,118,1034,152,1062,215"/>
+<area shape="rect" id="Node000007" href="$d0/d46/group__digitalPin.xhtml#ga91bafe653813e71cb6573f107e7835db" title=" " alt="" coords="849,104,951,129"/>
+<area shape="poly" id="edge6_Node000001_Node000007" title=" " alt="" coords="1050,219,1021,180,1001,160,980,143,950,129,953,124,983,138,1005,156,1025,176,1055,216"/>
+<area shape="rect" id="Node000009" href="$d5/dc9/classChainableLED.xhtml#a25e747bc2f115018b8a30c928a58b060" title=" " alt="" coords="829,153,971,179"/>
+<area shape="poly" id="edge8_Node000001_Node000009" title=" " alt="" coords="1031,225,980,200,934,181,936,176,982,196,1033,220"/>
+<area shape="rect" id="Node000011" href="$d9/d52/buttons_8cpp.xhtml#a27d3ba5afb772cc36c9a432c28975ace" title="Initialise les boutons (sans les interruptions)." alt="" coords="633,204,727,229"/>
+<area shape="poly" id="edge11_Node000001_Node000011" title=" " alt="" coords="1016,241,727,222,727,217,1016,236"/>
+<area shape="rect" id="Node000012" href="$d2/df0/SdSpiChipSelect_8cpp.xhtml#ad4854101780daaa378827ecb62ef86d9" title=" " alt="" coords="863,255,937,280"/>
+<area shape="poly" id="edge13_Node000001_Node000012" title=" " alt="" coords="1016,252,938,264,937,259,1016,247"/>
+<area shape="rect" id="Node000021" href="$d2/de7/classSoftwareSerial.xhtml#a6769e1058c108c24853c66e66bba1529" title=" " alt="" coords="819,304,981,329"/>
+<area shape="poly" id="edge22_Node000001_Node000021" title=" " alt="" coords="1038,264,982,294,948,306,946,301,980,289,1035,260"/>
+<area shape="rect" id="Node000023" href="$d2/de7/classSoftwareSerial.xhtml#ae49f6d145127ca3e647e7297d218553c" title=" " alt="" coords="819,353,981,379"/>
+<area shape="poly" id="edge24_Node000001_Node000023" title=" " alt="" coords="1054,268,1024,306,983,343,957,356,955,351,980,338,1020,303,1050,264"/>
+<area shape="rect" id="Node000024" href="$dd/d0c/Tone_8cpp.xhtml#a62bcbbe6c995dd7de4b43b525d529cdb" title=" " alt="" coords="875,403,925,428"/>
+<area shape="poly" id="edge26_Node000001_Node000024" title=" " alt="" coords="1062,269,1034,331,1011,365,983,393,955,408,926,415,925,410,953,403,980,389,1007,361,1029,329,1057,267"/>
+<area shape="rect" id="Node000025" href="$de/dcc/LowLatencyLoggerADXL345_2UserFunctions_8cpp.xhtml#a41681a4f770a4314939bd47e174cab0c" title=" " alt="" coords="857,452,943,477"/>
+<area shape="poly" id="edge27_Node000001_Node000025" title=" " alt="" coords="1066,269,1057,308,1041,354,1017,402,983,443,965,455,944,462,943,457,962,450,980,439,1013,399,1036,352,1052,306,1061,268"/>
+<area shape="rect" id="Node000004" href="$dc/d3d/gps_8cpp.xhtml#a33e3fdc8d32b79dae88725e3705b1df7" title="Initialise le GPS." alt="" coords="645,55,715,80"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="806,70,715,70,715,65,806,65"/>
+<area shape="rect" id="Node000005" href="$de/dfb/src_2main_8cpp.xhtml#a4fc01d736fe50cf5b977f755b675f11d" title=" " alt="" coords="421,153,479,179"/>
+<area shape="poly" id="edge4_Node000004_Node000005" title=" " alt="" coords="632,80,590,94,525,125,473,156,470,151,522,120,588,89,631,75"/>
+<area shape="rect" id="Node000006" href="$d2/d81/libs_2Arduino__AVR_2main_8cpp.xhtml#a840291bc02cba5474a4cb46a9b9566fe" title=" " alt="" coords="212,153,267,179"/>
+<area shape="poly" id="edge5_Node000005_Node000006" title=" " alt="" coords="407,169,267,169,267,163,407,163"/>
+<area shape="rect" id="Node000008" href="$d8/d09/classDigitalPin.xhtml#a7bc1ea5682605cf3a2b42c68b2a4e846" title=" " alt="" coords="591,104,769,129"/>
+<area shape="poly" id="edge7_Node000007_Node000008" title=" " alt="" coords="834,119,769,119,769,114,834,114"/>
+<area shape="rect" id="Node000010" href="$db/d17/led_8cpp.xhtml#a586efe898f67cacd16a9870785d921eb" title="Initialise la LED." alt="" coords="646,153,714,179"/>
+<area shape="poly" id="edge9_Node000009_Node000010" title=" " alt="" coords="816,169,714,169,714,163,816,163"/>
+<area shape="poly" id="edge10_Node000010_Node000005" title=" " alt="" coords="632,169,479,169,479,163,632,163"/>
+<area shape="poly" id="edge12_Node000011_Node000005" title=" " alt="" coords="619,206,479,175,480,170,620,201"/>
+<area shape="rect" id="Node000013" href="$d8/d7f/classSharedSpiCard.xhtml#a0255d8d48155bc14798edb8414f04030" title=" " alt="" coords="599,255,761,280"/>
+<area shape="poly" id="edge14_Node000012_Node000013" title=" " alt="" coords="849,270,761,270,761,265,849,265"/>
+<area shape="rect" id="Node000014" href="$d2/dec/classDedicatedSpiCard.xhtml#ae1bee40ca479033a13453a49bfc7ee97" title=" " alt="" coords="359,205,541,231"/>
+<area shape="poly" id="edge15_Node000013_Node000014" title=" " alt="" coords="607,254,510,233,511,228,608,249"/>
+<area shape="rect" id="Node000015" href="$dd/d6a/classSdCardFactory.xhtml#ae8d857a9e9fa47115f3bc6e26b9ec95e" title=" " alt="" coords="361,255,539,280"/>
+<area shape="poly" id="edge16_Node000013_Node000015" title=" " alt="" coords="585,270,540,270,540,265,585,265"/>
+<area shape="rect" id="Node000016" href="$dd/d6a/classSdCardFactory.xhtml#a220930994a47cf45a8fe1563f0b300c2" title=" " alt="" coords="361,304,539,329"/>
+<area shape="poly" id="edge17_Node000013_Node000016" title=" " alt="" coords="608,285,511,307,510,301,607,280"/>
+<area shape="rect" id="Node000017" href="$da/d81/classSdBase.xhtml#ac6ece0ac775ff721b5186124992eb238" title=" " alt="" coords="168,279,311,304"/>
+<area shape="poly" id="edge18_Node000016_Node000017" title=" " alt="" coords="347,307,310,303,311,297,347,302"/>
+<area shape="rect" id="Node000018" href="$da/d81/classSdBase.xhtml#a8806939dc34639ffca5f9663b8ec33ac" title=" " alt="" coords="168,328,311,353"/>
+<area shape="poly" id="edge19_Node000016_Node000018" title=" " alt="" coords="347,331,311,335,310,330,347,326"/>
+<area shape="rect" id="Node000019" href="$da/d81/classSdBase.xhtml#a5ef2328333c99cdb53fa0faee0786216" title=" " alt="" coords="5,303,120,328"/>
+<area shape="poly" id="edge20_Node000018_Node000019" title=" " alt="" coords="154,331,120,326,120,321,155,326"/>
+<area shape="rect" id="Node000020" href="$da/d81/classSdBase.xhtml#a41f0388ad2dad15a65e95cbbd93eb181" title=" " alt="" coords="5,352,120,377"/>
+<area shape="poly" id="edge21_Node000018_Node000020" title=" " alt="" coords="155,355,120,360,120,354,154,350"/>
+<area shape="rect" id="Node000022" href="$d2/de7/classSoftwareSerial.xhtml#aab36336db4a1ca5073071c07d910cb87" title=" " alt="" coords="589,325,771,365"/>
+<area shape="poly" id="edge23_Node000021_Node000022" title=" " alt="" coords="805,331,771,336,770,330,805,326"/>
+<area shape="poly" id="edge25_Node000023_Node000022" title=" " alt="" coords="805,360,771,356,771,351,806,354"/>
+</map>

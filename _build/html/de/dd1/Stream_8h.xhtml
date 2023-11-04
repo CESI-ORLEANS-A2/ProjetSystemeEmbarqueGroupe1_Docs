@@ -5,7 +5,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=11"/>
 <meta name="generator" content="Doxygen 1.10.0"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>Station_Méteo_Groupe_1: Référence du fichier /mnt/d/Cours/10. CESI A2/Blocs/01 - Systeme embarque/Livrables/Station_Meteo_Groupe_1 - Copy/libs/Arduino_AVR/Stream.h</title>
+<title>Station_Méteo_Groupe_1: Référence du fichier Stream.h</title>
 <link href="../../tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="../../jquery.js"></script>
 <script type="text/javascript" src="../../dynsections.js"></script>
@@ -102,12 +102,12 @@ $(document).ready(function(){initNavTree('de/dd1/Stream_8h.xhtml','../../'); ini
 </div><div class="textblock"><div class="dynheader">
 Graphe des dépendances par inclusion de Stream.h:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="../../d5/d20/Stream_8h__incl.svg" width="427" height="315"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+<div class="center"><iframe scrolling="no" frameborder="0" src="../../d5/d20/Stream_8h__incl.svg" width="415" height="256"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
 </div>
 </div><div class="textblock"><div class="dynheader">
 Ce graphe montre quels fichiers incluent directement ou indirectement ce fichier :</div>
 <div class="dyncontent">
-<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="../../d1/da8/Stream_8h__dep__incl.svg" width="100%" height="600"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
+<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="../../d1/da8/Stream_8h__dep__incl.svg" width="100%" height="547"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
 </div>
 </div>
 <p><a href="../../de/dd1/Stream_8h_source.xhtml">Aller au code source de ce fichier.</a></p>
@@ -121,17 +121,52 @@ Classes</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="define-members" name="define-members"></a>
 Macros</h2></td></tr>
-<tr class="memitem:ab362c458819bb9ea1b99a764444c4921" id="r_ab362c458819bb9ea1b99a764444c4921"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/dd1/Stream_8h_ab362c458819bb9ea1b99a764444c4921.xhtml#ab362c458819bb9ea1b99a764444c4921">NO_IGNORE_CHAR</a>&#160;&#160;&#160;'\x01'</td></tr>
+<tr class="memitem:ab362c458819bb9ea1b99a764444c4921" id="r_ab362c458819bb9ea1b99a764444c4921"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ab362c458819bb9ea1b99a764444c4921">NO_IGNORE_CHAR</a>&#160;&#160;&#160;'\x01'</td></tr>
 <tr class="separator:ab362c458819bb9ea1b99a764444c4921"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="enum-members" name="enum-members"></a>
 Énumérations</h2></td></tr>
-<tr class="memitem:ab2c5d00ddee50ff8d5d68cd2d7a7fa49" id="r_ab2c5d00ddee50ff8d5d68cd2d7a7fa49"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/dd1/Stream_8h_ab2c5d00ddee50ff8d5d68cd2d7a7fa49.xhtml#ab2c5d00ddee50ff8d5d68cd2d7a7fa49">LookaheadMode</a> { <a class="el" href="../../de/dd1/Stream_8h_ab2c5d00ddee50ff8d5d68cd2d7a7fa49.xhtml#ab2c5d00ddee50ff8d5d68cd2d7a7fa49a823ae842da6939bbada21ab3b5c4f2eb">SKIP_ALL</a>
-, <a class="el" href="../../de/dd1/Stream_8h_ab2c5d00ddee50ff8d5d68cd2d7a7fa49.xhtml#ab2c5d00ddee50ff8d5d68cd2d7a7fa49a141996d9ff8288dd50fb39c1aa3e4a95">SKIP_NONE</a>
-, <a class="el" href="../../de/dd1/Stream_8h_ab2c5d00ddee50ff8d5d68cd2d7a7fa49.xhtml#ab2c5d00ddee50ff8d5d68cd2d7a7fa49a4c6e81602f86235fb8e040f22b743b07">SKIP_WHITESPACE</a>
+<tr class="memitem:ab2c5d00ddee50ff8d5d68cd2d7a7fa49" id="r_ab2c5d00ddee50ff8d5d68cd2d7a7fa49"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ab2c5d00ddee50ff8d5d68cd2d7a7fa49">LookaheadMode</a> { <a class="el" href="#ab2c5d00ddee50ff8d5d68cd2d7a7fa49a823ae842da6939bbada21ab3b5c4f2eb">SKIP_ALL</a>
+, <a class="el" href="#ab2c5d00ddee50ff8d5d68cd2d7a7fa49a141996d9ff8288dd50fb39c1aa3e4a95">SKIP_NONE</a>
+, <a class="el" href="#ab2c5d00ddee50ff8d5d68cd2d7a7fa49a4c6e81602f86235fb8e040f22b743b07">SKIP_WHITESPACE</a>
  }</td></tr>
 <tr class="separator:ab2c5d00ddee50ff8d5d68cd2d7a7fa49"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
+<h2 class="groupheader">Documentation des macros</h2>
+<a id="ab362c458819bb9ea1b99a764444c4921" name="ab362c458819bb9ea1b99a764444c4921"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab362c458819bb9ea1b99a764444c4921">&#9670;&#160;</a></span>NO_IGNORE_CHAR</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define NO_IGNORE_CHAR&#160;&#160;&#160;'\x01'</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<h2 class="groupheader">Documentation du type de l'énumération</h2>
+<a id="ab2c5d00ddee50ff8d5d68cd2d7a7fa49" name="ab2c5d00ddee50ff8d5d68cd2d7a7fa49"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab2c5d00ddee50ff8d5d68cd2d7a7fa49">&#9670;&#160;</a></span>LookaheadMode</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">enum <a class="el" href="#ab2c5d00ddee50ff8d5d68cd2d7a7fa49">LookaheadMode</a></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<table class="fieldtable">
+<tr><th colspan="2">Valeurs énumérées</th></tr><tr><td class="fieldname"><a id="ab2c5d00ddee50ff8d5d68cd2d7a7fa49a823ae842da6939bbada21ab3b5c4f2eb" name="ab2c5d00ddee50ff8d5d68cd2d7a7fa49a823ae842da6939bbada21ab3b5c4f2eb"></a>SKIP_ALL&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="ab2c5d00ddee50ff8d5d68cd2d7a7fa49a141996d9ff8288dd50fb39c1aa3e4a95" name="ab2c5d00ddee50ff8d5d68cd2d7a7fa49a141996d9ff8288dd50fb39c1aa3e4a95"></a>SKIP_NONE&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="ab2c5d00ddee50ff8d5d68cd2d7a7fa49a4c6e81602f86235fb8e040f22b743b07" name="ab2c5d00ddee50ff8d5d68cd2d7a7fa49a4c6e81602f86235fb8e040f22b743b07"></a>SKIP_WHITESPACE&#160;</td><td class="fielddoc"></td></tr>
+</table>
+
+</div>
+</div>
 </div><!-- contents -->
 </div><!-- doc-content -->
 <!-- start footer part -->

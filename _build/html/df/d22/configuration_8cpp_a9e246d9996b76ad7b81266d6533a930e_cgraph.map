@@ -1,0 +1,85 @@
+<map id="quitConfigurationMode" name="quitConfigurationMode">
+<area shape="rect" id="Node000001" title="Quitte le mode de configuration." alt="" coords="5,255,176,280"/>
+<area shape="rect" id="Node000002" href="$d0/ded/sd_8cpp.xhtml#a9d3643dd7aeaea6f58648a50f1ad7833" title="Montage de la carte SD." alt="" coords="224,255,288,280"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="176,265,211,265,211,270,176,270"/>
+<area shape="rect" id="Node000003" href="$da/d81/classSdBase.xhtml#ade2759d12751a2a8b3872bd3915d5caf" title=" " alt="" coords="351,229,466,255"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="288,260,337,251,338,256,288,265"/>
+<area shape="rect" id="Node000004" href="$dd/db1/error_8cpp.xhtml#aa07018cc68b21b664b4ca75a67e679f0" title=" " alt="" coords="336,279,481,304"/>
+<area shape="poly" id="edge4_Node000002_Node000004" title=" " alt="" coords="288,270,323,275,322,280,288,275"/>
+<area shape="poly" id="edge3_Node000003_Node000003" title=" " alt="" coords="383,231,378,221,380,211,391,205,409,203,430,206,439,215,435,219,427,211,409,208,393,210,385,215,383,220,388,228"/>
+<area shape="rect" id="Node000005" href="$db/d17/led_8cpp.xhtml#a7ba25f44529972e627561bcf6efc192f" title="La LED passe successivement du rouge au vert. La LED reste rouge pendant 1 seconde puis passe au vert..." alt="" coords="529,303,704,328"/>
+<area shape="poly" id="edge5_Node000004_Node000005" title=" " alt="" coords="482,297,516,301,515,306,482,302"/>
+<area shape="rect" id="Node000024" href="$db/d17/led_8cpp.xhtml#ac050c3041978fab0c3028de0fdc31618" title="La LED passe successivement du rouge au blanc. La LED reste rouge pendant 1 seconde puis passe au bla..." alt="" coords="529,484,704,509"/>
+<area shape="poly" id="edge33_Node000004_Node000024" title=" " alt="" coords="425,302,595,472,591,476,421,306"/>
+<area shape="rect" id="Node000027" href="$db/d17/led_8cpp.xhtml#aa04c4b7972bc68200e4d2da56b097115" title="La LED passe successivement du rouge au bleu avec une fréquence de 1 seconde." alt="" coords="538,108,695,133"/>
+<area shape="poly" id="edge39_Node000004_Node000027" title=" " alt="" coords="463,276,480,265,491,252,498,239,503,211,508,182,515,167,528,152,549,137,552,141,531,156,520,170,513,183,508,212,503,240,496,255,483,269,466,281"/>
+<area shape="rect" id="Node000028" href="$db/d17/led_8cpp.xhtml#a59bf7437503d490ee53223c3bd20aa0c" title="La LED passe successivement du rouge au vert avec une fréquence de 1 seconde." alt="" coords="533,228,700,253"/>
+<area shape="poly" id="edge43_Node000004_Node000028" title=" " alt="" coords="461,276,550,254,551,259,462,281"/>
+<area shape="rect" id="Node000029" href="$db/d17/led_8cpp.xhtml#a3f8b463c1fa4e1715beb1a4a6e4c36b3" title="La LED passe successivement du rouge au blanc avec une fréquence de 1 seconde." alt="" coords="533,533,700,559"/>
+<area shape="poly" id="edge47_Node000004_Node000029" title=" " alt="" coords="415,303,427,345,449,404,483,467,505,495,531,520,538,525,534,529,528,524,501,499,479,470,444,406,422,347,410,305"/>
+<area shape="rect" id="Node000030" href="$db/d17/led_8cpp.xhtml#a91398c440a9f9f48d59e14eb727e61ae" title="La LED passe successivement du rouge au jaune avec une fréquence de 1 seconde." alt="" coords="532,165,701,191"/>
+<area shape="poly" id="edge50_Node000004_Node000030" title=" " alt="" coords="457,276,480,265,494,253,504,241,513,228,528,215,565,194,568,198,531,219,517,232,508,244,498,257,483,270,460,281"/>
+<area shape="rect" id="Node000006" href="$db/d17/led_8cpp.xhtml#aa2d49caed8f5ce97778549e0ef0a03c6" title="Fait clignoter la LED en alternant entre deux couleurs avec une fréquence de 1 secondes pendant durat..." alt="" coords="769,104,876,129"/>
+<area shape="poly" id="edge6_Node000005_Node000006" title=" " alt="" coords="645,300,674,284,702,264,733,233,762,200,804,140,808,143,766,203,737,237,706,268,677,289,648,305"/>
+<area shape="rect" id="Node000020" href="$db/d17/led_8cpp.xhtml#a1c1c60dba65e2b65592bf4a0fe46b91c" title="Allume la LED en vert." alt="" coords="945,252,1088,277"/>
+<area shape="poly" id="edge30_Node000005_Node000020" title=" " alt="" coords="704,302,931,273,932,278,705,307"/>
+<area shape="rect" id="Node000023" href="$db/d17/led_8cpp.xhtml#ae18cd762c6f843eb4421cd651a5d3940" title="Allume la LED en rouge." alt="" coords="953,364,1081,389"/>
+<area shape="poly" id="edge31_Node000005_Node000023" title=" " alt="" coords="629,327,648,352,676,383,712,414,753,437,791,449,822,451,853,446,893,437,932,420,980,394,983,399,934,425,894,442,854,452,822,456,790,454,751,442,709,418,673,387,644,355,624,330"/>
+<area shape="rect" id="Node000007" href="$dc/de5/timer_8cpp.xhtml#a75f67483e2c676b6e8ea29bca518e6c7" title="Crée une nouvelle instance du timer." alt="" coords="1187,55,1296,80"/>
+<area shape="poly" id="edge7_Node000006_Node000007" title=" " alt="" coords="832,102,875,57,906,33,940,16,975,6,1012,3,1048,4,1084,9,1150,27,1203,47,1201,52,1149,32,1083,15,1048,10,1012,8,976,12,942,21,909,38,878,61,836,106"/>
+<area shape="rect" id="Node000011" href="$db/d17/led_8cpp.xhtml#ab88ba8c1c79f75d5caa97fa7939bc4fb" title="Fonction exécutée à chaque interruption du timer 2." alt="" coords="965,55,1068,80"/>
+<area shape="poly" id="edge11_Node000006_Node000011" title=" " alt="" coords="873,101,952,81,953,86,874,107"/>
+<area shape="rect" id="Node000012" href="$db/d17/led_8cpp.xhtml#a4f39000a638bc309a30f90d7fbb5a8a1" title="Allume la LED en bleu." alt="" coords="951,104,1083,129"/>
+<area shape="poly" id="edge14_Node000006_Node000012" title=" " alt="" coords="876,114,937,114,937,119,876,119"/>
+<area shape="poly" id="edge24_Node000006_Node000020" title=" " alt="" coords="837,128,890,188,919,219,943,239,953,244,951,249,940,243,916,223,886,192,833,131"/>
+<area shape="rect" id="Node000021" href="$db/d17/led_8cpp.xhtml#aa58a00fd07d1ae6fd45c10c874766911" title="Allume la LED en orange." alt="" coords="941,153,1092,179"/>
+<area shape="poly" id="edge26_Node000006_Node000021" title=" " alt="" coords="874,127,953,147,952,152,873,132"/>
+<area shape="rect" id="Node000022" href="$db/d17/led_8cpp.xhtml#af8230cfc3cf386fa1253cd37b3cd215d" title="Allume la LED en jaune." alt="" coords="945,203,1089,228"/>
+<area shape="poly" id="edge28_Node000006_Node000022" title=" " alt="" coords="858,127,895,147,919,169,943,189,955,195,953,200,940,194,915,173,892,151,856,132"/>
+<area shape="rect" id="Node000008" href="$d5/df3/wiring_8c.xhtml#a6bc5f943544a887f8b23cadfb26a5e30" title=" " alt="" coords="1454,104,1513,129"/>
+<area shape="poly" id="edge8_Node000007_Node000008" title=" " alt="" coords="1297,76,1441,106,1440,111,1296,81"/>
+<area shape="rect" id="Node000009" href="$d5/df3/wiring_8c.xhtml#a8b24cbb7c3486e1bfa05c86db83ecb01" title=" " alt="" coords="1681,129,1748,155"/>
+<area shape="poly" id="edge9_Node000008_Node000009" title=" " alt="" coords="1513,117,1668,134,1667,140,1512,123"/>
+<area shape="rect" id="Node000010" href="$de/df0/Arduino_8h.xhtml#a7cb51f5c2b5cad3766f19eb69c92793b" title=" " alt="" coords="1687,80,1742,105"/>
+<area shape="poly" id="edge10_Node000008_Node000010" title=" " alt="" coords="1512,111,1674,94,1674,100,1513,116"/>
+<area shape="poly" id="edge12_Node000011_Node000007" title=" " alt="" coords="1068,65,1173,65,1173,70,1068,70"/>
+<area shape="poly" id="edge13_Node000011_Node000011" title=" " alt="" coords="985,56,978,46,982,37,995,30,1017,28,1043,32,1054,40,1051,45,1041,37,1017,33,996,35,986,40,983,46,989,53"/>
+<area shape="rect" id="Node000013" href="$d5/dc9/classChainableLED.xhtml#a2b8a41a192a231e77cad268bdbaebd34" title=" " alt="" coords="1140,228,1343,253"/>
+<area shape="poly" id="edge15_Node000012_Node000013" title=" " alt="" coords="1062,127,1093,140,1160,179,1215,218,1212,222,1157,183,1091,145,1060,132"/>
+<area shape="rect" id="Node000014" href="$d5/dc9/classChainableLED.xhtml#af9dddebec83065625cbd6f8f05b992e7" title=" " alt="" coords="1624,228,1805,253"/>
+<area shape="poly" id="edge16_Node000013_Node000014" title=" " alt="" coords="1343,238,1610,238,1610,243,1343,243"/>
+<area shape="rect" id="Node000019" href="$d5/dc9/classChainableLED.xhtml#a7c5c2661fc02dee9f174485a2fadeb7a" title=" " alt="" coords="1391,203,1576,228"/>
+<area shape="poly" id="edge22_Node000013_Node000019" title=" " alt="" coords="1342,228,1376,224,1377,229,1343,233"/>
+<area shape="rect" id="Node000015" href="$d5/dc9/classChainableLED.xhtml#af384841b6f083865c7fce288b039d275" title=" " alt="" coords="1853,203,1992,228"/>
+<area shape="poly" id="edge17_Node000014_Node000015" title=" " alt="" coords="1805,227,1839,223,1840,228,1806,232"/>
+<area shape="rect" id="Node000017" href="$d5/d45/wiring__digital_8c.xhtml#a73b9b61feeaf7d790d107f2954a7fd93" title=" " alt="" coords="2064,252,2163,277"/>
+<area shape="poly" id="edge21_Node000014_Node000017" title=" " alt="" coords="1806,244,2051,258,2050,264,1805,249"/>
+<area shape="rect" id="Node000016" href="$d5/df3/wiring_8c.xhtml#a62e0a53bc261f9de8700cc5a92307e85" title=" " alt="" coords="2040,203,2187,228"/>
+<area shape="poly" id="edge18_Node000015_Node000016" title=" " alt="" coords="1992,213,2026,213,2026,218,1992,218"/>
+<area shape="poly" id="edge19_Node000015_Node000017" title=" " alt="" coords="1973,226,2052,246,2050,251,1972,231"/>
+<area shape="rect" id="Node000018" href="$d5/d45/wiring__digital_8c.xhtml#ae3d0bcbe4eb927ca8f5d5c21b7e4f224" title=" " alt="" coords="2235,252,2335,277"/>
+<area shape="poly" id="edge20_Node000017_Node000018" title=" " alt="" coords="2163,262,2221,262,2221,267,2163,267"/>
+<area shape="poly" id="edge23_Node000019_Node000014" title=" " alt="" coords="1577,223,1611,227,1610,232,1576,228"/>
+<area shape="poly" id="edge25_Node000020_Node000013" title=" " alt="" coords="1088,255,1126,250,1127,256,1089,260"/>
+<area shape="poly" id="edge27_Node000021_Node000013" title=" " alt="" coords="1057,176,1190,221,1188,226,1055,181"/>
+<area shape="poly" id="edge29_Node000022_Node000013" title=" " alt="" coords="1089,221,1127,225,1126,230,1089,226"/>
+<area shape="poly" id="edge32_Node000023_Node000013" title=" " alt="" coords="1037,362,1206,258,1209,263,1040,366"/>
+<area shape="rect" id="Node000025" href="$db/d17/led_8cpp.xhtml#a568e3f9750c24e5262ff1953d439acaa" title="Initialise la boucle de clignotement de la LED." alt="" coords="773,509,872,535"/>
+<area shape="poly" id="edge34_Node000024_Node000025" title=" " alt="" coords="705,505,760,512,759,517,704,510"/>
+<area shape="rect" id="Node000026" href="$db/d17/led_8cpp.xhtml#ac69de171075f82d3c3f75385a54ce10a" title="Allume la LED en blanc." alt="" coords="752,559,893,584"/>
+<area shape="poly" id="edge37_Node000024_Node000026" title=" " alt="" coords="668,507,705,520,753,545,769,552,767,557,751,550,703,525,666,512"/>
+<area shape="poly" id="edge35_Node000025_Node000008" title=" " alt="" coords="869,507,963,476,1087,425,1153,392,1220,355,1283,312,1341,264,1356,246,1365,229,1374,210,1389,190,1419,160,1450,135,1454,140,1423,164,1393,193,1378,213,1370,231,1361,249,1345,268,1286,316,1222,359,1156,397,1089,430,965,481,871,512"/>
+<area shape="poly" id="edge36_Node000025_Node000023" title=" " alt="" coords="860,507,892,488,907,471,915,455,924,438,940,419,974,394,977,398,943,423,929,440,920,457,911,474,895,492,862,512"/>
+<area shape="poly" id="edge38_Node000026_Node000013" title=" " alt="" coords="866,556,892,545,952,511,997,481,1090,400,1163,327,1219,263,1223,266,1167,331,1094,404,1000,485,955,516,895,550,868,561"/>
+<area shape="poly" id="edge40_Node000027_Node000006" title=" " alt="" coords="695,117,756,115,756,121,696,122"/>
+<area shape="poly" id="edge41_Node000027_Node000012" title=" " alt="" coords="664,105,752,89,823,84,894,89,953,99,952,104,893,94,823,89,752,94,665,111"/>
+<area shape="poly" id="edge42_Node000027_Node000023" title=" " alt="" coords="658,131,705,152,791,203,872,259,991,353,988,357,869,264,788,208,703,156,656,136"/>
+<area shape="poly" id="edge44_Node000028_Node000006" title=" " alt="" coords="651,226,703,201,752,169,794,137,797,141,755,173,705,206,653,230"/>
+<area shape="poly" id="edge45_Node000028_Node000020" title=" " alt="" coords="700,243,932,257,931,262,700,248"/>
+<area shape="poly" id="edge46_Node000028_Node000023" title=" " alt="" coords="650,251,679,267,706,290,722,317,728,343,734,367,741,377,753,387,779,399,806,407,864,411,920,403,968,391,970,396,921,409,864,416,806,412,777,404,751,391,738,381,729,369,722,344,717,319,702,293,676,272,648,256"/>
+<area shape="poly" id="edge48_Node000029_Node000025" title=" " alt="" coords="700,534,759,527,759,532,700,539"/>
+<area shape="poly" id="edge49_Node000029_Node000026" title=" " alt="" coords="700,554,739,558,738,564,700,559"/>
+<area shape="poly" id="edge51_Node000030_Node000006" title=" " alt="" coords="659,163,766,131,767,136,661,168"/>
+<area shape="poly" id="edge53_Node000030_Node000022" title=" " alt="" coords="702,183,931,205,930,210,702,189"/>
+<area shape="poly" id="edge52_Node000030_Node000023" title=" " alt="" coords="659,188,683,200,706,215,722,233,730,252,738,269,754,285,798,313,846,335,895,351,940,362,939,367,893,356,844,340,795,318,750,290,734,272,725,254,717,236,702,219,681,204,657,193"/>
+</map>

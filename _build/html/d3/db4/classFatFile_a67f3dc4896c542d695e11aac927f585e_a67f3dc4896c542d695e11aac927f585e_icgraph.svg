@@ -804,7 +804,7 @@ var sectionId = 'dynsection-1';
 <!-- Node46 -->
 <g id="Node000046" class="node">
 <title>Node46</title>
-<g id="a_Node000046"><a xlink:href="../../d9/ddd/economy_8cpp_a35740c7a73b48d918cb4e6d891d46bed.xhtml#a35740c7a73b48d918cb4e6d891d46bed" target="_top" xlink:title=" ">
+<g id="a_Node000046"><a xlink:href="../../d9/ddd/economy_8cpp_a35740c7a73b48d918cb4e6d891d46bed.xhtml#a35740c7a73b48d918cb4e6d891d46bed" target="_top" xlink:title="Exécute une étape de la boucle principale du mode économique.">
 <polygon fill="#fff0f0" stroke="red" points="148.5,-296 22.5,-296 22.5,-277 148.5,-277 148.5,-296"/>
 <text text-anchor="middle" x="85.5" y="-284" font-family="Helvetica,sans-Serif" font-size="10.00">runEconomyModeStep</text>
 </a>
@@ -822,7 +822,7 @@ var sectionId = 'dynsection-1';
 <!-- Node49 -->
 <g id="Node000049" class="node">
 <title>Node49</title>
-<g id="a_Node000049"><a xlink:href="../../df/d92/standard_8cpp_ad0b3e86793f7441084351fc2de4d4c45.xhtml#ad0b3e86793f7441084351fc2de4d4c45" target="_top" xlink:title=" ">
+<g id="a_Node000049"><a xlink:href="../../df/d92/standard_8cpp_ad0b3e86793f7441084351fc2de4d4c45.xhtml#ad0b3e86793f7441084351fc2de4d4c45" target="_top" xlink:title="Exécute une étape de la boucle principale du mode standard.">
 <polygon fill="#fff0f0" stroke="red" points="148,-259 23,-259 23,-240 148,-240 148,-259"/>
 <text text-anchor="middle" x="85.5" y="-247" font-family="Helvetica,sans-Serif" font-size="10.00">runStandardModeStep</text>
 </a>

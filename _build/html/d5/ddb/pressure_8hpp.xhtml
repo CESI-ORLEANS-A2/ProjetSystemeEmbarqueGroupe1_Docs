@@ -5,7 +5,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=11"/>
 <meta name="generator" content="Doxygen 1.10.0"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>Station_Méteo_Groupe_1: Référence du fichier /mnt/d/Cours/10. CESI A2/Blocs/01 - Systeme embarque/Livrables/Station_Meteo_Groupe_1 - Copy/include/peripherals/sensors/pressure.hpp</title>
+<title>Station_Méteo_Groupe_1: Référence du fichier pressure.hpp</title>
 <link href="../../tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="../../jquery.js"></script>
 <script type="text/javascript" src="../../dynsections.js"></script>
@@ -112,11 +112,77 @@ Ce graphe montre quels fichiers incluent directement ou indirectement ce fichier
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="func-members" name="func-members"></a>
 Fonctions</h2></td></tr>
-<tr class="memitem:afeb7254ac3d1603fe28432de687313fb" id="r_afeb7254ac3d1603fe28432de687313fb"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d5/ddb/pressure_8hpp_afeb7254ac3d1603fe28432de687313fb.xhtml#afeb7254ac3d1603fe28432de687313fb">initPressureSensor</a> ()</td></tr>
+<tr class="memitem:afeb7254ac3d1603fe28432de687313fb" id="r_afeb7254ac3d1603fe28432de687313fb"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#afeb7254ac3d1603fe28432de687313fb">initPressureSensor</a> ()</td></tr>
+<tr class="memdesc:afeb7254ac3d1603fe28432de687313fb"><td class="mdescLeft">&#160;</td><td class="mdescRight">Initialise le capteur de pression.  <br /></td></tr>
 <tr class="separator:afeb7254ac3d1603fe28432de687313fb"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a8b9be5c0b7e75437935f4c5b4a7fdde6" id="r_a8b9be5c0b7e75437935f4c5b4a7fdde6"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d5/ddb/pressure_8hpp_a8b9be5c0b7e75437935f4c5b4a7fdde6.xhtml#a8b9be5c0b7e75437935f4c5b4a7fdde6">measurePressure</a> ()</td></tr>
+<tr class="memitem:a8b9be5c0b7e75437935f4c5b4a7fdde6" id="r_a8b9be5c0b7e75437935f4c5b4a7fdde6"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a8b9be5c0b7e75437935f4c5b4a7fdde6">measurePressure</a> ()</td></tr>
+<tr class="memdesc:a8b9be5c0b7e75437935f4c5b4a7fdde6"><td class="mdescLeft">&#160;</td><td class="mdescRight">Mesure la pression.  <br /></td></tr>
 <tr class="separator:a8b9be5c0b7e75437935f4c5b4a7fdde6"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
+<h2 class="groupheader">Documentation des fonctions</h2>
+<a id="afeb7254ac3d1603fe28432de687313fb" name="afeb7254ac3d1603fe28432de687313fb"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#afeb7254ac3d1603fe28432de687313fb">&#9670;&#160;</a></span>initPressureSensor()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void initPressureSensor </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Initialise le capteur de pression. </p>
+<p>Le capteur est initialiser sous la forme d'une structure <a class="el" href="../../de/d5a/structSensor.xhtml" title="Structure représentant un capteur.">Sensor</a> ajoutée au tableau sensors[]. Cette structure contient :</p><ul>
+<li>L'adresse mémoire Flash du nom du capteur</li>
+<li>L'identifiant associé au paramètre réprésentant l'état du capteur</li>
+<li>L'identifiant associé au paramètre réprésentant l'état du capteur en mode économie</li>
+<li>Un pointeur vers la fonction de mesure du capteur</li>
+</ul>
+<p>Références : <a class="el" href="../../df/dd7/consts_8hpp.xhtml#a3ebd68dc2ee694f72cc2e51ee4cdce7c">PRESSURE_SENSOR</a> <a class="el" href="../../df/dd7/consts_8hpp.xhtml#a5967fa71533618f74f242f1d8c77a97d">PRESSURE_SENSOR_NAME</a> <a class="el" href="../../df/dd7/consts_8hpp.xhtml#a8415547e5dedb47ed42575f76043b73f">SETTING_PRESSURE_ENABLED</a> SETTING_PRESSURE_ECONOMY_ENABLED <a class="el" href="../../da/dfa/sensor_8cpp.xhtml#a23b1d96f49b969e9e7711fa12f65f26c">sensors</a> <a class="el" href="../../d8/ddf/pressure_8cpp.xhtml#a8b9be5c0b7e75437935f4c5b4a7fdde6">measurePressure()</a> </p>
+<div class="dynheader">
+Voici le graphe d'appel pour cette fonction :</div>
+<div class="dyncontent">
+<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="../../d5/ddb/pressure_8hpp_afeb7254ac3d1603fe28432de687313fb_cgraph.svg" width="100%" height="600"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
+</div>
+<div class="dynheader">
+Voici le graphe des appelants de cette fonction :</div>
+<div class="dyncontent">
+<div class="center"><iframe scrolling="no" frameborder="0" src="../../d5/ddb/pressure_8hpp_afeb7254ac3d1603fe28432de687313fb_icgraph.svg" width="363" height="36"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+</div>
+
+</div>
+</div>
+<a id="a8b9be5c0b7e75437935f4c5b4a7fdde6" name="a8b9be5c0b7e75437935f4c5b4a7fdde6"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a8b9be5c0b7e75437935f4c5b4a7fdde6">&#9670;&#160;</a></span>measurePressure()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">float measurePressure </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Mesure la pression. </p>
+<p>Récupère la valeur de la pression en utilisant la fonction <a class="el" href="../../d3/d42/bme_8hpp.xhtml#a08e0c07f9b57f500d6cf111792c4c66a" title="Mesure la pression.">readPressure()</a> et vérifie que la valeur est comprise entre les valeurs définies dans les paramètres.</p>
+<dl class="section return"><dt>Renvoie</dt><dd>La pression mesurée.</dd></dl>
+<p>Références : <a class="el" href="../../df/dd7/consts_8hpp.xhtml#abf2502943d5eb891dafac783ce99704e">SETTING_PRESSURE_MIN</a> <a class="el" href="../../df/dd7/consts_8hpp.xhtml#a582ebeffc5f1419b184f7488b71db248">SETTING_PRESSURE_MAX</a> <a class="el" href="../../df/dd7/consts_8hpp.xhtml#a583a621e4aa2332c4e67d9d387c21065">ACQUISITION_ERROR_VALUE</a> <a class="el" href="../../d3/d42/bme_8hpp.xhtml#a08e0c07f9b57f500d6cf111792c4c66a">readPressure()</a> </p>
+<div class="dynheader">
+Voici le graphe des appelants de cette fonction :</div>
+<div class="dyncontent">
+<div class="center"><iframe scrolling="no" frameborder="0" src="../../d5/ddb/pressure_8hpp_a8b9be5c0b7e75437935f4c5b4a7fdde6_icgraph.svg" width="546" height="36"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+</div>
+
+</div>
+</div>
 </div><!-- contents -->
 </div><!-- doc-content -->
 <!-- start footer part -->

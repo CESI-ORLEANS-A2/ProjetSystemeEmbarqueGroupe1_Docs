@@ -83,6 +83,7 @@ var menudata={children:[
 {text:"u",url:"functions_func_u.xhtml#index_u"},
 {text:"v",url:"functions_func_v.xhtml#index_v"},
 {text:"w",url:"functions_func_w.xhtml#index_w"},
+{text:"y",url:"functions_func_y.xhtml#index_y"},
 {text:"~",url:"functions_func_~.xhtml#index__7E"}]},
 {text:"Variables",url:"functions_vars.xhtml",children:[
 {text:"_",url:"functions_vars.xhtml#index__5F"},
@@ -114,7 +115,15 @@ var menudata={children:[
 {text:"z",url:"functions_vars_z.xhtml#index_z"}]},
 {text:"Définitions de type",url:"functions_type.xhtml"},
 {text:"Énumérations",url:"functions_enum.xhtml"},
-{text:"Valeurs énumérées",url:"functions_eval.xhtml"},
+{text:"Valeurs énumérées",url:"functions_eval.xhtml",children:[
+{text:"_",url:"functions_eval.xhtml#index__5F"},
+{text:"b",url:"functions_eval.xhtml#index_b"},
+{text:"c",url:"functions_eval.xhtml#index_c"},
+{text:"e",url:"functions_eval.xhtml#index_e"},
+{text:"f",url:"functions_eval.xhtml#index_f"},
+{text:"g",url:"functions_eval.xhtml#index_g"},
+{text:"m",url:"functions_eval.xhtml#index_m"},
+{text:"s",url:"functions_eval.xhtml#index_s"}]},
 {text:"Fonctions associées",url:"functions_rela.xhtml"}]}]},
 {text:"Fichiers",url:"files.xhtml",children:[
 {text:"Liste des fichiers",url:"files.xhtml"},

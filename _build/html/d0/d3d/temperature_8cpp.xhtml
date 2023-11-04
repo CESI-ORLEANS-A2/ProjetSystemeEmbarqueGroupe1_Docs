@@ -5,7 +5,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=11"/>
 <meta name="generator" content="Doxygen 1.10.0"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>Station_Méteo_Groupe_1: Référence du fichier /mnt/d/Cours/10. CESI A2/Blocs/01 - Systeme embarque/Livrables/Station_Meteo_Groupe_1 - Copy/src/peripherals/sensors/temperature.cpp</title>
+<title>Station_Méteo_Groupe_1: Référence du fichier temperature.cpp</title>
 <link href="../../tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="../../jquery.js"></script>
 <script type="text/javascript" src="../../dynsections.js"></script>
@@ -104,11 +104,77 @@ Graphe des dépendances par inclusion de temperature.cpp:</div>
 </div><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="func-members" name="func-members"></a>
 Fonctions</h2></td></tr>
-<tr class="memitem:ac69c9a2d697216ab21dcab3087b54729" id="r_ac69c9a2d697216ab21dcab3087b54729"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d0/d3d/temperature_8cpp_ac69c9a2d697216ab21dcab3087b54729.xhtml#ac69c9a2d697216ab21dcab3087b54729">initTemperatureSensor</a> ()</td></tr>
+<tr class="memitem:ac69c9a2d697216ab21dcab3087b54729" id="r_ac69c9a2d697216ab21dcab3087b54729"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ac69c9a2d697216ab21dcab3087b54729">initTemperatureSensor</a> ()</td></tr>
+<tr class="memdesc:ac69c9a2d697216ab21dcab3087b54729"><td class="mdescLeft">&#160;</td><td class="mdescRight">Initialise le capteur de température.  <br /></td></tr>
 <tr class="separator:ac69c9a2d697216ab21dcab3087b54729"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aad7d1bb540f52a0a6aed81f3209f79b4" id="r_aad7d1bb540f52a0a6aed81f3209f79b4"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d0/d3d/temperature_8cpp_aad7d1bb540f52a0a6aed81f3209f79b4.xhtml#aad7d1bb540f52a0a6aed81f3209f79b4">measureTemperature</a> ()</td></tr>
+<tr class="memitem:aad7d1bb540f52a0a6aed81f3209f79b4" id="r_aad7d1bb540f52a0a6aed81f3209f79b4"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aad7d1bb540f52a0a6aed81f3209f79b4">measureTemperature</a> ()</td></tr>
+<tr class="memdesc:aad7d1bb540f52a0a6aed81f3209f79b4"><td class="mdescLeft">&#160;</td><td class="mdescRight">Mesure la température.  <br /></td></tr>
 <tr class="separator:aad7d1bb540f52a0a6aed81f3209f79b4"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
+<h2 class="groupheader">Documentation des fonctions</h2>
+<a id="ac69c9a2d697216ab21dcab3087b54729" name="ac69c9a2d697216ab21dcab3087b54729"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac69c9a2d697216ab21dcab3087b54729">&#9670;&#160;</a></span>initTemperatureSensor()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void initTemperatureSensor </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Initialise le capteur de température. </p>
+<p>Le capteur est initialiser sous la forme d'une structure <a class="el" href="../../de/d5a/structSensor.xhtml" title="Structure représentant un capteur.">Sensor</a> ajoutée au tableau sensors[]. Cette structure contient :</p><ul>
+<li>L'adresse mémoire Flash du nom du capteur</li>
+<li>L'identifiant associé au paramètre réprésentant l'état du capteur</li>
+<li>L'identifiant associé au paramètre réprésentant l'état du capteur en mode économie</li>
+<li>Un pointeur vers la fonction de mesure du capteur</li>
+</ul>
+<p>Références : <a class="el" href="../../df/dd7/consts_8hpp.xhtml#a528da39d9618b46df97d266c87d43ad0">TEMPERATURE_SENSOR</a> <a class="el" href="../../df/dd7/consts_8hpp.xhtml#afd0a73ce1f84326c577640ad33ce208d">TEMPERATURE_SENSOR_NAME</a> <a class="el" href="../../df/dd7/consts_8hpp.xhtml#ac80a6dc8766415d369fe0b3ef95b57a5">SETTING_TEMPERATURE_ENABLED</a> SETTING_TEMPERATURE_ECONOMY_ENABLED <a class="el" href="../../da/dfa/sensor_8cpp.xhtml#a23b1d96f49b969e9e7711fa12f65f26c">sensors</a> <a class="el" href="#aad7d1bb540f52a0a6aed81f3209f79b4">measureTemperature()</a> </p>
+<div class="dynheader">
+Voici le graphe d'appel pour cette fonction :</div>
+<div class="dyncontent">
+<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="../../d0/d3d/temperature_8cpp_ac69c9a2d697216ab21dcab3087b54729_cgraph.svg" width="100%" height="600"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
+</div>
+<div class="dynheader">
+Voici le graphe des appelants de cette fonction :</div>
+<div class="dyncontent">
+<div class="center"><iframe scrolling="no" frameborder="0" src="../../d0/d3d/temperature_8cpp_ac69c9a2d697216ab21dcab3087b54729_icgraph.svg" width="390" height="36"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+</div>
+
+</div>
+</div>
+<a id="aad7d1bb540f52a0a6aed81f3209f79b4" name="aad7d1bb540f52a0a6aed81f3209f79b4"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aad7d1bb540f52a0a6aed81f3209f79b4">&#9670;&#160;</a></span>measureTemperature()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">float measureTemperature </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Mesure la température. </p>
+<p>Récupère la valeur de la température en utilisant la fonction <a class="el" href="../../d3/d42/bme_8hpp.xhtml#ad133b53c06a7eb75ef34a147fc261d20" title="Mesure la température.">readTemperature()</a> et vérifie que la valeur est comprise entre les valeurs définies dans les paramètres.</p>
+<dl class="section return"><dt>Renvoie</dt><dd>La température mesurée.</dd></dl>
+<p>Références : <a class="el" href="../../df/dd7/consts_8hpp.xhtml#a708975faf438924fa182823640d27805">SETTING_TEMPERATURE_MIN</a> <a class="el" href="../../df/dd7/consts_8hpp.xhtml#a124edf844307c827cf37d426e7d32080">SETTING_TEMPERATURE_MAX</a> <a class="el" href="../../df/dd7/consts_8hpp.xhtml#a583a621e4aa2332c4e67d9d387c21065">ACQUISITION_ERROR_VALUE</a> <a class="el" href="../../d3/d42/bme_8hpp.xhtml#ad133b53c06a7eb75ef34a147fc261d20">readTemperature()</a> <a class="el" href="../../d5/d0f/settings_8hpp.xhtml#a1dd1d43dbde1b4dc1481312579689794">getSetting()</a> </p>
+<div class="dynheader">
+Voici le graphe des appelants de cette fonction :</div>
+<div class="dyncontent">
+<div class="center"><iframe scrolling="no" frameborder="0" src="../../d0/d3d/temperature_8cpp_aad7d1bb540f52a0a6aed81f3209f79b4_icgraph.svg" width="599" height="36"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+</div>
+
+</div>
+</div>
 </div><!-- contents -->
 </div><!-- doc-content -->
 <!-- start footer part -->

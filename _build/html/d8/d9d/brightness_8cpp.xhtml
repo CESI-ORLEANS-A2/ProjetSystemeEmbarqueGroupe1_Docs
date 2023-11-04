@@ -5,7 +5,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=11"/>
 <meta name="generator" content="Doxygen 1.10.0"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>Station_Méteo_Groupe_1: Référence du fichier /mnt/d/Cours/10. CESI A2/Blocs/01 - Systeme embarque/Livrables/Station_Meteo_Groupe_1 - Copy/src/peripherals/sensors/brightness.cpp</title>
+<title>Station_Méteo_Groupe_1: Référence du fichier brightness.cpp</title>
 <link href="../../tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="../../jquery.js"></script>
 <script type="text/javascript" src="../../dynsections.js"></script>
@@ -104,11 +104,82 @@ Graphe des dépendances par inclusion de brightness.cpp:</div>
 </div><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="func-members" name="func-members"></a>
 Fonctions</h2></td></tr>
-<tr class="memitem:a59e5cb30912dc734b55dad55bd24203c" id="r_a59e5cb30912dc734b55dad55bd24203c"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d8/d9d/brightness_8cpp_a59e5cb30912dc734b55dad55bd24203c.xhtml#a59e5cb30912dc734b55dad55bd24203c">initBrightnessSensor</a> ()</td></tr>
+<tr class="memitem:a59e5cb30912dc734b55dad55bd24203c" id="r_a59e5cb30912dc734b55dad55bd24203c"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a59e5cb30912dc734b55dad55bd24203c">initBrightnessSensor</a> ()</td></tr>
+<tr class="memdesc:a59e5cb30912dc734b55dad55bd24203c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Initialise le capteur de luminosité.  <br /></td></tr>
 <tr class="separator:a59e5cb30912dc734b55dad55bd24203c"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a2c32985df7b0237802ad70e2e51a0156" id="r_a2c32985df7b0237802ad70e2e51a0156"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d8/d9d/brightness_8cpp_a2c32985df7b0237802ad70e2e51a0156.xhtml#a2c32985df7b0237802ad70e2e51a0156">measureBrightness</a> ()</td></tr>
+<tr class="memitem:a2c32985df7b0237802ad70e2e51a0156" id="r_a2c32985df7b0237802ad70e2e51a0156"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a2c32985df7b0237802ad70e2e51a0156">measureBrightness</a> ()</td></tr>
+<tr class="memdesc:a2c32985df7b0237802ad70e2e51a0156"><td class="mdescLeft">&#160;</td><td class="mdescRight">Mesure la luminosité.  <br /></td></tr>
 <tr class="separator:a2c32985df7b0237802ad70e2e51a0156"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
+<h2 class="groupheader">Documentation des fonctions</h2>
+<a id="a59e5cb30912dc734b55dad55bd24203c" name="a59e5cb30912dc734b55dad55bd24203c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a59e5cb30912dc734b55dad55bd24203c">&#9670;&#160;</a></span>initBrightnessSensor()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void initBrightnessSensor </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Initialise le capteur de luminosité. </p>
+<p>Le capteur est initialiser sous la forme d'une structure <a class="el" href="../../de/d5a/structSensor.xhtml" title="Structure représentant un capteur.">Sensor</a> ajoutée au tableau sensors[]. Cette structure contient :</p><ul>
+<li>L'adresse mémoire Flash du nom du capteur</li>
+<li>L'identifiant associé au paramètre réprésentant l'état du capteur</li>
+<li>L'identifiant associé au paramètre réprésentant l'état du capteur en mode économie</li>
+<li>Un pointeur vers la fonction de mesure du capteur</li>
+</ul>
+<p>Références : <a class="el" href="../../df/dd7/consts_8hpp.xhtml#a36b9c66a7c9f40407e15f82eb7b44144">BRIGHTNESS_SENSOR</a> <a class="el" href="../../df/dd7/consts_8hpp.xhtml#a6c90a359dd127e3f76d312e9d422d005">BRIGHTNESS_SENSOR_NAME</a> <a class="el" href="../../df/dd7/consts_8hpp.xhtml#ad67759f901aeb37a3e78960afd1c3aba">SETTING_BRIGHTNESS_ENABLED</a> SETTING_BRIGHTNESS_ECONOMY_ENABLED <a class="el" href="../../da/dfa/sensor_8cpp.xhtml#a23b1d96f49b969e9e7711fa12f65f26c">sensors</a> <a class="el" href="#a2c32985df7b0237802ad70e2e51a0156">measureBrightness()</a> </p>
+<div class="dynheader">
+Voici le graphe d'appel pour cette fonction :</div>
+<div class="dyncontent">
+<div class="center"><iframe scrolling="no" frameborder="0" src="../../d8/d9d/brightness_8cpp_a59e5cb30912dc734b55dad55bd24203c_cgraph.svg" width="510" height="36"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+</div>
+<div class="dynheader">
+Voici le graphe des appelants de cette fonction :</div>
+<div class="dyncontent">
+<div class="center"><iframe scrolling="no" frameborder="0" src="../../d8/d9d/brightness_8cpp_a59e5cb30912dc734b55dad55bd24203c_icgraph.svg" width="376" height="36"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+</div>
+
+</div>
+</div>
+<a id="a2c32985df7b0237802ad70e2e51a0156" name="a2c32985df7b0237802ad70e2e51a0156"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a2c32985df7b0237802ad70e2e51a0156">&#9670;&#160;</a></span>measureBrightness()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">float measureBrightness </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Mesure la luminosité. </p>
+<p>Récupère la valeur de la luminosité en utilisant la fonction <a class="el" href="../../de/df0/Arduino_8h.xhtml#a2eda513a6bb35bf13675a24711d4e864">analogRead()</a> et vérifie que la valeur est comprise entre les valeurs définies dans les paramètres.</p>
+<dl class="section return"><dt>Renvoie</dt><dd>La luminosité mesurée.</dd></dl>
+<p>Références : <a class="el" href="../../df/dd7/consts_8hpp.xhtml#a6c6697de2d8e5b023eaf0a45a56e35e7">BRIGHTNESS_SENSOR_DEVICE</a> <a class="el" href="../../df/dd7/consts_8hpp.xhtml#a76405540ae466f641990861e419a6be4">SETTING_BRIGHTNESS_LOW</a> <a class="el" href="../../df/dd7/consts_8hpp.xhtml#a853eb71a62b5559b69f2ba711455938b">SETTING_BRIGHTNESS_HIGH</a> <a class="el" href="../../df/dd7/consts_8hpp.xhtml#a583a621e4aa2332c4e67d9d387c21065">ACQUISITION_ERROR_VALUE</a> <a class="el" href="../../d5/d0f/settings_8hpp.xhtml#a1dd1d43dbde1b4dc1481312579689794">getSetting()</a> </p>
+<div class="dynheader">
+Voici le graphe d'appel pour cette fonction :</div>
+<div class="dyncontent">
+<div class="center"><iframe scrolling="no" frameborder="0" src="../../d8/d9d/brightness_8cpp_a2c32985df7b0237802ad70e2e51a0156_cgraph.svg" width="306" height="36"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+</div>
+<div class="dynheader">
+Voici le graphe des appelants de cette fonction :</div>
+<div class="dyncontent">
+<div class="center"><iframe scrolling="no" frameborder="0" src="../../d8/d9d/brightness_8cpp_a2c32985df7b0237802ad70e2e51a0156_icgraph.svg" width="572" height="36"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+</div>
+
+</div>
+</div>
 </div><!-- contents -->
 </div><!-- doc-content -->
 <!-- start footer part -->

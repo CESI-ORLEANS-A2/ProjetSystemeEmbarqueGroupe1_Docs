@@ -1,6 +1,6 @@
 <map id="switchToMaintenanceMode" name="switchToMaintenanceMode">
-<area shape="rect" id="Node000001" title=" " alt="" coords="1019,32,1217,57"/>
-<area shape="rect" id="Node000002" href="$df/d22/configuration_8cpp_a007ee20d2ddf2c89e855b63e6e812b65.xhtml#a007ee20d2ddf2c89e855b63e6e812b65" title=" " alt="" coords="776,7,971,32"/>
+<area shape="rect" id="Node000001" title="Passe en mode maintenance." alt="" coords="1019,32,1217,57"/>
+<area shape="rect" id="Node000002" href="$df/d22/configuration_8cpp_a007ee20d2ddf2c89e855b63e6e812b65.xhtml#a007ee20d2ddf2c89e855b63e6e812b65" title="Exécute une étape de la boucle principale du mode de configuration." alt="" coords="776,7,971,32"/>
 <area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="1005,36,971,32,971,27,1005,30"/>
 <area shape="rect" id="Node000005" href="$d9/d88/mode_8cpp_a5117cd9a1dd27db325ab6540d8d2c983.xhtml#a5117cd9a1dd27db325ab6540d8d2c983" title="Change le mode actuel." alt="" coords="816,56,931,81"/>
 <area shape="poly" id="edge4_Node000001_Node000005" title=" " alt="" coords="1005,58,931,66,931,60,1005,53"/>

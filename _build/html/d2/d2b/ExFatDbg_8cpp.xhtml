@@ -5,7 +5,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=11"/>
 <meta name="generator" content="Doxygen 1.10.0"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>Station_Méteo_Groupe_1: Référence du fichier /mnt/d/Cours/10. CESI A2/Blocs/01 - Systeme embarque/Livrables/Station_Meteo_Groupe_1 - Copy/libs/SdFat/src/ExFatLib/ExFatDbg.cpp</title>
+<title>Station_Méteo_Groupe_1: Référence du fichier ExFatDbg.cpp</title>
 <link href="../../tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="../../jquery.js"></script>
 <script type="text/javascript" src="../../dynsections.js"></script>
@@ -107,46 +107,816 @@ Graphe des dépendances par inclusion de ExFatDbg.cpp:</div>
 </div><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="define-members" name="define-members"></a>
 Macros</h2></td></tr>
-<tr class="memitem:a48717ce4dfab720a9e0f0bf1500e8190" id="r_a48717ce4dfab720a9e0f0bf1500e8190"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d2/d2b/ExFatDbg_8cpp_a48717ce4dfab720a9e0f0bf1500e8190.xhtml#a48717ce4dfab720a9e0f0bf1500e8190">RAW_ROOT</a></td></tr>
+<tr class="memitem:a48717ce4dfab720a9e0f0bf1500e8190" id="r_a48717ce4dfab720a9e0f0bf1500e8190"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a48717ce4dfab720a9e0f0bf1500e8190">RAW_ROOT</a></td></tr>
 <tr class="separator:a48717ce4dfab720a9e0f0bf1500e8190"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="func-members" name="func-members"></a>
 Fonctions</h2></td></tr>
-<tr class="memitem:a55d1092a0a775f867ae2addf15861c3a" id="r_a55d1092a0a775f867ae2addf15861c3a"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d2/d2b/ExFatDbg_8cpp_a55d1092a0a775f867ae2addf15861c3a.xhtml#a55d1092a0a775f867ae2addf15861c3a">printHex</a> (print_t *pr, uint8_t h)</td></tr>
+<tr class="memitem:a55d1092a0a775f867ae2addf15861c3a" id="r_a55d1092a0a775f867ae2addf15861c3a"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a55d1092a0a775f867ae2addf15861c3a">printHex</a> (print_t *pr, uint8_t h)</td></tr>
 <tr class="separator:a55d1092a0a775f867ae2addf15861c3a"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a010065ba4e2c4b16cda8a04db379e892" id="r_a010065ba4e2c4b16cda8a04db379e892"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d2/d2b/ExFatDbg_8cpp_a010065ba4e2c4b16cda8a04db379e892.xhtml#a010065ba4e2c4b16cda8a04db379e892">printHex</a> (print_t *pr, uint16_t val)</td></tr>
+<tr class="memitem:a010065ba4e2c4b16cda8a04db379e892" id="r_a010065ba4e2c4b16cda8a04db379e892"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a010065ba4e2c4b16cda8a04db379e892">printHex</a> (print_t *pr, uint16_t val)</td></tr>
 <tr class="separator:a010065ba4e2c4b16cda8a04db379e892"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a9d7bd8f0b2423a60103830a037f7482d" id="r_a9d7bd8f0b2423a60103830a037f7482d"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d2/d2b/ExFatDbg_8cpp_a9d7bd8f0b2423a60103830a037f7482d.xhtml#a9d7bd8f0b2423a60103830a037f7482d">printHex</a> (print_t *pr, uint32_t val)</td></tr>
+<tr class="memitem:a9d7bd8f0b2423a60103830a037f7482d" id="r_a9d7bd8f0b2423a60103830a037f7482d"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a9d7bd8f0b2423a60103830a037f7482d">printHex</a> (print_t *pr, uint32_t val)</td></tr>
 <tr class="separator:a9d7bd8f0b2423a60103830a037f7482d"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a493dd09bc96dd94a426e9aa49e660a9e" id="r_a493dd09bc96dd94a426e9aa49e660a9e"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d2/d2b/ExFatDbg_8cpp_a493dd09bc96dd94a426e9aa49e660a9e.xhtml#a493dd09bc96dd94a426e9aa49e660a9e">printHex64</a> (print_t *pr, uint64_t n)</td></tr>
+<tr class="memitem:a493dd09bc96dd94a426e9aa49e660a9e" id="r_a493dd09bc96dd94a426e9aa49e660a9e"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a493dd09bc96dd94a426e9aa49e660a9e">printHex64</a> (print_t *pr, uint64_t n)</td></tr>
 <tr class="separator:a493dd09bc96dd94a426e9aa49e660a9e"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ad41fd2acf165b8571304d1690d92ffdb" id="r_ad41fd2acf165b8571304d1690d92ffdb"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d2/d2b/ExFatDbg_8cpp_ad41fd2acf165b8571304d1690d92ffdb.xhtml#ad41fd2acf165b8571304d1690d92ffdb">println64</a> (print_t *pr, uint64_t n)</td></tr>
+<tr class="memitem:ad41fd2acf165b8571304d1690d92ffdb" id="r_ad41fd2acf165b8571304d1690d92ffdb"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ad41fd2acf165b8571304d1690d92ffdb">println64</a> (print_t *pr, uint64_t n)</td></tr>
 <tr class="separator:ad41fd2acf165b8571304d1690d92ffdb"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a92003b11946fc663c968d70541be0b21" id="r_a92003b11946fc663c968d70541be0b21"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d2/d2b/ExFatDbg_8cpp_a92003b11946fc663c968d70541be0b21.xhtml#a92003b11946fc663c968d70541be0b21">dmpDirData</a> (print_t *pr, <a class="el" href="../../da/d3c/structDirGeneric__t.xhtml">DirGeneric_t</a> *dir)</td></tr>
+<tr class="memitem:a92003b11946fc663c968d70541be0b21" id="r_a92003b11946fc663c968d70541be0b21"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a92003b11946fc663c968d70541be0b21">dmpDirData</a> (print_t *pr, <a class="el" href="../../da/d3c/structDirGeneric__t.xhtml">DirGeneric_t</a> *dir)</td></tr>
 <tr class="separator:a92003b11946fc663c968d70541be0b21"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a84db9fad12f39d69b753d3a38db36585" id="r_a84db9fad12f39d69b753d3a38db36585"><td class="memItemLeft" align="right" valign="top">static uint16_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d2/d2b/ExFatDbg_8cpp_a84db9fad12f39d69b753d3a38db36585.xhtml#a84db9fad12f39d69b753d3a38db36585">exFatDirChecksum</a> (const void *dir, uint16_t checksum)</td></tr>
+<tr class="memitem:a84db9fad12f39d69b753d3a38db36585" id="r_a84db9fad12f39d69b753d3a38db36585"><td class="memItemLeft" align="right" valign="top">static uint16_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a84db9fad12f39d69b753d3a38db36585">exFatDirChecksum</a> (const void *dir, uint16_t checksum)</td></tr>
 <tr class="separator:a84db9fad12f39d69b753d3a38db36585"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aa418b27debe31a2fa47430e56bb64001" id="r_aa418b27debe31a2fa47430e56bb64001"><td class="memItemLeft" align="right" valign="top">static uint16_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d2/d2b/ExFatDbg_8cpp_aa418b27debe31a2fa47430e56bb64001.xhtml#aa418b27debe31a2fa47430e56bb64001">hashDir</a> (<a class="el" href="../../d1/d4a/structDirName__t.xhtml">DirName_t</a> *dir, uint16_t hash)</td></tr>
+<tr class="memitem:aa418b27debe31a2fa47430e56bb64001" id="r_aa418b27debe31a2fa47430e56bb64001"><td class="memItemLeft" align="right" valign="top">static uint16_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aa418b27debe31a2fa47430e56bb64001">hashDir</a> (<a class="el" href="../../d1/d4a/structDirName__t.xhtml">DirName_t</a> *dir, uint16_t hash)</td></tr>
 <tr class="separator:aa418b27debe31a2fa47430e56bb64001"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a7f7a4b73b05a14880fcafc67b99b8141" id="r_a7f7a4b73b05a14880fcafc67b99b8141"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d2/d2b/ExFatDbg_8cpp_a7f7a4b73b05a14880fcafc67b99b8141.xhtml#a7f7a4b73b05a14880fcafc67b99b8141">printDateTime</a> (print_t *pr, uint32_t timeDate, uint8_t ms, int8_t tz)</td></tr>
+<tr class="memitem:a7f7a4b73b05a14880fcafc67b99b8141" id="r_a7f7a4b73b05a14880fcafc67b99b8141"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a7f7a4b73b05a14880fcafc67b99b8141">printDateTime</a> (print_t *pr, uint32_t timeDate, uint8_t ms, int8_t tz)</td></tr>
 <tr class="separator:a7f7a4b73b05a14880fcafc67b99b8141"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ac5ecbfeadb26dff8a5fd792d6c4200ca" id="r_ac5ecbfeadb26dff8a5fd792d6c4200ca"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d2/d2b/ExFatDbg_8cpp_ac5ecbfeadb26dff8a5fd792d6c4200ca.xhtml#ac5ecbfeadb26dff8a5fd792d6c4200ca">printDirBitmap</a> (print_t *pr, <a class="el" href="../../d6/d75/structDirBitmap__t.xhtml">DirBitmap_t</a> *dir)</td></tr>
+<tr class="memitem:ac5ecbfeadb26dff8a5fd792d6c4200ca" id="r_ac5ecbfeadb26dff8a5fd792d6c4200ca"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ac5ecbfeadb26dff8a5fd792d6c4200ca">printDirBitmap</a> (print_t *pr, <a class="el" href="../../d6/d75/structDirBitmap__t.xhtml">DirBitmap_t</a> *dir)</td></tr>
 <tr class="separator:ac5ecbfeadb26dff8a5fd792d6c4200ca"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ae03827835f2bd9f7e6f917762b68a18b" id="r_ae03827835f2bd9f7e6f917762b68a18b"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d2/d2b/ExFatDbg_8cpp_ae03827835f2bd9f7e6f917762b68a18b.xhtml#ae03827835f2bd9f7e6f917762b68a18b">printDirFile</a> (print_t *pr, <a class="el" href="../../d1/de7/structDirFile__t.xhtml">DirFile_t</a> *dir)</td></tr>
+<tr class="memitem:ae03827835f2bd9f7e6f917762b68a18b" id="r_ae03827835f2bd9f7e6f917762b68a18b"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ae03827835f2bd9f7e6f917762b68a18b">printDirFile</a> (print_t *pr, <a class="el" href="../../d1/de7/structDirFile__t.xhtml">DirFile_t</a> *dir)</td></tr>
 <tr class="separator:ae03827835f2bd9f7e6f917762b68a18b"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a759e3b0b50f25b2eac73958b19e272c4" id="r_a759e3b0b50f25b2eac73958b19e272c4"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d2/d2b/ExFatDbg_8cpp_a759e3b0b50f25b2eac73958b19e272c4.xhtml#a759e3b0b50f25b2eac73958b19e272c4">printDirLabel</a> (print_t *pr, <a class="el" href="../../d4/d55/structDirLabel__t.xhtml">DirLabel_t</a> *dir)</td></tr>
+<tr class="memitem:a759e3b0b50f25b2eac73958b19e272c4" id="r_a759e3b0b50f25b2eac73958b19e272c4"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a759e3b0b50f25b2eac73958b19e272c4">printDirLabel</a> (print_t *pr, <a class="el" href="../../d4/d55/structDirLabel__t.xhtml">DirLabel_t</a> *dir)</td></tr>
 <tr class="separator:a759e3b0b50f25b2eac73958b19e272c4"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a4ff55cd48478cd82f52ced6d1761c669" id="r_a4ff55cd48478cd82f52ced6d1761c669"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d2/d2b/ExFatDbg_8cpp_a4ff55cd48478cd82f52ced6d1761c669.xhtml#a4ff55cd48478cd82f52ced6d1761c669">printDirName</a> (print_t *pr, <a class="el" href="../../d1/d4a/structDirName__t.xhtml">DirName_t</a> *dir)</td></tr>
+<tr class="memitem:a4ff55cd48478cd82f52ced6d1761c669" id="r_a4ff55cd48478cd82f52ced6d1761c669"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a4ff55cd48478cd82f52ced6d1761c669">printDirName</a> (print_t *pr, <a class="el" href="../../d1/d4a/structDirName__t.xhtml">DirName_t</a> *dir)</td></tr>
 <tr class="separator:a4ff55cd48478cd82f52ced6d1761c669"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:af046c4d16791cc6190975bdaf947e1f1" id="r_af046c4d16791cc6190975bdaf947e1f1"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d2/d2b/ExFatDbg_8cpp_af046c4d16791cc6190975bdaf947e1f1.xhtml#af046c4d16791cc6190975bdaf947e1f1">printDirStream</a> (print_t *pr, <a class="el" href="../../d1/d7d/structDirStream__t.xhtml">DirStream_t</a> *dir)</td></tr>
+<tr class="memitem:af046c4d16791cc6190975bdaf947e1f1" id="r_af046c4d16791cc6190975bdaf947e1f1"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#af046c4d16791cc6190975bdaf947e1f1">printDirStream</a> (print_t *pr, <a class="el" href="../../d1/d7d/structDirStream__t.xhtml">DirStream_t</a> *dir)</td></tr>
 <tr class="separator:af046c4d16791cc6190975bdaf947e1f1"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aebce2e5fd37620e519e5439261ae5c90" id="r_aebce2e5fd37620e519e5439261ae5c90"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d2/d2b/ExFatDbg_8cpp_aebce2e5fd37620e519e5439261ae5c90.xhtml#aebce2e5fd37620e519e5439261ae5c90">printDirUpcase</a> (print_t *pr, <a class="el" href="../../d4/d81/structDirUpcase__t.xhtml">DirUpcase_t</a> *dir)</td></tr>
+<tr class="memitem:aebce2e5fd37620e519e5439261ae5c90" id="r_aebce2e5fd37620e519e5439261ae5c90"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aebce2e5fd37620e519e5439261ae5c90">printDirUpcase</a> (print_t *pr, <a class="el" href="../../d4/d81/structDirUpcase__t.xhtml">DirUpcase_t</a> *dir)</td></tr>
 <tr class="separator:aebce2e5fd37620e519e5439261ae5c90"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a0ac0d94135ef846b6853c511e174a0ab" id="r_a0ac0d94135ef846b6853c511e174a0ab"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d2/d2b/ExFatDbg_8cpp_a0ac0d94135ef846b6853c511e174a0ab.xhtml#a0ac0d94135ef846b6853c511e174a0ab">printExFatBoot</a> (print_t *pr, <a class="el" href="../../dc/d87/FsStructs_8h_a5d8a8c0484f9e3accc04c465f6ae3d37.xhtml#a5d8a8c0484f9e3accc04c465f6ae3d37">pbs_t</a> *pbs)</td></tr>
+<tr class="memitem:a0ac0d94135ef846b6853c511e174a0ab" id="r_a0ac0d94135ef846b6853c511e174a0ab"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a0ac0d94135ef846b6853c511e174a0ab">printExFatBoot</a> (print_t *pr, <a class="el" href="../../dc/d87/FsStructs_8h.xhtml#a5d8a8c0484f9e3accc04c465f6ae3d37">pbs_t</a> *pbs)</td></tr>
 <tr class="separator:a0ac0d94135ef846b6853c511e174a0ab"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a049d69791ea628d050711ca6e7dce105" id="r_a049d69791ea628d050711ca6e7dce105"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d2/d2b/ExFatDbg_8cpp_a049d69791ea628d050711ca6e7dce105.xhtml#a049d69791ea628d050711ca6e7dce105">printMbr</a> (print_t *pr, <a class="el" href="../../dc/d87/FsStructs_8h_aadd74bf76d4d601503b43bc9f7d7420c.xhtml#aadd74bf76d4d601503b43bc9f7d7420c">MbrSector_t</a> *mbr)</td></tr>
+<tr class="memitem:a049d69791ea628d050711ca6e7dce105" id="r_a049d69791ea628d050711ca6e7dce105"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a049d69791ea628d050711ca6e7dce105">printMbr</a> (print_t *pr, <a class="el" href="../../dc/d87/FsStructs_8h.xhtml#aadd74bf76d4d601503b43bc9f7d7420c">MbrSector_t</a> *mbr)</td></tr>
 <tr class="separator:a049d69791ea628d050711ca6e7dce105"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
+<h2 class="groupheader">Documentation des macros</h2>
+<a id="a48717ce4dfab720a9e0f0bf1500e8190" name="a48717ce4dfab720a9e0f0bf1500e8190"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a48717ce4dfab720a9e0f0bf1500e8190">&#9670;&#160;</a></span>RAW_ROOT</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define RAW_ROOT</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<h2 class="groupheader">Documentation des fonctions</h2>
+<a id="a92003b11946fc663c968d70541be0b21" name="a92003b11946fc663c968d70541be0b21"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a92003b11946fc663c968d70541be0b21">&#9670;&#160;</a></span>dmpDirData()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static void dmpDirData </td>
+          <td>(</td>
+          <td class="paramtype">print_t *&#160;</td>
+          <td class="paramname"><em>pr</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="../../da/d3c/structDirGeneric__t.xhtml">DirGeneric_t</a> *&#160;</td>
+          <td class="paramname"><em>dir</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<div class="dynheader">
+Voici le graphe d'appel pour cette fonction :</div>
+<div class="dyncontent">
+<div class="center"><iframe scrolling="no" frameborder="0" src="../../d2/d2b/ExFatDbg_8cpp_a92003b11946fc663c968d70541be0b21_cgraph.svg" width="239" height="36"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+</div>
+<div class="dynheader">
+Voici le graphe des appelants de cette fonction :</div>
+<div class="dyncontent">
+<div class="center"><iframe scrolling="no" frameborder="0" src="../../d2/d2b/ExFatDbg_8cpp_a92003b11946fc663c968d70541be0b21_icgraph.svg" width="328" height="36"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+</div>
+
+</div>
+</div>
+<a id="a84db9fad12f39d69b753d3a38db36585" name="a84db9fad12f39d69b753d3a38db36585"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a84db9fad12f39d69b753d3a38db36585">&#9670;&#160;</a></span>exFatDirChecksum()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static uint16_t exFatDirChecksum </td>
+          <td>(</td>
+          <td class="paramtype">const void *&#160;</td>
+          <td class="paramname"><em>dir</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">uint16_t&#160;</td>
+          <td class="paramname"><em>checksum</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<div class="dynheader">
+Voici le graphe des appelants de cette fonction :</div>
+<div class="dyncontent">
+<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="../../d2/d2b/ExFatDbg_8cpp_a84db9fad12f39d69b753d3a38db36585_icgraph.svg" width="100%" height="600"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
+</div>
+
+</div>
+</div>
+<a id="aa418b27debe31a2fa47430e56bb64001" name="aa418b27debe31a2fa47430e56bb64001"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa418b27debe31a2fa47430e56bb64001">&#9670;&#160;</a></span>hashDir()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static uint16_t hashDir </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="../../d1/d4a/structDirName__t.xhtml">DirName_t</a> *&#160;</td>
+          <td class="paramname"><em>dir</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">uint16_t&#160;</td>
+          <td class="paramname"><em>hash</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<div class="dynheader">
+Voici le graphe d'appel pour cette fonction :</div>
+<div class="dyncontent">
+<div class="center"><iframe scrolling="no" frameborder="0" src="../../d2/d2b/ExFatDbg_8cpp_aa418b27debe31a2fa47430e56bb64001_cgraph.svg" width="627" height="110"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+</div>
+<div class="dynheader">
+Voici le graphe des appelants de cette fonction :</div>
+<div class="dyncontent">
+<div class="center"><iframe scrolling="no" frameborder="0" src="../../d2/d2b/ExFatDbg_8cpp_aa418b27debe31a2fa47430e56bb64001_icgraph.svg" width="299" height="36"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+</div>
+
+</div>
+</div>
+<a id="a7f7a4b73b05a14880fcafc67b99b8141" name="a7f7a4b73b05a14880fcafc67b99b8141"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a7f7a4b73b05a14880fcafc67b99b8141">&#9670;&#160;</a></span>printDateTime()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static void printDateTime </td>
+          <td>(</td>
+          <td class="paramtype">print_t *&#160;</td>
+          <td class="paramname"><em>pr</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">uint32_t&#160;</td>
+          <td class="paramname"><em>timeDate</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">uint8_t&#160;</td>
+          <td class="paramname"><em>ms</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int8_t&#160;</td>
+          <td class="paramname"><em>tz</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<div class="dynheader">
+Voici le graphe d'appel pour cette fonction :</div>
+<div class="dyncontent">
+<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="../../d2/d2b/ExFatDbg_8cpp_a7f7a4b73b05a14880fcafc67b99b8141_cgraph.svg" width="100%" height="364"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
+</div>
+<div class="dynheader">
+Voici le graphe des appelants de cette fonction :</div>
+<div class="dyncontent">
+<div class="center"><iframe scrolling="no" frameborder="0" src="../../d2/d2b/ExFatDbg_8cpp_a7f7a4b73b05a14880fcafc67b99b8141_icgraph.svg" width="486" height="36"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+</div>
+
+</div>
+</div>
+<a id="ac5ecbfeadb26dff8a5fd792d6c4200ca" name="ac5ecbfeadb26dff8a5fd792d6c4200ca"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac5ecbfeadb26dff8a5fd792d6c4200ca">&#9670;&#160;</a></span>printDirBitmap()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static void printDirBitmap </td>
+          <td>(</td>
+          <td class="paramtype">print_t *&#160;</td>
+          <td class="paramname"><em>pr</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="../../d6/d75/structDirBitmap__t.xhtml">DirBitmap_t</a> *&#160;</td>
+          <td class="paramname"><em>dir</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<div class="dynheader">
+Voici le graphe d'appel pour cette fonction :</div>
+<div class="dyncontent">
+<div class="center"><iframe scrolling="no" frameborder="0" src="../../d2/d2b/ExFatDbg_8cpp_ac5ecbfeadb26dff8a5fd792d6c4200ca_cgraph.svg" width="258" height="135"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+</div>
+<div class="dynheader">
+Voici le graphe des appelants de cette fonction :</div>
+<div class="dyncontent">
+<div class="center"><iframe scrolling="no" frameborder="0" src="../../d2/d2b/ExFatDbg_8cpp_ac5ecbfeadb26dff8a5fd792d6c4200ca_icgraph.svg" width="346" height="36"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+</div>
+
+</div>
+</div>
+<a id="ae03827835f2bd9f7e6f917762b68a18b" name="ae03827835f2bd9f7e6f917762b68a18b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae03827835f2bd9f7e6f917762b68a18b">&#9670;&#160;</a></span>printDirFile()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static void printDirFile </td>
+          <td>(</td>
+          <td class="paramtype">print_t *&#160;</td>
+          <td class="paramname"><em>pr</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="../../d1/de7/structDirFile__t.xhtml">DirFile_t</a> *&#160;</td>
+          <td class="paramname"><em>dir</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<div class="dynheader">
+Voici le graphe d'appel pour cette fonction :</div>
+<div class="dyncontent">
+<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="../../d2/d2b/ExFatDbg_8cpp_ae03827835f2bd9f7e6f917762b68a18b_cgraph.svg" width="100%" height="419"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
+</div>
+<div class="dynheader">
+Voici le graphe des appelants de cette fonction :</div>
+<div class="dyncontent">
+<div class="center"><iframe scrolling="no" frameborder="0" src="../../d2/d2b/ExFatDbg_8cpp_ae03827835f2bd9f7e6f917762b68a18b_icgraph.svg" width="322" height="36"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+</div>
+
+</div>
+</div>
+<a id="a759e3b0b50f25b2eac73958b19e272c4" name="a759e3b0b50f25b2eac73958b19e272c4"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a759e3b0b50f25b2eac73958b19e272c4">&#9670;&#160;</a></span>printDirLabel()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static void printDirLabel </td>
+          <td>(</td>
+          <td class="paramtype">print_t *&#160;</td>
+          <td class="paramname"><em>pr</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="../../d4/d55/structDirLabel__t.xhtml">DirLabel_t</a> *&#160;</td>
+          <td class="paramname"><em>dir</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<div class="dynheader">
+Voici le graphe des appelants de cette fonction :</div>
+<div class="dyncontent">
+<div class="center"><iframe scrolling="no" frameborder="0" src="../../d2/d2b/ExFatDbg_8cpp_a759e3b0b50f25b2eac73958b19e272c4_icgraph.svg" width="334" height="36"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+</div>
+
+</div>
+</div>
+<a id="a4ff55cd48478cd82f52ced6d1761c669" name="a4ff55cd48478cd82f52ced6d1761c669"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a4ff55cd48478cd82f52ced6d1761c669">&#9670;&#160;</a></span>printDirName()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static void printDirName </td>
+          <td>(</td>
+          <td class="paramtype">print_t *&#160;</td>
+          <td class="paramname"><em>pr</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="../../d1/d4a/structDirName__t.xhtml">DirName_t</a> *&#160;</td>
+          <td class="paramname"><em>dir</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<div class="dynheader">
+Voici le graphe d'appel pour cette fonction :</div>
+<div class="dyncontent">
+<div class="center"><iframe scrolling="no" frameborder="0" src="../../d2/d2b/ExFatDbg_8cpp_a4ff55cd48478cd82f52ced6d1761c669_cgraph.svg" width="244" height="36"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+</div>
+<div class="dynheader">
+Voici le graphe des appelants de cette fonction :</div>
+<div class="dyncontent">
+<div class="center"><iframe scrolling="no" frameborder="0" src="../../d2/d2b/ExFatDbg_8cpp_a4ff55cd48478cd82f52ced6d1761c669_icgraph.svg" width="338" height="36"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+</div>
+
+</div>
+</div>
+<a id="af046c4d16791cc6190975bdaf947e1f1" name="af046c4d16791cc6190975bdaf947e1f1"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af046c4d16791cc6190975bdaf947e1f1">&#9670;&#160;</a></span>printDirStream()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static void printDirStream </td>
+          <td>(</td>
+          <td class="paramtype">print_t *&#160;</td>
+          <td class="paramname"><em>pr</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="../../d1/d7d/structDirStream__t.xhtml">DirStream_t</a> *&#160;</td>
+          <td class="paramname"><em>dir</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<div class="dynheader">
+Voici le graphe d'appel pour cette fonction :</div>
+<div class="dyncontent">
+<div class="center"><iframe scrolling="no" frameborder="0" src="../../d2/d2b/ExFatDbg_8cpp_af046c4d16791cc6190975bdaf947e1f1_cgraph.svg" width="258" height="184"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+</div>
+<div class="dynheader">
+Voici le graphe des appelants de cette fonction :</div>
+<div class="dyncontent">
+<div class="center"><iframe scrolling="no" frameborder="0" src="../../d2/d2b/ExFatDbg_8cpp_af046c4d16791cc6190975bdaf947e1f1_icgraph.svg" width="346" height="36"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+</div>
+
+</div>
+</div>
+<a id="aebce2e5fd37620e519e5439261ae5c90" name="aebce2e5fd37620e519e5439261ae5c90"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aebce2e5fd37620e519e5439261ae5c90">&#9670;&#160;</a></span>printDirUpcase()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static void printDirUpcase </td>
+          <td>(</td>
+          <td class="paramtype">print_t *&#160;</td>
+          <td class="paramname"><em>pr</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="../../d4/d81/structDirUpcase__t.xhtml">DirUpcase_t</a> *&#160;</td>
+          <td class="paramname"><em>dir</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<div class="dynheader">
+Voici le graphe d'appel pour cette fonction :</div>
+<div class="dyncontent">
+<div class="center"><iframe scrolling="no" frameborder="0" src="../../d2/d2b/ExFatDbg_8cpp_aebce2e5fd37620e519e5439261ae5c90_cgraph.svg" width="258" height="135"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+</div>
+<div class="dynheader">
+Voici le graphe des appelants de cette fonction :</div>
+<div class="dyncontent">
+<div class="center"><iframe scrolling="no" frameborder="0" src="../../d2/d2b/ExFatDbg_8cpp_aebce2e5fd37620e519e5439261ae5c90_icgraph.svg" width="346" height="36"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+</div>
+
+</div>
+</div>
+<a id="a0ac0d94135ef846b6853c511e174a0ab" name="a0ac0d94135ef846b6853c511e174a0ab"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a0ac0d94135ef846b6853c511e174a0ab">&#9670;&#160;</a></span>printExFatBoot()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static void printExFatBoot </td>
+          <td>(</td>
+          <td class="paramtype">print_t *&#160;</td>
+          <td class="paramname"><em>pr</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="../../dc/d87/FsStructs_8h.xhtml#a5d8a8c0484f9e3accc04c465f6ae3d37">pbs_t</a> *&#160;</td>
+          <td class="paramname"><em>pbs</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<div class="dynheader">
+Voici le graphe d'appel pour cette fonction :</div>
+<div class="dyncontent">
+<div class="center"><iframe scrolling="no" frameborder="0" src="../../d2/d2b/ExFatDbg_8cpp_a0ac0d94135ef846b6853c511e174a0ab_cgraph.svg" width="271" height="234"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+</div>
+<div class="dynheader">
+Voici le graphe des appelants de cette fonction :</div>
+<div class="dyncontent">
+<div class="center"><iframe scrolling="no" frameborder="0" src="../../d2/d2b/ExFatDbg_8cpp_a0ac0d94135ef846b6853c511e174a0ab_icgraph.svg" width="371" height="36"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+</div>
+
+</div>
+</div>
+<a id="a010065ba4e2c4b16cda8a04db379e892" name="a010065ba4e2c4b16cda8a04db379e892"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a010065ba4e2c4b16cda8a04db379e892">&#9670;&#160;</a></span>printHex() <span class="overload">[1/3]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static void printHex </td>
+          <td>(</td>
+          <td class="paramtype">print_t *&#160;</td>
+          <td class="paramname"><em>pr</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">uint16_t&#160;</td>
+          <td class="paramname"><em>val</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a9d7bd8f0b2423a60103830a037f7482d" name="a9d7bd8f0b2423a60103830a037f7482d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a9d7bd8f0b2423a60103830a037f7482d">&#9670;&#160;</a></span>printHex() <span class="overload">[2/3]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static void printHex </td>
+          <td>(</td>
+          <td class="paramtype">print_t *&#160;</td>
+          <td class="paramname"><em>pr</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">uint32_t&#160;</td>
+          <td class="paramname"><em>val</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a55d1092a0a775f867ae2addf15861c3a" name="a55d1092a0a775f867ae2addf15861c3a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a55d1092a0a775f867ae2addf15861c3a">&#9670;&#160;</a></span>printHex() <span class="overload">[3/3]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static void printHex </td>
+          <td>(</td>
+          <td class="paramtype">print_t *&#160;</td>
+          <td class="paramname"><em>pr</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">uint8_t&#160;</td>
+          <td class="paramname"><em>h</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p>Copyright (c) 2011-2022 Bill Greiman This file is part of the SdFat library for SD memory cards.</p>
+<p>MIT License</p>
+<p>Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:</p>
+<p>The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.</p>
+<p>THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE. </p>
+<div class="dynheader">
+Voici le graphe des appelants de cette fonction :</div>
+<div class="dyncontent">
+<div class="center"><iframe scrolling="no" frameborder="0" src="../../d2/d2b/ExFatDbg_8cpp_a55d1092a0a775f867ae2addf15861c3a_icgraph.svg" width="586" height="431"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+</div>
+
+</div>
+</div>
+<a id="a493dd09bc96dd94a426e9aa49e660a9e" name="a493dd09bc96dd94a426e9aa49e660a9e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a493dd09bc96dd94a426e9aa49e660a9e">&#9670;&#160;</a></span>printHex64()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static void printHex64 </td>
+          <td>(</td>
+          <td class="paramtype">print_t *&#160;</td>
+          <td class="paramname"><em>pr</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">uint64_t&#160;</td>
+          <td class="paramname"><em>n</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<div class="dynheader">
+Voici le graphe des appelants de cette fonction :</div>
+<div class="dyncontent">
+<div class="center"><iframe scrolling="no" frameborder="0" src="../../d2/d2b/ExFatDbg_8cpp_a493dd09bc96dd94a426e9aa49e660a9e_icgraph.svg" width="514" height="36"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+</div>
+
+</div>
+</div>
+<a id="ad41fd2acf165b8571304d1690d92ffdb" name="ad41fd2acf165b8571304d1690d92ffdb"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad41fd2acf165b8571304d1690d92ffdb">&#9670;&#160;</a></span>println64()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static void println64 </td>
+          <td>(</td>
+          <td class="paramtype">print_t *&#160;</td>
+          <td class="paramname"><em>pr</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">uint64_t&#160;</td>
+          <td class="paramname"><em>n</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<div class="dynheader">
+Voici le graphe des appelants de cette fonction :</div>
+<div class="dyncontent">
+<div class="center"><iframe scrolling="no" frameborder="0" src="../../d2/d2b/ExFatDbg_8cpp_ad41fd2acf165b8571304d1690d92ffdb_icgraph.svg" width="500" height="184"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+</div>
+
+</div>
+</div>
+<a id="a049d69791ea628d050711ca6e7dce105" name="a049d69791ea628d050711ca6e7dce105"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a049d69791ea628d050711ca6e7dce105">&#9670;&#160;</a></span>printMbr()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static void printMbr </td>
+          <td>(</td>
+          <td class="paramtype">print_t *&#160;</td>
+          <td class="paramname"><em>pr</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="../../dc/d87/FsStructs_8h.xhtml#aadd74bf76d4d601503b43bc9f7d7420c">MbrSector_t</a> *&#160;</td>
+          <td class="paramname"><em>mbr</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<div class="dynheader">
+Voici le graphe d'appel pour cette fonction :</div>
+<div class="dyncontent">
+<div class="center"><iframe scrolling="no" frameborder="0" src="../../d2/d2b/ExFatDbg_8cpp_a049d69791ea628d050711ca6e7dce105_cgraph.svg" width="215" height="135"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+</div>
+<div class="dynheader">
+Voici le graphe des appelants de cette fonction :</div>
+<div class="dyncontent">
+<div class="center"><iframe scrolling="no" frameborder="0" src="../../d2/d2b/ExFatDbg_8cpp_a049d69791ea628d050711ca6e7dce105_icgraph.svg" width="331" height="36"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+</div>
+
+</div>
+</div>
 </div><!-- contents -->
 </div><!-- doc-content -->
 <!-- start footer part -->

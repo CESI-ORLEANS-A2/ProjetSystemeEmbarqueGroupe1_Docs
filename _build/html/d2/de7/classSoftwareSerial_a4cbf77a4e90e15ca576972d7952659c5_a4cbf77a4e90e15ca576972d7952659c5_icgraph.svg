@@ -102,7 +102,7 @@ var sectionId = 'dynsection-1';
 <!-- Node4 -->
 <g id="Node000004" class="node">
 <title>Node4</title>
-<g id="a_Node000004"><a xlink:href="../../d9/ddd/economy_8cpp_a35740c7a73b48d918cb4e6d891d46bed.xhtml#a35740c7a73b48d918cb4e6d891d46bed" target="_top" xlink:title=" ">
+<g id="a_Node000004"><a xlink:href="../../d9/ddd/economy_8cpp_a35740c7a73b48d918cb4e6d891d46bed.xhtml#a35740c7a73b48d918cb4e6d891d46bed" target="_top" xlink:title="Exécute une étape de la boucle principale du mode économique.">
 <polygon fill="white" stroke="#666666" points="286,-93 160,-93 160,-74 286,-74 286,-93"/>
 <text text-anchor="middle" x="223" y="-81" font-family="Helvetica,sans-Serif" font-size="10.00">runEconomyModeStep</text>
 </a>
@@ -120,7 +120,7 @@ var sectionId = 'dynsection-1';
 <!-- Node7 -->
 <g id="Node000007" class="node">
 <title>Node7</title>
-<g id="a_Node000007"><a xlink:href="../../d6/d46/maintenance_8cpp_ae80c7faecffa585182b14e2ee396009e.xhtml#ae80c7faecffa585182b14e2ee396009e" target="_top" xlink:title=" ">
+<g id="a_Node000007"><a xlink:href="../../d6/d46/maintenance_8cpp_ae80c7faecffa585182b14e2ee396009e.xhtml#ae80c7faecffa585182b14e2ee396009e" target="_top" xlink:title="Exécute une étape de la boucle principale du mode maintenance.">
 <polygon fill="white" stroke="#666666" points="295,-56 151,-56 151,-37 295,-37 295,-56"/>
 <text text-anchor="middle" x="223" y="-44" font-family="Helvetica,sans-Serif" font-size="10.00">runMaintenanceModeStep</text>
 </a>
@@ -138,7 +138,7 @@ var sectionId = 'dynsection-1';
 <!-- Node8 -->
 <g id="Node000008" class="node">
 <title>Node8</title>
-<g id="a_Node000008"><a xlink:href="../../df/d92/standard_8cpp_ad0b3e86793f7441084351fc2de4d4c45.xhtml#ad0b3e86793f7441084351fc2de4d4c45" target="_top" xlink:title=" ">
+<g id="a_Node000008"><a xlink:href="../../df/d92/standard_8cpp_ad0b3e86793f7441084351fc2de4d4c45.xhtml#ad0b3e86793f7441084351fc2de4d4c45" target="_top" xlink:title="Exécute une étape de la boucle principale du mode standard.">
 <polygon fill="white" stroke="#666666" points="285.5,-19 160.5,-19 160.5,0 285.5,0 285.5,-19"/>
 <text text-anchor="middle" x="223" y="-7" font-family="Helvetica,sans-Serif" font-size="10.00">runStandardModeStep</text>
 </a>

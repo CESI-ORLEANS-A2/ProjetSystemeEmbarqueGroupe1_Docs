@@ -1,0 +1,17 @@
+<map id="BME280::init" name="BME280::init">
+<area shape="rect" id="Node000001" title=" " alt="" coords="552,55,656,80"/>
+<area shape="rect" id="Node000002" href="$d4/d82/bme_8cpp.xhtml#a60b50a3dd4d18262c0376da53233f071" title="Initialise le capteur BME280." alt="" coords="432,55,504,80"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="538,70,504,70,504,65,538,65"/>
+<area shape="rect" id="Node000003" href="$dd/d8e/humidity_8cpp.xhtml#a8813b724c24b006d720ff4e9be164093" title="Initialise le capteur d&#39;humidité." alt="" coords="226,5,373,31"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="418,55,383,45,345,33,346,28,385,39,420,50"/>
+<area shape="rect" id="Node000006" href="$d8/ddf/pressure_8cpp.xhtml#afeb7254ac3d1603fe28432de687313fb" title="Initialise le capteur de pression." alt="" coords="228,55,371,80"/>
+<area shape="poly" id="edge5_Node000002_Node000006" title=" " alt="" coords="418,70,371,70,371,65,418,65"/>
+<area shape="rect" id="Node000007" href="$d0/d3d/temperature_8cpp.xhtml#ac69c9a2d697216ab21dcab3087b54729" title="Initialise le capteur de température." alt="" coords="215,104,384,129"/>
+<area shape="poly" id="edge7_Node000002_Node000007" title=" " alt="" coords="419,84,344,106,343,101,418,79"/>
+<area shape="rect" id="Node000004" href="$de/dfb/src_2main_8cpp.xhtml#a4fc01d736fe50cf5b977f755b675f11d" title=" " alt="" coords="108,55,167,80"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="240,37,215,45,168,60,166,55,214,39,239,32"/>
+<area shape="rect" id="Node000005" href="$d2/d81/libs_2Arduino__AVR_2main_8cpp.xhtml#a840291bc02cba5474a4cb46a9b9566fe" title=" " alt="" coords="5,55,60,80"/>
+<area shape="poly" id="edge4_Node000004_Node000005" title=" " alt="" coords="94,70,60,70,60,65,94,65"/>
+<area shape="poly" id="edge6_Node000006_Node000004" title=" " alt="" coords="214,70,167,70,167,65,214,65"/>
+<area shape="poly" id="edge8_Node000007_Node000004" title=" " alt="" coords="242,102,214,94,166,79,168,74,215,89,243,97"/>
+</map>

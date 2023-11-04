@@ -1,0 +1,114 @@
+<map id="setup" name="setup">
+<area shape="rect" id="Node000001" title=" " alt="" coords="5,552,64,577"/>
+<area shape="rect" id="Node000002" href="$d5/d45/wiring__digital_8c.xhtml#ab3e9bc73864eb6276f87aa94078224b6" title=" " alt="" coords="622,5,718,31"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="34,551,41,480,56,375,78,271,93,229,110,200,164,150,227,109,295,78,365,55,434,38,500,27,608,16,609,22,501,32,436,43,366,60,297,83,229,114,168,154,114,204,98,231,83,272,61,376,47,480,40,552"/>
+<area shape="rect" id="Node000004" href="$d8/d9d/brightness_8cpp.xhtml#a59e5cb30912dc734b55dad55bd24203c" title="Initialise le capteur de luminosité." alt="" coords="135,281,291,307"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="34,551,39,510,51,453,73,391,90,361,110,335,127,321,146,310,149,314,130,325,114,339,94,364,78,393,56,455,44,511,39,552"/>
+<area shape="rect" id="Node000007" href="$d9/d52/buttons_8cpp.xhtml#a27d3ba5afb772cc36c9a432c28975ace" title="Initialise les boutons (sans les interruptions)." alt="" coords="166,400,259,425"/>
+<area shape="poly" id="edge6_Node000001_Node000007" title=" " alt="" coords="38,551,62,495,83,463,110,436,130,425,151,417,153,422,132,429,114,440,87,466,67,498,42,553"/>
+<area shape="rect" id="Node000009" href="$d9/d52/buttons_8cpp.xhtml#a82677b3df6b653b673a4b1735af9d45d" title="Initialise les interruptions sur les boutons." alt="" coords="138,215,287,240"/>
+<area shape="poly" id="edge8_Node000001_Node000009" title=" " alt="" coords="33,552,34,500,43,425,52,384,66,342,85,302,110,267,125,253,142,243,145,248,128,258,114,270,89,305,71,344,57,385,48,426,39,501,38,552"/>
+<area shape="rect" id="Node000075" href="$dc/d3d/gps_8cpp.xhtml#a33e3fdc8d32b79dae88725e3705b1df7" title="Initialise le GPS." alt="" coords="178,349,247,375"/>
+<area shape="poly" id="edge16_Node000001_Node000075" title=" " alt="" coords="35,551,41,518,55,473,77,426,92,404,110,385,136,370,164,363,165,368,138,375,114,389,96,408,81,429,60,475,47,519,40,552"/>
+<area shape="rect" id="Node000079" href="$dd/d8e/humidity_8cpp.xhtml#a8813b724c24b006d720ff4e9be164093" title="Initialise le capteur d&#39;humidité." alt="" coords="139,552,286,577"/>
+<area shape="poly" id="edge21_Node000001_Node000079" title=" " alt="" coords="64,562,125,562,125,567,64,567"/>
+<area shape="rect" id="Node000060" href="$db/d17/led_8cpp.xhtml#a1c1c60dba65e2b65592bf4a0fe46b91c" title="Allume la LED en vert." alt="" coords="1041,552,1183,577"/>
+<area shape="poly" id="edge58_Node000001_Node000060" title=" " alt="" coords="63,551,111,537,203,520,275,513,441,511,671,511,832,516,992,537,1045,546,1044,552,992,542,832,522,671,517,441,517,275,518,204,526,113,542,65,556"/>
+<area shape="rect" id="Node000088" href="$db/d17/led_8cpp.xhtml#a586efe898f67cacd16a9870785d921eb" title="Initialise la LED." alt="" coords="179,451,247,476"/>
+<area shape="poly" id="edge40_Node000001_Node000088" title=" " alt="" coords="45,550,73,521,111,493,164,471,166,476,113,498,77,525,49,553"/>
+<area shape="rect" id="Node000090" href="$d8/ddf/pressure_8cpp.xhtml#afeb7254ac3d1603fe28432de687313fb" title="Initialise le capteur de pression." alt="" coords="141,601,284,627"/>
+<area shape="poly" id="edge44_Node000001_Node000090" title=" " alt="" coords="65,571,113,586,147,595,145,600,111,591,63,576"/>
+<area shape="rect" id="Node000092" href="$de/d25/serial_8cpp.xhtml#a2531a428197475f184bd61c0b412396a" title="Initialise le port série et affiche la version du logiciel." alt="" coords="173,887,253,912"/>
+<area shape="poly" id="edge47_Node000001_Node000092" title=" " alt="" coords="40,577,48,640,63,729,85,817,99,851,114,873,135,887,160,895,158,900,133,892,110,877,94,853,80,819,58,730,43,640,35,578"/>
+<area shape="rect" id="Node000094" href="$de/d32/settings_8cpp.xhtml#a98c2398d8260d9517353a1a7e33b73ea" title="Initialise les paramètres de la station météo." alt="" coords="165,936,261,961"/>
+<area shape="poly" id="edge49_Node000001_Node000094" title=" " alt="" coords="40,577,46,648,60,753,82,856,97,896,114,923,131,935,152,943,150,948,129,940,110,926,92,899,77,858,55,754,41,649,34,578"/>
+<area shape="rect" id="Node000095" href="$d0/d3d/temperature_8cpp.xhtml#ac69c9a2d697216ab21dcab3087b54729" title="Initialise le capteur de température." alt="" coords="128,651,297,676"/>
+<area shape="poly" id="edge50_Node000001_Node000095" title=" " alt="" coords="48,576,75,606,113,636,130,643,128,648,111,640,72,610,44,579"/>
+<area shape="rect" id="Node000097" href="$dc/de5/timer_8cpp.xhtml#aeb10e95e8ade0a53d0aeac6f7751c631" title="Initialise le timer." alt="" coords="168,985,257,1011"/>
+<area shape="poly" id="edge53_Node000001_Node000097" title=" " alt="" coords="39,577,44,657,57,776,67,838,79,895,95,941,114,972,133,985,155,993,153,998,130,990,110,976,90,944,74,896,62,839,52,777,39,658,34,578"/>
+<area shape="rect" id="Node000098" href="$d0/ded/sd_8cpp.xhtml#a9d3643dd7aeaea6f58648a50f1ad7833" title="Montage de la carte SD." alt="" coords="181,751,245,776"/>
+<area shape="poly" id="edge54_Node000001_Node000098" title=" " alt="" coords="44,576,72,627,91,657,114,686,147,716,181,741,178,745,143,720,110,689,87,660,67,629,40,579"/>
+<area shape="rect" id="Node000018" href="$df/d22/configuration_8cpp.xhtml#a6813bea1572c147d3885f0791eafd4b5" title="Passe le programme en mode de configuration." alt="" coords="112,837,313,863"/>
+<area shape="poly" id="edge59_Node000001_Node000018" title=" " alt="" coords="40,577,46,616,59,671,81,732,96,760,114,787,139,811,169,829,166,833,136,815,110,790,91,763,76,734,54,673,41,617,35,578"/>
+<area shape="rect" id="Node000003" href="$d5/d45/wiring__digital_8c.xhtml#ae3d0bcbe4eb927ca8f5d5c21b7e4f224" title=" " alt="" coords="855,5,955,31"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="718,15,841,15,841,21,718,21"/>
+<area shape="rect" id="Node000005" href="$d8/d9d/brightness_8cpp.xhtml#a2c32985df7b0237802ad70e2e51a0156" title="Mesure la luminosité." alt="" coords="368,264,516,289"/>
+<area shape="poly" id="edge4_Node000004_Node000005" title=" " alt="" coords="291,285,354,281,355,286,291,291"/>
+<area shape="rect" id="Node000006" href="$de/d8d/wiring__analog_8c.xhtml#a2eda513a6bb35bf13675a24711d4e864" title=" " alt="" coords="621,252,719,277"/>
+<area shape="poly" id="edge5_Node000005_Node000006" title=" " alt="" coords="516,270,607,265,607,271,517,275"/>
+<area shape="rect" id="Node000008" href="$d5/d45/wiring__digital_8c.xhtml#abf453c1659ee9fafa5af689523ac71e7" title=" " alt="" coords="631,400,709,425"/>
+<area shape="poly" id="edge7_Node000007_Node000008" title=" " alt="" coords="260,410,617,410,617,415,260,415"/>
+<area shape="rect" id="Node000010" href="$df/dbb/WInterrupts_8c.xhtml#ad0d73becebba7c663f8e9ed73efee544" title=" " alt="" coords="383,215,501,240"/>
+<area shape="poly" id="edge9_Node000009_Node000010" title=" " alt="" coords="288,225,369,225,369,230,288,230"/>
+<area shape="rect" id="Node000011" href="$d9/d52/buttons_8cpp.xhtml#a54d82e2e60914d150743dcfe6ddbbece" title="Fonction appelée lors de l&#39;appui sur le bouton vert ou rouge." alt="" coords="385,141,499,167"/>
+<area shape="poly" id="edge10_Node000009_Node000011" title=" " alt="" coords="253,212,388,168,389,173,254,217"/>
+<area shape="poly" id="edge12_Node000011_Node000002" title=" " alt="" coords="452,139,500,91,533,63,569,40,607,25,609,30,572,44,536,67,503,94,456,143"/>
+<area shape="rect" id="Node000012" href="$dc/de5/timer_8cpp.xhtml#a4c04079a1fe0cb011c57a3e213d51e65" title="Crée une nouvelle instance du timer." alt="" coords="615,153,725,179"/>
+<area shape="poly" id="edge11_Node000011_Node000012" title=" " alt="" coords="500,154,602,160,601,165,499,160"/>
+<area shape="rect" id="Node000016" href="$d9/d88/mode_8cpp.xhtml#aebf1ca4bb83f667202b4a32cc7d3e2a9" title="Réalise le changement de mode lorsqu&#39;on appuie sur le bouton vert pendant BUTTON_DELAY." alt="" coords="593,203,747,228"/>
+<area shape="poly" id="edge13_Node000011_Node000016" title=" " alt="" coords="488,164,571,187,606,197,605,202,570,193,487,169"/>
+<area shape="rect" id="Node000072" href="$d9/d88/mode_8cpp.xhtml#abfb388c3517fd2ecbd1a89e7e15e43fd" title="Réalise le changement de mode lorsqu&#39;on appuie sur le bouton rouge pendant BUTTON_DELAY." alt="" coords="601,55,739,80"/>
+<area shape="poly" id="edge14_Node000011_Node000072" title=" " alt="" coords="464,139,512,114,570,89,594,81,596,86,572,94,514,119,467,144"/>
+<area shape="rect" id="Node000074" href="$dc/de5/timer_8cpp.xhtml#a6ac5badfa7050f69053360ab718ea6ab" title="Arrête le timer." alt="" coords="622,104,718,129"/>
+<area shape="poly" id="edge15_Node000011_Node000074" title=" " alt="" coords="499,142,608,124,609,129,500,147"/>
+<area shape="rect" id="Node000076" href="$d2/de7/classSoftwareSerial.xhtml#af1b194359d70894b3a2f38236a68480e" title=" " alt="" coords="362,349,522,375"/>
+<area shape="poly" id="edge17_Node000075_Node000076" title=" " alt="" coords="247,359,348,359,348,365,247,365"/>
+<area shape="poly" id="edge19_Node000076_Node000008" title=" " alt="" coords="501,372,618,399,617,404,500,377"/>
+<area shape="rect" id="Node000077" href="$d2/de7/classSoftwareSerial.xhtml#ad235539ef28939836bd0bde9387eb8fc" title=" " alt="" coords="590,301,750,327"/>
+<area shape="poly" id="edge18_Node000076_Node000077" title=" " alt="" coords="503,347,595,327,596,332,504,352"/>
+<area shape="rect" id="Node000078" href="$d2/de7/classSoftwareSerial.xhtml#a1dc4448e5fdf2516f47439fb4f62f4be" title=" " alt="" coords="571,351,769,376"/>
+<area shape="poly" id="edge20_Node000076_Node000078" title=" " alt="" coords="522,360,557,360,557,365,522,365"/>
+<area shape="rect" id="Node000080" href="$d4/d82/bme_8cpp.xhtml#a60b50a3dd4d18262c0376da53233f071" title="Initialise le capteur BME280." alt="" coords="406,601,478,627"/>
+<area shape="poly" id="edge22_Node000079_Node000080" title=" " alt="" coords="273,575,393,601,392,606,272,580"/>
+<area shape="rect" id="Node000087" href="$dd/d8e/humidity_8cpp.xhtml#a67f50a6f3e20e6805f98586ab906a8d2" title="Mesure l&#39;humidité." alt="" coords="373,552,511,577"/>
+<area shape="poly" id="edge39_Node000079_Node000087" title=" " alt="" coords="286,562,359,562,359,567,286,567"/>
+<area shape="rect" id="Node000081" href="$d6/d24/classBME280.xhtml#aff7bde27ccf8fbba0177b7be4c935220" title=" " alt="" coords="618,601,722,627"/>
+<area shape="poly" id="edge23_Node000080_Node000081" title=" " alt="" coords="478,611,604,611,604,617,478,617"/>
+<area shape="rect" id="Node000055" href="$dd/db1/error_8cpp.xhtml#aa07018cc68b21b664b4ca75a67e679f0" title=" " alt="" coords="597,675,743,700"/>
+<area shape="poly" id="edge24_Node000080_Node000055" title=" " alt="" coords="479,622,523,635,620,668,619,673,522,641,477,627"/>
+<area shape="rect" id="Node000056" href="$db/d17/led_8cpp.xhtml#a7ba25f44529972e627561bcf6efc192f" title="La LED passe successivement du rouge au vert. La LED reste rouge pendant 1 seconde puis passe au vert..." alt="" coords="817,601,992,627"/>
+<area shape="poly" id="edge25_Node000055_Node000056" title=" " alt="" coords="706,672,817,635,842,628,843,633,818,641,708,677"/>
+<area shape="rect" id="Node000063" href="$db/d17/led_8cpp.xhtml#ac050c3041978fab0c3028de0fdc31618" title="La LED passe successivement du rouge au blanc. La LED reste rouge pendant 1 seconde puis passe au bla..." alt="" coords="817,651,992,676"/>
+<area shape="poly" id="edge31_Node000055_Node000063" title=" " alt="" coords="743,677,803,671,804,676,743,683"/>
+<area shape="rect" id="Node000066" href="$db/d17/led_8cpp.xhtml#aa04c4b7972bc68200e4d2da56b097115" title="La LED passe successivement du rouge au bleu avec une fréquence de 1 seconde." alt="" coords="826,700,983,725"/>
+<area shape="poly" id="edge32_Node000055_Node000066" title=" " alt="" coords="743,692,813,700,812,705,743,698"/>
+<area shape="rect" id="Node000067" href="$db/d17/led_8cpp.xhtml#a59bf7437503d490ee53223c3bd20aa0c" title="La LED passe successivement du rouge au vert avec une fréquence de 1 seconde." alt="" coords="821,552,988,577"/>
+<area shape="poly" id="edge33_Node000055_Node000067" title=" " alt="" coords="702,672,735,656,768,636,782,623,791,611,800,599,816,586,828,580,831,585,819,591,804,602,795,614,786,627,771,640,737,661,704,677"/>
+<area shape="rect" id="Node000068" href="$db/d17/led_8cpp.xhtml#a3f8b463c1fa4e1715beb1a4a6e4c36b3" title="La LED passe successivement du rouge au blanc avec une fréquence de 1 seconde." alt="" coords="821,749,988,775"/>
+<area shape="poly" id="edge35_Node000055_Node000068" title=" " alt="" coords="707,697,818,735,843,743,842,748,817,741,705,703"/>
+<area shape="rect" id="Node000069" href="$db/d17/led_8cpp.xhtml#a91398c440a9f9f48d59e14eb727e61ae" title="La LED passe successivement du rouge au jaune avec une fréquence de 1 seconde." alt="" coords="820,799,989,824"/>
+<area shape="poly" id="edge36_Node000055_Node000069" title=" " alt="" coords="688,698,744,740,780,764,818,785,835,792,833,797,816,790,777,769,740,745,685,702"/>
+<area shape="poly" id="edge26_Node000056_Node000060" title=" " alt="" coords="958,599,1044,578,1045,583,959,604"/>
+<area shape="rect" id="Node000021" href="$d5/dc9/classChainableLED.xhtml#a2b8a41a192a231e77cad268bdbaebd34" title=" " alt="" coords="1232,552,1435,577"/>
+<area shape="poly" id="edge27_Node000060_Node000021" title=" " alt="" coords="1184,562,1219,562,1219,567,1184,567"/>
+<area shape="rect" id="Node000022" href="$d5/dc9/classChainableLED.xhtml#af9dddebec83065625cbd6f8f05b992e7" title=" " alt="" coords="1716,552,1897,577"/>
+<area shape="poly" id="edge28_Node000021_Node000022" title=" " alt="" coords="1435,562,1702,562,1702,567,1435,567"/>
+<area shape="rect" id="Node000026" href="$d5/dc9/classChainableLED.xhtml#a7c5c2661fc02dee9f174485a2fadeb7a" title=" " alt="" coords="1483,577,1668,603"/>
+<area shape="poly" id="edge29_Node000021_Node000026" title=" " alt="" coords="1435,573,1469,576,1468,582,1434,578"/>
+<area shape="poly" id="edge30_Node000026_Node000022" title=" " alt="" coords="1668,577,1702,573,1703,579,1669,582"/>
+<area shape="poly" id="edge34_Node000067_Node000060" title=" " alt="" coords="988,562,1027,562,1027,567,988,567"/>
+<area shape="rect" id="Node000020" href="$db/d17/led_8cpp.xhtml#af8230cfc3cf386fa1253cd37b3cd215d" title="Allume la LED en jaune." alt="" coords="1040,799,1184,824"/>
+<area shape="poly" id="edge37_Node000069_Node000020" title=" " alt="" coords="990,809,1026,809,1026,814,990,814"/>
+<area shape="poly" id="edge38_Node000020_Node000021" title=" " alt="" coords="1123,797,1310,586,1314,589,1127,800"/>
+<area shape="rect" id="Node000089" href="$d5/dc9/classChainableLED.xhtml#a25e747bc2f115018b8a30c928a58b060" title=" " alt="" coords="371,451,513,476"/>
+<area shape="poly" id="edge41_Node000088_Node000089" title=" " alt="" coords="247,461,358,461,358,466,247,466"/>
+<area shape="poly" id="edge42_Node000089_Node000008" title=" " alt="" coords="500,448,617,422,618,427,501,453"/>
+<area shape="poly" id="edge43_Node000089_Node000021" title=" " alt="" coords="513,462,728,469,860,479,992,493,1142,518,1269,546,1268,551,1140,523,992,498,859,484,727,475,513,467"/>
+<area shape="poly" id="edge45_Node000090_Node000080" title=" " alt="" coords="284,611,392,611,392,617,284,617"/>
+<area shape="rect" id="Node000091" href="$d8/ddf/pressure_8cpp.xhtml#a8b9be5c0b7e75437935f4c5b4a7fdde6" title="Mesure la pression." alt="" coords="375,651,509,676"/>
+<area shape="poly" id="edge46_Node000090_Node000091" title=" " alt="" coords="273,624,369,645,368,650,272,629"/>
+<area shape="rect" id="Node000093" href="$de/d25/serial_8cpp.xhtml#a9c4b081f1e1ad60def15811c71a936f2" title="Affiche la version du logiciel sur le port série." alt="" coords="392,1025,492,1051"/>
+<area shape="poly" id="edge48_Node000092_Node000093" title=" " alt="" coords="254,899,285,907,315,923,333,945,340,968,346,991,363,1012,381,1023,378,1027,360,1016,342,993,335,970,329,948,312,927,283,912,252,904"/>
+<area shape="poly" id="edge51_Node000095_Node000080" title=" " alt="" coords="272,648,392,622,393,627,273,653"/>
+<area shape="rect" id="Node000096" href="$d0/d3d/temperature_8cpp.xhtml#aad7d1bb540f52a0a6aed81f3209f79b4" title="Mesure la température." alt="" coords="361,700,523,725"/>
+<area shape="poly" id="edge52_Node000095_Node000096" title=" " alt="" coords="273,673,369,694,368,700,272,679"/>
+<area shape="poly" id="edge57_Node000098_Node000055" title=" " alt="" coords="245,761,367,756,445,748,522,735,577,720,626,703,628,708,578,725,523,741,445,753,368,761,245,766"/>
+<area shape="rect" id="Node000099" href="$da/d81/classSdBase.xhtml#ade2759d12751a2a8b3872bd3915d5caf" title=" " alt="" coords="385,825,499,851"/>
+<area shape="poly" id="edge55_Node000098_Node000099" title=" " alt="" coords="246,771,390,818,388,823,244,776"/>
+<area shape="poly" id="edge56_Node000099_Node000099" title=" " alt="" coords="405,827,397,817,401,807,417,801,442,799,474,803,486,812,483,816,472,807,442,804,418,806,405,811,402,816,409,823"/>
+<area shape="poly" id="edge61_Node000018_Node000020" title=" " alt="" coords="314,858,361,861,539,867,677,866,815,856,992,834,1046,824,1047,830,992,839,816,861,678,871,539,872,361,866,313,863"/>
+<area shape="rect" id="Node000019" href="$d5/df3/wiring_8c.xhtml#a6ff7f2532a22366f0013bc41397129fd" title=" " alt="" coords="413,927,471,952"/>
+<area shape="poly" id="edge60_Node000018_Node000019" title=" " alt="" coords="278,860,314,873,339,889,363,905,401,922,399,927,360,910,336,893,312,878,277,865"/>
+<area shape="rect" id="Node000027" href="$d0/ded/sd_8cpp.xhtml#a94be2d7d7541175d1036427eee4302d1" title="Démontage de la carte SD." alt="" coords="402,976,482,1001"/>
+<area shape="poly" id="edge62_Node000018_Node000027" title=" " alt="" coords="293,860,315,873,333,896,340,919,346,941,363,963,390,977,387,982,360,967,342,944,335,920,329,898,312,877,290,865"/>
+</map>

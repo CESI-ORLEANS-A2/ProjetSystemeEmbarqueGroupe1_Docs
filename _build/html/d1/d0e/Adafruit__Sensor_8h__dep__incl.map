@@ -1,9 +1,9 @@
-<map id="/mnt/d/Cours/10. CESI A2/Blocs/01 &#45; Systeme embarque/Livrables/Station_Meteo_Groupe_1 &#45; Copy/libs/Adafruit_Sensor/Adafruit_Sensor.h" name="/mnt/d/Cours/10. CESI A2/Blocs/01 &#45; Systeme embarque/Livrables/Station_Meteo_Groupe_1 &#45; Copy/libs/Adafruit_Sensor/Adafruit_Sensor.h">
-<area shape="rect" id="Node000001" title=" " alt="" coords="147,5,393,89"/>
-<area shape="rect" id="Node000002" href="$db/d6e/Adafruit__Sensor_8cpp.xhtml" title=" " alt="" coords="5,145,268,229"/>
-<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="223,101,179,146,175,142,219,97"/>
-<area shape="rect" id="Node000003" href="$d8/d24/Tiny__BME280_8h.xhtml" title=" " alt="" coords="293,137,514,236"/>
-<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="321,98,358,135,354,139,318,101"/>
-<area shape="rect" id="Node000004" href="$d9/d52/Tiny__BME280_8cpp.xhtml" title=" " alt="" coords="293,284,514,383"/>
-<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="406,250,406,284,401,284,401,250"/>
+<map id="Adafruit_Sensor.h" name="Adafruit_Sensor.h">
+<area shape="rect" id="Node000001" title=" " alt="" coords="93,5,229,31"/>
+<area shape="rect" id="Node000002" href="$db/d6e/Adafruit__Sensor_8cpp.xhtml" title=" " alt="" coords="5,79,156,104"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="140,42,96,80,92,76,136,38"/>
+<area shape="rect" id="Node000003" href="$d8/d24/Tiny__BME280_8h.xhtml" title=" " alt="" coords="181,79,303,104"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="186,38,230,76,227,80,182,42"/>
+<area shape="rect" id="Node000004" href="$d9/d52/Tiny__BME280_8cpp.xhtml" title=" " alt="" coords="173,152,311,177"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="245,118,245,152,239,152,239,118"/>
 </map>
